@@ -1,0 +1,7 @@
+Options -Indexes
+DirectoryIndex index.html
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteRule (^|/)(tools|node_modules|tests|scripts)(/|$) - [F,L]
+  RewriteRule (^|/)\. - [F,L]
+</IfModule>

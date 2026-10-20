@@ -1,6 +1,16 @@
 node_modules/
 tools/
 test-results/
+test-results-*/
 playwright-report/
 analysis/*.png
 analysis/verification/*.png
+analysis/verification/*-save.json
+analysis/runtime-extracted/
+analysis/sms-runtime/
+analysis/sms-runtime-classes/
+analysis/name-hang-debug.json
+analysis/import-debug.json
+analysis/probe-log.json
+analysis/startup-*.json
+analysis/cfr.log

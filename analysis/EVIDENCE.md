@@ -21,4 +21,6 @@ CFR 0.152 decompile 167 class; `analysis/class-inventory.json` ghi constant-pool
 
 ## Runtime
 
+Bản xuất canonical của bốn REA Evidence records được giữ trong `analysis/rea-evidence.json` (842328 byte). Phiên REA đã đóng sau khi xuất.
+
 Bằng chứng chạy thật ở `analysis/verification/` và `VERIFICATION.md`. Chỉ các màn hình/luồng được kiểm tra ở đó được gắn trạng thái đã quan sát. Các chapter cuối, mọi nhánh ngẫu nhiên và âm sắc theo từng điện thoại vẫn là phần chưa kiểm chứng bằng runtime gốc trên thiết bị.

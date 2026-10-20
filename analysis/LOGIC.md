@@ -6,7 +6,7 @@ Ngày phân tích: 20/10/2026. Đối tượng duy nhất: `Loan-12-Su-Quan.jar`
 
 - Đã giải mã ngược **167/167 class** bằng CFR 0.152; `decompiled/summary.txt` không báo phương thức thất bại. Các cảnh báo thiếu `javax.microedition.*` là API nền tảng Java ME không đóng gói trong JAR.
 - Mã sau decompile ở `analysis/decompiled/`. Tên lớp/phương thức bị rút gọn trong JAR; tên vai trò bên dưới là diễn giải từ luồng gọi, không phải tên nguồn ban đầu.
-- `static-data.json` là mảng nguyên bản lấy trực tiếp từ bytecode `<clinit>`, **không chạy ứng dụng**. Công cụ `tools/extract_static_data.py` chỉ hiểu lệnh hằng số, stack, dựng mảng và `putstatic`; gặp lệnh gọi/nhánh ngoài phạm vi sẽ dừng.
+- `static-data.json` là mảng nguyên bản lấy trực tiếp từ bytecode `<clinit>`, **không chạy ứng dụng**. Công cụ `analysis/extract_static_data.py` chỉ hiểu lệnh hằng số, stack, dựng mảng và `putstatic`; gặp lệnh gọi/nhánh ngoài phạm vi sẽ dừng.
 - `game-data.json` ánh xạ cùng dữ liệu thành trường có tên, phục vụ xây dựng web; giữ toàn bộ 77 nhân vật, 46 bước chiến dịch, 8 nhiệm vụ phụ, 41 điểm bản đồ, 43 tuyến đường, 9 phép, 6 vật phẩm và hội thoại tiếng Việt.
 - Kết luận logic dưới đây dựa vào phân tích tĩnh. Không coi chúng là bằng chứng đã chơi hết 46 bước trên máy ảo. Hành vi thời gian/âm thanh và dịch vụ SMS cần kiểm tra runtime riêng.
 - Manifest: tên MIDlet `Loan 12 Su Quan`; entry `com.mic.smsgame.suquan.SQMidlet`; MIDP-2.0, CLDC-1.0, phiên bản 1.0.0. Credits trong `com/mic/smsgame/suquan/h.java:16` ghi MicroGame 2010; vendor manifest của bản phân phối là GiaiTri321.Pro.

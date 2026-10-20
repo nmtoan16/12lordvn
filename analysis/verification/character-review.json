@@ -1,0 +1,11 @@
+{
+  "state": {
+    "screen": "com/mic/smsgame/suquan/aa",
+    "screenAddress": 1277200,
+    "transition": 0,
+    "menuReady": true,
+    "dialog": null,
+    "isolates": 1
+  },
+  "errors": []
+}

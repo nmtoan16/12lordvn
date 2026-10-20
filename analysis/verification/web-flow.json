@@ -1,0 +1,62 @@
+{
+  "result": "pass",
+  "restoredState": {
+    "screen": "com/mic/smsgame/suquan/aa",
+    "screenAddress": 1277200,
+    "transition": 0,
+    "menuReady": true,
+    "mapPhase": 7,
+    "battle": null,
+    "dialog": null,
+    "isolates": 1
+  },
+  "layouts": [
+    {
+      "width": 375,
+      "stage": {
+        "x": 28,
+        "y": 255.578125,
+        "width": 319,
+        "height": 425.328125
+      },
+      "screen": {
+        "x": 28,
+        "y": 255.578125,
+        "width": 319,
+        "height": 425.33331298828125
+      }
+    },
+    {
+      "width": 768,
+      "stage": {
+        "x": 362,
+        "y": 181.390625,
+        "width": 364,
+        "height": 485.328125
+      },
+      "screen": {
+        "x": 362,
+        "y": 181.390625,
+        "width": 364,
+        "height": 485.33331298828125
+      }
+    },
+    {
+      "width": 1440,
+      "stage": {
+        "x": 550,
+        "y": 163.390625,
+        "width": 340,
+        "height": 453.328125
+      },
+      "screen": {
+        "x": 550,
+        "y": 163.390625,
+        "width": 340,
+        "height": 453.33331298828125
+      }
+    }
+  ],
+  "errors": [],
+  "externalRequests": []
+}
