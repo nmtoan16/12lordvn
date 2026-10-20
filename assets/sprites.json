@@ -1,0 +1,1647 @@
+{
+  "sourceArchiveSha256": "90bf8dc99acba9f0a89da99c58b45c8fdb20240841e5a708e0ccfee58a650ff9",
+  "rectangleConvention": "top-left origin, integer source-pixel coordinates; no scaling. Horizontal strip widths use Java integer division, preserving the game's ignored trailing pixels.",
+  "atlases": {
+    "fireball": {
+      "file": "assets/images/fireball.png",
+      "layout": "horizontal",
+      "frames": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 61,
+          "height": 49
+        },
+        {
+          "x": 61,
+          "y": 0,
+          "width": 61,
+          "height": 49
+        },
+        {
+          "x": 122,
+          "y": 0,
+          "width": 61,
+          "height": 49
+        },
+        {
+          "x": 183,
+          "y": 0,
+          "width": 61,
+          "height": 49
+        },
+        {
+          "x": 244,
+          "y": 0,
+          "width": 61,
+          "height": 49
+        },
+        {
+          "x": 305,
+          "y": 0,
+          "width": 61,
+          "height": 49
+        },
+        {
+          "x": 366,
+          "y": 0,
+          "width": 61,
+          "height": 49
+        },
+        {
+          "x": 427,
+          "y": 0,
+          "width": 61,
+          "height": 49
+        },
+        {
+          "x": 488,
+          "y": 0,
+          "width": 61,
+          "height": 49
+        }
+      ],
+      "unusedTrailingPixels": 0,
+      "provenance": "analysis/decompiled/i.java: spell constructor frame counts; analysis/decompiled/dq.java: a(Image,int) and drawRegion"
+    },
+    "hellfire": {
+      "file": "assets/images/hellfire.png",
+      "layout": "horizontal",
+      "frames": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 77,
+          "height": 59
+        },
+        {
+          "x": 77,
+          "y": 0,
+          "width": 77,
+          "height": 59
+        },
+        {
+          "x": 154,
+          "y": 0,
+          "width": 77,
+          "height": 59
+        },
+        {
+          "x": 231,
+          "y": 0,
+          "width": 77,
+          "height": 59
+        }
+      ],
+      "unusedTrailingPixels": 0,
+      "provenance": "analysis/decompiled/i.java: spell constructor frame counts; analysis/decompiled/dq.java: a(Image,int) and drawRegion"
+    },
+    "icebolt": {
+      "file": "assets/images/icebolt.png",
+      "layout": "horizontal",
+      "frames": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 20,
+          "height": 40
+        },
+        {
+          "x": 20,
+          "y": 0,
+          "width": 20,
+          "height": 40
+        },
+        {
+          "x": 40,
+          "y": 0,
+          "width": 20,
+          "height": 40
+        },
+        {
+          "x": 60,
+          "y": 0,
+          "width": 20,
+          "height": 40
+        },
+        {
+          "x": 80,
+          "y": 0,
+          "width": 20,
+          "height": 40
+        }
+      ],
+      "unusedTrailingPixels": 0,
+      "provenance": "analysis/decompiled/i.java: spell constructor frame counts; analysis/decompiled/dq.java: a(Image,int) and drawRegion"
+    },
+    "frozen": {
+      "file": "assets/images/frozen.png",
+      "layout": "horizontal",
+      "frames": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 50,
+          "height": 50
+        },
+        {
+          "x": 50,
+          "y": 0,
+          "width": 50,
+          "height": 50
+        },
+        {
+          "x": 100,
+          "y": 0,
+          "width": 50,
+          "height": 50
+        },
+        {
+          "x": 150,
+          "y": 0,
+          "width": 50,
+          "height": 50
+        },
+        {
+          "x": 200,
+          "y": 0,
+          "width": 50,
+          "height": 50
+        },
+        {
+          "x": 250,
+          "y": 0,
+          "width": 50,
+          "height": 50
+        },
+        {
+          "x": 300,
+          "y": 0,
+          "width": 50,
+          "height": 50
+        },
+        {
+          "x": 350,
+          "y": 0,
+          "width": 50,
+          "height": 50
+        },
+        {
+          "x": 400,
+          "y": 0,
+          "width": 50,
+          "height": 50
+        }
+      ],
+      "unusedTrailingPixels": 0,
+      "provenance": "analysis/decompiled/i.java: spell constructor frame counts; analysis/decompiled/dq.java: a(Image,int) and drawRegion"
+    },
+    "healing": {
+      "file": "assets/images/healing.png",
+      "layout": "horizontal",
+      "frames": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 40,
+          "height": 40
+        },
+        {
+          "x": 40,
+          "y": 0,
+          "width": 40,
+          "height": 40
+        },
+        {
+          "x": 80,
+          "y": 0,
+          "width": 40,
+          "height": 40
+        }
+      ],
+      "unusedTrailingPixels": 0,
+      "provenance": "analysis/decompiled/i.java: spell constructor frame counts; analysis/decompiled/dq.java: a(Image,int) and drawRegion"
+    },
+    "shieldlighting": {
+      "file": "assets/images/shieldlighting.png",
+      "layout": "horizontal",
+      "frames": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 39,
+          "height": 37
+        },
+        {
+          "x": 39,
+          "y": 0,
+          "width": 39,
+          "height": 37
+        },
+        {
+          "x": 78,
+          "y": 0,
+          "width": 39,
+          "height": 37
+        },
+        {
+          "x": 117,
+          "y": 0,
+          "width": 39,
+          "height": 37
+        },
+        {
+          "x": 156,
+          "y": 0,
+          "width": 39,
+          "height": 37
+        },
+        {
+          "x": 195,
+          "y": 0,
+          "width": 39,
+          "height": 37
+        },
+        {
+          "x": 234,
+          "y": 0,
+          "width": 39,
+          "height": 37
+        }
+      ],
+      "unusedTrailingPixels": 0,
+      "provenance": "analysis/decompiled/i.java: spell constructor frame counts; analysis/decompiled/dq.java: a(Image,int) and drawRegion"
+    },
+    "chainlighting": {
+      "file": "assets/images/chainlighting.png",
+      "layout": "horizontal",
+      "frames": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 30,
+          "height": 30
+        },
+        {
+          "x": 30,
+          "y": 0,
+          "width": 30,
+          "height": 30
+        },
+        {
+          "x": 60,
+          "y": 0,
+          "width": 30,
+          "height": 30
+        }
+      ],
+      "unusedTrailingPixels": 0,
+      "provenance": "analysis/decompiled/i.java: spell constructor frame counts; analysis/decompiled/dq.java: a(Image,int) and drawRegion"
+    },
+    "crystalblue": {
+      "file": "assets/images/crystalblue.png",
+      "layout": "horizontal",
+      "frames": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 15,
+          "height": 15
+        },
+        {
+          "x": 15,
+          "y": 0,
+          "width": 15,
+          "height": 15
+        },
+        {
+          "x": 30,
+          "y": 0,
+          "width": 15,
+          "height": 15
+        }
+      ],
+      "unusedTrailingPixels": 0,
+      "provenance": "analysis/decompiled/bs.java: crystal image mapping; bx.java and bp.java: frame count 3"
+    },
+    "crystalgray": {
+      "file": "assets/images/crystalgray.png",
+      "layout": "horizontal",
+      "frames": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 13,
+          "height": 13
+        },
+        {
+          "x": 13,
+          "y": 0,
+          "width": 13,
+          "height": 13
+        },
+        {
+          "x": 26,
+          "y": 0,
+          "width": 13,
+          "height": 13
+        }
+      ],
+      "unusedTrailingPixels": 0,
+      "provenance": "analysis/decompiled/bs.java: crystal image mapping; bx.java and bp.java: frame count 3"
+    },
+    "crystalgreen": {
+      "file": "assets/images/crystalgreen.png",
+      "layout": "horizontal",
+      "frames": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 15,
+          "height": 15
+        },
+        {
+          "x": 15,
+          "y": 0,
+          "width": 15,
+          "height": 15
+        },
+        {
+          "x": 30,
+          "y": 0,
+          "width": 15,
+          "height": 15
+        }
+      ],
+      "unusedTrailingPixels": 0,
+      "provenance": "analysis/decompiled/bs.java: crystal image mapping; bx.java and bp.java: frame count 3"
+    },
+    "crystalred": {
+      "file": "assets/images/crystalred.png",
+      "layout": "horizontal",
+      "frames": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 15,
+          "height": 15
+        },
+        {
+          "x": 15,
+          "y": 0,
+          "width": 15,
+          "height": 15
+        },
+        {
+          "x": 30,
+          "y": 0,
+          "width": 15,
+          "height": 15
+        }
+      ],
+      "unusedTrailingPixels": 0,
+      "provenance": "analysis/decompiled/bs.java: crystal image mapping; bx.java and bp.java: frame count 3"
+    },
+    "crystalviolet": {
+      "file": "assets/images/crystalviolet.png",
+      "layout": "horizontal",
+      "frames": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 15,
+          "height": 15
+        },
+        {
+          "x": 15,
+          "y": 0,
+          "width": 15,
+          "height": 15
+        },
+        {
+          "x": 30,
+          "y": 0,
+          "width": 15,
+          "height": 15
+        }
+      ],
+      "unusedTrailingPixels": 0,
+      "provenance": "analysis/decompiled/bs.java: crystal image mapping; bx.java and bp.java: frame count 3"
+    },
+    "crystalyellow": {
+      "file": "assets/images/crystalyellow.png",
+      "layout": "horizontal",
+      "frames": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 15,
+          "height": 15
+        },
+        {
+          "x": 15,
+          "y": 0,
+          "width": 15,
+          "height": 15
+        },
+        {
+          "x": 30,
+          "y": 0,
+          "width": 15,
+          "height": 15
+        }
+      ],
+      "unusedTrailingPixels": 0,
+      "provenance": "analysis/decompiled/bs.java: crystal image mapping; bx.java and bp.java: frame count 3"
+    },
+    "explodesword": {
+      "file": "assets/images/explodesword.png",
+      "layout": "horizontal",
+      "frames": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 17,
+          "height": 17
+        },
+        {
+          "x": 17,
+          "y": 0,
+          "width": 17,
+          "height": 17
+        },
+        {
+          "x": 34,
+          "y": 0,
+          "width": 17,
+          "height": 17
+        },
+        {
+          "x": 51,
+          "y": 0,
+          "width": 17,
+          "height": 17
+        }
+      ],
+      "unusedTrailingPixels": 0,
+      "provenance": "analysis/decompiled/bm.java: constructor g array and a(cc,int,int) uses 4 frames"
+    },
+    "exploderice": {
+      "file": "assets/images/exploderice.png",
+      "layout": "horizontal",
+      "frames": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 30,
+          "height": 30
+        },
+        {
+          "x": 30,
+          "y": 0,
+          "width": 30,
+          "height": 30
+        },
+        {
+          "x": 60,
+          "y": 0,
+          "width": 30,
+          "height": 30
+        },
+        {
+          "x": 90,
+          "y": 0,
+          "width": 30,
+          "height": 30
+        }
+      ],
+      "unusedTrailingPixels": 0,
+      "provenance": "analysis/decompiled/bm.java: constructor g array and a(cc,int,int) uses 4 frames"
+    },
+    "explodeheart": {
+      "file": "assets/images/explodeheart.png",
+      "layout": "horizontal",
+      "frames": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 11,
+          "height": 10
+        },
+        {
+          "x": 11,
+          "y": 0,
+          "width": 11,
+          "height": 10
+        },
+        {
+          "x": 22,
+          "y": 0,
+          "width": 11,
+          "height": 10
+        },
+        {
+          "x": 33,
+          "y": 0,
+          "width": 11,
+          "height": 10
+        }
+      ],
+      "unusedTrailingPixels": 0,
+      "provenance": "analysis/decompiled/bm.java: constructor g array and a(cc,int,int) uses 4 frames"
+    },
+    "explodeyinyang": {
+      "file": "assets/images/explodeyinyang.png",
+      "layout": "horizontal",
+      "frames": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 19,
+          "height": 18
+        },
+        {
+          "x": 19,
+          "y": 0,
+          "width": 19,
+          "height": 18
+        },
+        {
+          "x": 38,
+          "y": 0,
+          "width": 19,
+          "height": 18
+        },
+        {
+          "x": 57,
+          "y": 0,
+          "width": 19,
+          "height": 18
+        }
+      ],
+      "unusedTrailingPixels": 0,
+      "provenance": "analysis/decompiled/bm.java: constructor g array and a(cc,int,int) uses 4 frames"
+    },
+    "explodegold": {
+      "file": "assets/images/explodegold.png",
+      "layout": "horizontal",
+      "frames": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 24,
+          "height": 20
+        },
+        {
+          "x": 24,
+          "y": 0,
+          "width": 24,
+          "height": 20
+        },
+        {
+          "x": 48,
+          "y": 0,
+          "width": 24,
+          "height": 20
+        },
+        {
+          "x": 72,
+          "y": 0,
+          "width": 24,
+          "height": 20
+        }
+      ],
+      "unusedTrailingPixels": 0,
+      "provenance": "analysis/decompiled/bm.java: constructor g array and a(cc,int,int) uses 4 frames"
+    },
+    "explodebook": {
+      "file": "assets/images/explodebook.png",
+      "layout": "horizontal",
+      "frames": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 21,
+          "height": 17
+        },
+        {
+          "x": 21,
+          "y": 0,
+          "width": 21,
+          "height": 17
+        },
+        {
+          "x": 42,
+          "y": 0,
+          "width": 21,
+          "height": 17
+        },
+        {
+          "x": 63,
+          "y": 0,
+          "width": 21,
+          "height": 17
+        }
+      ],
+      "unusedTrailingPixels": 0,
+      "provenance": "analysis/decompiled/bm.java: constructor g array and a(cc,int,int) uses 4 frames"
+    },
+    "explodericex2": {
+      "file": "assets/images/explodericex2.png",
+      "layout": "horizontal",
+      "frames": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 27,
+          "height": 27
+        },
+        {
+          "x": 27,
+          "y": 0,
+          "width": 27,
+          "height": 27
+        },
+        {
+          "x": 54,
+          "y": 0,
+          "width": 27,
+          "height": 27
+        },
+        {
+          "x": 81,
+          "y": 0,
+          "width": 27,
+          "height": 27
+        }
+      ],
+      "unusedTrailingPixels": 0,
+      "provenance": "analysis/decompiled/bm.java: constructor g array and a(cc,int,int) uses 4 frames"
+    },
+    "explodeheartx2": {
+      "file": "assets/images/explodeheartx2.png",
+      "layout": "horizontal",
+      "frames": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 28,
+          "height": 25
+        },
+        {
+          "x": 28,
+          "y": 0,
+          "width": 28,
+          "height": 25
+        },
+        {
+          "x": 56,
+          "y": 0,
+          "width": 28,
+          "height": 25
+        },
+        {
+          "x": 84,
+          "y": 0,
+          "width": 28,
+          "height": 25
+        }
+      ],
+      "unusedTrailingPixels": 0,
+      "provenance": "analysis/decompiled/bm.java: constructor g array and a(cc,int,int) uses 4 frames"
+    },
+    "explodeyinyangx2": {
+      "file": "assets/images/explodeyinyangx2.png",
+      "layout": "horizontal",
+      "frames": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 33,
+          "height": 32
+        },
+        {
+          "x": 33,
+          "y": 0,
+          "width": 33,
+          "height": 32
+        },
+        {
+          "x": 66,
+          "y": 0,
+          "width": 33,
+          "height": 32
+        },
+        {
+          "x": 99,
+          "y": 0,
+          "width": 33,
+          "height": 32
+        }
+      ],
+      "unusedTrailingPixels": 1,
+      "provenance": "analysis/decompiled/bm.java: constructor g array and a(cc,int,int) uses 4 frames"
+    },
+    "explodegoldx2": {
+      "file": "assets/images/explodegoldx2.png",
+      "layout": "horizontal",
+      "frames": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 30,
+          "height": 30
+        },
+        {
+          "x": 30,
+          "y": 0,
+          "width": 30,
+          "height": 30
+        },
+        {
+          "x": 60,
+          "y": 0,
+          "width": 30,
+          "height": 30
+        },
+        {
+          "x": 90,
+          "y": 0,
+          "width": 30,
+          "height": 30
+        }
+      ],
+      "unusedTrailingPixels": 0,
+      "provenance": "analysis/decompiled/bm.java: constructor g array and a(cc,int,int) uses 4 frames"
+    },
+    "explodebookx2": {
+      "file": "assets/images/explodebookx2.png",
+      "layout": "horizontal",
+      "frames": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 33,
+          "height": 33
+        },
+        {
+          "x": 33,
+          "y": 0,
+          "width": 33,
+          "height": 33
+        },
+        {
+          "x": 66,
+          "y": 0,
+          "width": 33,
+          "height": 33
+        },
+        {
+          "x": 99,
+          "y": 0,
+          "width": 33,
+          "height": 33
+        }
+      ],
+      "unusedTrailingPixels": 0,
+      "provenance": "analysis/decompiled/bm.java: constructor g array and a(cc,int,int) uses 4 frames"
+    },
+    "defenceshield": {
+      "file": "assets/images/defenceshield.png",
+      "layout": "horizontal",
+      "frames": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 44,
+          "height": 44
+        },
+        {
+          "x": 44,
+          "y": 0,
+          "width": 44,
+          "height": 44
+        },
+        {
+          "x": 88,
+          "y": 0,
+          "width": 44,
+          "height": 44
+        }
+      ],
+      "unusedTrailingPixels": 0,
+      "provenance": "analysis/decompiled/bx.java, co.java, bh.java, dn.java, com/mic/smsgame/suquan/aa.java"
+    },
+    "powerattack": {
+      "file": "assets/images/powerattack.png",
+      "layout": "horizontal",
+      "frames": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 50,
+          "height": 42
+        },
+        {
+          "x": 50,
+          "y": 0,
+          "width": 50,
+          "height": 42
+        },
+        {
+          "x": 100,
+          "y": 0,
+          "width": 50,
+          "height": 42
+        }
+      ],
+      "unusedTrailingPixels": 0,
+      "provenance": "analysis/decompiled/bx.java, co.java, bh.java, dn.java, com/mic/smsgame/suquan/aa.java"
+    },
+    "focusitem": {
+      "file": "assets/images/focusitem.png",
+      "layout": "horizontal",
+      "frames": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 36,
+          "height": 36
+        },
+        {
+          "x": 36,
+          "y": 0,
+          "width": 36,
+          "height": 36
+        }
+      ],
+      "unusedTrailingPixels": 0,
+      "provenance": "analysis/decompiled/bx.java, co.java, bh.java, dn.java, com/mic/smsgame/suquan/aa.java"
+    },
+    "zoomfocus1": {
+      "file": "assets/images/zoomfocus1.png",
+      "layout": "horizontal",
+      "frames": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 42,
+          "height": 42
+        },
+        {
+          "x": 42,
+          "y": 0,
+          "width": 42,
+          "height": 42
+        }
+      ],
+      "unusedTrailingPixels": 0,
+      "provenance": "analysis/decompiled/bx.java, co.java, bh.java, dn.java, com/mic/smsgame/suquan/aa.java"
+    },
+    "itemshops": {
+      "file": "assets/images/itemshops.png",
+      "layout": "horizontal",
+      "frames": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 28,
+          "height": 28
+        },
+        {
+          "x": 28,
+          "y": 0,
+          "width": 28,
+          "height": 28
+        },
+        {
+          "x": 56,
+          "y": 0,
+          "width": 28,
+          "height": 28
+        },
+        {
+          "x": 84,
+          "y": 0,
+          "width": 28,
+          "height": 28
+        },
+        {
+          "x": 112,
+          "y": 0,
+          "width": 28,
+          "height": 28
+        },
+        {
+          "x": 140,
+          "y": 0,
+          "width": 28,
+          "height": 28
+        }
+      ],
+      "unusedTrailingPixels": 0,
+      "provenance": "analysis/decompiled/bx.java, co.java, bh.java, dn.java, com/mic/smsgame/suquan/aa.java"
+    },
+    "m/ar": {
+      "file": "assets/images/m/ar.png",
+      "layout": "horizontal",
+      "frames": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 12,
+          "height": 19
+        },
+        {
+          "x": 12,
+          "y": 0,
+          "width": 12,
+          "height": 19
+        },
+        {
+          "x": 24,
+          "y": 0,
+          "width": 12,
+          "height": 19
+        },
+        {
+          "x": 36,
+          "y": 0,
+          "width": 12,
+          "height": 19
+        },
+        {
+          "x": 48,
+          "y": 0,
+          "width": 12,
+          "height": 19
+        },
+        {
+          "x": 60,
+          "y": 0,
+          "width": 12,
+          "height": 19
+        }
+      ],
+      "unusedTrailingPixels": 0,
+      "provenance": "analysis/decompiled/bx.java, co.java, bh.java, dn.java, com/mic/smsgame/suquan/aa.java"
+    },
+    "m/mt1": {
+      "file": "assets/images/m/mt1.png",
+      "layout": "horizontal",
+      "frames": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 7,
+          "height": 24
+        },
+        {
+          "x": 7,
+          "y": 0,
+          "width": 7,
+          "height": 24
+        },
+        {
+          "x": 14,
+          "y": 0,
+          "width": 7,
+          "height": 24
+        }
+      ],
+      "unusedTrailingPixels": 0,
+      "provenance": "analysis/decompiled/bx.java, co.java, bh.java, dn.java, com/mic/smsgame/suquan/aa.java"
+    },
+    "avatar": {
+      "file": "assets/images/avatar.png",
+      "layout": "grid",
+      "columns": 10,
+      "rows": 8,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "width": 30,
+          "height": 30
+        },
+        {
+          "index": 1,
+          "x": 30,
+          "y": 0,
+          "width": 30,
+          "height": 30
+        },
+        {
+          "index": 2,
+          "x": 60,
+          "y": 0,
+          "width": 30,
+          "height": 30
+        },
+        {
+          "index": 3,
+          "x": 90,
+          "y": 0,
+          "width": 30,
+          "height": 30
+        },
+        {
+          "index": 4,
+          "x": 120,
+          "y": 0,
+          "width": 30,
+          "height": 30
+        },
+        {
+          "index": 5,
+          "x": 150,
+          "y": 0,
+          "width": 30,
+          "height": 30
+        },
+        {
+          "index": 6,
+          "x": 180,
+          "y": 0,
+          "width": 30,
+          "height": 30
+        },
+        {
+          "index": 7,
+          "x": 210,
+          "y": 0,
+          "width": 30,
+          "height": 30
+        },
+        {
+          "index": 8,
+          "x": 240,
+          "y": 0,
+          "width": 30,
+          "height": 30
+        },
+        {
+          "index": 9,
+          "x": 270,
+          "y": 0,
+          "width": 30,
+          "height": 30
+        },
+        {
+          "index": 10,
+          "x": 0,
+          "y": 30,
+          "width": 30,
+          "height": 30
+        },
+        {
+          "index": 11,
+          "x": 30,
+          "y": 30,
+          "width": 30,
+          "height": 30
+        },
+        {
+          "index": 12,
+          "x": 60,
+          "y": 30,
+          "width": 30,
+          "height": 30
+        },
+        {
+          "index": 13,
+          "x": 90,
+          "y": 30,
+          "width": 30,
+          "height": 30
+        },
+        {
+          "index": 14,
+          "x": 120,
+          "y": 30,
+          "width": 30,
+          "height": 30
+        },
+        {
+          "index": 15,
+          "x": 150,
+          "y": 30,
+          "width": 30,
+          "height": 30
+        },
+        {
+          "index": 16,
+          "x": 180,
+          "y": 30,
+          "width": 30,
+          "height": 30
+        },
+        {
+          "index": 17,
+          "x": 210,
+          "y": 30,
+          "width": 30,
+          "height": 30
+        },
+        {
+          "index": 18,
+          "x": 240,
+          "y": 30,
+          "width": 30,
+          "height": 30
+        },
+        {
+          "index": 19,
+          "x": 270,
+          "y": 30,
+          "width": 30,
+          "height": 30
+        },
+        {
+          "index": 20,
+          "x": 0,
+          "y": 60,
+          "width": 30,
+          "height": 30
+        },
+        {
+          "index": 21,
+          "x": 30,
+          "y": 60,
+          "width": 30,
+          "height": 30
+        },
+        {
+          "index": 22,
+          "x": 60,
+          "y": 60,
+          "width": 30,
+          "height": 30
+        },
+        {
+          "index": 23,
+          "x": 90,
+          "y": 60,
+          "width": 30,
+          "height": 30
+        },
+        {
+          "index": 24,
+          "x": 120,
+          "y": 60,
+          "width": 30,
+          "height": 30
+        },
+        {
+          "index": 25,
+          "x": 150,
+          "y": 60,
+          "width": 30,
+          "height": 30
+        },
+        {
+          "index": 26,
+          "x": 180,
+          "y": 60,
+          "width": 30,
+          "height": 30
+        },
+        {
+          "index": 27,
+          "x": 210,
+          "y": 60,
+          "width": 30,
+          "height": 30
+        },
+        {
+          "index": 28,
+          "x": 240,
+          "y": 60,
+          "width": 30,
+          "height": 30
+        },
+        {
+          "index": 29,
+          "x": 270,
+          "y": 60,
+          "width": 30,
+          "height": 30
+        },
+        {
+          "index": 30,
+          "x": 0,
+          "y": 90,
+          "width": 30,
+          "height": 30
+        },
+        {
+          "index": 31,
+          "x": 30,
+          "y": 90,
+          "width": 30,
+          "height": 30
+        },
+        {
+          "index": 32,
+          "x": 60,
+          "y": 90,
+          "width": 30,
+          "height": 30
+        },
+        {
+          "index": 33,
+          "x": 90,
+          "y": 90,
+          "width": 30,
+          "height": 30
+        },
+        {
+          "index": 34,
+          "x": 120,
+          "y": 90,
+          "width": 30,
+          "height": 30
+        },
+        {
+          "index": 35,
+          "x": 150,
+          "y": 90,
+          "width": 30,
+          "height": 30
+        },
+        {
+          "index": 36,
+          "x": 180,
+          "y": 90,
+          "width": 30,
+          "height": 30
+        },
+        {
+          "index": 37,
+          "x": 210,
+          "y": 90,
+          "width": 30,
+          "height": 30
+        },
+        {
+          "index": 38,
+          "x": 240,
+          "y": 90,
+          "width": 30,
+          "height": 30
+        },
+        {
+          "index": 39,
+          "x": 270,
+          "y": 90,
+          "width": 30,
+          "height": 30
+        },
+        {
+          "index": 40,
+          "x": 0,
+          "y": 120,
+          "width": 30,
+          "height": 30
+        },
+        {
+          "index": 41,
+          "x": 30,
+          "y": 120,
+          "width": 30,
+          "height": 30
+        },
+        {
+          "index": 42,
+          "x": 60,
+          "y": 120,
+          "width": 30,
+          "height": 30
+        },
+        {
+          "index": 43,
+          "x": 90,
+          "y": 120,
+          "width": 30,
+          "height": 30
+        },
+        {
+          "index": 44,
+          "x": 120,
+          "y": 120,
+          "width": 30,
+          "height": 30
+        },
+        {
+          "index": 45,
+          "x": 150,
+          "y": 120,
+          "width": 30,
+          "height": 30
+        },
+        {
+          "index": 46,
+          "x": 180,
+          "y": 120,
+          "width": 30,
+          "height": 30
+        },
+        {
+          "index": 47,
+          "x": 210,
+          "y": 120,
+          "width": 30,
+          "height": 30
+        },
+        {
+          "index": 48,
+          "x": 240,
+          "y": 120,
+          "width": 30,
+          "height": 30
+        },
+        {
+          "index": 49,
+          "x": 270,
+          "y": 120,
+          "width": 30,
+          "height": 30
+        },
+        {
+          "index": 50,
+          "x": 0,
+          "y": 150,
+          "width": 30,
+          "height": 30
+        },
+        {
+          "index": 51,
+          "x": 30,
+          "y": 150,
+          "width": 30,
+          "height": 30
+        },
+        {
+          "index": 52,
+          "x": 60,
+          "y": 150,
+          "width": 30,
+          "height": 30
+        },
+        {
+          "index": 53,
+          "x": 90,
+          "y": 150,
+          "width": 30,
+          "height": 30
+        },
+        {
+          "index": 54,
+          "x": 120,
+          "y": 150,
+          "width": 30,
+          "height": 30
+        },
+        {
+          "index": 55,
+          "x": 150,
+          "y": 150,
+          "width": 30,
+          "height": 30
+        },
+        {
+          "index": 56,
+          "x": 180,
+          "y": 150,
+          "width": 30,
+          "height": 30
+        },
+        {
+          "index": 57,
+          "x": 210,
+          "y": 150,
+          "width": 30,
+          "height": 30
+        },
+        {
+          "index": 58,
+          "x": 240,
+          "y": 150,
+          "width": 30,
+          "height": 30
+        },
+        {
+          "index": 59,
+          "x": 270,
+          "y": 150,
+          "width": 30,
+          "height": 30
+        },
+        {
+          "index": 60,
+          "x": 0,
+          "y": 180,
+          "width": 30,
+          "height": 30
+        },
+        {
+          "index": 61,
+          "x": 30,
+          "y": 180,
+          "width": 30,
+          "height": 30
+        },
+        {
+          "index": 62,
+          "x": 60,
+          "y": 180,
+          "width": 30,
+          "height": 30
+        },
+        {
+          "index": 63,
+          "x": 90,
+          "y": 180,
+          "width": 30,
+          "height": 30
+        },
+        {
+          "index": 64,
+          "x": 120,
+          "y": 180,
+          "width": 30,
+          "height": 30
+        },
+        {
+          "index": 65,
+          "x": 150,
+          "y": 180,
+          "width": 30,
+          "height": 30
+        },
+        {
+          "index": 66,
+          "x": 180,
+          "y": 180,
+          "width": 30,
+          "height": 30
+        },
+        {
+          "index": 67,
+          "x": 210,
+          "y": 180,
+          "width": 30,
+          "height": 30
+        },
+        {
+          "index": 68,
+          "x": 240,
+          "y": 180,
+          "width": 30,
+          "height": 30
+        },
+        {
+          "index": 69,
+          "x": 270,
+          "y": 180,
+          "width": 30,
+          "height": 30
+        },
+        {
+          "index": 70,
+          "x": 0,
+          "y": 210,
+          "width": 30,
+          "height": 30
+        },
+        {
+          "index": 71,
+          "x": 30,
+          "y": 210,
+          "width": 30,
+          "height": 30
+        },
+        {
+          "index": 72,
+          "x": 60,
+          "y": 210,
+          "width": 30,
+          "height": 30
+        },
+        {
+          "index": 73,
+          "x": 90,
+          "y": 210,
+          "width": 30,
+          "height": 30
+        },
+        {
+          "index": 74,
+          "x": 120,
+          "y": 210,
+          "width": 30,
+          "height": 30
+        },
+        {
+          "index": 75,
+          "x": 150,
+          "y": 210,
+          "width": 30,
+          "height": 30
+        },
+        {
+          "index": 76,
+          "x": 180,
+          "y": 210,
+          "width": 30,
+          "height": 30
+        },
+        {
+          "index": 77,
+          "x": 210,
+          "y": 210,
+          "width": 30,
+          "height": 30
+        },
+        {
+          "index": 78,
+          "x": 240,
+          "y": 210,
+          "width": 30,
+          "height": 30
+        },
+        {
+          "index": 79,
+          "x": 270,
+          "y": 210,
+          "width": 30,
+          "height": 30
+        }
+      ],
+      "provenance": "analysis/decompiled/u.java: b(Graphics,int,int,int,boolean); bs.java: a(int,int); Java transform 2 mirrors horizontally"
+    },
+    "blastlighting": {
+      "file": "assets/images/blastlighting.png",
+      "layout": "irregular",
+      "frames": [
+        {
+          "x": 19,
+          "y": 0,
+          "width": 12,
+          "height": 17,
+          "verticalAnchorOffset": 91
+        },
+        {
+          "x": 20,
+          "y": 17,
+          "width": 11,
+          "height": 34,
+          "verticalAnchorOffset": 74
+        },
+        {
+          "x": 17,
+          "y": 51,
+          "width": 4,
+          "height": 17,
+          "verticalAnchorOffset": 56
+        },
+        {
+          "x": 12,
+          "y": 68,
+          "width": 27,
+          "height": 63,
+          "verticalAnchorOffset": 1
+        },
+        {
+          "x": 0,
+          "y": 131,
+          "width": 56,
+          "height": 62,
+          "verticalAnchorOffset": 0
+        }
+      ],
+      "provenance": "analysis/decompiled/au.java: w/x/y/z/A arrays; a(Graphics,int,int)"
+    }
+  },
+  "boardTileOrder": [
+    "sword",
+    "rice",
+    "heart",
+    "yinyang",
+    "gold",
+    "book",
+    "swordred"
+  ],
+  "spellIconOrder": [
+    "fireballicon",
+    "meteoricon",
+    "hellfireicon",
+    "chainlightingicon",
+    "shieldlightingicon",
+    "blastlightingicon",
+    "icebolticon",
+    "healingicon",
+    "frozenicon"
+  ]
+}

@@ -1,0 +1,30 @@
+/*
+ * Decompiled with CFR 0.152.
+ * 
+ * Could not load the following classes:
+ *  javax.microedition.lcdui.Graphics
+ *  javax.microedition.lcdui.Image
+ */
+import javax.microedition.lcdui.Graphics;
+import javax.microedition.lcdui.Image;
+
+public abstract class bb {
+    protected int a = cx.j;
+    protected int b = cx.k;
+    protected int c = cx.f;
+    protected int d = cx.g;
+    protected boolean e;
+
+    public abstract void b();
+
+    public abstract void a(Graphics var1, Image var2);
+
+    public abstract void c();
+
+    public abstract void a();
+
+    public boolean d() {
+        return this.e;
+    }
+}
+

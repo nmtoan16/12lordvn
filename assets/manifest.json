@@ -1,0 +1,4047 @@
+{
+  "sourceArchive": "Loan-12-Su-Quan.jar",
+  "sourceArchiveSha256": "90bf8dc99acba9f0a89da99c58b45c8fdb20240841e5a708e0ccfee58a650ff9",
+  "restoration": "All .mg resources are PNGs with only the first four signature bytes replaced by their complete byte length in big-endian order. Restore bytes 0..3 to 89 50 4E 47; all subsequent bytes remain identical.",
+  "verification": "All original SHA-256 hashes retained; every PNG chunk CRC checked; all PNG pixels decoded with Pillow.",
+  "counts": {
+    "images": 131,
+    "audio": 20
+  },
+  "assets": [
+    {
+      "kind": "image",
+      "source": "_arrow.mg",
+      "original": "assets/original/_arrow.mg",
+      "file": "assets/images/_arrow.png",
+      "bytes": 133,
+      "sourceSha256": "10ea36a8a18179bc11cbf56091bfb749c24a7618289aa395037b4bbb55253ea1",
+      "sha256": "c109d1b22ba3ef1957d0d67435327d4d07cf4196ba7b095d4e90305a9645b739",
+      "width": 7,
+      "height": 10,
+      "mode": "P",
+      "alpha": true,
+      "chunks": [
+        "IHDR",
+        "PLTE",
+        "tRNS",
+        "IDAT",
+        "IEND"
+      ],
+      "restoration": "replace first 4 bytes (big-endian source byte length) with 89 50 4E 47"
+    },
+    {
+      "kind": "image",
+      "source": "_corner.mg",
+      "original": "assets/original/_corner.mg",
+      "file": "assets/images/_corner.png",
+      "bytes": 183,
+      "sourceSha256": "1a2030c4f027c872940154de606662e9f638d13c627b1dcdd29a087c93a46eae",
+      "sha256": "198e0230f244e48478959b3d76b8f394e7ab831bd1ef63e4231a72cba9d0132f",
+      "width": 16,
+      "height": 16,
+      "mode": "P",
+      "alpha": true,
+      "chunks": [
+        "IHDR",
+        "PLTE",
+        "tRNS",
+        "IDAT",
+        "IEND"
+      ],
+      "restoration": "replace first 4 bytes (big-endian source byte length) with 89 50 4E 47"
+    },
+    {
+      "kind": "image",
+      "source": "_font1.mg",
+      "original": "assets/original/_font1.mg",
+      "file": "assets/images/_font1.png",
+      "bytes": 1797,
+      "sourceSha256": "54d79f557e77131eb288bea631b1dbc142dc0fea3a992087b17b8ed3b7a77758",
+      "sha256": "60d97157bed9cdb1ed061954054175f5a590997c49a7c54333424a9e51288401",
+      "width": 100,
+      "height": 125,
+      "mode": "P",
+      "alpha": true,
+      "chunks": [
+        "IHDR",
+        "PLTE",
+        "tRNS",
+        "IDAT",
+        "IEND"
+      ],
+      "restoration": "replace first 4 bytes (big-endian source byte length) with 89 50 4E 47"
+    },
+    {
+      "kind": "image",
+      "source": "_font2.mg",
+      "original": "assets/original/_font2.mg",
+      "file": "assets/images/_font2.png",
+      "bytes": 1797,
+      "sourceSha256": "0b734404caf5d336bed7d31f0ef28f4ea162f58ece0cdbb17aa38b606ab49472",
+      "sha256": "717871376d7f540e174ef5beb8414d2cbbfd2612a73e858a0eb5b68ef19d3c48",
+      "width": 100,
+      "height": 125,
+      "mode": "P",
+      "alpha": true,
+      "chunks": [
+        "IHDR",
+        "PLTE",
+        "tRNS",
+        "IDAT",
+        "IEND"
+      ],
+      "restoration": "replace first 4 bytes (big-endian source byte length) with 89 50 4E 47"
+    },
+    {
+      "kind": "image",
+      "source": "_mglogo.mg",
+      "original": "assets/original/_mglogo.mg",
+      "file": "assets/images/_mglogo.png",
+      "bytes": 757,
+      "sourceSha256": "56005328b8563d1cc4abb8d123d1b277374c850c11295b2d3d522fb01daad75d",
+      "sha256": "997f302191c84fa1d716009241e4336eeae424d8613aef436f2f2a851e294dfe",
+      "width": 100,
+      "height": 47,
+      "mode": "P",
+      "alpha": false,
+      "chunks": [
+        "IHDR",
+        "PLTE",
+        "IDAT",
+        "IEND"
+      ],
+      "restoration": "replace first 4 bytes (big-endian source byte length) with 89 50 4E 47"
+    },
+    {
+      "kind": "image",
+      "source": "_partnerLogo.mg",
+      "original": "assets/original/_partnerLogo.mg",
+      "file": "assets/images/_partnerLogo.png",
+      "bytes": 1636,
+      "sourceSha256": "14e9538b50958ac38d8a129c4067d18f657eacf660980c406940f5991ff9ec0d",
+      "sha256": "1cb93e5215e223196b411b3ba6de34ea257cfed4d5c2277edac054ce6e9d894b",
+      "width": 100,
+      "height": 100,
+      "mode": "P",
+      "alpha": true,
+      "chunks": [
+        "IHDR",
+        "PLTE",
+        "tRNS",
+        "IDAT",
+        "IEND"
+      ],
+      "restoration": "replace first 4 bytes (big-endian source byte length) with 89 50 4E 47"
+    },
+    {
+      "kind": "image",
+      "source": "_sound.mg",
+      "original": "assets/original/_sound.mg",
+      "file": "assets/images/_sound.png",
+      "bytes": 2231,
+      "sourceSha256": "a207d11b582ca3d82a07f251a10ebe58d8677b90d9446f57d706e799c9222397",
+      "sha256": "805b74344a34bfd21a41085ed21cd0110b77ce51dab453cb3c85e3a4a5cf0b81",
+      "width": 200,
+      "height": 100,
+      "mode": "P",
+      "alpha": true,
+      "chunks": [
+        "IHDR",
+        "PLTE",
+        "tRNS",
+        "IDAT",
+        "IEND"
+      ],
+      "restoration": "replace first 4 bytes (big-endian source byte length) with 89 50 4E 47"
+    },
+    {
+      "kind": "image",
+      "source": "arrowfocus1.mg",
+      "original": "assets/original/arrowfocus1.mg",
+      "file": "assets/images/arrowfocus1.png",
+      "bytes": 132,
+      "sourceSha256": "c06c0fd32deced6e8064b48663a3d69740410e0aebd33fe573f2862f113ce2a1",
+      "sha256": "f5cdebd16c8d4d37c043d0d43958f392c253a59c867a055e1a539913b84c8882",
+      "width": 10,
+      "height": 7,
+      "mode": "P",
+      "alpha": true,
+      "chunks": [
+        "IHDR",
+        "PLTE",
+        "tRNS",
+        "IDAT",
+        "IEND"
+      ],
+      "restoration": "replace first 4 bytes (big-endian source byte length) with 89 50 4E 47"
+    },
+    {
+      "kind": "image",
+      "source": "arrowfocus2.mg",
+      "original": "assets/original/arrowfocus2.mg",
+      "file": "assets/images/arrowfocus2.png",
+      "bytes": 132,
+      "sourceSha256": "a746ef1b66fe1817095153776d0faf68ddd32ad92d22cb6d777861ab7a555e13",
+      "sha256": "13808900482ff5b7c81feb16e9a62ebb4309a0a6e1b7217157b2e93812692a7f",
+      "width": 10,
+      "height": 7,
+      "mode": "P",
+      "alpha": true,
+      "chunks": [
+        "IHDR",
+        "PLTE",
+        "tRNS",
+        "IDAT",
+        "IEND"
+      ],
+      "restoration": "replace first 4 bytes (big-endian source byte length) with 89 50 4E 47"
+    },
+    {
+      "kind": "audio",
+      "source": "audio/attack.amr",
+      "original": "assets/original/audio/attack.amr",
+      "file": "assets/audio/attack.amr",
+      "bytes": 1190,
+      "sha256": "835803ef9b5d69cc2c13552669df1c57cf9532bb5b6654f70b52cf782b245482",
+      "format": "AMR-NB",
+      "sampleRate": 8000,
+      "browserAudio": {
+        "file": "assets/audio/attack.wav",
+        "format": "PCM signed 16-bit WAV",
+        "sha256": "9d8e7658eae14c45c18e7780498e737982fcafbc51b071606b97c3a34dfa889b",
+        "bytes": 11918,
+        "sampleRate": 8000,
+        "channels": 1,
+        "samples": 5920,
+        "durationSeconds": 0.74
+      }
+    },
+    {
+      "kind": "audio",
+      "source": "audio/explodechess.amr",
+      "original": "assets/original/audio/explodechess.amr",
+      "file": "assets/audio/explodechess.amr",
+      "bytes": 614,
+      "sha256": "7b2331210255c65fc8a23a1bb30caddc1ab7dbdfad275740cb79540a923b3e43",
+      "format": "AMR-NB",
+      "sampleRate": 8000,
+      "browserAudio": {
+        "file": "assets/audio/explodechess.wav",
+        "format": "PCM signed 16-bit WAV",
+        "sha256": "94bfb29a5821764e993f022a5c4c32624d1a8bc1943ebecd81f1ed231f0fe6a2",
+        "bytes": 6158,
+        "sampleRate": 8000,
+        "channels": 1,
+        "samples": 3040,
+        "durationSeconds": 0.38
+      }
+    },
+    {
+      "kind": "audio",
+      "source": "audio/fire1.amr",
+      "original": "assets/original/audio/fire1.amr",
+      "file": "assets/audio/fire1.amr",
+      "bytes": 2086,
+      "sha256": "25cd0bcad9ee866cde6d20858a62f252bdabb7f91484180186f1523ea46bef86",
+      "format": "AMR-NB",
+      "sampleRate": 8000,
+      "browserAudio": {
+        "file": "assets/audio/fire1.wav",
+        "format": "PCM signed 16-bit WAV",
+        "sha256": "ec648acf0777bc3652ee947103a24fe4003d42e1afeabbf88aa73d718eb06d9b",
+        "bytes": 20878,
+        "sampleRate": 8000,
+        "channels": 1,
+        "samples": 10400,
+        "durationSeconds": 1.3
+      }
+    },
+    {
+      "kind": "audio",
+      "source": "audio/fire2.amr",
+      "original": "assets/original/audio/fire2.amr",
+      "file": "assets/audio/fire2.amr",
+      "bytes": 3206,
+      "sha256": "585dcdbc38e87f14e1fab2915f5a4ecc5f47836086a780bf52ec6d6ffb8a01fb",
+      "format": "AMR-NB",
+      "sampleRate": 8000,
+      "browserAudio": {
+        "file": "assets/audio/fire2.wav",
+        "format": "PCM signed 16-bit WAV",
+        "sha256": "092d1fc29663289d404bfdfbb999007e7a6848fcd5e3cb2acbdf8c22c42dfd3e",
+        "bytes": 32078,
+        "sampleRate": 8000,
+        "channels": 1,
+        "samples": 16000,
+        "durationSeconds": 2.0
+      }
+    },
+    {
+      "kind": "audio",
+      "source": "audio/fire3.amr",
+      "original": "assets/original/audio/fire3.amr",
+      "file": "assets/audio/fire3.amr",
+      "bytes": 2470,
+      "sha256": "fc687e567c3b70b6a6508c8790e524c8bd6b6a60538f8e1e5b62d1f6ddf5a0fe",
+      "format": "AMR-NB",
+      "sampleRate": 8000,
+      "browserAudio": {
+        "file": "assets/audio/fire3.wav",
+        "format": "PCM signed 16-bit WAV",
+        "sha256": "d9afce9c6f8504f7f399f49b361478ea5b9d5d6a9f8090c885b0fcee90ef6cad",
+        "bytes": 24718,
+        "sampleRate": 8000,
+        "channels": 1,
+        "samples": 12320,
+        "durationSeconds": 1.54
+      }
+    },
+    {
+      "kind": "audio",
+      "source": "audio/ice1.amr",
+      "original": "assets/original/audio/ice1.amr",
+      "file": "assets/audio/ice1.amr",
+      "bytes": 3238,
+      "sha256": "c8f039a40e83a007405e7e5190cd9d204cc76b17fad90c54a49f0441f9eaf511",
+      "format": "AMR-NB",
+      "sampleRate": 8000,
+      "browserAudio": {
+        "file": "assets/audio/ice1.wav",
+        "format": "PCM signed 16-bit WAV",
+        "sha256": "04b4dbed43ab4cce18950f8fb919e17e78630db7656551e9f26b8cc23399561e",
+        "bytes": 32398,
+        "sampleRate": 8000,
+        "channels": 1,
+        "samples": 16160,
+        "durationSeconds": 2.02
+      }
+    },
+    {
+      "kind": "audio",
+      "source": "audio/ice2.amr",
+      "original": "assets/original/audio/ice2.amr",
+      "file": "assets/audio/ice2.amr",
+      "bytes": 4006,
+      "sha256": "f42efc402ce45d554f2c8a8ba2002243de44693834bf36b66785f024cdaa6fa7",
+      "format": "AMR-NB",
+      "sampleRate": 8000,
+      "browserAudio": {
+        "file": "assets/audio/ice2.wav",
+        "format": "PCM signed 16-bit WAV",
+        "sha256": "392208a0351923c154454e4386ea2a4efd91981a49090d0695b57b1da86f547c",
+        "bytes": 40078,
+        "sampleRate": 8000,
+        "channels": 1,
+        "samples": 20000,
+        "durationSeconds": 2.5
+      }
+    },
+    {
+      "kind": "audio",
+      "source": "audio/ice3.amr",
+      "original": "assets/original/audio/ice3.amr",
+      "file": "assets/audio/ice3.amr",
+      "bytes": 3174,
+      "sha256": "680b2a564a792323573bede50f43031018c6fd75c8ec95bc5297b4e0af800f20",
+      "format": "AMR-NB",
+      "sampleRate": 8000,
+      "browserAudio": {
+        "file": "assets/audio/ice3.wav",
+        "format": "PCM signed 16-bit WAV",
+        "sha256": "6844d93cf9eb1f075c0ff4e28aa3d743ef561e93a257ecd9bd29c64feff444c2",
+        "bytes": 31758,
+        "sampleRate": 8000,
+        "channels": 1,
+        "samples": 15840,
+        "durationSeconds": 1.98
+      }
+    },
+    {
+      "kind": "audio",
+      "source": "audio/intro.mid",
+      "original": "assets/original/audio/intro.mid",
+      "file": "assets/audio/intro.mid",
+      "bytes": 3242,
+      "sha256": "7ef7bb06370bf0fed23347c6eecc47da62fec3f7812a22fbc92c0178c993378e",
+      "format": "Standard MIDI",
+      "midiFormat": 1,
+      "tracks": 15,
+      "ticksPerQuarterNote": 120,
+      "durationSeconds": 25.253924,
+      "noteOnEvents": 367,
+      "programs": [
+        47,
+        48
+      ]
+    },
+    {
+      "kind": "audio",
+      "source": "audio/lightning1.amr",
+      "original": "assets/original/audio/lightning1.amr",
+      "file": "assets/audio/lightning1.amr",
+      "bytes": 3270,
+      "sha256": "4d327788b1b5e72bfcb888316c4e3a90d387debe529d10a87b6a3205f8bb0476",
+      "format": "AMR-NB",
+      "sampleRate": 8000,
+      "browserAudio": {
+        "file": "assets/audio/lightning1.wav",
+        "format": "PCM signed 16-bit WAV",
+        "sha256": "df5098768ffa389a9c11b7792c42df1f5baaa9091d2064337f0ac851d2d6ca0d",
+        "bytes": 32718,
+        "sampleRate": 8000,
+        "channels": 1,
+        "samples": 16320,
+        "durationSeconds": 2.04
+      }
+    },
+    {
+      "kind": "audio",
+      "source": "audio/lightning2.amr",
+      "original": "assets/original/audio/lightning2.amr",
+      "file": "assets/audio/lightning2.amr",
+      "bytes": 2886,
+      "sha256": "917b3c26d5ef8bbd65beeda14dc9a8190c82f67c12a2b912658363f8821d0d84",
+      "format": "AMR-NB",
+      "sampleRate": 8000,
+      "browserAudio": {
+        "file": "assets/audio/lightning2.wav",
+        "format": "PCM signed 16-bit WAV",
+        "sha256": "44e7920d3d4040783d434f6bec62a9e5b435f0bf64e438217e1df2bd74f5f77a",
+        "bytes": 28878,
+        "sampleRate": 8000,
+        "channels": 1,
+        "samples": 14400,
+        "durationSeconds": 1.8
+      }
+    },
+    {
+      "kind": "audio",
+      "source": "audio/lightning3.amr",
+      "original": "assets/original/audio/lightning3.amr",
+      "file": "assets/audio/lightning3.amr",
+      "bytes": 3270,
+      "sha256": "a11b9bbcec996e2a77ce4321f37e3af8c7bfae4cfdfadc5106434ed329271da0",
+      "format": "AMR-NB",
+      "sampleRate": 8000,
+      "browserAudio": {
+        "file": "assets/audio/lightning3.wav",
+        "format": "PCM signed 16-bit WAV",
+        "sha256": "42a3a2608c8a6e4a563f6b3612a94f7e04093921c0c5295ef3f66be4e7f44627",
+        "bytes": 32718,
+        "sampleRate": 8000,
+        "channels": 1,
+        "samples": 16320,
+        "durationSeconds": 2.04
+      }
+    },
+    {
+      "kind": "audio",
+      "source": "audio/lose.mid",
+      "original": "assets/original/audio/lose.mid",
+      "file": "assets/audio/lose.mid",
+      "bytes": 477,
+      "sha256": "49bfccba19989a6c2f9f5476dd414e72693c96638e8bcf687de462ceca3715c9",
+      "format": "Standard MIDI",
+      "midiFormat": 1,
+      "tracks": 2,
+      "ticksPerQuarterNote": 120,
+      "durationSeconds": 3.099748,
+      "noteOnEvents": 48,
+      "programs": [
+        0,
+        87
+      ]
+    },
+    {
+      "kind": "audio",
+      "source": "audio/lvu.amr",
+      "original": "assets/original/audio/lvu.amr",
+      "file": "assets/audio/lvu.amr",
+      "bytes": 3174,
+      "sha256": "a7c4f35a78fdff69b5d5e814c7a33caac5c3e4b0316bff2102dbfe46aaf4c140",
+      "format": "AMR-NB",
+      "sampleRate": 8000,
+      "browserAudio": {
+        "file": "assets/audio/lvu.wav",
+        "format": "PCM signed 16-bit WAV",
+        "sha256": "2775472f467dc27dfc733bbc182de38f6cf116e87eb124952e4d0a6a9910348a",
+        "bytes": 31758,
+        "sampleRate": 8000,
+        "channels": 1,
+        "samples": 15840,
+        "durationSeconds": 1.98
+      }
+    },
+    {
+      "kind": "audio",
+      "source": "audio/m.mid",
+      "original": "assets/original/audio/m.mid",
+      "file": "assets/audio/m.mid",
+      "bytes": 2886,
+      "sha256": "543a80a3577961e03ef463bd88e6070ea62a7c53bf5cba729e241209f7425ab4",
+      "format": "Standard MIDI",
+      "midiFormat": 1,
+      "tracks": 9,
+      "ticksPerQuarterNote": 120,
+      "durationSeconds": 53.302501,
+      "noteOnEvents": 334,
+      "programs": [
+        48,
+        76,
+        118
+      ]
+    },
+    {
+      "kind": "audio",
+      "source": "audio/menu.mid",
+      "original": "assets/original/audio/menu.mid",
+      "file": "assets/audio/menu.mid",
+      "bytes": 4214,
+      "sha256": "50a3e179396b2702e57c790d8bbeb9fdf1782b010fe466a1d6fb7900967f633b",
+      "format": "Standard MIDI",
+      "midiFormat": 1,
+      "tracks": 11,
+      "ticksPerQuarterNote": 120,
+      "durationSeconds": 50.0,
+      "noteOnEvents": 490,
+      "programs": [
+        35,
+        47,
+        48,
+        61
+      ]
+    },
+    {
+      "kind": "audio",
+      "source": "audio/useitem.amr",
+      "original": "assets/original/audio/useitem.amr",
+      "file": "assets/audio/useitem.amr",
+      "bytes": 3334,
+      "sha256": "b8e555da8d2d97e2b9c9496dd0848d89d6d5fd67df920f285a63166a6aedd0bd",
+      "format": "AMR-NB",
+      "sampleRate": 8000,
+      "browserAudio": {
+        "file": "assets/audio/useitem.wav",
+        "format": "PCM signed 16-bit WAV",
+        "sha256": "724ef79568f0c1c25dc0ae99be98e5d715a4d0d06ce7da9dd623047ddd600e92",
+        "bytes": 33358,
+        "sampleRate": 8000,
+        "channels": 1,
+        "samples": 16640,
+        "durationSeconds": 2.08
+      }
+    },
+    {
+      "kind": "audio",
+      "source": "audio/victory.mid",
+      "original": "assets/original/audio/victory.mid",
+      "file": "assets/audio/victory.mid",
+      "bytes": 3517,
+      "sha256": "46fbd828a690c06a0c46cec2a3c13157f0ba8467628e4713d43525c114e100bc",
+      "format": "Standard MIDI",
+      "midiFormat": 0,
+      "tracks": 1,
+      "ticksPerQuarterNote": 120,
+      "durationSeconds": 32.0,
+      "noteOnEvents": 456,
+      "programs": [
+        0,
+        48,
+        57
+      ]
+    },
+    {
+      "kind": "audio",
+      "source": "audio/vs.amr",
+      "original": "assets/original/audio/vs.amr",
+      "file": "assets/audio/vs.amr",
+      "bytes": 2566,
+      "sha256": "a4dbdee34675178cc7e0c54cf71a6e626b3623af80efcc5d72fbb3633abc0e29",
+      "format": "AMR-NB",
+      "sampleRate": 8000,
+      "browserAudio": {
+        "file": "assets/audio/vs.wav",
+        "format": "PCM signed 16-bit WAV",
+        "sha256": "7e3551b01fb6fbb4ddcefc0dda47b90d343706b51653003992a59efe2adb755d",
+        "bytes": 25678,
+        "sampleRate": 8000,
+        "channels": 1,
+        "samples": 12800,
+        "durationSeconds": 1.6
+      }
+    },
+    {
+      "kind": "audio",
+      "source": "audio/win.mid",
+      "original": "assets/original/audio/win.mid",
+      "file": "assets/audio/win.mid",
+      "bytes": 387,
+      "sha256": "e074e2efcc72ee7c55d79be7ab19696b8eb3689dbabd9751adff3c98fc76dc7c",
+      "format": "Standard MIDI",
+      "midiFormat": 0,
+      "tracks": 1,
+      "ticksPerQuarterNote": 120,
+      "durationSeconds": 3.769767,
+      "noteOnEvents": 40,
+      "programs": [
+        0,
+        56
+      ]
+    },
+    {
+      "kind": "image",
+      "source": "avatar.mg",
+      "original": "assets/original/avatar.mg",
+      "file": "assets/images/avatar.png",
+      "bytes": 34902,
+      "sourceSha256": "c5349afbe10abadd70494420d181689ebfa0003e8fde118664ca7a1b3d238e43",
+      "sha256": "1ceddf71f6280d6976979172eb76d2b339d1355653af3377324a88a2a90a7545",
+      "width": 300,
+      "height": 240,
+      "mode": "P",
+      "alpha": false,
+      "chunks": [
+        "IHDR",
+        "PLTE",
+        "IDAT",
+        "IEND"
+      ],
+      "restoration": "replace first 4 bytes (big-endian source byte length) with 89 50 4E 47"
+    },
+    {
+      "kind": "image",
+      "source": "bkboard.mg",
+      "original": "assets/original/bkboard.mg",
+      "file": "assets/images/bkboard.png",
+      "bytes": 4393,
+      "sourceSha256": "fdb612c319c5b7f32a230ab8d67bb99cfa2523fac9928359d25d1bf921b72842",
+      "sha256": "c98c2b9df507eceb28d204e022a134bb6fcbb0fba303959acfb858fdf3b3b45b",
+      "width": 240,
+      "height": 320,
+      "mode": "P",
+      "alpha": false,
+      "chunks": [
+        "IHDR",
+        "PLTE",
+        "IDAT",
+        "IEND"
+      ],
+      "restoration": "replace first 4 bytes (big-endian source byte length) with 89 50 4E 47"
+    },
+    {
+      "kind": "image",
+      "source": "bkmenu.mg",
+      "original": "assets/original/bkmenu.mg",
+      "file": "assets/images/bkmenu.png",
+      "bytes": 34292,
+      "sourceSha256": "54808e59357be4c411d809a56f251d52eaccce6830c83021986f346e02018bcf",
+      "sha256": "0662446526686fc435a7616171fbbed2d87a243d565568501e2be4f0474bb88b",
+      "width": 240,
+      "height": 320,
+      "mode": "P",
+      "alpha": false,
+      "chunks": [
+        "IHDR",
+        "PLTE",
+        "IDAT",
+        "IEND"
+      ],
+      "restoration": "replace first 4 bytes (big-endian source byte length) with 89 50 4E 47"
+    },
+    {
+      "kind": "image",
+      "source": "bksplashscreen.mg",
+      "original": "assets/original/bksplashscreen.mg",
+      "file": "assets/images/bksplashscreen.png",
+      "bytes": 23643,
+      "sourceSha256": "6f0302df7edd109c4fe486cb28d68ecdee89c8e3c08fc98158be0ee83381ea6a",
+      "sha256": "b99fe9a808eb0415fc983f69b8a0e571d1651709560e6855a347def26acd4144",
+      "width": 240,
+      "height": 320,
+      "mode": "P",
+      "alpha": false,
+      "chunks": [
+        "IHDR",
+        "PLTE",
+        "IDAT",
+        "IEND"
+      ],
+      "restoration": "replace first 4 bytes (big-endian source byte length) with 89 50 4E 47"
+    },
+    {
+      "kind": "image",
+      "source": "blastlighting.mg",
+      "original": "assets/original/blastlighting.mg",
+      "file": "assets/images/blastlighting.png",
+      "bytes": 944,
+      "sourceSha256": "e7516ffd61fde2d220056f5c0cc3747bccb199c3221e9ee95a6ad3edb7ec3814",
+      "sha256": "e3158c52ef6b7c22a8e2e8fcb6e9cf9b96fddc9b7c7aa972533f6817f009d192",
+      "width": 56,
+      "height": 193,
+      "mode": "P",
+      "alpha": true,
+      "chunks": [
+        "IHDR",
+        "PLTE",
+        "tRNS",
+        "IDAT",
+        "IEND"
+      ],
+      "restoration": "replace first 4 bytes (big-endian source byte length) with 89 50 4E 47"
+    },
+    {
+      "kind": "image",
+      "source": "blastlightingicon.mg",
+      "original": "assets/original/blastlightingicon.mg",
+      "file": "assets/images/blastlightingicon.png",
+      "bytes": 831,
+      "sourceSha256": "94a4855d979713b01d59a7c8c8eac4a4a03c09adf4223a8da055f94128c02d70",
+      "sha256": "cf6b1d4e6af9137e733cbc75edfb94d4bd4aef81e5f014c4ff6ee14f29dcfb38",
+      "width": 30,
+      "height": 30,
+      "mode": "P",
+      "alpha": false,
+      "chunks": [
+        "IHDR",
+        "PLTE",
+        "IDAT",
+        "IEND"
+      ],
+      "restoration": "replace first 4 bytes (big-endian source byte length) with 89 50 4E 47"
+    },
+    {
+      "kind": "image",
+      "source": "blood.mg",
+      "original": "assets/original/blood.mg",
+      "file": "assets/images/blood.png",
+      "bytes": 146,
+      "sourceSha256": "e682ff3eb331d45f94a22c1bd0b7d359bcea2d60e5e9adaba9f15e45408e6656",
+      "sha256": "20aafd72646e2855cd28c498594986f0f4a77f3947974501ed9d6fc088e9d482",
+      "width": 42,
+      "height": 8,
+      "mode": "P",
+      "alpha": true,
+      "chunks": [
+        "IHDR",
+        "PLTE",
+        "tRNS",
+        "IDAT",
+        "IEND"
+      ],
+      "restoration": "replace first 4 bytes (big-endian source byte length) with 89 50 4E 47"
+    },
+    {
+      "kind": "image",
+      "source": "bloodext.mg",
+      "original": "assets/original/bloodext.mg",
+      "file": "assets/images/bloodext.png",
+      "bytes": 147,
+      "sourceSha256": "c302cf7bb31bedeeabfd23d8104e33999e2b9d8ca99ef5cb2501c0fb5a0760f7",
+      "sha256": "cd20952e96fcce9a7ef845dd14236fcaab4e5b042e17ed4e6a82c4efd6dbed8b",
+      "width": 42,
+      "height": 8,
+      "mode": "P",
+      "alpha": true,
+      "chunks": [
+        "IHDR",
+        "PLTE",
+        "tRNS",
+        "IDAT",
+        "IEND"
+      ],
+      "restoration": "replace first 4 bytes (big-endian source byte length) with 89 50 4E 47"
+    },
+    {
+      "kind": "image",
+      "source": "bloodthrowaround.mg",
+      "original": "assets/original/bloodthrowaround.mg",
+      "file": "assets/images/bloodthrowaround.png",
+      "bytes": 888,
+      "sourceSha256": "c2094c104c91a9249ff0ac14c4f92fc5dac7506497d9b0cf6be8c9f33a2b8d55",
+      "sha256": "8e13b2a47bc05788cd95f2ac3776da2648d740b8dca6c509d5b6b143c79b57be",
+      "width": 300,
+      "height": 33,
+      "mode": "P",
+      "alpha": true,
+      "chunks": [
+        "IHDR",
+        "PLTE",
+        "tRNS",
+        "IDAT",
+        "IEND"
+      ],
+      "restoration": "replace first 4 bytes (big-endian source byte length) with 89 50 4E 47"
+    },
+    {
+      "kind": "image",
+      "source": "book.mg",
+      "original": "assets/original/book.mg",
+      "file": "assets/images/book.png",
+      "bytes": 345,
+      "sourceSha256": "50aa97d0d0d540e5d3f9ae97d21713e7dc06430f7f355f604fa4ae52015639d5",
+      "sha256": "2fd4c305fdac2af25730ee55339ad95aa3abcd0bf8ca2d4b8a7056c1f92673c0",
+      "width": 22,
+      "height": 22,
+      "mode": "P",
+      "alpha": true,
+      "chunks": [
+        "IHDR",
+        "PLTE",
+        "tRNS",
+        "IDAT",
+        "IEND"
+      ],
+      "restoration": "replace first 4 bytes (big-endian source byte length) with 89 50 4E 47"
+    },
+    {
+      "kind": "image",
+      "source": "borderskb.mg",
+      "original": "assets/original/borderskb.mg",
+      "file": "assets/images/borderskb.png",
+      "bytes": 128,
+      "sourceSha256": "b4f8cea54177aecd1deb691c5f36043fe6f429dfea181c24597198e4d3b9adda",
+      "sha256": "d32640fa6dac28441e3045fee20ae0f9a292087404cc55d76bed4132a48c8898",
+      "width": 6,
+      "height": 17,
+      "mode": "P",
+      "alpha": true,
+      "chunks": [
+        "IHDR",
+        "PLTE",
+        "tRNS",
+        "IDAT",
+        "IEND"
+      ],
+      "restoration": "replace first 4 bytes (big-endian source byte length) with 89 50 4E 47"
+    },
+    {
+      "kind": "image",
+      "source": "chainlighting.mg",
+      "original": "assets/original/chainlighting.mg",
+      "file": "assets/images/chainlighting.png",
+      "bytes": 556,
+      "sourceSha256": "5783335de6f811ab725f52b285d08630a1279680101a977efc2fb34690aad827",
+      "sha256": "a952218dc1ecd30f4af20400cde6aec8ab4f829d841e458311ab7f22b84ecc7a",
+      "width": 90,
+      "height": 30,
+      "mode": "P",
+      "alpha": true,
+      "chunks": [
+        "IHDR",
+        "PLTE",
+        "tRNS",
+        "IDAT",
+        "IEND"
+      ],
+      "restoration": "replace first 4 bytes (big-endian source byte length) with 89 50 4E 47"
+    },
+    {
+      "kind": "image",
+      "source": "chainlightingicon.mg",
+      "original": "assets/original/chainlightingicon.mg",
+      "file": "assets/images/chainlightingicon.png",
+      "bytes": 846,
+      "sourceSha256": "723bad903b5b4d13d1f1d92ee59110a698c160d1a30fb7dd21bb0d754e33d1a0",
+      "sha256": "774c21b5fccde6369213c5fe7be1f27f4f1d3b8a3e8b037768e5342a538d99ac",
+      "width": 30,
+      "height": 30,
+      "mode": "P",
+      "alpha": false,
+      "chunks": [
+        "IHDR",
+        "PLTE",
+        "IDAT",
+        "IEND"
+      ],
+      "restoration": "replace first 4 bytes (big-endian source byte length) with 89 50 4E 47"
+    },
+    {
+      "kind": "image",
+      "source": "chainlightingpart1.mg",
+      "original": "assets/original/chainlightingpart1.mg",
+      "file": "assets/images/chainlightingpart1.png",
+      "bytes": 189,
+      "sourceSha256": "dc7b5a90cb671db2dae90999f34b45ceef9538c86c3b302349b0ae200e524db0",
+      "sha256": "6cd7cebc53de660d5e38cf7396a6821011db3e7f50b6b927913663516fcb195f",
+      "width": 21,
+      "height": 21,
+      "mode": "P",
+      "alpha": true,
+      "chunks": [
+        "IHDR",
+        "PLTE",
+        "tRNS",
+        "IDAT",
+        "IEND"
+      ],
+      "restoration": "replace first 4 bytes (big-endian source byte length) with 89 50 4E 47"
+    },
+    {
+      "kind": "image",
+      "source": "chainlightingpart2.mg",
+      "original": "assets/original/chainlightingpart2.mg",
+      "file": "assets/images/chainlightingpart2.png",
+      "bytes": 163,
+      "sourceSha256": "6c147228e685a29093fdbc55011a61c7ea0c0ff8d1a45f68107173493c6a93cd",
+      "sha256": "44dab44324ceaad374ec8e677dda1cb5d4467b044e849cc814194c6aa2bdf28e",
+      "width": 21,
+      "height": 10,
+      "mode": "P",
+      "alpha": true,
+      "chunks": [
+        "IHDR",
+        "PLTE",
+        "tRNS",
+        "IDAT",
+        "IEND"
+      ],
+      "restoration": "replace first 4 bytes (big-endian source byte length) with 89 50 4E 47"
+    },
+    {
+      "kind": "image",
+      "source": "crystalblue.mg",
+      "original": "assets/original/crystalblue.mg",
+      "file": "assets/images/crystalblue.png",
+      "bytes": 187,
+      "sourceSha256": "a4521332c2d445b6f9fddb449556c1ede4e30aba9e0a5d77319d5675ddaa929a",
+      "sha256": "e92be48be1068175b579d197141093886d974f6773a5493ba8ec74a9d97da359",
+      "width": 45,
+      "height": 15,
+      "mode": "P",
+      "alpha": true,
+      "chunks": [
+        "IHDR",
+        "PLTE",
+        "tRNS",
+        "IDAT",
+        "IEND"
+      ],
+      "restoration": "replace first 4 bytes (big-endian source byte length) with 89 50 4E 47"
+    },
+    {
+      "kind": "image",
+      "source": "crystalgray.mg",
+      "original": "assets/original/crystalgray.mg",
+      "file": "assets/images/crystalgray.png",
+      "bytes": 177,
+      "sourceSha256": "15f543d3dba0cef8122f719011dd2d6278e94bdc64f09cf297e5a5e0d4552605",
+      "sha256": "53ee5df2d2edb13a42f24ac3c0e3ff719d436e12132c6a962d576496fc2c2d2f",
+      "width": 39,
+      "height": 13,
+      "mode": "P",
+      "alpha": true,
+      "chunks": [
+        "IHDR",
+        "PLTE",
+        "tRNS",
+        "IDAT",
+        "IEND"
+      ],
+      "restoration": "replace first 4 bytes (big-endian source byte length) with 89 50 4E 47"
+    },
+    {
+      "kind": "image",
+      "source": "crystalgreen.mg",
+      "original": "assets/original/crystalgreen.mg",
+      "file": "assets/images/crystalgreen.png",
+      "bytes": 182,
+      "sourceSha256": "79001d6d0f43a8fe7c606c787e88f0b9468ec68997a3667fe239e98d2ac4d752",
+      "sha256": "ac0625fdbd7b047753b25ed52e5ec2fc927ed7ba9fb9ac309b9564684ce7c4a9",
+      "width": 45,
+      "height": 15,
+      "mode": "P",
+      "alpha": true,
+      "chunks": [
+        "IHDR",
+        "PLTE",
+        "tRNS",
+        "IDAT",
+        "IEND"
+      ],
+      "restoration": "replace first 4 bytes (big-endian source byte length) with 89 50 4E 47"
+    },
+    {
+      "kind": "image",
+      "source": "crystalred.mg",
+      "original": "assets/original/crystalred.mg",
+      "file": "assets/images/crystalred.png",
+      "bytes": 181,
+      "sourceSha256": "2a40e1eeb368e3a9db7d94e7ef9f124c2dd0d39d25d8e83c9ed04c5d4edaf228",
+      "sha256": "c3d276633b2390f59023da54f6636da051f992597ec84c2cd5fe0951e96f34d7",
+      "width": 45,
+      "height": 15,
+      "mode": "P",
+      "alpha": true,
+      "chunks": [
+        "IHDR",
+        "PLTE",
+        "tRNS",
+        "IDAT",
+        "IEND"
+      ],
+      "restoration": "replace first 4 bytes (big-endian source byte length) with 89 50 4E 47"
+    },
+    {
+      "kind": "image",
+      "source": "crystalviolet.mg",
+      "original": "assets/original/crystalviolet.mg",
+      "file": "assets/images/crystalviolet.png",
+      "bytes": 182,
+      "sourceSha256": "6bf69fe4a9c6f7d0ef98193415fb54581c7bec65375fa5441db6d9a2daf1339c",
+      "sha256": "a7f891771554ed0d1b48e0c1e635e2f2fd6277211562db3303cfd6f44b8682d4",
+      "width": 45,
+      "height": 15,
+      "mode": "P",
+      "alpha": true,
+      "chunks": [
+        "IHDR",
+        "PLTE",
+        "tRNS",
+        "IDAT",
+        "IEND"
+      ],
+      "restoration": "replace first 4 bytes (big-endian source byte length) with 89 50 4E 47"
+    },
+    {
+      "kind": "image",
+      "source": "crystalyellow.mg",
+      "original": "assets/original/crystalyellow.mg",
+      "file": "assets/images/crystalyellow.png",
+      "bytes": 185,
+      "sourceSha256": "7c8a35196f2394f35317ecd8fee7fbc407628d41462ab623117df4ae78fb9405",
+      "sha256": "39d4328cb20e7af0ca68e2987a0b5f92b89da296d30b0ab3779efec9eae56e44",
+      "width": 45,
+      "height": 15,
+      "mode": "P",
+      "alpha": true,
+      "chunks": [
+        "IHDR",
+        "PLTE",
+        "tRNS",
+        "IDAT",
+        "IEND"
+      ],
+      "restoration": "replace first 4 bytes (big-endian source byte length) with 89 50 4E 47"
+    },
+    {
+      "kind": "image",
+      "source": "defenceshield.mg",
+      "original": "assets/original/defenceshield.mg",
+      "file": "assets/images/defenceshield.png",
+      "bytes": 922,
+      "sourceSha256": "71c46cba8f97cc655495c7ff4afc8173865ca4e8d6f01d113cb813f906054f99",
+      "sha256": "a3da030dd58091eaef4b8ac77c98a21e6c9fe0947b751776ad753b7c1638bf65",
+      "width": 132,
+      "height": 44,
+      "mode": "P",
+      "alpha": true,
+      "chunks": [
+        "IHDR",
+        "PLTE",
+        "tRNS",
+        "IDAT",
+        "IEND"
+      ],
+      "restoration": "replace first 4 bytes (big-endian source byte length) with 89 50 4E 47"
+    },
+    {
+      "kind": "image",
+      "source": "explodebook.mg",
+      "original": "assets/original/explodebook.mg",
+      "file": "assets/images/explodebook.png",
+      "bytes": 712,
+      "sourceSha256": "097c56dc1bb09c72e5db6991d7c7499b2b35cc37da2955f8dcaa46e7775f8168",
+      "sha256": "0c9e584a346bef735ee812e20e32b2322f3818b207c3ccf3ee73894de6b63311",
+      "width": 84,
+      "height": 17,
+      "mode": "P",
+      "alpha": true,
+      "chunks": [
+        "IHDR",
+        "PLTE",
+        "tRNS",
+        "IDAT",
+        "IEND"
+      ],
+      "restoration": "replace first 4 bytes (big-endian source byte length) with 89 50 4E 47"
+    },
+    {
+      "kind": "image",
+      "source": "explodebookx2.mg",
+      "original": "assets/original/explodebookx2.mg",
+      "file": "assets/images/explodebookx2.png",
+      "bytes": 1284,
+      "sourceSha256": "d79342f2cea27db678b1289c052bc320ac1608b3f594c3140b7203bf34e11096",
+      "sha256": "5c2508ad98db9e1f5789a40009762d405c21f5ed50c2b8eb2ae318f9fdcf8312",
+      "width": 132,
+      "height": 33,
+      "mode": "P",
+      "alpha": true,
+      "chunks": [
+        "IHDR",
+        "PLTE",
+        "tRNS",
+        "IDAT",
+        "IEND"
+      ],
+      "restoration": "replace first 4 bytes (big-endian source byte length) with 89 50 4E 47"
+    },
+    {
+      "kind": "image",
+      "source": "explodegold.mg",
+      "original": "assets/original/explodegold.mg",
+      "file": "assets/images/explodegold.png",
+      "bytes": 1021,
+      "sourceSha256": "0f395518b78779afd17a1c7ed2adcc04e80302363b73445e4247f6601269624e",
+      "sha256": "62d4f57f857466b2b8b2a77d31fdc236a8718ea31c430fcb6a4bb3fd91364e13",
+      "width": 96,
+      "height": 20,
+      "mode": "P",
+      "alpha": true,
+      "chunks": [
+        "IHDR",
+        "PLTE",
+        "tRNS",
+        "IDAT",
+        "IEND"
+      ],
+      "restoration": "replace first 4 bytes (big-endian source byte length) with 89 50 4E 47"
+    },
+    {
+      "kind": "image",
+      "source": "explodegoldx2.mg",
+      "original": "assets/original/explodegoldx2.mg",
+      "file": "assets/images/explodegoldx2.png",
+      "bytes": 1127,
+      "sourceSha256": "ae2db76b3541016c7ffb1deac2bb3261dd19bd8975a0bae3fd74d5c093f986f3",
+      "sha256": "17691cc3dda1cc81ff834af25dfacfc4f92a85626cc64a87a5f93f4014dcf362",
+      "width": 120,
+      "height": 30,
+      "mode": "P",
+      "alpha": true,
+      "chunks": [
+        "IHDR",
+        "PLTE",
+        "tRNS",
+        "IDAT",
+        "IEND"
+      ],
+      "restoration": "replace first 4 bytes (big-endian source byte length) with 89 50 4E 47"
+    },
+    {
+      "kind": "image",
+      "source": "explodeheart.mg",
+      "original": "assets/original/explodeheart.mg",
+      "file": "assets/images/explodeheart.png",
+      "bytes": 215,
+      "sourceSha256": "174ddc09f0b433e46a021c33d18ad2096cd73b65f01b2aba369b0d4cc465d0c4",
+      "sha256": "f71dfdeacdf39c6455f8b56f34f83cce4ffc7772d85eff41b7ea2a3f7f887443",
+      "width": 44,
+      "height": 10,
+      "mode": "P",
+      "alpha": true,
+      "chunks": [
+        "IHDR",
+        "PLTE",
+        "tRNS",
+        "IDAT",
+        "IEND"
+      ],
+      "restoration": "replace first 4 bytes (big-endian source byte length) with 89 50 4E 47"
+    },
+    {
+      "kind": "image",
+      "source": "explodeheartx2.mg",
+      "original": "assets/original/explodeheartx2.mg",
+      "file": "assets/images/explodeheartx2.png",
+      "bytes": 1072,
+      "sourceSha256": "43fbb8e66bc6bc97beee699155ede0a9ed3868c0940a1713c9f1a1102eb0d2e3",
+      "sha256": "c10789147140318fa42ef8ba38ea0a6fe6082174d5c8fc88d3262822bcfd2fdd",
+      "width": 112,
+      "height": 25,
+      "mode": "P",
+      "alpha": true,
+      "chunks": [
+        "IHDR",
+        "PLTE",
+        "tRNS",
+        "IDAT",
+        "IEND"
+      ],
+      "restoration": "replace first 4 bytes (big-endian source byte length) with 89 50 4E 47"
+    },
+    {
+      "kind": "image",
+      "source": "exploderice.mg",
+      "original": "assets/original/exploderice.mg",
+      "file": "assets/images/exploderice.png",
+      "bytes": 800,
+      "sourceSha256": "0b17cb104819261c52ae6393bf1eeba88b0dd66dbe152c7497712b58fcd50883",
+      "sha256": "6ec8b3ed217f7b6450c17e36f5222a0371c02a134cb3279364c4efafe514693f",
+      "width": 120,
+      "height": 30,
+      "mode": "P",
+      "alpha": true,
+      "chunks": [
+        "IHDR",
+        "PLTE",
+        "tRNS",
+        "IDAT",
+        "IEND"
+      ],
+      "restoration": "replace first 4 bytes (big-endian source byte length) with 89 50 4E 47"
+    },
+    {
+      "kind": "image",
+      "source": "explodericex2.mg",
+      "original": "assets/original/explodericex2.mg",
+      "file": "assets/images/explodericex2.png",
+      "bytes": 858,
+      "sourceSha256": "f750f303160b86e13a4d058f95f5343c05c0dd31109bba6f428a0a2075267c37",
+      "sha256": "3848d56be6e22f64e1d6d8ab117673ca5314a2663627c18dd341998cc4b44a5d",
+      "width": 108,
+      "height": 27,
+      "mode": "P",
+      "alpha": true,
+      "chunks": [
+        "IHDR",
+        "PLTE",
+        "tRNS",
+        "IDAT",
+        "IEND"
+      ],
+      "restoration": "replace first 4 bytes (big-endian source byte length) with 89 50 4E 47"
+    },
+    {
+      "kind": "image",
+      "source": "explodesword.mg",
+      "original": "assets/original/explodesword.mg",
+      "file": "assets/images/explodesword.png",
+      "bytes": 207,
+      "sourceSha256": "c911258baaa1fb41b95fbea0505fa75f4c910ab50bce158b2e60932d8036ef56",
+      "sha256": "ca489fd872b1aafb92190d3b9deb79737d638d0788ca3813645777621d53bda8",
+      "width": 68,
+      "height": 17,
+      "mode": "P",
+      "alpha": true,
+      "chunks": [
+        "IHDR",
+        "PLTE",
+        "tRNS",
+        "IDAT",
+        "IEND"
+      ],
+      "restoration": "replace first 4 bytes (big-endian source byte length) with 89 50 4E 47"
+    },
+    {
+      "kind": "image",
+      "source": "explodeyinyang.mg",
+      "original": "assets/original/explodeyinyang.mg",
+      "file": "assets/images/explodeyinyang.png",
+      "bytes": 768,
+      "sourceSha256": "1871c1d45c863fcc3c467701890805645b5b6530d40cddfb926f6f8dbf3fde89",
+      "sha256": "ead56cccedec4ddb39dc2abce9c8380f308402934a8073deb6985fd3b31dcb19",
+      "width": 76,
+      "height": 18,
+      "mode": "P",
+      "alpha": true,
+      "chunks": [
+        "IHDR",
+        "PLTE",
+        "tRNS",
+        "IDAT",
+        "IEND"
+      ],
+      "restoration": "replace first 4 bytes (big-endian source byte length) with 89 50 4E 47"
+    },
+    {
+      "kind": "image",
+      "source": "explodeyinyangx2.mg",
+      "original": "assets/original/explodeyinyangx2.mg",
+      "file": "assets/images/explodeyinyangx2.png",
+      "bytes": 1276,
+      "sourceSha256": "d9473c430649ccf3060041c43d40d533abea39bb407fe198a53b96d456c2d96f",
+      "sha256": "82eef9c4c109faf2f768b185c653b114d8e4af2e39159f5482172013448fbf2a",
+      "width": 133,
+      "height": 32,
+      "mode": "P",
+      "alpha": true,
+      "chunks": [
+        "IHDR",
+        "PLTE",
+        "tRNS",
+        "IDAT",
+        "IEND"
+      ],
+      "restoration": "replace first 4 bytes (big-endian source byte length) with 89 50 4E 47"
+    },
+    {
+      "kind": "image",
+      "source": "f/ari_b.mg",
+      "original": "assets/original/f/ari_b.mg",
+      "file": "assets/images/f/ari_b.png",
+      "bytes": 1097,
+      "sourceSha256": "6be4231d850e4d75c0256356ca6fa8fdf07668b857ed74aa72b4b8d3c9b7b330",
+      "sha256": "514e7779c125ecb4897e60427825233b9e849a5e5a96014e71422f535ee5db57",
+      "width": 1189,
+      "height": 14,
+      "mode": "P",
+      "alpha": true,
+      "chunks": [
+        "IHDR",
+        "PLTE",
+        "tRNS",
+        "IDAT",
+        "IEND"
+      ],
+      "restoration": "replace first 4 bytes (big-endian source byte length) with 89 50 4E 47"
+    },
+    {
+      "kind": "image",
+      "source": "f/divide.mg",
+      "original": "assets/original/f/divide.mg",
+      "file": "assets/images/f/divide.png",
+      "bytes": 123,
+      "sourceSha256": "935ef3ee17e647cb6efee741ade5e5fcc247349ce0644ff1d98573e2704c68da",
+      "sha256": "c0816ea875009f7f71f1da2971c97f7fbf1dc96b628a6d064a9c8cd992b8eb6a",
+      "width": 6,
+      "height": 10,
+      "mode": "P",
+      "alpha": true,
+      "chunks": [
+        "IHDR",
+        "PLTE",
+        "tRNS",
+        "IDAT",
+        "IEND"
+      ],
+      "restoration": "replace first 4 bytes (big-endian source byte length) with 89 50 4E 47"
+    },
+    {
+      "kind": "image",
+      "source": "f/nb.mg",
+      "original": "assets/original/f/nb.mg",
+      "file": "assets/images/f/nb.png",
+      "bytes": 224,
+      "sourceSha256": "d23d24b6beb00e9ef8d73400094eeb207c60738582fbf9dbc687f7ee05bea13b",
+      "sha256": "9aee7043a669852ed816b8eccd1f75c67634ee27358ec723dc1c1d9a1595f3b3",
+      "width": 68,
+      "height": 10,
+      "mode": "P",
+      "alpha": true,
+      "chunks": [
+        "IHDR",
+        "PLTE",
+        "tRNS",
+        "IDAT",
+        "IEND"
+      ],
+      "restoration": "replace first 4 bytes (big-endian source byte length) with 89 50 4E 47"
+    },
+    {
+      "kind": "image",
+      "source": "fireball.mg",
+      "original": "assets/original/fireball.mg",
+      "file": "assets/images/fireball.png",
+      "bytes": 3058,
+      "sourceSha256": "8d5521457cbe257cb2c902dd0039e3a60c0ee46ca836ab3cc5bc140ad9d23c9d",
+      "sha256": "bdb83ee3baed0fc5c4c149444df2b8d64cb2b6970166d2d0dffa63400a98e075",
+      "width": 549,
+      "height": 49,
+      "mode": "P",
+      "alpha": true,
+      "chunks": [
+        "IHDR",
+        "PLTE",
+        "tRNS",
+        "IDAT",
+        "IEND"
+      ],
+      "restoration": "replace first 4 bytes (big-endian source byte length) with 89 50 4E 47"
+    },
+    {
+      "kind": "image",
+      "source": "fireballicon.mg",
+      "original": "assets/original/fireballicon.mg",
+      "file": "assets/images/fireballicon.png",
+      "bytes": 680,
+      "sourceSha256": "a9fc8d4240f9d6e2daae8667d4b105936b54f61362455e0a4120a6b21f4cc779",
+      "sha256": "ad6c320be590ae6a453c2a8f8363f9108c37e8459db7caef21897170a491265c",
+      "width": 30,
+      "height": 30,
+      "mode": "P",
+      "alpha": false,
+      "chunks": [
+        "IHDR",
+        "PLTE",
+        "IDAT",
+        "IEND"
+      ],
+      "restoration": "replace first 4 bytes (big-endian source byte length) with 89 50 4E 47"
+    },
+    {
+      "kind": "image",
+      "source": "focus1.mg",
+      "original": "assets/original/focus1.mg",
+      "file": "assets/images/focus1.png",
+      "bytes": 139,
+      "sourceSha256": "da15a1ece33e66893c6481ac8828e850ab207934f12d08564a69cb08d00bf666",
+      "sha256": "3f29e24d64ff7a71fcbfdf0e41a2300bc5f52c7c208c291ae9373dd259e58ce6",
+      "width": 26,
+      "height": 26,
+      "mode": "P",
+      "alpha": true,
+      "chunks": [
+        "IHDR",
+        "PLTE",
+        "tRNS",
+        "IDAT",
+        "IEND"
+      ],
+      "restoration": "replace first 4 bytes (big-endian source byte length) with 89 50 4E 47"
+    },
+    {
+      "kind": "image",
+      "source": "focus2.mg",
+      "original": "assets/original/focus2.mg",
+      "file": "assets/images/focus2.png",
+      "bytes": 139,
+      "sourceSha256": "7566f11376f3cc289c569cfe83d9eff1dd02c5a25ac4dd7f53c02185be5603a3",
+      "sha256": "421a53d00f13019b618137203e9e9d45eb5bf23a71e5480fa0fec1c76b42ddae",
+      "width": 26,
+      "height": 26,
+      "mode": "P",
+      "alpha": true,
+      "chunks": [
+        "IHDR",
+        "PLTE",
+        "tRNS",
+        "IDAT",
+        "IEND"
+      ],
+      "restoration": "replace first 4 bytes (big-endian source byte length) with 89 50 4E 47"
+    },
+    {
+      "kind": "image",
+      "source": "focusitem.mg",
+      "original": "assets/original/focusitem.mg",
+      "file": "assets/images/focusitem.png",
+      "bytes": 270,
+      "sourceSha256": "d4e55a19e494e2ce658056941d6f4aa98c2481d7ee96bfbc14937b9093de99ac",
+      "sha256": "489ec87bb7ef792301265b8a47f312660087d0d5a617e6bbba6b7b336536d911",
+      "width": 72,
+      "height": 36,
+      "mode": "P",
+      "alpha": false,
+      "chunks": [
+        "IHDR",
+        "PLTE",
+        "IDAT",
+        "IEND"
+      ],
+      "restoration": "replace first 4 bytes (big-endian source byte length) with 89 50 4E 47"
+    },
+    {
+      "kind": "image",
+      "source": "food.mg",
+      "original": "assets/original/food.mg",
+      "file": "assets/images/food.png",
+      "bytes": 146,
+      "sourceSha256": "31ed4663fead1edddf9b32ec14c60946a5b2375ba5bef38ccb84cd65e2b22d11",
+      "sha256": "17f0b4e7fc70c4cd50fa541322895b65cb6abb8ea2cd320d959cca0d5574bed3",
+      "width": 42,
+      "height": 8,
+      "mode": "P",
+      "alpha": true,
+      "chunks": [
+        "IHDR",
+        "PLTE",
+        "tRNS",
+        "IDAT",
+        "IEND"
+      ],
+      "restoration": "replace first 4 bytes (big-endian source byte length) with 89 50 4E 47"
+    },
+    {
+      "kind": "image",
+      "source": "frame1.mg",
+      "original": "assets/original/frame1.mg",
+      "file": "assets/images/frame1.png",
+      "bytes": 581,
+      "sourceSha256": "892fd3f38f2b9f2e5cfbd819e06ef12d6e9506ac494c3887df8ae3fa6914d4d4",
+      "sha256": "5b21fa29d25cab7963d1b81d3710419e18d8790d473d20ccef456b17a50b4643",
+      "width": 176,
+      "height": 28,
+      "mode": "P",
+      "alpha": true,
+      "chunks": [
+        "IHDR",
+        "PLTE",
+        "tRNS",
+        "IDAT",
+        "IEND"
+      ],
+      "restoration": "replace first 4 bytes (big-endian source byte length) with 89 50 4E 47"
+    },
+    {
+      "kind": "image",
+      "source": "frame2.mg",
+      "original": "assets/original/frame2.mg",
+      "file": "assets/images/frame2.png",
+      "bytes": 177,
+      "sourceSha256": "ecaf06878d09c17738ccd547c234495cd9218bff949611fa307f8d30d7e3406c",
+      "sha256": "114e2cada63325622c0cdf9f708b17a622eca7ff97fbd6d6507afd510a65e1b8",
+      "width": 3,
+      "height": 79,
+      "mode": "P",
+      "alpha": true,
+      "chunks": [
+        "IHDR",
+        "PLTE",
+        "tRNS",
+        "IDAT",
+        "IEND"
+      ],
+      "restoration": "replace first 4 bytes (big-endian source byte length) with 89 50 4E 47"
+    },
+    {
+      "kind": "image",
+      "source": "frame3.mg",
+      "original": "assets/original/frame3.mg",
+      "file": "assets/images/frame3.png",
+      "bytes": 164,
+      "sourceSha256": "c35b2b08b153cee9d9b8b40c5c486b9ceb720888e0f349e8520c12830279c2b4",
+      "sha256": "c1c241b5bebb0030411ffb5cce260665b02d7906a6d754335e23b074b426495c",
+      "width": 160,
+      "height": 7,
+      "mode": "P",
+      "alpha": true,
+      "chunks": [
+        "IHDR",
+        "PLTE",
+        "tRNS",
+        "IDAT",
+        "IEND"
+      ],
+      "restoration": "replace first 4 bytes (big-endian source byte length) with 89 50 4E 47"
+    },
+    {
+      "kind": "image",
+      "source": "frozen.mg",
+      "original": "assets/original/frozen.mg",
+      "file": "assets/images/frozen.png",
+      "bytes": 2524,
+      "sourceSha256": "58a2d2e7c8a039c6af7c5fd14d908f140291aad994c571b957c591d9ca0ef5fd",
+      "sha256": "d32b1d921aafac2d715db4a909dc54f073803ced4b42bad85d191bc3d2c96793",
+      "width": 450,
+      "height": 50,
+      "mode": "P",
+      "alpha": true,
+      "chunks": [
+        "IHDR",
+        "PLTE",
+        "tRNS",
+        "IDAT",
+        "IEND"
+      ],
+      "restoration": "replace first 4 bytes (big-endian source byte length) with 89 50 4E 47"
+    },
+    {
+      "kind": "image",
+      "source": "frozenicon.mg",
+      "original": "assets/original/frozenicon.mg",
+      "file": "assets/images/frozenicon.png",
+      "bytes": 781,
+      "sourceSha256": "9ae199d51d944b712941149304d7d29a36b8deade67b885db0b048ac5084b7db",
+      "sha256": "19ae9e28ad6a3c721cf97d69f0c6f82622ce17b0f232d7a931dd2f045aefb429",
+      "width": 30,
+      "height": 30,
+      "mode": "P",
+      "alpha": false,
+      "chunks": [
+        "IHDR",
+        "PLTE",
+        "IDAT",
+        "IEND"
+      ],
+      "restoration": "replace first 4 bytes (big-endian source byte length) with 89 50 4E 47"
+    },
+    {
+      "kind": "image",
+      "source": "gold.mg",
+      "original": "assets/original/gold.mg",
+      "file": "assets/images/gold.png",
+      "bytes": 203,
+      "sourceSha256": "c2389ba13de5c93455bfed805cdfaaeed09f8bc83c3bdc82ae962b668bd79265",
+      "sha256": "f6b0b00e0eb0e41e30c358f2546625b72d082195c2ca31ccb54f23c6fae18997",
+      "width": 22,
+      "height": 22,
+      "mode": "P",
+      "alpha": true,
+      "chunks": [
+        "IHDR",
+        "PLTE",
+        "tRNS",
+        "IDAT",
+        "IEND"
+      ],
+      "restoration": "replace first 4 bytes (big-endian source byte length) with 89 50 4E 47"
+    },
+    {
+      "kind": "image",
+      "source": "healing.mg",
+      "original": "assets/original/healing.mg",
+      "file": "assets/images/healing.png",
+      "bytes": 1046,
+      "sourceSha256": "4c559031a3c5015683e292273ad6ce4fee5317e97117b2befd81557720aeac6a",
+      "sha256": "c4dee2f4435dada7e3a5ad8db5bcc419ab575b36e772e6d04ac68b08fc69a932",
+      "width": 120,
+      "height": 40,
+      "mode": "P",
+      "alpha": true,
+      "chunks": [
+        "IHDR",
+        "PLTE",
+        "tRNS",
+        "IDAT",
+        "IEND"
+      ],
+      "restoration": "replace first 4 bytes (big-endian source byte length) with 89 50 4E 47"
+    },
+    {
+      "kind": "image",
+      "source": "healingicon.mg",
+      "original": "assets/original/healingicon.mg",
+      "file": "assets/images/healingicon.png",
+      "bytes": 875,
+      "sourceSha256": "b89421c58c42ddd4fab34d9c15a2a71277085f896113c67608db634abe869c6f",
+      "sha256": "ca20dba08cb1b75d5ccbfdcdb5584a9c86e3713466924bd0587baca8aaa825ff",
+      "width": 30,
+      "height": 30,
+      "mode": "P",
+      "alpha": false,
+      "chunks": [
+        "IHDR",
+        "PLTE",
+        "IDAT",
+        "IEND"
+      ],
+      "restoration": "replace first 4 bytes (big-endian source byte length) with 89 50 4E 47"
+    },
+    {
+      "kind": "image",
+      "source": "heart.mg",
+      "original": "assets/original/heart.mg",
+      "file": "assets/images/heart.png",
+      "bytes": 228,
+      "sourceSha256": "1f034cb0a0cdd74715ea29f4b00e8e2d43a1f543c72b0c31c6006d1cb723431d",
+      "sha256": "8ad848feebc7adfd0ce5f8ee007699d4c1ab9106079a54ce66db3f72f074e84a",
+      "width": 22,
+      "height": 22,
+      "mode": "P",
+      "alpha": true,
+      "chunks": [
+        "IHDR",
+        "PLTE",
+        "tRNS",
+        "IDAT",
+        "IEND"
+      ],
+      "restoration": "replace first 4 bytes (big-endian source byte length) with 89 50 4E 47"
+    },
+    {
+      "kind": "image",
+      "source": "hellfire.mg",
+      "original": "assets/original/hellfire.mg",
+      "file": "assets/images/hellfire.png",
+      "bytes": 2936,
+      "sourceSha256": "788b67ac9f932b4b9e09c2a15b876942c0b9095378b5c62c757cfe58aba58b14",
+      "sha256": "7cbd07f20b357c9b0f6e8f4c1edd3cd2737738970da694dc9088e15937977a70",
+      "width": 308,
+      "height": 59,
+      "mode": "P",
+      "alpha": true,
+      "chunks": [
+        "IHDR",
+        "PLTE",
+        "tRNS",
+        "IDAT",
+        "IEND"
+      ],
+      "restoration": "replace first 4 bytes (big-endian source byte length) with 89 50 4E 47"
+    },
+    {
+      "kind": "image",
+      "source": "hellfireicon.mg",
+      "original": "assets/original/hellfireicon.mg",
+      "file": "assets/images/hellfireicon.png",
+      "bytes": 852,
+      "sourceSha256": "520b0c2d912dfdf823781dd59da2e26b1b0df7709a27d6b6408d30b960d396ab",
+      "sha256": "9abe64bce83db2edfa9278bd21b8788497afc3eb2d06920333c2191e28aa47bd",
+      "width": 30,
+      "height": 30,
+      "mode": "P",
+      "alpha": false,
+      "chunks": [
+        "IHDR",
+        "PLTE",
+        "IDAT",
+        "IEND"
+      ],
+      "restoration": "replace first 4 bytes (big-endian source byte length) with 89 50 4E 47"
+    },
+    {
+      "kind": "image",
+      "source": "icebolt.mg",
+      "original": "assets/original/icebolt.mg",
+      "file": "assets/images/icebolt.png",
+      "bytes": 615,
+      "sourceSha256": "bcc13badaaafbcf53bb156eb9abd62102f578d368c348dfbed4bc7a0c5dd89be",
+      "sha256": "425efa9a73ed10a6991a564ffb29bd9f9b2fcebd6bf0eea9bedb2f0ec7abce88",
+      "width": 100,
+      "height": 40,
+      "mode": "P",
+      "alpha": true,
+      "chunks": [
+        "IHDR",
+        "PLTE",
+        "tRNS",
+        "IDAT",
+        "IEND"
+      ],
+      "restoration": "replace first 4 bytes (big-endian source byte length) with 89 50 4E 47"
+    },
+    {
+      "kind": "image",
+      "source": "icebolticon.mg",
+      "original": "assets/original/icebolticon.mg",
+      "file": "assets/images/icebolticon.png",
+      "bytes": 833,
+      "sourceSha256": "cfcac220c1747ffb61ee34e49df239883b07782e9156e269b3880fb1b085cd9b",
+      "sha256": "cd6160926e646460681d631a597f61da1d91ec9a6734e1ea75e7a5255a885f20",
+      "width": 30,
+      "height": 30,
+      "mode": "P",
+      "alpha": false,
+      "chunks": [
+        "IHDR",
+        "PLTE",
+        "IDAT",
+        "IEND"
+      ],
+      "restoration": "replace first 4 bytes (big-endian source byte length) with 89 50 4E 47"
+    },
+    {
+      "kind": "image",
+      "source": "icon.png",
+      "original": "assets/original/icon.png",
+      "file": "assets/images/icon.png",
+      "bytes": 361,
+      "sourceSha256": "8fcbf8c2683f9d16fc2f657e919081b33beffb05e37a8c10fcf6997a3b73e8ba",
+      "sha256": "8fcbf8c2683f9d16fc2f657e919081b33beffb05e37a8c10fcf6997a3b73e8ba",
+      "width": 30,
+      "height": 30,
+      "mode": "P",
+      "alpha": true,
+      "chunks": [
+        "IHDR",
+        "PLTE",
+        "tRNS",
+        "IDAT",
+        "IEND"
+      ],
+      "restoration": "original PNG"
+    },
+    {
+      "kind": "image",
+      "source": "itemshops.mg",
+      "original": "assets/original/itemshops.mg",
+      "file": "assets/images/itemshops.png",
+      "bytes": 1673,
+      "sourceSha256": "aa7926e833eab59f0f0e799c2105b903f929d19cf680146110df5451975cf914",
+      "sha256": "39db357263cf4daa8feee057560fafaf453eb2f693d8ce0571230829bae98292",
+      "width": 168,
+      "height": 28,
+      "mode": "P",
+      "alpha": true,
+      "chunks": [
+        "IHDR",
+        "PLTE",
+        "tRNS",
+        "IDAT",
+        "IEND"
+      ],
+      "restoration": "replace first 4 bytes (big-endian source byte length) with 89 50 4E 47"
+    },
+    {
+      "kind": "image",
+      "source": "m/af.mg",
+      "original": "assets/original/m/af.mg",
+      "file": "assets/images/m/af.png",
+      "bytes": 165,
+      "sourceSha256": "1727a6f3d810889d6d11bd6682f959b98fc8d55f0ffb3500ff7b3882fbeddd47",
+      "sha256": "3d19e99dcff6c00da671a2dad17c900d936980a790dd0e974c0f67527ffa316c",
+      "width": 34,
+      "height": 34,
+      "mode": "P",
+      "alpha": true,
+      "chunks": [
+        "IHDR",
+        "PLTE",
+        "tRNS",
+        "IDAT",
+        "IEND"
+      ],
+      "restoration": "replace first 4 bytes (big-endian source byte length) with 89 50 4E 47"
+    },
+    {
+      "kind": "image",
+      "source": "m/ar.mg",
+      "original": "assets/original/m/ar.mg",
+      "file": "assets/images/m/ar.png",
+      "bytes": 195,
+      "sourceSha256": "e1d240f9b704ec5ed7050538a402934f87b5907bcfca7ce3a8063b3bbb7ca553",
+      "sha256": "3074a2908af5568cdb5e8f1ec21257c497d8b9d5f8bee290dadc8a5bd255343e",
+      "width": 72,
+      "height": 19,
+      "mode": "P",
+      "alpha": true,
+      "chunks": [
+        "IHDR",
+        "PLTE",
+        "tRNS",
+        "IDAT",
+        "IEND"
+      ],
+      "restoration": "replace first 4 bytes (big-endian source byte length) with 89 50 4E 47"
+    },
+    {
+      "kind": "image",
+      "source": "m/b.mg",
+      "original": "assets/original/m/b.mg",
+      "file": "assets/images/m/b.png",
+      "bytes": 120,
+      "sourceSha256": "f10784122eb85da90f7d8de5b9ecabea8954f8cd356471aaf1781072aca21253",
+      "sha256": "b308b9987083a92b1698ba1765a193ae463fc2e9b14fb5dee6f60e2cde227a24",
+      "width": 30,
+      "height": 30,
+      "mode": "P",
+      "alpha": true,
+      "chunks": [
+        "IHDR",
+        "PLTE",
+        "tRNS",
+        "IDAT",
+        "IEND"
+      ],
+      "restoration": "replace first 4 bytes (big-endian source byte length) with 89 50 4E 47"
+    },
+    {
+      "kind": "image",
+      "source": "m/bl.mg",
+      "original": "assets/original/m/bl.mg",
+      "file": "assets/images/m/bl.png",
+      "bytes": 159,
+      "sourceSha256": "e8a63ef1f3eff2461b2515d495186869ee0a16689b66e3c0034c2b1a4150ed25",
+      "sha256": "6f398f36226b82fc172358129163430017fbf7c56ea2257b078acf67cb5badce",
+      "width": 110,
+      "height": 16,
+      "mode": "P",
+      "alpha": true,
+      "chunks": [
+        "IHDR",
+        "PLTE",
+        "tRNS",
+        "IDAT",
+        "IEND"
+      ],
+      "restoration": "replace first 4 bytes (big-endian source byte length) with 89 50 4E 47"
+    },
+    {
+      "kind": "image",
+      "source": "m/e1.mg",
+      "original": "assets/original/m/e1.mg",
+      "file": "assets/images/m/e1.png",
+      "bytes": 4674,
+      "sourceSha256": "3fdeeed4b47235b75307acc48b1fc61de6a3609cd7238b5569cdf2ff3b2ae0e9",
+      "sha256": "33f3ba33b6af3b7a87dfaaa893c9f4a4739f5504afed4d2cb4e74a0aa3e09035",
+      "width": 240,
+      "height": 150,
+      "mode": "P",
+      "alpha": true,
+      "chunks": [
+        "IHDR",
+        "PLTE",
+        "tRNS",
+        "IDAT",
+        "IEND"
+      ],
+      "restoration": "replace first 4 bytes (big-endian source byte length) with 89 50 4E 47"
+    },
+    {
+      "kind": "image",
+      "source": "m/e2.mg",
+      "original": "assets/original/m/e2.mg",
+      "file": "assets/images/m/e2.png",
+      "bytes": 1824,
+      "sourceSha256": "ecac610cae03f87494f1ecbee43e987262adb164f14d025b408af1ebef67ea31",
+      "sha256": "61a010ce39555c947e6437324ad74aaad42da244d89eb990781f58b1d7777db7",
+      "width": 102,
+      "height": 75,
+      "mode": "P",
+      "alpha": true,
+      "chunks": [
+        "IHDR",
+        "PLTE",
+        "tRNS",
+        "IDAT",
+        "IEND"
+      ],
+      "restoration": "replace first 4 bytes (big-endian source byte length) with 89 50 4E 47"
+    },
+    {
+      "kind": "image",
+      "source": "m/ff.mg",
+      "original": "assets/original/m/ff.mg",
+      "file": "assets/images/m/ff.png",
+      "bytes": 299,
+      "sourceSha256": "3087ad313440efbf0d50981a978896f4a6e1ba92ec62a2133d9b0693ccc52d79",
+      "sha256": "99c49fd284983d6b715d21de713e4ca616ebd628cec16e55afa040dded265726",
+      "width": 170,
+      "height": 64,
+      "mode": "P",
+      "alpha": true,
+      "chunks": [
+        "IHDR",
+        "PLTE",
+        "tRNS",
+        "IDAT",
+        "IEND"
+      ],
+      "restoration": "replace first 4 bytes (big-endian source byte length) with 89 50 4E 47"
+    },
+    {
+      "kind": "image",
+      "source": "m/fsw.mg",
+      "original": "assets/original/m/fsw.mg",
+      "file": "assets/images/m/fsw.png",
+      "bytes": 193,
+      "sourceSha256": "7577a20ee4c0b1ebd2e405546101e321f6f23ac7b18c075e4c1e2e59999dddeb",
+      "sha256": "cc0ecf7c9c0a7be50c1a8c4e4dec46c0f93b6bcf6df00399d9c829f5a07b58ca",
+      "width": 24,
+      "height": 24,
+      "mode": "P",
+      "alpha": true,
+      "chunks": [
+        "IHDR",
+        "PLTE",
+        "tRNS",
+        "IDAT",
+        "IEND"
+      ],
+      "restoration": "replace first 4 bytes (big-endian source byte length) with 89 50 4E 47"
+    },
+    {
+      "kind": "image",
+      "source": "m/g.mg",
+      "original": "assets/original/m/g.mg",
+      "file": "assets/images/m/g.png",
+      "bytes": 395,
+      "sourceSha256": "b4f9cabbd6e91b869c73153b124823cee26ea4b0a8f99fbe915f2d857503ea6c",
+      "sha256": "e94e585acec88902c6f3991d43c959b813211e49260d95393f5bea0152e0f05e",
+      "width": 150,
+      "height": 30,
+      "mode": "P",
+      "alpha": true,
+      "chunks": [
+        "IHDR",
+        "PLTE",
+        "tRNS",
+        "IDAT",
+        "IEND"
+      ],
+      "restoration": "replace first 4 bytes (big-endian source byte length) with 89 50 4E 47"
+    },
+    {
+      "kind": "image",
+      "source": "m/hm.mg",
+      "original": "assets/original/m/hm.mg",
+      "file": "assets/images/m/hm.png",
+      "bytes": 205,
+      "sourceSha256": "b62568c24c6afa9254e8bb76e7ae12abf15edaafa6915245ddb46bdf6978f1e0",
+      "sha256": "ccbdb6f1c1e878858e407c0b363e06cd47862223b957350e8dbd1dd018cd9ed4",
+      "width": 13,
+      "height": 17,
+      "mode": "P",
+      "alpha": true,
+      "chunks": [
+        "IHDR",
+        "PLTE",
+        "tRNS",
+        "IDAT",
+        "IEND"
+      ],
+      "restoration": "replace first 4 bytes (big-endian source byte length) with 89 50 4E 47"
+    },
+    {
+      "kind": "image",
+      "source": "m/ih.mg",
+      "original": "assets/original/m/ih.mg",
+      "file": "assets/images/m/ih.png",
+      "bytes": 400,
+      "sourceSha256": "d268cb8f478d4e88e07497a9b4608fcd7b1a90bc776aae0699a2b2e1a2bf2c7d",
+      "sha256": "67d7229822357f8c4088be9783ec259cc449a8ad7086e5d7c1b181e6c0df8e8a",
+      "width": 14,
+      "height": 14,
+      "mode": "P",
+      "alpha": true,
+      "chunks": [
+        "IHDR",
+        "PLTE",
+        "tRNS",
+        "IDAT",
+        "IEND"
+      ],
+      "restoration": "replace first 4 bytes (big-endian source byte length) with 89 50 4E 47"
+    },
+    {
+      "kind": "image",
+      "source": "m/isw.mg",
+      "original": "assets/original/m/isw.mg",
+      "file": "assets/images/m/isw.png",
+      "bytes": 268,
+      "sourceSha256": "658aff09037fc16daa14001a4cced3c5480b776674bbad1d2bae6af7a59bd66c",
+      "sha256": "5227f3e31fef60c9cd0da3c747aa61dc9ff056325231568433bff3b8d592be38",
+      "width": 14,
+      "height": 14,
+      "mode": "P",
+      "alpha": true,
+      "chunks": [
+        "IHDR",
+        "PLTE",
+        "tRNS",
+        "IDAT",
+        "IEND"
+      ],
+      "restoration": "replace first 4 bytes (big-endian source byte length) with 89 50 4E 47"
+    },
+    {
+      "kind": "image",
+      "source": "m/l.mg",
+      "original": "assets/original/m/l.mg",
+      "file": "assets/images/m/l.png",
+      "bytes": 156,
+      "sourceSha256": "ecf95b45c74e605b6a42c30913703e9a21cf1f7e3954c29ae593df1bd821f756",
+      "sha256": "a3abf900ce0541f4ea2f920f1bccf29562615bb477c54df898e74218ec0bd106",
+      "width": 11,
+      "height": 11,
+      "mode": "P",
+      "alpha": true,
+      "chunks": [
+        "IHDR",
+        "PLTE",
+        "tRNS",
+        "IDAT",
+        "IEND"
+      ],
+      "restoration": "replace first 4 bytes (big-endian source byte length) with 89 50 4E 47"
+    },
+    {
+      "kind": "image",
+      "source": "m/lock.mg",
+      "original": "assets/original/m/lock.mg",
+      "file": "assets/images/m/lock.png",
+      "bytes": 182,
+      "sourceSha256": "6693989430264f8b6c3d39faf02198af0bbfc3aa8bdbcf639788e47e596fe901",
+      "sha256": "5a3109824053c330f3143162625062f24a41d2e0ec6d201458187588ec6eac79",
+      "width": 16,
+      "height": 16,
+      "mode": "P",
+      "alpha": true,
+      "chunks": [
+        "IHDR",
+        "PLTE",
+        "tRNS",
+        "IDAT",
+        "IEND"
+      ],
+      "restoration": "replace first 4 bytes (big-endian source byte length) with 89 50 4E 47"
+    },
+    {
+      "kind": "image",
+      "source": "m/lv.mg",
+      "original": "assets/original/m/lv.mg",
+      "file": "assets/images/m/lv.png",
+      "bytes": 159,
+      "sourceSha256": "4ec53b164aa7264e55dc9f0634099d8dca293d4b3f2db08d3624b4197900da8d",
+      "sha256": "6c2de43975abccb28eaaddf9f90177b3375743868cd7ea26afafddbe699ffd29",
+      "width": 110,
+      "height": 16,
+      "mode": "P",
+      "alpha": true,
+      "chunks": [
+        "IHDR",
+        "PLTE",
+        "tRNS",
+        "IDAT",
+        "IEND"
+      ],
+      "restoration": "replace first 4 bytes (big-endian source byte length) with 89 50 4E 47"
+    },
+    {
+      "kind": "image",
+      "source": "m/m.mg",
+      "original": "assets/original/m/m.mg",
+      "file": "assets/images/m/m.png",
+      "bytes": 54305,
+      "sourceSha256": "840bb7c0827e1ca97ebc49d472cbf1bcb808d9ce12f35d6accf25ff6c1bf656f",
+      "sha256": "94a4859000b2111e0aed4728f6f0f53bad0bb509c25fe6f3917167aebf3bce4d",
+      "width": 380,
+      "height": 380,
+      "mode": "P",
+      "alpha": false,
+      "chunks": [
+        "IHDR",
+        "PLTE",
+        "IDAT",
+        "IEND"
+      ],
+      "restoration": "replace first 4 bytes (big-endian source byte length) with 89 50 4E 47"
+    },
+    {
+      "kind": "image",
+      "source": "m/mt1.mg",
+      "original": "assets/original/m/mt1.mg",
+      "file": "assets/images/m/mt1.png",
+      "bytes": 238,
+      "sourceSha256": "fa3af84a88937d36a72a4795c6a0cb8eb336908a36ea5285c504aaef9a5229d1",
+      "sha256": "7e8950e62043f8f741662dcf915494c56a8e7e90c5dec195efdee80e00d0c51f",
+      "width": 21,
+      "height": 24,
+      "mode": "P",
+      "alpha": true,
+      "chunks": [
+        "IHDR",
+        "PLTE",
+        "tRNS",
+        "IDAT",
+        "IEND"
+      ],
+      "restoration": "replace first 4 bytes (big-endian source byte length) with 89 50 4E 47"
+    },
+    {
+      "kind": "image",
+      "source": "m/r.mg",
+      "original": "assets/original/m/r.mg",
+      "file": "assets/images/m/r.png",
+      "bytes": 493,
+      "sourceSha256": "2a87bff4c0d5e228ecd378c3265d7c7f5156380fd2156ac929a673137de52173",
+      "sha256": "640b61a91fe64a185bf76455d7d79c707e53f16207e8269eadc3aa0789d55b94",
+      "width": 36,
+      "height": 9,
+      "mode": "P",
+      "alpha": true,
+      "chunks": [
+        "IHDR",
+        "PLTE",
+        "tRNS",
+        "IDAT",
+        "IEND"
+      ],
+      "restoration": "replace first 4 bytes (big-endian source byte length) with 89 50 4E 47"
+    },
+    {
+      "kind": "image",
+      "source": "m/sw.mg",
+      "original": "assets/original/m/sw.mg",
+      "file": "assets/images/m/sw.png",
+      "bytes": 349,
+      "sourceSha256": "257462ea2064b15355be820edc68c774fde3d3bc4ed8573b8c67980f20962514",
+      "sha256": "9bcffac604b1710210a4a9a925fe5c4def686efe009edd2f94fc65db3819cab1",
+      "width": 39,
+      "height": 30,
+      "mode": "P",
+      "alpha": true,
+      "chunks": [
+        "IHDR",
+        "PLTE",
+        "tRNS",
+        "IDAT",
+        "IEND"
+      ],
+      "restoration": "replace first 4 bytes (big-endian source byte length) with 89 50 4E 47"
+    },
+    {
+      "kind": "image",
+      "source": "m/vk.mg",
+      "original": "assets/original/m/vk.mg",
+      "file": "assets/images/m/vk.png",
+      "bytes": 401,
+      "sourceSha256": "0f5b3b2e8f38a62ab688d0bed01c8df904261e04aa5080415807795490777c9c",
+      "sha256": "120bb4a7cddb59367eabcf77021c0c5d9ede3932076b6d492f609cc363e90f60",
+      "width": 110,
+      "height": 55,
+      "mode": "P",
+      "alpha": true,
+      "chunks": [
+        "IHDR",
+        "PLTE",
+        "tRNS",
+        "IDAT",
+        "IEND"
+      ],
+      "restoration": "replace first 4 bytes (big-endian source byte length) with 89 50 4E 47"
+    },
+    {
+      "kind": "image",
+      "source": "mana.mg",
+      "original": "assets/original/mana.mg",
+      "file": "assets/images/mana.png",
+      "bytes": 212,
+      "sourceSha256": "8a3f481a6f8bc0bd3e05fa288031b142bb8ade77140a47b0172411848024d4b5",
+      "sha256": "5f5ee18635e315edceb89e8777cced697cd34a641c7d7df79a8646fa5a5b9aa6",
+      "width": 42,
+      "height": 8,
+      "mode": "P",
+      "alpha": true,
+      "chunks": [
+        "IHDR",
+        "PLTE",
+        "tRNS",
+        "IDAT",
+        "IEND"
+      ],
+      "restoration": "replace first 4 bytes (big-endian source byte length) with 89 50 4E 47"
+    },
+    {
+      "kind": "image",
+      "source": "meteoricon.mg",
+      "original": "assets/original/meteoricon.mg",
+      "file": "assets/images/meteoricon.png",
+      "bytes": 663,
+      "sourceSha256": "fe1152704374fb7a8e2a8ca6b24bacf71b0d1d90537bdc5a73a351c21118f349",
+      "sha256": "258c73febe5f35c5cd814efeebcddc7dbf9f71548373ec82be4074866e64f6bb",
+      "width": 30,
+      "height": 30,
+      "mode": "P",
+      "alpha": false,
+      "chunks": [
+        "IHDR",
+        "PLTE",
+        "IDAT",
+        "IEND"
+      ],
+      "restoration": "replace first 4 bytes (big-endian source byte length) with 89 50 4E 47"
+    },
+    {
+      "kind": "image",
+      "source": "numbersmall.mg",
+      "original": "assets/original/numbersmall.mg",
+      "file": "assets/images/numbersmall.png",
+      "bytes": 165,
+      "sourceSha256": "2cbc98787c812ea45a8f48a2521adbaac9edc5e9cb19cbe5cb31d024185f8f9e",
+      "sha256": "6f957d11d186b0d77f8362ae7ff690080dfbad745b78eecb1d7482ebffb244f5",
+      "width": 50,
+      "height": 7,
+      "mode": "P",
+      "alpha": true,
+      "chunks": [
+        "IHDR",
+        "PLTE",
+        "tRNS",
+        "IDAT",
+        "IEND"
+      ],
+      "restoration": "replace first 4 bytes (big-endian source byte length) with 89 50 4E 47"
+    },
+    {
+      "kind": "image",
+      "source": "powerattack.mg",
+      "original": "assets/original/powerattack.mg",
+      "file": "assets/images/powerattack.png",
+      "bytes": 1183,
+      "sourceSha256": "6c27c27fa681dad7e4b64f7067f2640f2fbed1df03301110cba5bb801abebde9",
+      "sha256": "365a96d8379382ad957245945c2872ae1e0473236b18d7731481487c9832c96e",
+      "width": 150,
+      "height": 42,
+      "mode": "P",
+      "alpha": true,
+      "chunks": [
+        "IHDR",
+        "PLTE",
+        "tRNS",
+        "IDAT",
+        "IEND"
+      ],
+      "restoration": "replace first 4 bytes (big-endian source byte length) with 89 50 4E 47"
+    },
+    {
+      "kind": "image",
+      "source": "r/1.mg",
+      "original": "assets/original/r/1.mg",
+      "file": "assets/images/r/1.png",
+      "bytes": 316,
+      "sourceSha256": "5a767b83875a387c6fbc37537b1dd4f9d9e4d0be1477c5f0ab8aa04f45e5e064",
+      "sha256": "41bd380fdd61223d42798f0e607ac61b307f02fafa6eec8c0b9231ae65fe1396",
+      "width": 28,
+      "height": 28,
+      "mode": "P",
+      "alpha": true,
+      "chunks": [
+        "IHDR",
+        "PLTE",
+        "tRNS",
+        "IDAT",
+        "IEND"
+      ],
+      "restoration": "replace first 4 bytes (big-endian source byte length) with 89 50 4E 47"
+    },
+    {
+      "kind": "image",
+      "source": "r/2.mg",
+      "original": "assets/original/r/2.mg",
+      "file": "assets/images/r/2.png",
+      "bytes": 439,
+      "sourceSha256": "b213bf950afbdf510844fab70bd38fbdd45148178b776e80a4fba30eb6e5b606",
+      "sha256": "977643d0c2241559e47396ec9b08fc2425a8e2eda14e7060850fc957999753ff",
+      "width": 28,
+      "height": 28,
+      "mode": "P",
+      "alpha": true,
+      "chunks": [
+        "IHDR",
+        "PLTE",
+        "tRNS",
+        "IDAT",
+        "IEND"
+      ],
+      "restoration": "replace first 4 bytes (big-endian source byte length) with 89 50 4E 47"
+    },
+    {
+      "kind": "image",
+      "source": "r/3.mg",
+      "original": "assets/original/r/3.mg",
+      "file": "assets/images/r/3.png",
+      "bytes": 349,
+      "sourceSha256": "f618fbccbbf013fb61de96b77099728351aa14824a26ad2e6e923b482e66be8b",
+      "sha256": "af184b3c58f1f8a5d071e804d8a1cc7356daa4eaba46588a73235a7d15dba297",
+      "width": 28,
+      "height": 28,
+      "mode": "P",
+      "alpha": true,
+      "chunks": [
+        "IHDR",
+        "PLTE",
+        "tRNS",
+        "IDAT",
+        "IEND"
+      ],
+      "restoration": "replace first 4 bytes (big-endian source byte length) with 89 50 4E 47"
+    },
+    {
+      "kind": "image",
+      "source": "r/4.mg",
+      "original": "assets/original/r/4.mg",
+      "file": "assets/images/r/4.png",
+      "bytes": 382,
+      "sourceSha256": "736f65f5fa2e2a8280ed564725e2a40b877a8d96120b93e1c3112c0bc8e62399",
+      "sha256": "2a16d9e788df63b2cac6e0e5de8d4310cebc62be817804716c81c784ae4d97ab",
+      "width": 28,
+      "height": 28,
+      "mode": "P",
+      "alpha": true,
+      "chunks": [
+        "IHDR",
+        "PLTE",
+        "tRNS",
+        "IDAT",
+        "IEND"
+      ],
+      "restoration": "replace first 4 bytes (big-endian source byte length) with 89 50 4E 47"
+    },
+    {
+      "kind": "image",
+      "source": "r/br.mg",
+      "original": "assets/original/r/br.mg",
+      "file": "assets/images/r/br.png",
+      "bytes": 705,
+      "sourceSha256": "7fefe4cc80eb47a440786c6c1077176b31abfb3608fcd0e56efc62f84869d1b8",
+      "sha256": "847bcca4c3f303f3b3165a8a62c81dbace73ba0086225ddf78484cf74da41201",
+      "width": 135,
+      "height": 102,
+      "mode": "P",
+      "alpha": true,
+      "chunks": [
+        "IHDR",
+        "PLTE",
+        "tRNS",
+        "IDAT",
+        "IEND"
+      ],
+      "restoration": "replace first 4 bytes (big-endian source byte length) with 89 50 4E 47"
+    },
+    {
+      "kind": "image",
+      "source": "r/g.mg",
+      "original": "assets/original/r/g.mg",
+      "file": "assets/images/r/g.png",
+      "bytes": 236,
+      "sourceSha256": "fcf31a5129332b73c8c897438d10bd5adf18e61d7b2c1b680a0e720278205aeb",
+      "sha256": "d0c92f77429c1ddb873e8dedc3201169ee0c036c4bc0c3dde8e2d8933c3c3345",
+      "width": 18,
+      "height": 19,
+      "mode": "P",
+      "alpha": true,
+      "chunks": [
+        "IHDR",
+        "PLTE",
+        "tRNS",
+        "IDAT",
+        "IEND"
+      ],
+      "restoration": "replace first 4 bytes (big-endian source byte length) with 89 50 4E 47"
+    },
+    {
+      "kind": "image",
+      "source": "r/q.mg",
+      "original": "assets/original/r/q.mg",
+      "file": "assets/images/r/q.png",
+      "bytes": 221,
+      "sourceSha256": "60efc926000eeeaf0d7f2c761526080ed939e5d42b7656a67baddbcd1e45fafa",
+      "sha256": "f87f592379158b197615867fdb3fc18bb8960cc45bac1a8f4690db223d02f8c9",
+      "width": 18,
+      "height": 19,
+      "mode": "P",
+      "alpha": true,
+      "chunks": [
+        "IHDR",
+        "PLTE",
+        "tRNS",
+        "IDAT",
+        "IEND"
+      ],
+      "restoration": "replace first 4 bytes (big-endian source byte length) with 89 50 4E 47"
+    },
+    {
+      "kind": "image",
+      "source": "rice.mg",
+      "original": "assets/original/rice.mg",
+      "file": "assets/images/rice.png",
+      "bytes": 272,
+      "sourceSha256": "3cc823aca571823856fdfbd0e16e897737778df655485b63589315abb9b9aff0",
+      "sha256": "b680b7e5f827fd91d51d93991d175fa02aefa03a9cfb4af2c219ace5c826bb48",
+      "width": 22,
+      "height": 22,
+      "mode": "P",
+      "alpha": true,
+      "chunks": [
+        "IHDR",
+        "PLTE",
+        "tRNS",
+        "IDAT",
+        "IEND"
+      ],
+      "restoration": "replace first 4 bytes (big-endian source byte length) with 89 50 4E 47"
+    },
+    {
+      "kind": "image",
+      "source": "shieldlighting.mg",
+      "original": "assets/original/shieldlighting.mg",
+      "file": "assets/images/shieldlighting.png",
+      "bytes": 2605,
+      "sourceSha256": "ca4cb94ff86ee2d27779e59e1c003df8a5a13cdae13235a559f6c2b723b17c7c",
+      "sha256": "36e346fc61f2c32a5ef327e879740bcd5879d673d09e69f7e4181361dd805a6f",
+      "width": 273,
+      "height": 37,
+      "mode": "P",
+      "alpha": true,
+      "chunks": [
+        "IHDR",
+        "PLTE",
+        "tRNS",
+        "IDAT",
+        "IEND"
+      ],
+      "restoration": "replace first 4 bytes (big-endian source byte length) with 89 50 4E 47"
+    },
+    {
+      "kind": "image",
+      "source": "shieldlightingicon.mg",
+      "original": "assets/original/shieldlightingicon.mg",
+      "file": "assets/images/shieldlightingicon.png",
+      "bytes": 864,
+      "sourceSha256": "e1bfaa87819aad09ec7eebc2b852d581ad7555ea6751f0fcbb116c76b8980e4e",
+      "sha256": "be96859a7e875f13e7ec9977909d139dcac80d731722d9a51caec40ac56a824c",
+      "width": 30,
+      "height": 30,
+      "mode": "P",
+      "alpha": false,
+      "chunks": [
+        "IHDR",
+        "PLTE",
+        "IDAT",
+        "IEND"
+      ],
+      "restoration": "replace first 4 bytes (big-endian source byte length) with 89 50 4E 47"
+    },
+    {
+      "kind": "image",
+      "source": "star.mg",
+      "original": "assets/original/star.mg",
+      "file": "assets/images/star.png",
+      "bytes": 225,
+      "sourceSha256": "33859dd7cfe5b0ee576c423e806254b8fcf1a7d07d1fd38193e99d6284a2a130",
+      "sha256": "75de5387351c00dce56f9955827a45efcf494f814eaef430d6e033631ddce5f9",
+      "width": 33,
+      "height": 11,
+      "mode": "P",
+      "alpha": true,
+      "chunks": [
+        "IHDR",
+        "PLTE",
+        "tRNS",
+        "IDAT",
+        "IEND"
+      ],
+      "restoration": "replace first 4 bytes (big-endian source byte length) with 89 50 4E 47"
+    },
+    {
+      "kind": "image",
+      "source": "strauthor.mg",
+      "original": "assets/original/strauthor.mg",
+      "file": "assets/images/strauthor.png",
+      "bytes": 200,
+      "sourceSha256": "bfc3977a70be0f671fa6417463d4a8905b986331e353545d8b891998bf3eaff7",
+      "sha256": "266e95f4668fa204e7a2ef40a99ed012a994d9d9bf487a455c715b70d470495f",
+      "width": 51,
+      "height": 19,
+      "mode": "P",
+      "alpha": true,
+      "chunks": [
+        "IHDR",
+        "PLTE",
+        "tRNS",
+        "IDAT",
+        "IEND"
+      ],
+      "restoration": "replace first 4 bytes (big-endian source byte length) with 89 50 4E 47"
+    },
+    {
+      "kind": "image",
+      "source": "strauthorfocus.mg",
+      "original": "assets/original/strauthorfocus.mg",
+      "file": "assets/images/strauthorfocus.png",
+      "bytes": 200,
+      "sourceSha256": "9ddefd58d0c7fb80b592586434ab8a9710dc60f13acfadd6e1fc50376d59a02b",
+      "sha256": "bb9edb3dac18663437e34e4f895de358e44fe1c20ca2497f2afc5e65632a6d76",
+      "width": 51,
+      "height": 19,
+      "mode": "P",
+      "alpha": true,
+      "chunks": [
+        "IHDR",
+        "PLTE",
+        "tRNS",
+        "IDAT",
+        "IEND"
+      ],
+      "restoration": "replace first 4 bytes (big-endian source byte length) with 89 50 4E 47"
+    },
+    {
+      "kind": "image",
+      "source": "strchatola.mg",
+      "original": "assets/original/strchatola.mg",
+      "file": "assets/images/strchatola.png",
+      "bytes": 203,
+      "sourceSha256": "f10a3dbb92c9cfd4a55d5aae6731aafb1bbda532450ea8186f1fef25b0807ee6",
+      "sha256": "2f2f9d738cafd374cd939ae0bcb4fac8348b61a6c662ea56f4869e5ec9ca9065",
+      "width": 65,
+      "height": 19,
+      "mode": "P",
+      "alpha": true,
+      "chunks": [
+        "IHDR",
+        "PLTE",
+        "tRNS",
+        "IDAT",
+        "IEND"
+      ],
+      "restoration": "replace first 4 bytes (big-endian source byte length) with 89 50 4E 47"
+    },
+    {
+      "kind": "image",
+      "source": "strchatolafocus.mg",
+      "original": "assets/original/strchatolafocus.mg",
+      "file": "assets/images/strchatolafocus.png",
+      "bytes": 203,
+      "sourceSha256": "6a880cf03c1f0db4078c6f691036218bff76a1fc1d60cda49f4ba9c5671a7a5e",
+      "sha256": "b3d2650cf9a4575dcf688480133084020f777c200e85b916770279d4ed217b8a",
+      "width": 65,
+      "height": 19,
+      "mode": "P",
+      "alpha": true,
+      "chunks": [
+        "IHDR",
+        "PLTE",
+        "tRNS",
+        "IDAT",
+        "IEND"
+      ],
+      "restoration": "replace first 4 bytes (big-endian source byte length) with 89 50 4E 47"
+    },
+    {
+      "kind": "image",
+      "source": "strcontinuegame.mg",
+      "original": "assets/original/strcontinuegame.mg",
+      "file": "assets/images/strcontinuegame.png",
+      "bytes": 212,
+      "sourceSha256": "968895f6384bc6ed00f2e344618c990afe22261f4860e2df3658a81159f1d2ed",
+      "sha256": "801611721b1729e82b19121c27dc8a02a6c7884860521639e436308e16f6023d",
+      "width": 62,
+      "height": 19,
+      "mode": "P",
+      "alpha": true,
+      "chunks": [
+        "IHDR",
+        "PLTE",
+        "tRNS",
+        "IDAT",
+        "IEND"
+      ],
+      "restoration": "replace first 4 bytes (big-endian source byte length) with 89 50 4E 47"
+    },
+    {
+      "kind": "image",
+      "source": "strcontinuegamefocus.mg",
+      "original": "assets/original/strcontinuegamefocus.mg",
+      "file": "assets/images/strcontinuegamefocus.png",
+      "bytes": 212,
+      "sourceSha256": "7fc2e373b031ff988c6ddbe40662715e7d583f36f5ee17d317469d5e3c27171b",
+      "sha256": "1958b57efbd01b2899604c118a3a7ad114b5fbac51243485563beccf2e41edc3",
+      "width": 62,
+      "height": 19,
+      "mode": "P",
+      "alpha": true,
+      "chunks": [
+        "IHDR",
+        "PLTE",
+        "tRNS",
+        "IDAT",
+        "IEND"
+      ],
+      "restoration": "replace first 4 bytes (big-endian source byte length) with 89 50 4E 47"
+    },
+    {
+      "kind": "image",
+      "source": "strgivegame.mg",
+      "original": "assets/original/strgivegame.mg",
+      "file": "assets/images/strgivegame.png",
+      "bytes": 225,
+      "sourceSha256": "8ba8b76d550d2da20397bbb9ffde943074bb9c93dd2b90914754bfb9abd8b5f4",
+      "sha256": "7b7378ef15d9f5b72acbd8f25e30a65892db85eb04517cac489a1ad063765580",
+      "width": 80,
+      "height": 19,
+      "mode": "P",
+      "alpha": true,
+      "chunks": [
+        "IHDR",
+        "PLTE",
+        "tRNS",
+        "IDAT",
+        "IEND"
+      ],
+      "restoration": "replace first 4 bytes (big-endian source byte length) with 89 50 4E 47"
+    },
+    {
+      "kind": "image",
+      "source": "strgivegamefocus.mg",
+      "original": "assets/original/strgivegamefocus.mg",
+      "file": "assets/images/strgivegamefocus.png",
+      "bytes": 225,
+      "sourceSha256": "81e4515db015192d576042fde83e72df896b6eb97ed3f343d409a15de9dac6bc",
+      "sha256": "075e636b0cc0125ddc4b9b8b87813b1af8c8861febb313ed26e96130a8252a78",
+      "width": 80,
+      "height": 19,
+      "mode": "P",
+      "alpha": true,
+      "chunks": [
+        "IHDR",
+        "PLTE",
+        "tRNS",
+        "IDAT",
+        "IEND"
+      ],
+      "restoration": "replace first 4 bytes (big-endian source byte length) with 89 50 4E 47"
+    },
+    {
+      "kind": "image",
+      "source": "strguide.mg",
+      "original": "assets/original/strguide.mg",
+      "file": "assets/images/strguide.png",
+      "bytes": 252,
+      "sourceSha256": "42215b2a6eddea5c29f62a0597e372a3a1ff42191c3118e4868b7a5d267514e9",
+      "sha256": "5b98b06d4d7122b3874e5e56a84435af8e9fdf915dc594553dca04ee8eeb5cd3",
+      "width": 83,
+      "height": 19,
+      "mode": "P",
+      "alpha": true,
+      "chunks": [
+        "IHDR",
+        "PLTE",
+        "tRNS",
+        "IDAT",
+        "IEND"
+      ],
+      "restoration": "replace first 4 bytes (big-endian source byte length) with 89 50 4E 47"
+    },
+    {
+      "kind": "image",
+      "source": "strguidefocus.mg",
+      "original": "assets/original/strguidefocus.mg",
+      "file": "assets/images/strguidefocus.png",
+      "bytes": 252,
+      "sourceSha256": "e4e850f0d6f0cde73a2956b681de0789d7a68d6540f8281be8c7753aa1a8e714",
+      "sha256": "300f0982e41446e3c32c25f6577d0227452a9b245c7f1581a4447cb1d78ba2cc",
+      "width": 83,
+      "height": 19,
+      "mode": "P",
+      "alpha": true,
+      "chunks": [
+        "IHDR",
+        "PLTE",
+        "tRNS",
+        "IDAT",
+        "IEND"
+      ],
+      "restoration": "replace first 4 bytes (big-endian source byte length) with 89 50 4E 47"
+    },
+    {
+      "kind": "image",
+      "source": "strinformation.mg",
+      "original": "assets/original/strinformation.mg",
+      "file": "assets/images/strinformation.png",
+      "bytes": 216,
+      "sourceSha256": "c25243d73ea30cd8ec36e9e27610d850e48eeec9bfe84de99eaa4f044ec9a810",
+      "sha256": "a8c466c528537806adfb1ce09bc8aa38df07698578872e2dc8872a913d16e250",
+      "width": 73,
+      "height": 19,
+      "mode": "P",
+      "alpha": true,
+      "chunks": [
+        "IHDR",
+        "PLTE",
+        "tRNS",
+        "IDAT",
+        "IEND"
+      ],
+      "restoration": "replace first 4 bytes (big-endian source byte length) with 89 50 4E 47"
+    },
+    {
+      "kind": "image",
+      "source": "strinformationfocus.mg",
+      "original": "assets/original/strinformationfocus.mg",
+      "file": "assets/images/strinformationfocus.png",
+      "bytes": 216,
+      "sourceSha256": "c87245735ea665ac52b949f440c9494327cdeca226567873ca2c6218937a4ffc",
+      "sha256": "01a6b999c19674778e8b4f5f3974d813ae465f832783ad4aa680cee74f46e12c",
+      "width": 73,
+      "height": 19,
+      "mode": "P",
+      "alpha": true,
+      "chunks": [
+        "IHDR",
+        "PLTE",
+        "tRNS",
+        "IDAT",
+        "IEND"
+      ],
+      "restoration": "replace first 4 bytes (big-endian source byte length) with 89 50 4E 47"
+    },
+    {
+      "kind": "image",
+      "source": "strlose.mg",
+      "original": "assets/original/strlose.mg",
+      "file": "assets/images/strlose.png",
+      "bytes": 5630,
+      "sourceSha256": "25e4ba9c5280fc490c8fec7caafea569980ce3174498653421bb892f0d84ced0",
+      "sha256": "92f6d43043feff4f4436d0ad949a39215f34dc6117f36f17c67f2241c6c028b0",
+      "width": 438,
+      "height": 56,
+      "mode": "P",
+      "alpha": true,
+      "chunks": [
+        "IHDR",
+        "PLTE",
+        "tRNS",
+        "IDAT",
+        "IEND"
+      ],
+      "restoration": "replace first 4 bytes (big-endian source byte length) with 89 50 4E 47"
+    },
+    {
+      "kind": "image",
+      "source": "strnewgame.mg",
+      "original": "assets/original/strnewgame.mg",
+      "file": "assets/images/strnewgame.png",
+      "bytes": 204,
+      "sourceSha256": "c3fbb8571c7f4c6db1db1b0c0d09bd3c6ab9aceb7bad8cbd0e9f45e6db32ff8c",
+      "sha256": "cbd1c433c4847c3d3d32e9f9099de335d972be1637ecc8b4fa085c10ab8af5b0",
+      "width": 60,
+      "height": 19,
+      "mode": "P",
+      "alpha": true,
+      "chunks": [
+        "IHDR",
+        "PLTE",
+        "tRNS",
+        "IDAT",
+        "IEND"
+      ],
+      "restoration": "replace first 4 bytes (big-endian source byte length) with 89 50 4E 47"
+    },
+    {
+      "kind": "image",
+      "source": "strnewgamefocus.mg",
+      "original": "assets/original/strnewgamefocus.mg",
+      "file": "assets/images/strnewgamefocus.png",
+      "bytes": 204,
+      "sourceSha256": "de7c0fbbc485a77bb0d90dd583fe71db02edf9618146c78d13121244c3b601ac",
+      "sha256": "1204befa133754f1adbf31dca4986e339d48834409b72dcbb92a13164b774fc0",
+      "width": 60,
+      "height": 19,
+      "mode": "P",
+      "alpha": true,
+      "chunks": [
+        "IHDR",
+        "PLTE",
+        "tRNS",
+        "IDAT",
+        "IEND"
+      ],
+      "restoration": "replace first 4 bytes (big-endian source byte length) with 89 50 4E 47"
+    },
+    {
+      "kind": "image",
+      "source": "strothergame.mg",
+      "original": "assets/original/strothergame.mg",
+      "file": "assets/images/strothergame.png",
+      "bytes": 228,
+      "sourceSha256": "52e66d333ed770dd5edffe197a0945e8e421176925ac4d505abd9fdc43da951b",
+      "sha256": "7efafd277e3af514f0baf6fb48345ab5dd4a88d57103cb172401aba766ef64f4",
+      "width": 79,
+      "height": 19,
+      "mode": "P",
+      "alpha": true,
+      "chunks": [
+        "IHDR",
+        "PLTE",
+        "tRNS",
+        "IDAT",
+        "IEND"
+      ],
+      "restoration": "replace first 4 bytes (big-endian source byte length) with 89 50 4E 47"
+    },
+    {
+      "kind": "image",
+      "source": "strothergamefocus.mg",
+      "original": "assets/original/strothergamefocus.mg",
+      "file": "assets/images/strothergamefocus.png",
+      "bytes": 228,
+      "sourceSha256": "09507ece62d2e539252a736fa07f5735c168d7aeed11df5f6587c15e1f02d5f7",
+      "sha256": "b9ad76ea8c67699ada465a0a31898a9c72c95a8437ee03b85494be1947cfbe9b",
+      "width": 79,
+      "height": 19,
+      "mode": "P",
+      "alpha": true,
+      "chunks": [
+        "IHDR",
+        "PLTE",
+        "tRNS",
+        "IDAT",
+        "IEND"
+      ],
+      "restoration": "replace first 4 bytes (big-endian source byte length) with 89 50 4E 47"
+    },
+    {
+      "kind": "image",
+      "source": "strrecord.mg",
+      "original": "assets/original/strrecord.mg",
+      "file": "assets/images/strrecord.png",
+      "bytes": 207,
+      "sourceSha256": "8a777eb88854e2863ba730d3bec3076f80a6646f57f389f19a5d75023187639b",
+      "sha256": "1612d2fcba32213800a2d26de4e4f194ea9b3cafc20275d777001feed42535f7",
+      "width": 63,
+      "height": 19,
+      "mode": "P",
+      "alpha": true,
+      "chunks": [
+        "IHDR",
+        "PLTE",
+        "tRNS",
+        "IDAT",
+        "IEND"
+      ],
+      "restoration": "replace first 4 bytes (big-endian source byte length) with 89 50 4E 47"
+    },
+    {
+      "kind": "image",
+      "source": "strrecordfocus.mg",
+      "original": "assets/original/strrecordfocus.mg",
+      "file": "assets/images/strrecordfocus.png",
+      "bytes": 207,
+      "sourceSha256": "b41973a8d56c444ffa9f577d43e1fa2e6f92bdbfd447e216762fb21b5936b3e7",
+      "sha256": "84f59018d89e89852bb73b1d8b55cbf6c9a17f9872c7033cdb33eb30a31cbde6",
+      "width": 63,
+      "height": 19,
+      "mode": "P",
+      "alpha": true,
+      "chunks": [
+        "IHDR",
+        "PLTE",
+        "tRNS",
+        "IDAT",
+        "IEND"
+      ],
+      "restoration": "replace first 4 bytes (big-endian source byte length) with 89 50 4E 47"
+    },
+    {
+      "kind": "image",
+      "source": "strshop.mg",
+      "original": "assets/original/strshop.mg",
+      "file": "assets/images/strshop.png",
+      "bytes": 234,
+      "sourceSha256": "bce1ccb7e4db4fe8618976daa4cbb24b8f1f1b9cd83ed0bd311f86be81f7d71b",
+      "sha256": "810f434229e04bb45ba73bacd5b5bc57c4fdf4d043ff3dfd88e57610fbbe7e48",
+      "width": 69,
+      "height": 19,
+      "mode": "P",
+      "alpha": true,
+      "chunks": [
+        "IHDR",
+        "PLTE",
+        "tRNS",
+        "IDAT",
+        "IEND"
+      ],
+      "restoration": "replace first 4 bytes (big-endian source byte length) with 89 50 4E 47"
+    },
+    {
+      "kind": "image",
+      "source": "strshopfocus.mg",
+      "original": "assets/original/strshopfocus.mg",
+      "file": "assets/images/strshopfocus.png",
+      "bytes": 234,
+      "sourceSha256": "3504e7e9e1181eb81a09851660e2113de5a66c2984e36791bc66950896c7cfe5",
+      "sha256": "6aeb3a4f288a0501c07c8f92f71ff5e206a746e9b11c39ce2dc7b13173eb4167",
+      "width": 69,
+      "height": 19,
+      "mode": "P",
+      "alpha": true,
+      "chunks": [
+        "IHDR",
+        "PLTE",
+        "tRNS",
+        "IDAT",
+        "IEND"
+      ],
+      "restoration": "replace first 4 bytes (big-endian source byte length) with 89 50 4E 47"
+    },
+    {
+      "kind": "image",
+      "source": "strwin.mg",
+      "original": "assets/original/strwin.mg",
+      "file": "assets/images/strwin.png",
+      "bytes": 7249,
+      "sourceSha256": "2e1d9c8ba71e26ee3f7b691ed8f8f59e27369b2fd6d04947299563fd6a4bf6e1",
+      "sha256": "ac35155c200b80812880befe9ef88dc4b278ecc79ac1cc11749109841a7700c4",
+      "width": 516,
+      "height": 65,
+      "mode": "P",
+      "alpha": true,
+      "chunks": [
+        "IHDR",
+        "PLTE",
+        "tRNS",
+        "IDAT",
+        "IEND"
+      ],
+      "restoration": "replace first 4 bytes (big-endian source byte length) with 89 50 4E 47"
+    },
+    {
+      "kind": "image",
+      "source": "sword.mg",
+      "original": "assets/original/sword.mg",
+      "file": "assets/images/sword.png",
+      "bytes": 253,
+      "sourceSha256": "4fd17ac703129eda127bb2894b6a8bdc024e7d34700afd4b86d1f8d68734b2f2",
+      "sha256": "92a1373e675732669681cdedccc7d7572914a24e1a6bfd0d3300a34f22905024",
+      "width": 22,
+      "height": 22,
+      "mode": "P",
+      "alpha": true,
+      "chunks": [
+        "IHDR",
+        "PLTE",
+        "tRNS",
+        "IDAT",
+        "IEND"
+      ],
+      "restoration": "replace first 4 bytes (big-endian source byte length) with 89 50 4E 47"
+    },
+    {
+      "kind": "image",
+      "source": "swordfocus.mg",
+      "original": "assets/original/swordfocus.mg",
+      "file": "assets/images/swordfocus.png",
+      "bytes": 191,
+      "sourceSha256": "ffcefa088f94d6aeb1bd9d1d8b087063deca16b8fc1e8a06a22a604784a7837c",
+      "sha256": "34dbffdf6693c53ab2357f1431b45276e81942f584830501f29647504c481009",
+      "width": 19,
+      "height": 12,
+      "mode": "P",
+      "alpha": true,
+      "chunks": [
+        "IHDR",
+        "PLTE",
+        "tRNS",
+        "IDAT",
+        "IEND"
+      ],
+      "restoration": "replace first 4 bytes (big-endian source byte length) with 89 50 4E 47"
+    },
+    {
+      "kind": "image",
+      "source": "swordred.mg",
+      "original": "assets/original/swordred.mg",
+      "file": "assets/images/swordred.png",
+      "bytes": 309,
+      "sourceSha256": "5ec2b238bea4cb6533f02693f67874130d02dda5c96850b7ef91d16e7cb6a110",
+      "sha256": "1135efb5d65644cb9cab03d60cb6ac1f2b44e36f49b89355fce6985f9266f61b",
+      "width": 22,
+      "height": 22,
+      "mode": "P",
+      "alpha": true,
+      "chunks": [
+        "IHDR",
+        "PLTE",
+        "tRNS",
+        "IDAT",
+        "IEND"
+      ],
+      "restoration": "replace first 4 bytes (big-endian source byte length) with 89 50 4E 47"
+    },
+    {
+      "kind": "image",
+      "source": "title.mg",
+      "original": "assets/original/title.mg",
+      "file": "assets/images/title.png",
+      "bytes": 686,
+      "sourceSha256": "4bc641a086f44b8f12ab4dabe3a28b212ea8b6c9e538e8ab0e4b303948a4ba71",
+      "sha256": "06ea756c11324b02d281134dd1fc1a16c93ffb7ee702cff1533334800d0b93da",
+      "width": 111,
+      "height": 34,
+      "mode": "P",
+      "alpha": true,
+      "chunks": [
+        "IHDR",
+        "PLTE",
+        "tRNS",
+        "IDAT",
+        "IEND"
+      ],
+      "restoration": "replace first 4 bytes (big-endian source byte length) with 89 50 4E 47"
+    },
+    {
+      "kind": "image",
+      "source": "vchainlighting.mg",
+      "original": "assets/original/vchainlighting.mg",
+      "file": "assets/images/vchainlighting.png",
+      "bytes": 138,
+      "sourceSha256": "27631efec4d01ad9f9240ac56a8b5d05bdb4f5df4b717a545f3954d73da505cf",
+      "sha256": "1e7b33b06c0108c9695dc10b4d009c656dd2d419d233e9dec38ac07e04c9e58b",
+      "width": 22,
+      "height": 5,
+      "mode": "P",
+      "alpha": true,
+      "chunks": [
+        "IHDR",
+        "PLTE",
+        "tRNS",
+        "IDAT",
+        "IEND"
+      ],
+      "restoration": "replace first 4 bytes (big-endian source byte length) with 89 50 4E 47"
+    },
+    {
+      "kind": "image",
+      "source": "vhchainlighting.mg",
+      "original": "assets/original/vhchainlighting.mg",
+      "file": "assets/images/vhchainlighting.png",
+      "bytes": 155,
+      "sourceSha256": "1ee64f73978f2f4651853734021ce01e5ac20448b7f04de9156c68bdc0191cd1",
+      "sha256": "2b5db42f3673b34afe05c3a2c48b513d6fc08c0ef391fb61cbf84b822b066c25",
+      "width": 22,
+      "height": 22,
+      "mode": "P",
+      "alpha": true,
+      "chunks": [
+        "IHDR",
+        "PLTE",
+        "tRNS",
+        "IDAT",
+        "IEND"
+      ],
+      "restoration": "replace first 4 bytes (big-endian source byte length) with 89 50 4E 47"
+    },
+    {
+      "kind": "image",
+      "source": "yinyang.mg",
+      "original": "assets/original/yinyang.mg",
+      "file": "assets/images/yinyang.png",
+      "bytes": 271,
+      "sourceSha256": "22439ba5b51a2b663875ecb40275fb94de8a2822d5a8bcb3d5f1e3aacfcf0e84",
+      "sha256": "3c6f84483cdf8964d66848c1bd115385e5c4eaef7e54b830096fdd8bae0a7b33",
+      "width": 22,
+      "height": 22,
+      "mode": "P",
+      "alpha": true,
+      "chunks": [
+        "IHDR",
+        "PLTE",
+        "tRNS",
+        "IDAT",
+        "IEND"
+      ],
+      "restoration": "replace first 4 bytes (big-endian source byte length) with 89 50 4E 47"
+    },
+    {
+      "kind": "image",
+      "source": "zoomfocus1.mg",
+      "original": "assets/original/zoomfocus1.mg",
+      "file": "assets/images/zoomfocus1.png",
+      "bytes": 184,
+      "sourceSha256": "2f645deda944fae38d7791b47bc7e31f9095c7fc40c44dbb8fd18be12bcc50b2",
+      "sha256": "b771725a2e32e4b319a2d09e2df5ef6dd86027651bffbb5a9d63b28b691b73a3",
+      "width": 84,
+      "height": 42,
+      "mode": "P",
+      "alpha": true,
+      "chunks": [
+        "IHDR",
+        "PLTE",
+        "tRNS",
+        "IDAT",
+        "IEND"
+      ],
+      "restoration": "replace first 4 bytes (big-endian source byte length) with 89 50 4E 47"
+    }
+  ],
+  "originals": [
+    {
+      "source": "_arrow.mg",
+      "file": "assets/original/_arrow.mg",
+      "bytes": 133,
+      "sha256": "10ea36a8a18179bc11cbf56091bfb749c24a7618289aa395037b4bbb55253ea1"
+    },
+    {
+      "source": "_corner.mg",
+      "file": "assets/original/_corner.mg",
+      "bytes": 183,
+      "sha256": "1a2030c4f027c872940154de606662e9f638d13c627b1dcdd29a087c93a46eae"
+    },
+    {
+      "source": "_font1.mg",
+      "file": "assets/original/_font1.mg",
+      "bytes": 1797,
+      "sha256": "54d79f557e77131eb288bea631b1dbc142dc0fea3a992087b17b8ed3b7a77758"
+    },
+    {
+      "source": "_font2.mg",
+      "file": "assets/original/_font2.mg",
+      "bytes": 1797,
+      "sha256": "0b734404caf5d336bed7d31f0ef28f4ea162f58ece0cdbb17aa38b606ab49472"
+    },
+    {
+      "source": "_mglogo.mg",
+      "file": "assets/original/_mglogo.mg",
+      "bytes": 757,
+      "sha256": "56005328b8563d1cc4abb8d123d1b277374c850c11295b2d3d522fb01daad75d"
+    },
+    {
+      "source": "_partnerLogo.mg",
+      "file": "assets/original/_partnerLogo.mg",
+      "bytes": 1636,
+      "sha256": "14e9538b50958ac38d8a129c4067d18f657eacf660980c406940f5991ff9ec0d"
+    },
+    {
+      "source": "_sound.mg",
+      "file": "assets/original/_sound.mg",
+      "bytes": 2231,
+      "sha256": "a207d11b582ca3d82a07f251a10ebe58d8677b90d9446f57d706e799c9222397"
+    },
+    {
+      "source": "arrowfocus1.mg",
+      "file": "assets/original/arrowfocus1.mg",
+      "bytes": 132,
+      "sha256": "c06c0fd32deced6e8064b48663a3d69740410e0aebd33fe573f2862f113ce2a1"
+    },
+    {
+      "source": "arrowfocus2.mg",
+      "file": "assets/original/arrowfocus2.mg",
+      "bytes": 132,
+      "sha256": "a746ef1b66fe1817095153776d0faf68ddd32ad92d22cb6d777861ab7a555e13"
+    },
+    {
+      "source": "audio/attack.amr",
+      "file": "assets/original/audio/attack.amr",
+      "bytes": 1190,
+      "sha256": "835803ef9b5d69cc2c13552669df1c57cf9532bb5b6654f70b52cf782b245482"
+    },
+    {
+      "source": "audio/explodechess.amr",
+      "file": "assets/original/audio/explodechess.amr",
+      "bytes": 614,
+      "sha256": "7b2331210255c65fc8a23a1bb30caddc1ab7dbdfad275740cb79540a923b3e43"
+    },
+    {
+      "source": "audio/fire1.amr",
+      "file": "assets/original/audio/fire1.amr",
+      "bytes": 2086,
+      "sha256": "25cd0bcad9ee866cde6d20858a62f252bdabb7f91484180186f1523ea46bef86"
+    },
+    {
+      "source": "audio/fire2.amr",
+      "file": "assets/original/audio/fire2.amr",
+      "bytes": 3206,
+      "sha256": "585dcdbc38e87f14e1fab2915f5a4ecc5f47836086a780bf52ec6d6ffb8a01fb"
+    },
+    {
+      "source": "audio/fire3.amr",
+      "file": "assets/original/audio/fire3.amr",
+      "bytes": 2470,
+      "sha256": "fc687e567c3b70b6a6508c8790e524c8bd6b6a60538f8e1e5b62d1f6ddf5a0fe"
+    },
+    {
+      "source": "audio/ice1.amr",
+      "file": "assets/original/audio/ice1.amr",
+      "bytes": 3238,
+      "sha256": "c8f039a40e83a007405e7e5190cd9d204cc76b17fad90c54a49f0441f9eaf511"
+    },
+    {
+      "source": "audio/ice2.amr",
+      "file": "assets/original/audio/ice2.amr",
+      "bytes": 4006,
+      "sha256": "f42efc402ce45d554f2c8a8ba2002243de44693834bf36b66785f024cdaa6fa7"
+    },
+    {
+      "source": "audio/ice3.amr",
+      "file": "assets/original/audio/ice3.amr",
+      "bytes": 3174,
+      "sha256": "680b2a564a792323573bede50f43031018c6fd75c8ec95bc5297b4e0af800f20"
+    },
+    {
+      "source": "audio/intro.mid",
+      "file": "assets/original/audio/intro.mid",
+      "bytes": 3242,
+      "sha256": "7ef7bb06370bf0fed23347c6eecc47da62fec3f7812a22fbc92c0178c993378e"
+    },
+    {
+      "source": "audio/lightning1.amr",
+      "file": "assets/original/audio/lightning1.amr",
+      "bytes": 3270,
+      "sha256": "4d327788b1b5e72bfcb888316c4e3a90d387debe529d10a87b6a3205f8bb0476"
+    },
+    {
+      "source": "audio/lightning2.amr",
+      "file": "assets/original/audio/lightning2.amr",
+      "bytes": 2886,
+      "sha256": "917b3c26d5ef8bbd65beeda14dc9a8190c82f67c12a2b912658363f8821d0d84"
+    },
+    {
+      "source": "audio/lightning3.amr",
+      "file": "assets/original/audio/lightning3.amr",
+      "bytes": 3270,
+      "sha256": "a11b9bbcec996e2a77ce4321f37e3af8c7bfae4cfdfadc5106434ed329271da0"
+    },
+    {
+      "source": "audio/lose.mid",
+      "file": "assets/original/audio/lose.mid",
+      "bytes": 477,
+      "sha256": "49bfccba19989a6c2f9f5476dd414e72693c96638e8bcf687de462ceca3715c9"
+    },
+    {
+      "source": "audio/lvu.amr",
+      "file": "assets/original/audio/lvu.amr",
+      "bytes": 3174,
+      "sha256": "a7c4f35a78fdff69b5d5e814c7a33caac5c3e4b0316bff2102dbfe46aaf4c140"
+    },
+    {
+      "source": "audio/m.mid",
+      "file": "assets/original/audio/m.mid",
+      "bytes": 2886,
+      "sha256": "543a80a3577961e03ef463bd88e6070ea62a7c53bf5cba729e241209f7425ab4"
+    },
+    {
+      "source": "audio/menu.mid",
+      "file": "assets/original/audio/menu.mid",
+      "bytes": 4214,
+      "sha256": "50a3e179396b2702e57c790d8bbeb9fdf1782b010fe466a1d6fb7900967f633b"
+    },
+    {
+      "source": "audio/useitem.amr",
+      "file": "assets/original/audio/useitem.amr",
+      "bytes": 3334,
+      "sha256": "b8e555da8d2d97e2b9c9496dd0848d89d6d5fd67df920f285a63166a6aedd0bd"
+    },
+    {
+      "source": "audio/victory.mid",
+      "file": "assets/original/audio/victory.mid",
+      "bytes": 3517,
+      "sha256": "46fbd828a690c06a0c46cec2a3c13157f0ba8467628e4713d43525c114e100bc"
+    },
+    {
+      "source": "audio/vs.amr",
+      "file": "assets/original/audio/vs.amr",
+      "bytes": 2566,
+      "sha256": "a4dbdee34675178cc7e0c54cf71a6e626b3623af80efcc5d72fbb3633abc0e29"
+    },
+    {
+      "source": "audio/win.mid",
+      "file": "assets/original/audio/win.mid",
+      "bytes": 387,
+      "sha256": "e074e2efcc72ee7c55d79be7ab19696b8eb3689dbabd9751adff3c98fc76dc7c"
+    },
+    {
+      "source": "avatar.mg",
+      "file": "assets/original/avatar.mg",
+      "bytes": 34902,
+      "sha256": "c5349afbe10abadd70494420d181689ebfa0003e8fde118664ca7a1b3d238e43"
+    },
+    {
+      "source": "bkboard.mg",
+      "file": "assets/original/bkboard.mg",
+      "bytes": 4393,
+      "sha256": "fdb612c319c5b7f32a230ab8d67bb99cfa2523fac9928359d25d1bf921b72842"
+    },
+    {
+      "source": "bkmenu.mg",
+      "file": "assets/original/bkmenu.mg",
+      "bytes": 34292,
+      "sha256": "54808e59357be4c411d809a56f251d52eaccce6830c83021986f346e02018bcf"
+    },
+    {
+      "source": "bksplashscreen.mg",
+      "file": "assets/original/bksplashscreen.mg",
+      "bytes": 23643,
+      "sha256": "6f0302df7edd109c4fe486cb28d68ecdee89c8e3c08fc98158be0ee83381ea6a"
+    },
+    {
+      "source": "blastlighting.mg",
+      "file": "assets/original/blastlighting.mg",
+      "bytes": 944,
+      "sha256": "e7516ffd61fde2d220056f5c0cc3747bccb199c3221e9ee95a6ad3edb7ec3814"
+    },
+    {
+      "source": "blastlightingicon.mg",
+      "file": "assets/original/blastlightingicon.mg",
+      "bytes": 831,
+      "sha256": "94a4855d979713b01d59a7c8c8eac4a4a03c09adf4223a8da055f94128c02d70"
+    },
+    {
+      "source": "blood.mg",
+      "file": "assets/original/blood.mg",
+      "bytes": 146,
+      "sha256": "e682ff3eb331d45f94a22c1bd0b7d359bcea2d60e5e9adaba9f15e45408e6656"
+    },
+    {
+      "source": "bloodext.mg",
+      "file": "assets/original/bloodext.mg",
+      "bytes": 147,
+      "sha256": "c302cf7bb31bedeeabfd23d8104e33999e2b9d8ca99ef5cb2501c0fb5a0760f7"
+    },
+    {
+      "source": "bloodthrowaround.mg",
+      "file": "assets/original/bloodthrowaround.mg",
+      "bytes": 888,
+      "sha256": "c2094c104c91a9249ff0ac14c4f92fc5dac7506497d9b0cf6be8c9f33a2b8d55"
+    },
+    {
+      "source": "book.mg",
+      "file": "assets/original/book.mg",
+      "bytes": 345,
+      "sha256": "50aa97d0d0d540e5d3f9ae97d21713e7dc06430f7f355f604fa4ae52015639d5"
+    },
+    {
+      "source": "borderskb.mg",
+      "file": "assets/original/borderskb.mg",
+      "bytes": 128,
+      "sha256": "b4f8cea54177aecd1deb691c5f36043fe6f429dfea181c24597198e4d3b9adda"
+    },
+    {
+      "source": "chainlighting.mg",
+      "file": "assets/original/chainlighting.mg",
+      "bytes": 556,
+      "sha256": "5783335de6f811ab725f52b285d08630a1279680101a977efc2fb34690aad827"
+    },
+    {
+      "source": "chainlightingicon.mg",
+      "file": "assets/original/chainlightingicon.mg",
+      "bytes": 846,
+      "sha256": "723bad903b5b4d13d1f1d92ee59110a698c160d1a30fb7dd21bb0d754e33d1a0"
+    },
+    {
+      "source": "chainlightingpart1.mg",
+      "file": "assets/original/chainlightingpart1.mg",
+      "bytes": 189,
+      "sha256": "dc7b5a90cb671db2dae90999f34b45ceef9538c86c3b302349b0ae200e524db0"
+    },
+    {
+      "source": "chainlightingpart2.mg",
+      "file": "assets/original/chainlightingpart2.mg",
+      "bytes": 163,
+      "sha256": "6c147228e685a29093fdbc55011a61c7ea0c0ff8d1a45f68107173493c6a93cd"
+    },
+    {
+      "source": "crystalblue.mg",
+      "file": "assets/original/crystalblue.mg",
+      "bytes": 187,
+      "sha256": "a4521332c2d445b6f9fddb449556c1ede4e30aba9e0a5d77319d5675ddaa929a"
+    },
+    {
+      "source": "crystalgray.mg",
+      "file": "assets/original/crystalgray.mg",
+      "bytes": 177,
+      "sha256": "15f543d3dba0cef8122f719011dd2d6278e94bdc64f09cf297e5a5e0d4552605"
+    },
+    {
+      "source": "crystalgreen.mg",
+      "file": "assets/original/crystalgreen.mg",
+      "bytes": 182,
+      "sha256": "79001d6d0f43a8fe7c606c787e88f0b9468ec68997a3667fe239e98d2ac4d752"
+    },
+    {
+      "source": "crystalred.mg",
+      "file": "assets/original/crystalred.mg",
+      "bytes": 181,
+      "sha256": "2a40e1eeb368e3a9db7d94e7ef9f124c2dd0d39d25d8e83c9ed04c5d4edaf228"
+    },
+    {
+      "source": "crystalviolet.mg",
+      "file": "assets/original/crystalviolet.mg",
+      "bytes": 182,
+      "sha256": "6bf69fe4a9c6f7d0ef98193415fb54581c7bec65375fa5441db6d9a2daf1339c"
+    },
+    {
+      "source": "crystalyellow.mg",
+      "file": "assets/original/crystalyellow.mg",
+      "bytes": 185,
+      "sha256": "7c8a35196f2394f35317ecd8fee7fbc407628d41462ab623117df4ae78fb9405"
+    },
+    {
+      "source": "defenceshield.mg",
+      "file": "assets/original/defenceshield.mg",
+      "bytes": 922,
+      "sha256": "71c46cba8f97cc655495c7ff4afc8173865ca4e8d6f01d113cb813f906054f99"
+    },
+    {
+      "source": "explodebook.mg",
+      "file": "assets/original/explodebook.mg",
+      "bytes": 712,
+      "sha256": "097c56dc1bb09c72e5db6991d7c7499b2b35cc37da2955f8dcaa46e7775f8168"
+    },
+    {
+      "source": "explodebookx2.mg",
+      "file": "assets/original/explodebookx2.mg",
+      "bytes": 1284,
+      "sha256": "d79342f2cea27db678b1289c052bc320ac1608b3f594c3140b7203bf34e11096"
+    },
+    {
+      "source": "explodegold.mg",
+      "file": "assets/original/explodegold.mg",
+      "bytes": 1021,
+      "sha256": "0f395518b78779afd17a1c7ed2adcc04e80302363b73445e4247f6601269624e"
+    },
+    {
+      "source": "explodegoldx2.mg",
+      "file": "assets/original/explodegoldx2.mg",
+      "bytes": 1127,
+      "sha256": "ae2db76b3541016c7ffb1deac2bb3261dd19bd8975a0bae3fd74d5c093f986f3"
+    },
+    {
+      "source": "explodeheart.mg",
+      "file": "assets/original/explodeheart.mg",
+      "bytes": 215,
+      "sha256": "174ddc09f0b433e46a021c33d18ad2096cd73b65f01b2aba369b0d4cc465d0c4"
+    },
+    {
+      "source": "explodeheartx2.mg",
+      "file": "assets/original/explodeheartx2.mg",
+      "bytes": 1072,
+      "sha256": "43fbb8e66bc6bc97beee699155ede0a9ed3868c0940a1713c9f1a1102eb0d2e3"
+    },
+    {
+      "source": "exploderice.mg",
+      "file": "assets/original/exploderice.mg",
+      "bytes": 800,
+      "sha256": "0b17cb104819261c52ae6393bf1eeba88b0dd66dbe152c7497712b58fcd50883"
+    },
+    {
+      "source": "explodericex2.mg",
+      "file": "assets/original/explodericex2.mg",
+      "bytes": 858,
+      "sha256": "f750f303160b86e13a4d058f95f5343c05c0dd31109bba6f428a0a2075267c37"
+    },
+    {
+      "source": "explodesword.mg",
+      "file": "assets/original/explodesword.mg",
+      "bytes": 207,
+      "sha256": "c911258baaa1fb41b95fbea0505fa75f4c910ab50bce158b2e60932d8036ef56"
+    },
+    {
+      "source": "explodeyinyang.mg",
+      "file": "assets/original/explodeyinyang.mg",
+      "bytes": 768,
+      "sha256": "1871c1d45c863fcc3c467701890805645b5b6530d40cddfb926f6f8dbf3fde89"
+    },
+    {
+      "source": "explodeyinyangx2.mg",
+      "file": "assets/original/explodeyinyangx2.mg",
+      "bytes": 1276,
+      "sha256": "d9473c430649ccf3060041c43d40d533abea39bb407fe198a53b96d456c2d96f"
+    },
+    {
+      "source": "f/ari_b.mg",
+      "file": "assets/original/f/ari_b.mg",
+      "bytes": 1097,
+      "sha256": "6be4231d850e4d75c0256356ca6fa8fdf07668b857ed74aa72b4b8d3c9b7b330"
+    },
+    {
+      "source": "f/divide.mg",
+      "file": "assets/original/f/divide.mg",
+      "bytes": 123,
+      "sha256": "935ef3ee17e647cb6efee741ade5e5fcc247349ce0644ff1d98573e2704c68da"
+    },
+    {
+      "source": "f/nb.mg",
+      "file": "assets/original/f/nb.mg",
+      "bytes": 224,
+      "sha256": "d23d24b6beb00e9ef8d73400094eeb207c60738582fbf9dbc687f7ee05bea13b"
+    },
+    {
+      "source": "fireball.mg",
+      "file": "assets/original/fireball.mg",
+      "bytes": 3058,
+      "sha256": "8d5521457cbe257cb2c902dd0039e3a60c0ee46ca836ab3cc5bc140ad9d23c9d"
+    },
+    {
+      "source": "fireballicon.mg",
+      "file": "assets/original/fireballicon.mg",
+      "bytes": 680,
+      "sha256": "a9fc8d4240f9d6e2daae8667d4b105936b54f61362455e0a4120a6b21f4cc779"
+    },
+    {
+      "source": "focus1.mg",
+      "file": "assets/original/focus1.mg",
+      "bytes": 139,
+      "sha256": "da15a1ece33e66893c6481ac8828e850ab207934f12d08564a69cb08d00bf666"
+    },
+    {
+      "source": "focus2.mg",
+      "file": "assets/original/focus2.mg",
+      "bytes": 139,
+      "sha256": "7566f11376f3cc289c569cfe83d9eff1dd02c5a25ac4dd7f53c02185be5603a3"
+    },
+    {
+      "source": "focusitem.mg",
+      "file": "assets/original/focusitem.mg",
+      "bytes": 270,
+      "sha256": "d4e55a19e494e2ce658056941d6f4aa98c2481d7ee96bfbc14937b9093de99ac"
+    },
+    {
+      "source": "food.mg",
+      "file": "assets/original/food.mg",
+      "bytes": 146,
+      "sha256": "31ed4663fead1edddf9b32ec14c60946a5b2375ba5bef38ccb84cd65e2b22d11"
+    },
+    {
+      "source": "frame1.mg",
+      "file": "assets/original/frame1.mg",
+      "bytes": 581,
+      "sha256": "892fd3f38f2b9f2e5cfbd819e06ef12d6e9506ac494c3887df8ae3fa6914d4d4"
+    },
+    {
+      "source": "frame2.mg",
+      "file": "assets/original/frame2.mg",
+      "bytes": 177,
+      "sha256": "ecaf06878d09c17738ccd547c234495cd9218bff949611fa307f8d30d7e3406c"
+    },
+    {
+      "source": "frame3.mg",
+      "file": "assets/original/frame3.mg",
+      "bytes": 164,
+      "sha256": "c35b2b08b153cee9d9b8b40c5c486b9ceb720888e0f349e8520c12830279c2b4"
+    },
+    {
+      "source": "frozen.mg",
+      "file": "assets/original/frozen.mg",
+      "bytes": 2524,
+      "sha256": "58a2d2e7c8a039c6af7c5fd14d908f140291aad994c571b957c591d9ca0ef5fd"
+    },
+    {
+      "source": "frozenicon.mg",
+      "file": "assets/original/frozenicon.mg",
+      "bytes": 781,
+      "sha256": "9ae199d51d944b712941149304d7d29a36b8deade67b885db0b048ac5084b7db"
+    },
+    {
+      "source": "gold.mg",
+      "file": "assets/original/gold.mg",
+      "bytes": 203,
+      "sha256": "c2389ba13de5c93455bfed805cdfaaeed09f8bc83c3bdc82ae962b668bd79265"
+    },
+    {
+      "source": "healing.mg",
+      "file": "assets/original/healing.mg",
+      "bytes": 1046,
+      "sha256": "4c559031a3c5015683e292273ad6ce4fee5317e97117b2befd81557720aeac6a"
+    },
+    {
+      "source": "healingicon.mg",
+      "file": "assets/original/healingicon.mg",
+      "bytes": 875,
+      "sha256": "b89421c58c42ddd4fab34d9c15a2a71277085f896113c67608db634abe869c6f"
+    },
+    {
+      "source": "heart.mg",
+      "file": "assets/original/heart.mg",
+      "bytes": 228,
+      "sha256": "1f034cb0a0cdd74715ea29f4b00e8e2d43a1f543c72b0c31c6006d1cb723431d"
+    },
+    {
+      "source": "hellfire.mg",
+      "file": "assets/original/hellfire.mg",
+      "bytes": 2936,
+      "sha256": "788b67ac9f932b4b9e09c2a15b876942c0b9095378b5c62c757cfe58aba58b14"
+    },
+    {
+      "source": "hellfireicon.mg",
+      "file": "assets/original/hellfireicon.mg",
+      "bytes": 852,
+      "sha256": "520b0c2d912dfdf823781dd59da2e26b1b0df7709a27d6b6408d30b960d396ab"
+    },
+    {
+      "source": "icebolt.mg",
+      "file": "assets/original/icebolt.mg",
+      "bytes": 615,
+      "sha256": "bcc13badaaafbcf53bb156eb9abd62102f578d368c348dfbed4bc7a0c5dd89be"
+    },
+    {
+      "source": "icebolticon.mg",
+      "file": "assets/original/icebolticon.mg",
+      "bytes": 833,
+      "sha256": "cfcac220c1747ffb61ee34e49df239883b07782e9156e269b3880fb1b085cd9b"
+    },
+    {
+      "source": "icon.png",
+      "file": "assets/original/icon.png",
+      "bytes": 361,
+      "sha256": "8fcbf8c2683f9d16fc2f657e919081b33beffb05e37a8c10fcf6997a3b73e8ba"
+    },
+    {
+      "source": "itemshops.mg",
+      "file": "assets/original/itemshops.mg",
+      "bytes": 1673,
+      "sha256": "aa7926e833eab59f0f0e799c2105b903f929d19cf680146110df5451975cf914"
+    },
+    {
+      "source": "m/af.mg",
+      "file": "assets/original/m/af.mg",
+      "bytes": 165,
+      "sha256": "1727a6f3d810889d6d11bd6682f959b98fc8d55f0ffb3500ff7b3882fbeddd47"
+    },
+    {
+      "source": "m/ar.mg",
+      "file": "assets/original/m/ar.mg",
+      "bytes": 195,
+      "sha256": "e1d240f9b704ec5ed7050538a402934f87b5907bcfca7ce3a8063b3bbb7ca553"
+    },
+    {
+      "source": "m/b.mg",
+      "file": "assets/original/m/b.mg",
+      "bytes": 120,
+      "sha256": "f10784122eb85da90f7d8de5b9ecabea8954f8cd356471aaf1781072aca21253"
+    },
+    {
+      "source": "m/bl.mg",
+      "file": "assets/original/m/bl.mg",
+      "bytes": 159,
+      "sha256": "e8a63ef1f3eff2461b2515d495186869ee0a16689b66e3c0034c2b1a4150ed25"
+    },
+    {
+      "source": "m/e1.mg",
+      "file": "assets/original/m/e1.mg",
+      "bytes": 4674,
+      "sha256": "3fdeeed4b47235b75307acc48b1fc61de6a3609cd7238b5569cdf2ff3b2ae0e9"
+    },
+    {
+      "source": "m/e2.mg",
+      "file": "assets/original/m/e2.mg",
+      "bytes": 1824,
+      "sha256": "ecac610cae03f87494f1ecbee43e987262adb164f14d025b408af1ebef67ea31"
+    },
+    {
+      "source": "m/ff.mg",
+      "file": "assets/original/m/ff.mg",
+      "bytes": 299,
+      "sha256": "3087ad313440efbf0d50981a978896f4a6e1ba92ec62a2133d9b0693ccc52d79"
+    },
+    {
+      "source": "m/fsw.mg",
+      "file": "assets/original/m/fsw.mg",
+      "bytes": 193,
+      "sha256": "7577a20ee4c0b1ebd2e405546101e321f6f23ac7b18c075e4c1e2e59999dddeb"
+    },
+    {
+      "source": "m/g.mg",
+      "file": "assets/original/m/g.mg",
+      "bytes": 395,
+      "sha256": "b4f9cabbd6e91b869c73153b124823cee26ea4b0a8f99fbe915f2d857503ea6c"
+    },
+    {
+      "source": "m/hm.mg",
+      "file": "assets/original/m/hm.mg",
+      "bytes": 205,
+      "sha256": "b62568c24c6afa9254e8bb76e7ae12abf15edaafa6915245ddb46bdf6978f1e0"
+    },
+    {
+      "source": "m/ih.mg",
+      "file": "assets/original/m/ih.mg",
+      "bytes": 400,
+      "sha256": "d268cb8f478d4e88e07497a9b4608fcd7b1a90bc776aae0699a2b2e1a2bf2c7d"
+    },
+    {
+      "source": "m/isw.mg",
+      "file": "assets/original/m/isw.mg",
+      "bytes": 268,
+      "sha256": "658aff09037fc16daa14001a4cced3c5480b776674bbad1d2bae6af7a59bd66c"
+    },
+    {
+      "source": "m/l.mg",
+      "file": "assets/original/m/l.mg",
+      "bytes": 156,
+      "sha256": "ecf95b45c74e605b6a42c30913703e9a21cf1f7e3954c29ae593df1bd821f756"
+    },
+    {
+      "source": "m/lock.mg",
+      "file": "assets/original/m/lock.mg",
+      "bytes": 182,
+      "sha256": "6693989430264f8b6c3d39faf02198af0bbfc3aa8bdbcf639788e47e596fe901"
+    },
+    {
+      "source": "m/lv.mg",
+      "file": "assets/original/m/lv.mg",
+      "bytes": 159,
+      "sha256": "4ec53b164aa7264e55dc9f0634099d8dca293d4b3f2db08d3624b4197900da8d"
+    },
+    {
+      "source": "m/m.mg",
+      "file": "assets/original/m/m.mg",
+      "bytes": 54305,
+      "sha256": "840bb7c0827e1ca97ebc49d472cbf1bcb808d9ce12f35d6accf25ff6c1bf656f"
+    },
+    {
+      "source": "m/mt1.mg",
+      "file": "assets/original/m/mt1.mg",
+      "bytes": 238,
+      "sha256": "fa3af84a88937d36a72a4795c6a0cb8eb336908a36ea5285c504aaef9a5229d1"
+    },
+    {
+      "source": "m/r.mg",
+      "file": "assets/original/m/r.mg",
+      "bytes": 493,
+      "sha256": "2a87bff4c0d5e228ecd378c3265d7c7f5156380fd2156ac929a673137de52173"
+    },
+    {
+      "source": "m/sw.mg",
+      "file": "assets/original/m/sw.mg",
+      "bytes": 349,
+      "sha256": "257462ea2064b15355be820edc68c774fde3d3bc4ed8573b8c67980f20962514"
+    },
+    {
+      "source": "m/vk.mg",
+      "file": "assets/original/m/vk.mg",
+      "bytes": 401,
+      "sha256": "0f5b3b2e8f38a62ab688d0bed01c8df904261e04aa5080415807795490777c9c"
+    },
+    {
+      "source": "mana.mg",
+      "file": "assets/original/mana.mg",
+      "bytes": 212,
+      "sha256": "8a3f481a6f8bc0bd3e05fa288031b142bb8ade77140a47b0172411848024d4b5"
+    },
+    {
+      "source": "meteoricon.mg",
+      "file": "assets/original/meteoricon.mg",
+      "bytes": 663,
+      "sha256": "fe1152704374fb7a8e2a8ca6b24bacf71b0d1d90537bdc5a73a351c21118f349"
+    },
+    {
+      "source": "numbersmall.mg",
+      "file": "assets/original/numbersmall.mg",
+      "bytes": 165,
+      "sha256": "2cbc98787c812ea45a8f48a2521adbaac9edc5e9cb19cbe5cb31d024185f8f9e"
+    },
+    {
+      "source": "powerattack.mg",
+      "file": "assets/original/powerattack.mg",
+      "bytes": 1183,
+      "sha256": "6c27c27fa681dad7e4b64f7067f2640f2fbed1df03301110cba5bb801abebde9"
+    },
+    {
+      "source": "r/1.mg",
+      "file": "assets/original/r/1.mg",
+      "bytes": 316,
+      "sha256": "5a767b83875a387c6fbc37537b1dd4f9d9e4d0be1477c5f0ab8aa04f45e5e064"
+    },
+    {
+      "source": "r/2.mg",
+      "file": "assets/original/r/2.mg",
+      "bytes": 439,
+      "sha256": "b213bf950afbdf510844fab70bd38fbdd45148178b776e80a4fba30eb6e5b606"
+    },
+    {
+      "source": "r/3.mg",
+      "file": "assets/original/r/3.mg",
+      "bytes": 349,
+      "sha256": "f618fbccbbf013fb61de96b77099728351aa14824a26ad2e6e923b482e66be8b"
+    },
+    {
+      "source": "r/4.mg",
+      "file": "assets/original/r/4.mg",
+      "bytes": 382,
+      "sha256": "736f65f5fa2e2a8280ed564725e2a40b877a8d96120b93e1c3112c0bc8e62399"
+    },
+    {
+      "source": "r/br.mg",
+      "file": "assets/original/r/br.mg",
+      "bytes": 705,
+      "sha256": "7fefe4cc80eb47a440786c6c1077176b31abfb3608fcd0e56efc62f84869d1b8"
+    },
+    {
+      "source": "r/g.mg",
+      "file": "assets/original/r/g.mg",
+      "bytes": 236,
+      "sha256": "fcf31a5129332b73c8c897438d10bd5adf18e61d7b2c1b680a0e720278205aeb"
+    },
+    {
+      "source": "r/q.mg",
+      "file": "assets/original/r/q.mg",
+      "bytes": 221,
+      "sha256": "60efc926000eeeaf0d7f2c761526080ed939e5d42b7656a67baddbcd1e45fafa"
+    },
+    {
+      "source": "rice.mg",
+      "file": "assets/original/rice.mg",
+      "bytes": 272,
+      "sha256": "3cc823aca571823856fdfbd0e16e897737778df655485b63589315abb9b9aff0"
+    },
+    {
+      "source": "shieldlighting.mg",
+      "file": "assets/original/shieldlighting.mg",
+      "bytes": 2605,
+      "sha256": "ca4cb94ff86ee2d27779e59e1c003df8a5a13cdae13235a559f6c2b723b17c7c"
+    },
+    {
+      "source": "shieldlightingicon.mg",
+      "file": "assets/original/shieldlightingicon.mg",
+      "bytes": 864,
+      "sha256": "e1bfaa87819aad09ec7eebc2b852d581ad7555ea6751f0fcbb116c76b8980e4e"
+    },
+    {
+      "source": "star.mg",
+      "file": "assets/original/star.mg",
+      "bytes": 225,
+      "sha256": "33859dd7cfe5b0ee576c423e806254b8fcf1a7d07d1fd38193e99d6284a2a130"
+    },
+    {
+      "source": "strauthor.mg",
+      "file": "assets/original/strauthor.mg",
+      "bytes": 200,
+      "sha256": "bfc3977a70be0f671fa6417463d4a8905b986331e353545d8b891998bf3eaff7"
+    },
+    {
+      "source": "strauthorfocus.mg",
+      "file": "assets/original/strauthorfocus.mg",
+      "bytes": 200,
+      "sha256": "9ddefd58d0c7fb80b592586434ab8a9710dc60f13acfadd6e1fc50376d59a02b"
+    },
+    {
+      "source": "strchatola.mg",
+      "file": "assets/original/strchatola.mg",
+      "bytes": 203,
+      "sha256": "f10a3dbb92c9cfd4a55d5aae6731aafb1bbda532450ea8186f1fef25b0807ee6"
+    },
+    {
+      "source": "strchatolafocus.mg",
+      "file": "assets/original/strchatolafocus.mg",
+      "bytes": 203,
+      "sha256": "6a880cf03c1f0db4078c6f691036218bff76a1fc1d60cda49f4ba9c5671a7a5e"
+    },
+    {
+      "source": "strcontinuegame.mg",
+      "file": "assets/original/strcontinuegame.mg",
+      "bytes": 212,
+      "sha256": "968895f6384bc6ed00f2e344618c990afe22261f4860e2df3658a81159f1d2ed"
+    },
+    {
+      "source": "strcontinuegamefocus.mg",
+      "file": "assets/original/strcontinuegamefocus.mg",
+      "bytes": 212,
+      "sha256": "7fc2e373b031ff988c6ddbe40662715e7d583f36f5ee17d317469d5e3c27171b"
+    },
+    {
+      "source": "strgivegame.mg",
+      "file": "assets/original/strgivegame.mg",
+      "bytes": 225,
+      "sha256": "8ba8b76d550d2da20397bbb9ffde943074bb9c93dd2b90914754bfb9abd8b5f4"
+    },
+    {
+      "source": "strgivegamefocus.mg",
+      "file": "assets/original/strgivegamefocus.mg",
+      "bytes": 225,
+      "sha256": "81e4515db015192d576042fde83e72df896b6eb97ed3f343d409a15de9dac6bc"
+    },
+    {
+      "source": "strguide.mg",
+      "file": "assets/original/strguide.mg",
+      "bytes": 252,
+      "sha256": "42215b2a6eddea5c29f62a0597e372a3a1ff42191c3118e4868b7a5d267514e9"
+    },
+    {
+      "source": "strguidefocus.mg",
+      "file": "assets/original/strguidefocus.mg",
+      "bytes": 252,
+      "sha256": "e4e850f0d6f0cde73a2956b681de0789d7a68d6540f8281be8c7753aa1a8e714"
+    },
+    {
+      "source": "strinformation.mg",
+      "file": "assets/original/strinformation.mg",
+      "bytes": 216,
+      "sha256": "c25243d73ea30cd8ec36e9e27610d850e48eeec9bfe84de99eaa4f044ec9a810"
+    },
+    {
+      "source": "strinformationfocus.mg",
+      "file": "assets/original/strinformationfocus.mg",
+      "bytes": 216,
+      "sha256": "c87245735ea665ac52b949f440c9494327cdeca226567873ca2c6218937a4ffc"
+    },
+    {
+      "source": "strlose.mg",
+      "file": "assets/original/strlose.mg",
+      "bytes": 5630,
+      "sha256": "25e4ba9c5280fc490c8fec7caafea569980ce3174498653421bb892f0d84ced0"
+    },
+    {
+      "source": "strnewgame.mg",
+      "file": "assets/original/strnewgame.mg",
+      "bytes": 204,
+      "sha256": "c3fbb8571c7f4c6db1db1b0c0d09bd3c6ab9aceb7bad8cbd0e9f45e6db32ff8c"
+    },
+    {
+      "source": "strnewgamefocus.mg",
+      "file": "assets/original/strnewgamefocus.mg",
+      "bytes": 204,
+      "sha256": "de7c0fbbc485a77bb0d90dd583fe71db02edf9618146c78d13121244c3b601ac"
+    },
+    {
+      "source": "strothergame.mg",
+      "file": "assets/original/strothergame.mg",
+      "bytes": 228,
+      "sha256": "52e66d333ed770dd5edffe197a0945e8e421176925ac4d505abd9fdc43da951b"
+    },
+    {
+      "source": "strothergamefocus.mg",
+      "file": "assets/original/strothergamefocus.mg",
+      "bytes": 228,
+      "sha256": "09507ece62d2e539252a736fa07f5735c168d7aeed11df5f6587c15e1f02d5f7"
+    },
+    {
+      "source": "strrecord.mg",
+      "file": "assets/original/strrecord.mg",
+      "bytes": 207,
+      "sha256": "8a777eb88854e2863ba730d3bec3076f80a6646f57f389f19a5d75023187639b"
+    },
+    {
+      "source": "strrecordfocus.mg",
+      "file": "assets/original/strrecordfocus.mg",
+      "bytes": 207,
+      "sha256": "b41973a8d56c444ffa9f577d43e1fa2e6f92bdbfd447e216762fb21b5936b3e7"
+    },
+    {
+      "source": "strshop.mg",
+      "file": "assets/original/strshop.mg",
+      "bytes": 234,
+      "sha256": "bce1ccb7e4db4fe8618976daa4cbb24b8f1f1b9cd83ed0bd311f86be81f7d71b"
+    },
+    {
+      "source": "strshopfocus.mg",
+      "file": "assets/original/strshopfocus.mg",
+      "bytes": 234,
+      "sha256": "3504e7e9e1181eb81a09851660e2113de5a66c2984e36791bc66950896c7cfe5"
+    },
+    {
+      "source": "strwin.mg",
+      "file": "assets/original/strwin.mg",
+      "bytes": 7249,
+      "sha256": "2e1d9c8ba71e26ee3f7b691ed8f8f59e27369b2fd6d04947299563fd6a4bf6e1"
+    },
+    {
+      "source": "sword.mg",
+      "file": "assets/original/sword.mg",
+      "bytes": 253,
+      "sha256": "4fd17ac703129eda127bb2894b6a8bdc024e7d34700afd4b86d1f8d68734b2f2"
+    },
+    {
+      "source": "swordfocus.mg",
+      "file": "assets/original/swordfocus.mg",
+      "bytes": 191,
+      "sha256": "ffcefa088f94d6aeb1bd9d1d8b087063deca16b8fc1e8a06a22a604784a7837c"
+    },
+    {
+      "source": "swordred.mg",
+      "file": "assets/original/swordred.mg",
+      "bytes": 309,
+      "sha256": "5ec2b238bea4cb6533f02693f67874130d02dda5c96850b7ef91d16e7cb6a110"
+    },
+    {
+      "source": "title.mg",
+      "file": "assets/original/title.mg",
+      "bytes": 686,
+      "sha256": "4bc641a086f44b8f12ab4dabe3a28b212ea8b6c9e538e8ab0e4b303948a4ba71"
+    },
+    {
+      "source": "vchainlighting.mg",
+      "file": "assets/original/vchainlighting.mg",
+      "bytes": 138,
+      "sha256": "27631efec4d01ad9f9240ac56a8b5d05bdb4f5df4b717a545f3954d73da505cf"
+    },
+    {
+      "source": "vhchainlighting.mg",
+      "file": "assets/original/vhchainlighting.mg",
+      "bytes": 155,
+      "sha256": "1ee64f73978f2f4651853734021ce01e5ac20448b7f04de9156c68bdc0191cd1"
+    },
+    {
+      "source": "yinyang.mg",
+      "file": "assets/original/yinyang.mg",
+      "bytes": 271,
+      "sha256": "22439ba5b51a2b663875ecb40275fb94de8a2822d5a8bcb3d5f1e3aacfcf0e84"
+    },
+    {
+      "source": "zoomfocus1.mg",
+      "file": "assets/original/zoomfocus1.mg",
+      "bytes": 184,
+      "sha256": "2f645deda944fae38d7791b47bc7e31f9095c7fc40c44dbb8fd18be12bcc50b2"
+    }
+  ]
+}
