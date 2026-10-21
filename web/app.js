@@ -10,8 +10,13 @@
     if (running) game.contentWindow.postMessage({app:'loan12',type,...data}, location.origin);
   }
   function setStatus(message) { $('status').textContent = message; }
-  function resize() { $('stage').style.setProperty('--game-scale', $('stage').clientWidth/240); }
+  function resize() {
+    const width = $('stage').getBoundingClientRect().width || $('stage').clientWidth;
+    $('stage').style.setProperty('--game-scale', width / 240);
+  }
   new ResizeObserver(resize).observe($('stage'));
+  window.addEventListener('resize', resize);
+  resize();
   $('start').addEventListener('click', () => {
     running = true;
     $('start').disabled = true;
@@ -19,6 +24,9 @@
     $('boot-status').textContent = 'Đang nạp trò chơi và tài nguyên gốc';
     game.hidden = false;
     game.src = gameUrl;
+    if (window.matchMedia('(max-width: 900px) and (pointer: coarse)').matches && !document.fullscreenElement) {
+      $('machine').requestFullscreen?.().catch(() => {});
+    }
     resize();
   });
   window.addEventListener('message', event => {

@@ -19,12 +19,14 @@
   <main id="play" class="layout">
     <section class="intro" aria-labelledby="game-title">
       <p class="eyebrow"><span></span> MICROGAME · 2010</p>
-      <h1 id="game-title">Một thời<br><em>loạn thế.</em></h1>
-      <p class="lede">Ghép kiếm, dụng phép,<br>thu phục mười hai sứ quân.</p>
-      <p class="description">Trở lại cuộc hành trình thống nhất giang sơn. Từng nét pixel, bản nhạc và lượt đấu của phiên bản Java nay có mặt trên trình duyệt.</p>
-      <div class="ornament" aria-hidden="true"><span></span>✥<span></span></div>
-      <div class="facts"><div><strong>46</strong><span>BƯỚC CHIẾN DỊCH</span></div><div><strong>09</strong><span>PHÉP THUẬT</span></div><div><strong>03</strong><span>HỆ SỨC MẠNH</span></div></div>
-      <a class="text-link" href="analysis/LOGIC.md" target="_blank" rel="noopener">Đọc bản phân tích ứng dụng <span aria-hidden="true">↗</span></a>
+      <h1 id="game-title">Một thời <em>loạn thế.</em></h1>
+      <p class="lede">Ghép kiếm, dụng phép, thu phục 12 sứ quân trên bản Java ME nguyên gốc.</p>
+      <div class="facts"><div><strong>46</strong><span>MÀN CHƠI</span></div><div><strong>09</strong><span>PHÉP THUẬT</span></div><div><strong>03</strong><span>HỆ SỨC MẠNH</span></div></div>
+      <div class="quick-rules" aria-label="Luật chơi cơ bản">
+        <div class="tile-guide"><img src="assets/images/sword.png" alt=""><span><strong>Ghép ≥3 ô</strong> để tấn công đối thủ</span></div>
+        <div class="tile-guide"><img src="assets/images/heart.png" alt=""><span><strong>Tim · Bánh · Âm dương</strong> hồi máu, lương, phép</span></div>
+        <div class="tile-guide"><img src="assets/images/yinyang.png" alt=""><span><strong>Nối ≥4 ô</strong> thêm lượt · đi sai mất lượt</span></div>
+      </div>
     </section>
 
     <section class="game-column" aria-label="Màn hình trò chơi">
@@ -49,15 +51,10 @@
       <p class="save-note" id="status" role="status">Tiến trình được lưu trên trình duyệt này.</p>
     </section>
 
-    <aside class="guide" aria-labelledby="guide-title">
-      <p class="eyebrow">BINH PHÁP NHẬP MÔN</p>
-      <h2 id="guide-title">Mỗi nước đi,<br>một thế cờ.</h2>
-      <div class="tile-guide"><img src="assets/images/sword.png" alt=""><p><strong>Ghép 3 để tấn công</strong><span>Đổi chỗ hai ô liền kề. Xếp ít nhất ba biểu tượng cùng loại thành hàng.</span></p></div>
-      <div class="tile-guide"><img src="assets/images/heart.png" alt=""><p><strong>Giữ vững sinh lực</strong><span>Tim hồi máu. Bánh chưng tiếp lương. Âm dương tích năng lượng dùng phép.</span></p></div>
-      <div class="tile-guide"><img src="assets/images/yinyang.png" alt=""><p><strong>Nối chuỗi, đoạt thêm lượt</strong><span>Ghép từ bốn ô nhận thêm lượt. Nước đi sai sẽ mất máu và mất lượt.</span></p></div>
+    <aside class="guide" aria-label="Điều khiển và dữ liệu">
       <div class="keyboard-guide"><p>ĐIỀU KHIỂN</p><div><span>Di chuyển</span><span class="key-group"><kbd>↑</kbd><kbd>←</kbd><kbd>↓</kbd><kbd>→</kbd></span></div><div><span>Chọn / đổi ô</span><kbd>Enter</kbd></div><div><span>Phím trái / phải</span><span class="key-group"><kbd>Q</kbd><kbd>E</kbd></span></div><div><span>Phép / vật phẩm</span><span class="key-group"><kbd>✱</kbd><kbd>#</kbd></span></div></div>
-      <details><summary>Lưu và chuyển tiến trình</summary><p>Trước khi đóng trang, hãy rời bản đồ qua menu gốc hoặc chọn T.Dừng trong trận để game ghi checkpoint. Bản sao chứa dữ liệu game đã ghi, giúp chuyển tiến trình sang trình duyệt khác.</p><div class="backup-actions"><button id="export" disabled>Tải bản lưu ↓</button><button id="import" disabled>Nhập bản lưu ↑</button></div><input id="save-file" type="file" accept="application/json,.json" hidden></details>
-      <details><summary>Về phiên bản này</summary><p>Giữ nguyên tài nguyên và thực thi logic Java ME gốc bằng JavaScript. Không cần cài Java. Tính năng SMS cũ được thay bằng giao dịch mô phỏng cục bộ; không gửi tin nhắn hay thu tiền.</p><a href="THIRD_PARTY.md" target="_blank" rel="noopener">Nguồn và giấy phép ↗</a></details>
+      <details><summary>Lưu và chuyển tiến trình</summary><p>Rời bản đồ qua menu hoặc chọn T.Dừng trong trận để ghi checkpoint trước khi tải bản lưu.</p><div class="backup-actions"><button id="export" disabled>Tải bản lưu ↓</button><button id="import" disabled>Nhập bản lưu ↑</button></div><input id="save-file" type="file" accept="application/json,.json" hidden></details>
+      <details><summary>Về phiên bản này</summary><p>Thực thi trực tiếp JAR Java ME gốc bằng JavaScript; giao dịch SMS được mô phỏng cục bộ.</p><div class="doc-links"><a href="analysis/LOGIC.md" target="_blank" rel="noopener">Bản phân tích ↗</a><a href="THIRD_PARTY.md" target="_blank" rel="noopener">Giấy phép ↗</a></div></details>
     </aside>
   </main>
   <footer><span>LOẠN 12 SỨ QUÂN <b> / </b> LƯU GIỮ MỘT THỜI</span><span>Đồ họa, âm thanh & gameplay từ JAR gốc.</span></footer>
