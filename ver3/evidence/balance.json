@@ -1,0 +1,2241 @@
+{
+  "policy": "20 seeded attempts per mission; level grows from earned rewards, modules damage/shield/mana III (all legally buyable with free shortfall), Lyra/Yen tactical switch; no mid-fight stat edits.",
+  "battles": 240,
+  "wins": 235,
+  "missions": [
+    {
+      "mission": 1,
+      "name": "Tín hiệu từ bến cảng",
+      "wins": 20,
+      "outOf": 20
+    },
+    {
+      "mission": 2,
+      "name": "Cầu treo vỡ",
+      "wins": 20,
+      "outOf": 20
+    },
+    {
+      "mission": 3,
+      "name": "Vườn tảo tắt sáng",
+      "wins": 20,
+      "outOf": 20
+    },
+    {
+      "mission": 4,
+      "name": "Người gác đê",
+      "wins": 20,
+      "outOf": 20
+    },
+    {
+      "mission": 5,
+      "name": "Tần số thất lạc",
+      "wins": 20,
+      "outOf": 20
+    },
+    {
+      "mission": 6,
+      "name": "Đường hầm đỏ",
+      "wins": 20,
+      "outOf": 20
+    },
+    {
+      "mission": 7,
+      "name": "Vành đai không trọng lực",
+      "wins": 20,
+      "outOf": 20
+    },
+    {
+      "mission": 8,
+      "name": "Lời nói của thành phố",
+      "wins": 20,
+      "outOf": 20
+    },
+    {
+      "mission": 9,
+      "name": "Cột dẫn thứ nhất",
+      "wins": 20,
+      "outOf": 20
+    },
+    {
+      "mission": 10,
+      "name": "Kho ký ức",
+      "wins": 20,
+      "outOf": 20
+    },
+    {
+      "mission": 11,
+      "name": "Một phút trước bình minh",
+      "wins": 20,
+      "outOf": 20
+    },
+    {
+      "mission": 12,
+      "name": "Đêm cuối cùng",
+      "wins": 15,
+      "outOf": 20
+    }
+  ],
+  "rows": [
+    {
+      "run": 1,
+      "mission": 1,
+      "result": "won",
+      "actions": 37,
+      "hp": 320,
+      "phase": 1,
+      "level": 2
+    },
+    {
+      "run": 1,
+      "mission": 2,
+      "result": "won",
+      "actions": 10,
+      "hp": 344,
+      "phase": 1,
+      "level": 2
+    },
+    {
+      "run": 1,
+      "mission": 3,
+      "result": "won",
+      "actions": 20,
+      "hp": 328,
+      "phase": 1,
+      "level": 2
+    },
+    {
+      "run": 1,
+      "mission": 4,
+      "result": "won",
+      "actions": 23,
+      "hp": 344,
+      "phase": 1,
+      "level": 3
+    },
+    {
+      "run": 1,
+      "mission": 5,
+      "result": "won",
+      "actions": 10,
+      "hp": 368,
+      "phase": 1,
+      "level": 3
+    },
+    {
+      "run": 1,
+      "mission": 6,
+      "result": "won",
+      "actions": 14,
+      "hp": 368,
+      "phase": 1,
+      "level": 4
+    },
+    {
+      "run": 1,
+      "mission": 7,
+      "result": "won",
+      "actions": 41,
+      "hp": 392,
+      "phase": 1,
+      "level": 4
+    },
+    {
+      "run": 1,
+      "mission": 8,
+      "result": "won",
+      "actions": 37,
+      "hp": 392,
+      "phase": 1,
+      "level": 4
+    },
+    {
+      "run": 1,
+      "mission": 9,
+      "result": "won",
+      "actions": 26,
+      "hp": 365,
+      "phase": 1,
+      "level": 5
+    },
+    {
+      "run": 1,
+      "mission": 10,
+      "result": "won",
+      "actions": 29,
+      "hp": 416,
+      "phase": 1,
+      "level": 5
+    },
+    {
+      "run": 1,
+      "mission": 11,
+      "result": "won",
+      "actions": 30,
+      "hp": 416,
+      "phase": 1,
+      "level": 5
+    },
+    {
+      "run": 1,
+      "mission": 12,
+      "result": "won",
+      "actions": 79,
+      "hp": 56,
+      "phase": 3,
+      "level": 6
+    },
+    {
+      "run": 2,
+      "mission": 1,
+      "result": "won",
+      "actions": 9,
+      "hp": 320,
+      "phase": 1,
+      "level": 1
+    },
+    {
+      "run": 2,
+      "mission": 2,
+      "result": "won",
+      "actions": 12,
+      "hp": 320,
+      "phase": 1,
+      "level": 2
+    },
+    {
+      "run": 2,
+      "mission": 3,
+      "result": "won",
+      "actions": 19,
+      "hp": 344,
+      "phase": 1,
+      "level": 2
+    },
+    {
+      "run": 2,
+      "mission": 4,
+      "result": "won",
+      "actions": 28,
+      "hp": 304,
+      "phase": 1,
+      "level": 3
+    },
+    {
+      "run": 2,
+      "mission": 5,
+      "result": "won",
+      "actions": 16,
+      "hp": 368,
+      "phase": 1,
+      "level": 3
+    },
+    {
+      "run": 2,
+      "mission": 6,
+      "result": "won",
+      "actions": 43,
+      "hp": 249,
+      "phase": 1,
+      "level": 4
+    },
+    {
+      "run": 2,
+      "mission": 7,
+      "result": "won",
+      "actions": 16,
+      "hp": 392,
+      "phase": 1,
+      "level": 4
+    },
+    {
+      "run": 2,
+      "mission": 8,
+      "result": "won",
+      "actions": 36,
+      "hp": 360,
+      "phase": 1,
+      "level": 4
+    },
+    {
+      "run": 2,
+      "mission": 9,
+      "result": "won",
+      "actions": 29,
+      "hp": 354,
+      "phase": 1,
+      "level": 5
+    },
+    {
+      "run": 2,
+      "mission": 10,
+      "result": "won",
+      "actions": 24,
+      "hp": 416,
+      "phase": 1,
+      "level": 5
+    },
+    {
+      "run": 2,
+      "mission": 11,
+      "result": "won",
+      "actions": 13,
+      "hp": 416,
+      "phase": 1,
+      "level": 5
+    },
+    {
+      "run": 2,
+      "mission": 12,
+      "result": "won",
+      "actions": 70,
+      "hp": 114,
+      "phase": 3,
+      "level": 6
+    },
+    {
+      "run": 3,
+      "mission": 1,
+      "result": "won",
+      "actions": 19,
+      "hp": 320,
+      "phase": 1,
+      "level": 1
+    },
+    {
+      "run": 3,
+      "mission": 2,
+      "result": "won",
+      "actions": 7,
+      "hp": 320,
+      "phase": 1,
+      "level": 2
+    },
+    {
+      "run": 3,
+      "mission": 3,
+      "result": "won",
+      "actions": 11,
+      "hp": 327,
+      "phase": 1,
+      "level": 2
+    },
+    {
+      "run": 3,
+      "mission": 4,
+      "result": "won",
+      "actions": 11,
+      "hp": 344,
+      "phase": 1,
+      "level": 3
+    },
+    {
+      "run": 3,
+      "mission": 5,
+      "result": "won",
+      "actions": 18,
+      "hp": 368,
+      "phase": 1,
+      "level": 3
+    },
+    {
+      "run": 3,
+      "mission": 6,
+      "result": "won",
+      "actions": 36,
+      "hp": 368,
+      "phase": 1,
+      "level": 4
+    },
+    {
+      "run": 3,
+      "mission": 7,
+      "result": "won",
+      "actions": 14,
+      "hp": 353,
+      "phase": 1,
+      "level": 4
+    },
+    {
+      "run": 3,
+      "mission": 8,
+      "result": "won",
+      "actions": 31,
+      "hp": 370,
+      "phase": 1,
+      "level": 4
+    },
+    {
+      "run": 3,
+      "mission": 9,
+      "result": "won",
+      "actions": 21,
+      "hp": 351,
+      "phase": 1,
+      "level": 5
+    },
+    {
+      "run": 3,
+      "mission": 10,
+      "result": "won",
+      "actions": 38,
+      "hp": 413,
+      "phase": 1,
+      "level": 5
+    },
+    {
+      "run": 3,
+      "mission": 11,
+      "result": "won",
+      "actions": 23,
+      "hp": 351,
+      "phase": 1,
+      "level": 5
+    },
+    {
+      "run": 3,
+      "mission": 12,
+      "result": "won",
+      "actions": 56,
+      "hp": 184,
+      "phase": 3,
+      "level": 6
+    },
+    {
+      "run": 4,
+      "mission": 1,
+      "result": "won",
+      "actions": 11,
+      "hp": 320,
+      "phase": 1,
+      "level": 1
+    },
+    {
+      "run": 4,
+      "mission": 2,
+      "result": "won",
+      "actions": 12,
+      "hp": 320,
+      "phase": 1,
+      "level": 2
+    },
+    {
+      "run": 4,
+      "mission": 3,
+      "result": "won",
+      "actions": 20,
+      "hp": 344,
+      "phase": 1,
+      "level": 2
+    },
+    {
+      "run": 4,
+      "mission": 4,
+      "result": "won",
+      "actions": 10,
+      "hp": 344,
+      "phase": 1,
+      "level": 3
+    },
+    {
+      "run": 4,
+      "mission": 5,
+      "result": "won",
+      "actions": 21,
+      "hp": 368,
+      "phase": 1,
+      "level": 3
+    },
+    {
+      "run": 4,
+      "mission": 6,
+      "result": "won",
+      "actions": 8,
+      "hp": 353,
+      "phase": 1,
+      "level": 3
+    },
+    {
+      "run": 4,
+      "mission": 7,
+      "result": "won",
+      "actions": 13,
+      "hp": 368,
+      "phase": 1,
+      "level": 4
+    },
+    {
+      "run": 4,
+      "mission": 8,
+      "result": "won",
+      "actions": 32,
+      "hp": 299,
+      "phase": 1,
+      "level": 4
+    },
+    {
+      "run": 4,
+      "mission": 9,
+      "result": "won",
+      "actions": 38,
+      "hp": 359,
+      "phase": 1,
+      "level": 5
+    },
+    {
+      "run": 4,
+      "mission": 10,
+      "result": "won",
+      "actions": 31,
+      "hp": 261,
+      "phase": 1,
+      "level": 5
+    },
+    {
+      "run": 4,
+      "mission": 11,
+      "result": "won",
+      "actions": 20,
+      "hp": 325,
+      "phase": 1,
+      "level": 5
+    },
+    {
+      "run": 4,
+      "mission": 12,
+      "result": "won",
+      "actions": 56,
+      "hp": 257,
+      "phase": 3,
+      "level": 6
+    },
+    {
+      "run": 5,
+      "mission": 1,
+      "result": "won",
+      "actions": 10,
+      "hp": 320,
+      "phase": 1,
+      "level": 1
+    },
+    {
+      "run": 5,
+      "mission": 2,
+      "result": "won",
+      "actions": 12,
+      "hp": 310,
+      "phase": 1,
+      "level": 2
+    },
+    {
+      "run": 5,
+      "mission": 3,
+      "result": "won",
+      "actions": 22,
+      "hp": 344,
+      "phase": 1,
+      "level": 2
+    },
+    {
+      "run": 5,
+      "mission": 4,
+      "result": "won",
+      "actions": 24,
+      "hp": 344,
+      "phase": 1,
+      "level": 3
+    },
+    {
+      "run": 5,
+      "mission": 5,
+      "result": "won",
+      "actions": 15,
+      "hp": 343,
+      "phase": 1,
+      "level": 3
+    },
+    {
+      "run": 5,
+      "mission": 6,
+      "result": "won",
+      "actions": 16,
+      "hp": 368,
+      "phase": 1,
+      "level": 3
+    },
+    {
+      "run": 5,
+      "mission": 7,
+      "result": "won",
+      "actions": 16,
+      "hp": 368,
+      "phase": 1,
+      "level": 4
+    },
+    {
+      "run": 5,
+      "mission": 8,
+      "result": "won",
+      "actions": 14,
+      "hp": 392,
+      "phase": 1,
+      "level": 4
+    },
+    {
+      "run": 5,
+      "mission": 9,
+      "result": "won",
+      "actions": 24,
+      "hp": 339,
+      "phase": 1,
+      "level": 5
+    },
+    {
+      "run": 5,
+      "mission": 10,
+      "result": "won",
+      "actions": 26,
+      "hp": 370,
+      "phase": 1,
+      "level": 5
+    },
+    {
+      "run": 5,
+      "mission": 11,
+      "result": "won",
+      "actions": 44,
+      "hp": 383,
+      "phase": 1,
+      "level": 5
+    },
+    {
+      "run": 5,
+      "mission": 12,
+      "result": "won",
+      "actions": 54,
+      "hp": 291,
+      "phase": 3,
+      "level": 6
+    },
+    {
+      "run": 6,
+      "mission": 1,
+      "result": "won",
+      "actions": 9,
+      "hp": 320,
+      "phase": 1,
+      "level": 2
+    },
+    {
+      "run": 6,
+      "mission": 2,
+      "result": "won",
+      "actions": 23,
+      "hp": 284,
+      "phase": 1,
+      "level": 2
+    },
+    {
+      "run": 6,
+      "mission": 3,
+      "result": "won",
+      "actions": 16,
+      "hp": 344,
+      "phase": 1,
+      "level": 2
+    },
+    {
+      "run": 6,
+      "mission": 4,
+      "result": "won",
+      "actions": 13,
+      "hp": 324,
+      "phase": 1,
+      "level": 3
+    },
+    {
+      "run": 6,
+      "mission": 5,
+      "result": "won",
+      "actions": 10,
+      "hp": 368,
+      "phase": 1,
+      "level": 3
+    },
+    {
+      "run": 6,
+      "mission": 6,
+      "result": "won",
+      "actions": 13,
+      "hp": 368,
+      "phase": 1,
+      "level": 4
+    },
+    {
+      "run": 6,
+      "mission": 7,
+      "result": "won",
+      "actions": 35,
+      "hp": 368,
+      "phase": 1,
+      "level": 4
+    },
+    {
+      "run": 6,
+      "mission": 8,
+      "result": "won",
+      "actions": 22,
+      "hp": 280,
+      "phase": 1,
+      "level": 4
+    },
+    {
+      "run": 6,
+      "mission": 9,
+      "result": "won",
+      "actions": 41,
+      "hp": 370,
+      "phase": 1,
+      "level": 5
+    },
+    {
+      "run": 6,
+      "mission": 10,
+      "result": "won",
+      "actions": 19,
+      "hp": 394,
+      "phase": 1,
+      "level": 5
+    },
+    {
+      "run": 6,
+      "mission": 11,
+      "result": "won",
+      "actions": 26,
+      "hp": 385,
+      "phase": 1,
+      "level": 5
+    },
+    {
+      "run": 6,
+      "mission": 12,
+      "result": "won",
+      "actions": 60,
+      "hp": 347,
+      "phase": 3,
+      "level": 6
+    },
+    {
+      "run": 7,
+      "mission": 1,
+      "result": "won",
+      "actions": 7,
+      "hp": 320,
+      "phase": 1,
+      "level": 1
+    },
+    {
+      "run": 7,
+      "mission": 2,
+      "result": "won",
+      "actions": 9,
+      "hp": 320,
+      "phase": 1,
+      "level": 2
+    },
+    {
+      "run": 7,
+      "mission": 3,
+      "result": "won",
+      "actions": 16,
+      "hp": 344,
+      "phase": 1,
+      "level": 2
+    },
+    {
+      "run": 7,
+      "mission": 4,
+      "result": "won",
+      "actions": 62,
+      "hp": 271,
+      "phase": 1,
+      "level": 3
+    },
+    {
+      "run": 7,
+      "mission": 5,
+      "result": "won",
+      "actions": 12,
+      "hp": 368,
+      "phase": 1,
+      "level": 3
+    },
+    {
+      "run": 7,
+      "mission": 6,
+      "result": "won",
+      "actions": 12,
+      "hp": 368,
+      "phase": 1,
+      "level": 4
+    },
+    {
+      "run": 7,
+      "mission": 7,
+      "result": "won",
+      "actions": 9,
+      "hp": 392,
+      "phase": 1,
+      "level": 4
+    },
+    {
+      "run": 7,
+      "mission": 8,
+      "result": "won",
+      "actions": 25,
+      "hp": 356,
+      "phase": 1,
+      "level": 4
+    },
+    {
+      "run": 7,
+      "mission": 9,
+      "result": "won",
+      "actions": 30,
+      "hp": 382,
+      "phase": 1,
+      "level": 5
+    },
+    {
+      "run": 7,
+      "mission": 10,
+      "result": "won",
+      "actions": 16,
+      "hp": 403,
+      "phase": 1,
+      "level": 5
+    },
+    {
+      "run": 7,
+      "mission": 11,
+      "result": "won",
+      "actions": 86,
+      "hp": 416,
+      "phase": 1,
+      "level": 5
+    },
+    {
+      "run": 7,
+      "mission": 12,
+      "result": "won",
+      "actions": 53,
+      "hp": 416,
+      "phase": 3,
+      "level": 6
+    },
+    {
+      "run": 8,
+      "mission": 1,
+      "result": "won",
+      "actions": 5,
+      "hp": 320,
+      "phase": 1,
+      "level": 1
+    },
+    {
+      "run": 8,
+      "mission": 2,
+      "result": "won",
+      "actions": 3,
+      "hp": 320,
+      "phase": 1,
+      "level": 2
+    },
+    {
+      "run": 8,
+      "mission": 3,
+      "result": "won",
+      "actions": 24,
+      "hp": 344,
+      "phase": 1,
+      "level": 2
+    },
+    {
+      "run": 8,
+      "mission": 4,
+      "result": "won",
+      "actions": 12,
+      "hp": 344,
+      "phase": 1,
+      "level": 3
+    },
+    {
+      "run": 8,
+      "mission": 5,
+      "result": "won",
+      "actions": 12,
+      "hp": 368,
+      "phase": 1,
+      "level": 3
+    },
+    {
+      "run": 8,
+      "mission": 6,
+      "result": "won",
+      "actions": 29,
+      "hp": 338,
+      "phase": 1,
+      "level": 3
+    },
+    {
+      "run": 8,
+      "mission": 7,
+      "result": "won",
+      "actions": 22,
+      "hp": 368,
+      "phase": 1,
+      "level": 4
+    },
+    {
+      "run": 8,
+      "mission": 8,
+      "result": "won",
+      "actions": 18,
+      "hp": 392,
+      "phase": 1,
+      "level": 4
+    },
+    {
+      "run": 8,
+      "mission": 9,
+      "result": "won",
+      "actions": 13,
+      "hp": 370,
+      "phase": 1,
+      "level": 5
+    },
+    {
+      "run": 8,
+      "mission": 10,
+      "result": "won",
+      "actions": 16,
+      "hp": 416,
+      "phase": 1,
+      "level": 5
+    },
+    {
+      "run": 8,
+      "mission": 11,
+      "result": "won",
+      "actions": 15,
+      "hp": 343,
+      "phase": 1,
+      "level": 5
+    },
+    {
+      "run": 8,
+      "mission": 12,
+      "result": "won",
+      "actions": 40,
+      "hp": 381,
+      "phase": 3,
+      "level": 6
+    },
+    {
+      "run": 9,
+      "mission": 1,
+      "result": "won",
+      "actions": 10,
+      "hp": 320,
+      "phase": 1,
+      "level": 1
+    },
+    {
+      "run": 9,
+      "mission": 2,
+      "result": "won",
+      "actions": 13,
+      "hp": 312,
+      "phase": 1,
+      "level": 2
+    },
+    {
+      "run": 9,
+      "mission": 3,
+      "result": "won",
+      "actions": 22,
+      "hp": 344,
+      "phase": 1,
+      "level": 2
+    },
+    {
+      "run": 9,
+      "mission": 4,
+      "result": "won",
+      "actions": 10,
+      "hp": 344,
+      "phase": 1,
+      "level": 3
+    },
+    {
+      "run": 9,
+      "mission": 5,
+      "result": "won",
+      "actions": 33,
+      "hp": 346,
+      "phase": 1,
+      "level": 3
+    },
+    {
+      "run": 9,
+      "mission": 6,
+      "result": "won",
+      "actions": 28,
+      "hp": 308,
+      "phase": 1,
+      "level": 4
+    },
+    {
+      "run": 9,
+      "mission": 7,
+      "result": "won",
+      "actions": 12,
+      "hp": 389,
+      "phase": 1,
+      "level": 4
+    },
+    {
+      "run": 9,
+      "mission": 8,
+      "result": "won",
+      "actions": 11,
+      "hp": 368,
+      "phase": 1,
+      "level": 4
+    },
+    {
+      "run": 9,
+      "mission": 9,
+      "result": "won",
+      "actions": 14,
+      "hp": 392,
+      "phase": 1,
+      "level": 5
+    },
+    {
+      "run": 9,
+      "mission": 10,
+      "result": "won",
+      "actions": 28,
+      "hp": 368,
+      "phase": 1,
+      "level": 5
+    },
+    {
+      "run": 9,
+      "mission": 11,
+      "result": "won",
+      "actions": 32,
+      "hp": 295,
+      "phase": 1,
+      "level": 5
+    },
+    {
+      "run": 9,
+      "mission": 12,
+      "result": "won",
+      "actions": 47,
+      "hp": 260,
+      "phase": 3,
+      "level": 6
+    },
+    {
+      "run": 10,
+      "mission": 1,
+      "result": "won",
+      "actions": 20,
+      "hp": 320,
+      "phase": 1,
+      "level": 2
+    },
+    {
+      "run": 10,
+      "mission": 2,
+      "result": "won",
+      "actions": 12,
+      "hp": 344,
+      "phase": 1,
+      "level": 2
+    },
+    {
+      "run": 10,
+      "mission": 3,
+      "result": "won",
+      "actions": 7,
+      "hp": 344,
+      "phase": 1,
+      "level": 2
+    },
+    {
+      "run": 10,
+      "mission": 4,
+      "result": "won",
+      "actions": 22,
+      "hp": 339,
+      "phase": 1,
+      "level": 3
+    },
+    {
+      "run": 10,
+      "mission": 5,
+      "result": "won",
+      "actions": 51,
+      "hp": 368,
+      "phase": 1,
+      "level": 3
+    },
+    {
+      "run": 10,
+      "mission": 6,
+      "result": "won",
+      "actions": 15,
+      "hp": 368,
+      "phase": 1,
+      "level": 3
+    },
+    {
+      "run": 10,
+      "mission": 7,
+      "result": "won",
+      "actions": 37,
+      "hp": 350,
+      "phase": 1,
+      "level": 4
+    },
+    {
+      "run": 10,
+      "mission": 8,
+      "result": "won",
+      "actions": 26,
+      "hp": 349,
+      "phase": 1,
+      "level": 4
+    },
+    {
+      "run": 10,
+      "mission": 9,
+      "result": "won",
+      "actions": 20,
+      "hp": 392,
+      "phase": 1,
+      "level": 5
+    },
+    {
+      "run": 10,
+      "mission": 10,
+      "result": "won",
+      "actions": 28,
+      "hp": 373,
+      "phase": 1,
+      "level": 5
+    },
+    {
+      "run": 10,
+      "mission": 11,
+      "result": "won",
+      "actions": 31,
+      "hp": 344,
+      "phase": 1,
+      "level": 5
+    },
+    {
+      "run": 10,
+      "mission": 12,
+      "result": "lost",
+      "actions": 92,
+      "hp": 0,
+      "phase": 2,
+      "level": 5
+    },
+    {
+      "run": 11,
+      "mission": 1,
+      "result": "won",
+      "actions": 13,
+      "hp": 320,
+      "phase": 1,
+      "level": 1
+    },
+    {
+      "run": 11,
+      "mission": 2,
+      "result": "won",
+      "actions": 11,
+      "hp": 320,
+      "phase": 1,
+      "level": 2
+    },
+    {
+      "run": 11,
+      "mission": 3,
+      "result": "won",
+      "actions": 3,
+      "hp": 344,
+      "phase": 1,
+      "level": 2
+    },
+    {
+      "run": 11,
+      "mission": 4,
+      "result": "won",
+      "actions": 9,
+      "hp": 344,
+      "phase": 1,
+      "level": 3
+    },
+    {
+      "run": 11,
+      "mission": 5,
+      "result": "won",
+      "actions": 8,
+      "hp": 342,
+      "phase": 1,
+      "level": 3
+    },
+    {
+      "run": 11,
+      "mission": 6,
+      "result": "won",
+      "actions": 18,
+      "hp": 326,
+      "phase": 1,
+      "level": 3
+    },
+    {
+      "run": 11,
+      "mission": 7,
+      "result": "won",
+      "actions": 7,
+      "hp": 368,
+      "phase": 1,
+      "level": 4
+    },
+    {
+      "run": 11,
+      "mission": 8,
+      "result": "won",
+      "actions": 33,
+      "hp": 350,
+      "phase": 1,
+      "level": 4
+    },
+    {
+      "run": 11,
+      "mission": 9,
+      "result": "won",
+      "actions": 20,
+      "hp": 380,
+      "phase": 1,
+      "level": 4
+    },
+    {
+      "run": 11,
+      "mission": 10,
+      "result": "won",
+      "actions": 22,
+      "hp": 392,
+      "phase": 1,
+      "level": 5
+    },
+    {
+      "run": 11,
+      "mission": 11,
+      "result": "won",
+      "actions": 15,
+      "hp": 392,
+      "phase": 1,
+      "level": 5
+    },
+    {
+      "run": 11,
+      "mission": 12,
+      "result": "lost",
+      "actions": 91,
+      "hp": 0,
+      "phase": 3,
+      "level": 5
+    },
+    {
+      "run": 12,
+      "mission": 1,
+      "result": "won",
+      "actions": 5,
+      "hp": 320,
+      "phase": 1,
+      "level": 1
+    },
+    {
+      "run": 12,
+      "mission": 2,
+      "result": "won",
+      "actions": 9,
+      "hp": 320,
+      "phase": 1,
+      "level": 2
+    },
+    {
+      "run": 12,
+      "mission": 3,
+      "result": "won",
+      "actions": 13,
+      "hp": 344,
+      "phase": 1,
+      "level": 2
+    },
+    {
+      "run": 12,
+      "mission": 4,
+      "result": "won",
+      "actions": 36,
+      "hp": 344,
+      "phase": 1,
+      "level": 3
+    },
+    {
+      "run": 12,
+      "mission": 5,
+      "result": "won",
+      "actions": 44,
+      "hp": 368,
+      "phase": 1,
+      "level": 3
+    },
+    {
+      "run": 12,
+      "mission": 6,
+      "result": "won",
+      "actions": 34,
+      "hp": 287,
+      "phase": 1,
+      "level": 4
+    },
+    {
+      "run": 12,
+      "mission": 7,
+      "result": "won",
+      "actions": 8,
+      "hp": 392,
+      "phase": 1,
+      "level": 4
+    },
+    {
+      "run": 12,
+      "mission": 8,
+      "result": "won",
+      "actions": 68,
+      "hp": 336,
+      "phase": 1,
+      "level": 4
+    },
+    {
+      "run": 12,
+      "mission": 9,
+      "result": "won",
+      "actions": 46,
+      "hp": 329,
+      "phase": 1,
+      "level": 5
+    },
+    {
+      "run": 12,
+      "mission": 10,
+      "result": "won",
+      "actions": 30,
+      "hp": 410,
+      "phase": 1,
+      "level": 5
+    },
+    {
+      "run": 12,
+      "mission": 11,
+      "result": "won",
+      "actions": 28,
+      "hp": 403,
+      "phase": 1,
+      "level": 5
+    },
+    {
+      "run": 12,
+      "mission": 12,
+      "result": "won",
+      "actions": 70,
+      "hp": 176,
+      "phase": 3,
+      "level": 6
+    },
+    {
+      "run": 13,
+      "mission": 1,
+      "result": "won",
+      "actions": 11,
+      "hp": 320,
+      "phase": 1,
+      "level": 1
+    },
+    {
+      "run": 13,
+      "mission": 2,
+      "result": "won",
+      "actions": 9,
+      "hp": 304,
+      "phase": 1,
+      "level": 2
+    },
+    {
+      "run": 13,
+      "mission": 3,
+      "result": "won",
+      "actions": 5,
+      "hp": 344,
+      "phase": 1,
+      "level": 2
+    },
+    {
+      "run": 13,
+      "mission": 4,
+      "result": "won",
+      "actions": 14,
+      "hp": 344,
+      "phase": 1,
+      "level": 3
+    },
+    {
+      "run": 13,
+      "mission": 5,
+      "result": "won",
+      "actions": 27,
+      "hp": 368,
+      "phase": 1,
+      "level": 3
+    },
+    {
+      "run": 13,
+      "mission": 6,
+      "result": "won",
+      "actions": 12,
+      "hp": 325,
+      "phase": 1,
+      "level": 3
+    },
+    {
+      "run": 13,
+      "mission": 7,
+      "result": "won",
+      "actions": 16,
+      "hp": 368,
+      "phase": 1,
+      "level": 4
+    },
+    {
+      "run": 13,
+      "mission": 8,
+      "result": "won",
+      "actions": 24,
+      "hp": 352,
+      "phase": 1,
+      "level": 4
+    },
+    {
+      "run": 13,
+      "mission": 9,
+      "result": "won",
+      "actions": 11,
+      "hp": 344,
+      "phase": 1,
+      "level": 4
+    },
+    {
+      "run": 13,
+      "mission": 10,
+      "result": "won",
+      "actions": 41,
+      "hp": 341,
+      "phase": 1,
+      "level": 5
+    },
+    {
+      "run": 13,
+      "mission": 11,
+      "result": "won",
+      "actions": 52,
+      "hp": 258,
+      "phase": 1,
+      "level": 5
+    },
+    {
+      "run": 13,
+      "mission": 12,
+      "result": "won",
+      "actions": 53,
+      "hp": 106,
+      "phase": 3,
+      "level": 6
+    },
+    {
+      "run": 14,
+      "mission": 1,
+      "result": "won",
+      "actions": 7,
+      "hp": 320,
+      "phase": 1,
+      "level": 1
+    },
+    {
+      "run": 14,
+      "mission": 2,
+      "result": "won",
+      "actions": 19,
+      "hp": 298,
+      "phase": 1,
+      "level": 2
+    },
+    {
+      "run": 14,
+      "mission": 3,
+      "result": "won",
+      "actions": 29,
+      "hp": 344,
+      "phase": 1,
+      "level": 2
+    },
+    {
+      "run": 14,
+      "mission": 4,
+      "result": "won",
+      "actions": 10,
+      "hp": 344,
+      "phase": 1,
+      "level": 3
+    },
+    {
+      "run": 14,
+      "mission": 5,
+      "result": "won",
+      "actions": 12,
+      "hp": 365,
+      "phase": 1,
+      "level": 3
+    },
+    {
+      "run": 14,
+      "mission": 6,
+      "result": "won",
+      "actions": 17,
+      "hp": 344,
+      "phase": 1,
+      "level": 4
+    },
+    {
+      "run": 14,
+      "mission": 7,
+      "result": "won",
+      "actions": 23,
+      "hp": 392,
+      "phase": 1,
+      "level": 4
+    },
+    {
+      "run": 14,
+      "mission": 8,
+      "result": "won",
+      "actions": 31,
+      "hp": 203,
+      "phase": 1,
+      "level": 4
+    },
+    {
+      "run": 14,
+      "mission": 9,
+      "result": "won",
+      "actions": 21,
+      "hp": 386,
+      "phase": 1,
+      "level": 5
+    },
+    {
+      "run": 14,
+      "mission": 10,
+      "result": "won",
+      "actions": 17,
+      "hp": 416,
+      "phase": 1,
+      "level": 5
+    },
+    {
+      "run": 14,
+      "mission": 11,
+      "result": "won",
+      "actions": 28,
+      "hp": 366,
+      "phase": 1,
+      "level": 5
+    },
+    {
+      "run": 14,
+      "mission": 12,
+      "result": "lost",
+      "actions": 105,
+      "hp": 0,
+      "phase": 3,
+      "level": 5
+    },
+    {
+      "run": 15,
+      "mission": 1,
+      "result": "won",
+      "actions": 18,
+      "hp": 320,
+      "phase": 1,
+      "level": 2
+    },
+    {
+      "run": 15,
+      "mission": 2,
+      "result": "won",
+      "actions": 7,
+      "hp": 344,
+      "phase": 1,
+      "level": 2
+    },
+    {
+      "run": 15,
+      "mission": 3,
+      "result": "won",
+      "actions": 26,
+      "hp": 344,
+      "phase": 1,
+      "level": 2
+    },
+    {
+      "run": 15,
+      "mission": 4,
+      "result": "won",
+      "actions": 15,
+      "hp": 344,
+      "phase": 1,
+      "level": 3
+    },
+    {
+      "run": 15,
+      "mission": 5,
+      "result": "won",
+      "actions": 22,
+      "hp": 352,
+      "phase": 1,
+      "level": 3
+    },
+    {
+      "run": 15,
+      "mission": 6,
+      "result": "won",
+      "actions": 36,
+      "hp": 295,
+      "phase": 1,
+      "level": 4
+    },
+    {
+      "run": 15,
+      "mission": 7,
+      "result": "won",
+      "actions": 10,
+      "hp": 392,
+      "phase": 1,
+      "level": 4
+    },
+    {
+      "run": 15,
+      "mission": 8,
+      "result": "won",
+      "actions": 18,
+      "hp": 343,
+      "phase": 1,
+      "level": 4
+    },
+    {
+      "run": 15,
+      "mission": 9,
+      "result": "won",
+      "actions": 18,
+      "hp": 392,
+      "phase": 1,
+      "level": 5
+    },
+    {
+      "run": 15,
+      "mission": 10,
+      "result": "won",
+      "actions": 28,
+      "hp": 387,
+      "phase": 1,
+      "level": 5
+    },
+    {
+      "run": 15,
+      "mission": 11,
+      "result": "won",
+      "actions": 22,
+      "hp": 380,
+      "phase": 1,
+      "level": 5
+    },
+    {
+      "run": 15,
+      "mission": 12,
+      "result": "lost",
+      "actions": 71,
+      "hp": 0,
+      "phase": 3,
+      "level": 5
+    },
+    {
+      "run": 16,
+      "mission": 1,
+      "result": "won",
+      "actions": 11,
+      "hp": 320,
+      "phase": 1,
+      "level": 1
+    },
+    {
+      "run": 16,
+      "mission": 2,
+      "result": "won",
+      "actions": 17,
+      "hp": 320,
+      "phase": 1,
+      "level": 2
+    },
+    {
+      "run": 16,
+      "mission": 3,
+      "result": "won",
+      "actions": 11,
+      "hp": 344,
+      "phase": 1,
+      "level": 2
+    },
+    {
+      "run": 16,
+      "mission": 4,
+      "result": "won",
+      "actions": 24,
+      "hp": 344,
+      "phase": 1,
+      "level": 3
+    },
+    {
+      "run": 16,
+      "mission": 5,
+      "result": "won",
+      "actions": 17,
+      "hp": 368,
+      "phase": 1,
+      "level": 3
+    },
+    {
+      "run": 16,
+      "mission": 6,
+      "result": "won",
+      "actions": 61,
+      "hp": 215,
+      "phase": 1,
+      "level": 4
+    },
+    {
+      "run": 16,
+      "mission": 7,
+      "result": "won",
+      "actions": 25,
+      "hp": 392,
+      "phase": 1,
+      "level": 4
+    },
+    {
+      "run": 16,
+      "mission": 8,
+      "result": "won",
+      "actions": 24,
+      "hp": 368,
+      "phase": 1,
+      "level": 4
+    },
+    {
+      "run": 16,
+      "mission": 9,
+      "result": "won",
+      "actions": 19,
+      "hp": 304,
+      "phase": 1,
+      "level": 5
+    },
+    {
+      "run": 16,
+      "mission": 10,
+      "result": "won",
+      "actions": 28,
+      "hp": 416,
+      "phase": 1,
+      "level": 5
+    },
+    {
+      "run": 16,
+      "mission": 11,
+      "result": "won",
+      "actions": 31,
+      "hp": 262,
+      "phase": 1,
+      "level": 5
+    },
+    {
+      "run": 16,
+      "mission": 12,
+      "result": "won",
+      "actions": 72,
+      "hp": 310,
+      "phase": 3,
+      "level": 6
+    },
+    {
+      "run": 17,
+      "mission": 1,
+      "result": "won",
+      "actions": 17,
+      "hp": 320,
+      "phase": 1,
+      "level": 1
+    },
+    {
+      "run": 17,
+      "mission": 2,
+      "result": "won",
+      "actions": 6,
+      "hp": 320,
+      "phase": 1,
+      "level": 2
+    },
+    {
+      "run": 17,
+      "mission": 3,
+      "result": "won",
+      "actions": 3,
+      "hp": 344,
+      "phase": 1,
+      "level": 2
+    },
+    {
+      "run": 17,
+      "mission": 4,
+      "result": "won",
+      "actions": 36,
+      "hp": 323,
+      "phase": 1,
+      "level": 3
+    },
+    {
+      "run": 17,
+      "mission": 5,
+      "result": "won",
+      "actions": 25,
+      "hp": 368,
+      "phase": 1,
+      "level": 3
+    },
+    {
+      "run": 17,
+      "mission": 6,
+      "result": "won",
+      "actions": 10,
+      "hp": 368,
+      "phase": 1,
+      "level": 3
+    },
+    {
+      "run": 17,
+      "mission": 7,
+      "result": "won",
+      "actions": 50,
+      "hp": 368,
+      "phase": 1,
+      "level": 4
+    },
+    {
+      "run": 17,
+      "mission": 8,
+      "result": "won",
+      "actions": 34,
+      "hp": 292,
+      "phase": 1,
+      "level": 4
+    },
+    {
+      "run": 17,
+      "mission": 9,
+      "result": "won",
+      "actions": 20,
+      "hp": 377,
+      "phase": 1,
+      "level": 5
+    },
+    {
+      "run": 17,
+      "mission": 10,
+      "result": "won",
+      "actions": 19,
+      "hp": 380,
+      "phase": 1,
+      "level": 5
+    },
+    {
+      "run": 17,
+      "mission": 11,
+      "result": "won",
+      "actions": 57,
+      "hp": 236,
+      "phase": 1,
+      "level": 5
+    },
+    {
+      "run": 17,
+      "mission": 12,
+      "result": "won",
+      "actions": 38,
+      "hp": 234,
+      "phase": 3,
+      "level": 6
+    },
+    {
+      "run": 18,
+      "mission": 1,
+      "result": "won",
+      "actions": 5,
+      "hp": 320,
+      "phase": 1,
+      "level": 1
+    },
+    {
+      "run": 18,
+      "mission": 2,
+      "result": "won",
+      "actions": 3,
+      "hp": 320,
+      "phase": 1,
+      "level": 2
+    },
+    {
+      "run": 18,
+      "mission": 3,
+      "result": "won",
+      "actions": 16,
+      "hp": 344,
+      "phase": 1,
+      "level": 2
+    },
+    {
+      "run": 18,
+      "mission": 4,
+      "result": "won",
+      "actions": 10,
+      "hp": 302,
+      "phase": 1,
+      "level": 3
+    },
+    {
+      "run": 18,
+      "mission": 5,
+      "result": "won",
+      "actions": 25,
+      "hp": 368,
+      "phase": 1,
+      "level": 3
+    },
+    {
+      "run": 18,
+      "mission": 6,
+      "result": "won",
+      "actions": 24,
+      "hp": 283,
+      "phase": 1,
+      "level": 3
+    },
+    {
+      "run": 18,
+      "mission": 7,
+      "result": "won",
+      "actions": 12,
+      "hp": 361,
+      "phase": 1,
+      "level": 4
+    },
+    {
+      "run": 18,
+      "mission": 8,
+      "result": "won",
+      "actions": 18,
+      "hp": 392,
+      "phase": 1,
+      "level": 4
+    },
+    {
+      "run": 18,
+      "mission": 9,
+      "result": "won",
+      "actions": 29,
+      "hp": 348,
+      "phase": 1,
+      "level": 5
+    },
+    {
+      "run": 18,
+      "mission": 10,
+      "result": "won",
+      "actions": 26,
+      "hp": 396,
+      "phase": 1,
+      "level": 5
+    },
+    {
+      "run": 18,
+      "mission": 11,
+      "result": "won",
+      "actions": 58,
+      "hp": 223,
+      "phase": 1,
+      "level": 5
+    },
+    {
+      "run": 18,
+      "mission": 12,
+      "result": "lost",
+      "actions": 59,
+      "hp": 0,
+      "phase": 3,
+      "level": 5
+    },
+    {
+      "run": 19,
+      "mission": 1,
+      "result": "won",
+      "actions": 11,
+      "hp": 320,
+      "phase": 1,
+      "level": 1
+    },
+    {
+      "run": 19,
+      "mission": 2,
+      "result": "won",
+      "actions": 14,
+      "hp": 312,
+      "phase": 1,
+      "level": 2
+    },
+    {
+      "run": 19,
+      "mission": 3,
+      "result": "won",
+      "actions": 8,
+      "hp": 344,
+      "phase": 1,
+      "level": 2
+    },
+    {
+      "run": 19,
+      "mission": 4,
+      "result": "won",
+      "actions": 30,
+      "hp": 344,
+      "phase": 1,
+      "level": 3
+    },
+    {
+      "run": 19,
+      "mission": 5,
+      "result": "won",
+      "actions": 18,
+      "hp": 367,
+      "phase": 1,
+      "level": 3
+    },
+    {
+      "run": 19,
+      "mission": 6,
+      "result": "won",
+      "actions": 17,
+      "hp": 368,
+      "phase": 1,
+      "level": 4
+    },
+    {
+      "run": 19,
+      "mission": 7,
+      "result": "won",
+      "actions": 8,
+      "hp": 392,
+      "phase": 1,
+      "level": 4
+    },
+    {
+      "run": 19,
+      "mission": 8,
+      "result": "won",
+      "actions": 51,
+      "hp": 320,
+      "phase": 1,
+      "level": 4
+    },
+    {
+      "run": 19,
+      "mission": 9,
+      "result": "won",
+      "actions": 12,
+      "hp": 365,
+      "phase": 1,
+      "level": 5
+    },
+    {
+      "run": 19,
+      "mission": 10,
+      "result": "won",
+      "actions": 15,
+      "hp": 379,
+      "phase": 1,
+      "level": 5
+    },
+    {
+      "run": 19,
+      "mission": 11,
+      "result": "won",
+      "actions": 20,
+      "hp": 385,
+      "phase": 1,
+      "level": 5
+    },
+    {
+      "run": 19,
+      "mission": 12,
+      "result": "won",
+      "actions": 45,
+      "hp": 310,
+      "phase": 3,
+      "level": 6
+    },
+    {
+      "run": 20,
+      "mission": 1,
+      "result": "won",
+      "actions": 3,
+      "hp": 320,
+      "phase": 1,
+      "level": 1
+    },
+    {
+      "run": 20,
+      "mission": 2,
+      "result": "won",
+      "actions": 5,
+      "hp": 320,
+      "phase": 1,
+      "level": 2
+    },
+    {
+      "run": 20,
+      "mission": 3,
+      "result": "won",
+      "actions": 7,
+      "hp": 344,
+      "phase": 1,
+      "level": 2
+    },
+    {
+      "run": 20,
+      "mission": 4,
+      "result": "won",
+      "actions": 33,
+      "hp": 344,
+      "phase": 1,
+      "level": 3
+    },
+    {
+      "run": 20,
+      "mission": 5,
+      "result": "won",
+      "actions": 14,
+      "hp": 368,
+      "phase": 1,
+      "level": 3
+    },
+    {
+      "run": 20,
+      "mission": 6,
+      "result": "won",
+      "actions": 29,
+      "hp": 321,
+      "phase": 1,
+      "level": 3
+    },
+    {
+      "run": 20,
+      "mission": 7,
+      "result": "won",
+      "actions": 35,
+      "hp": 316,
+      "phase": 1,
+      "level": 4
+    },
+    {
+      "run": 20,
+      "mission": 8,
+      "result": "won",
+      "actions": 16,
+      "hp": 392,
+      "phase": 1,
+      "level": 4
+    },
+    {
+      "run": 20,
+      "mission": 9,
+      "result": "won",
+      "actions": 36,
+      "hp": 348,
+      "phase": 1,
+      "level": 4
+    },
+    {
+      "run": 20,
+      "mission": 10,
+      "result": "won",
+      "actions": 40,
+      "hp": 357,
+      "phase": 1,
+      "level": 5
+    },
+    {
+      "run": 20,
+      "mission": 11,
+      "result": "won",
+      "actions": 23,
+      "hp": 363,
+      "phase": 1,
+      "level": 5
+    },
+    {
+      "run": 20,
+      "mission": 12,
+      "result": "won",
+      "actions": 38,
+      "hp": 290,
+      "phase": 3,
+      "level": 6
+    }
+  ]
+}
