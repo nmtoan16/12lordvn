@@ -1,0 +1,10 @@
+
+Running 2 tests using 1 worker
+
+(node:34556) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+
+  ok 1 tests\release.spec.cjs:12:1 › standalone release boots under ver2 and another folder name with private files absent (11.6s)
+  ok 2 tests\release.spec.cjs:24:1 › workspace server blocks development files and serves public ver2 files (46ms)
+
+  2 passed (16.7s)

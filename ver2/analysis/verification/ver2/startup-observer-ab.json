@@ -1,0 +1,76 @@
+{
+  "date": "2026-10-22",
+  "target": "http://localhost/12suquan/ver2/",
+  "environment": "Chrome headless via Playwright; fresh browser context for each condition",
+  "setup": {
+    "routeDelayMs": 1500,
+    "observationDeadlineMs": 6000,
+    "pollIntervalMs": 100,
+    "productFilesModifiedForExperiment": false,
+    "retries": 0
+  },
+  "cases": [
+    {
+      "sequence": 1,
+      "delayedResource": "runtime/java/classes.jar",
+      "observer": "Old readState: CLASSES.getClass('cz') before builtin initialization",
+      "outcome": "failed to reach sound screen",
+      "screen": null,
+      "ready": false,
+      "gameJarLoaded": true,
+      "jarCount": 2,
+      "runtimeCount": 1,
+      "consoleErrors": ["constructor", "constructor", "constructor", "constructor"]
+    },
+    {
+      "sequence": 2,
+      "delayedResource": "runtime/java/classes.jar",
+      "observer": "LoanV2.state(): returns before class lookup until LoanVM.runtime exists",
+      "outcome": "passed",
+      "screen": "v",
+      "ready": true,
+      "gameJarLoaded": true,
+      "jarCount": 2,
+      "runtimeCount": 1,
+      "consoleErrors": []
+    },
+    {
+      "sequence": 3,
+      "delayedResource": "Loan-12-Su-Quan.jar",
+      "observer": "Old readState: eager class lookup",
+      "outcome": "passed",
+      "screen": "v",
+      "ready": true,
+      "gameJarLoaded": true,
+      "jarCount": 2,
+      "runtimeCount": 1,
+      "consoleErrors": []
+    },
+    {
+      "sequence": 4,
+      "delayedResource": "Loan-12-Su-Quan.jar",
+      "observer": "LoanV2.state(): passive until runtime exists",
+      "outcome": "passed",
+      "screen": "v",
+      "ready": true,
+      "gameJarLoaded": true,
+      "jarCount": 2,
+      "runtimeCount": 1,
+      "consoleErrors": []
+    }
+  ],
+  "mechanism": {
+    "source": "runtime/bld/j2me.js",
+    "cacheBeforeSuperclassResolution": "ClassRegistry.loadClassBytes at lines 9417-9423 inserts this.classes[name] before loadClassFile resolves superClass and complete() at lines 9438-9450",
+    "cacheReuse": "loadClass/getClass at lines 9453-9481 return cached ClassInfo without checking whether complete() succeeded",
+    "interpretation": "An early observer can load cz from the already downloaded game JAR while its Java superclass is unavailable. The failed load leaves partial metadata cached; later JVM startup reuses it. The test observer caused the intermittent startup failure."
+  },
+  "regressionFix": {
+    "file": "tests/helpers/vm.cjs",
+    "gateBeforeClassLookup": ["isLoadJarFinished", "CLASSES.java_lang_Object", "LoanVM.runtime when present"],
+    "gateBeforeEnter": "Wait for LoanV2.state().ready when present; v1 remains supported without LoanV2",
+    "timeoutChanged": false,
+    "productStartupChanged": false,
+    "test": "tests/startup-cold.spec.cjs: delayed builtin JAR regression and 20 fresh-context boots at CPU 1x/4x"
+  }
+}

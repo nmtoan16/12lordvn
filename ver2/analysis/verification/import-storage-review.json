@@ -1,0 +1,24 @@
+{
+  "result": {
+    "data": [
+      77,
+      -4,
+      0,
+      127
+    ],
+    "staleHandleRead": null,
+    "expected": [
+      77,
+      -4,
+      0,
+      127
+    ]
+  },
+  "reopened": [
+    77,
+    -4,
+    0,
+    127
+  ],
+  "errors": []
+}

@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#171510">
+  <meta name="description" content="Loạn 12 Sứ Quân — game Java kinh điển, chạy trực tiếp trên trình duyệt với đồ họa và gameplay gốc.">
+  <title>Loạn 12 Sứ Quân · Ver2</title>
+  <link rel="icon" href="assets/images/icon.png">
+  <link rel="stylesheet" href="web/style.css">
+  <script src="runtime/equipment/loadout.js" defer></script>
+  <script src="runtime/equipment/store.js" defer></script>
+  <script src="runtime/equipment/battle-save.js" defer></script>
+  <script src="runtime/equipment/import.js" defer></script>
+  <script src="web/migrate-v1.js" defer></script>
+  <script src="web/app.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="./" aria-label="Loạn 12 Sứ Quân, trang chính"><img src="assets/images/icon.png" width="28" height="28" alt=""><span>LOẠN 12 SỨ QUÂN</span><small>VER2</small></a>
+    <nav aria-label="Điều hướng"><a href="#play" class="active">Chơi game</a><a href="analysis/assets/index.html">Tài nguyên gốc <span aria-hidden="true">↗</span></a></nav>
+  </header>
+
+  <main id="play" class="layout">
+    <section class="intro" aria-labelledby="game-title">
+      <p class="eyebrow"><span></span> MICROGAME · 2010</p>
+      <h1 id="game-title">Một thời <em>loạn thế.</em></h1>
+      <p class="lede">Ghép kiếm, dụng phép, thu phục 12 sứ quân trên bản Java ME nguyên gốc.</p>
+      <div class="facts"><div><strong>46</strong><span>MÀN CHƠI</span></div><div><strong>09</strong><span>PHÉP THUẬT</span></div><div><strong>03</strong><span>HỆ SỨC MẠNH</span></div></div>
+      <div class="quick-rules" aria-label="Luật chơi cơ bản">
+        <div class="tile-guide"><img src="assets/images/sword.png" alt=""><span><strong>Ghép ≥3 ô</strong> để tấn công đối thủ</span></div>
+        <div class="tile-guide"><img src="assets/images/heart.png" alt=""><span><strong>Tim · Bánh · Âm dương</strong> hồi máu, lương, phép</span></div>
+        <div class="tile-guide"><img src="assets/images/yinyang.png" alt=""><span><strong>Nối ≥4 ô</strong> thêm lượt · đi sai mất lượt</span></div>
+      </div>
+    </section>
+
+    <section class="game-column" aria-label="Màn hình trò chơi">
+      <div class="game-topline"><span><i></i> PHIÊN BẢN VER2</span><span>240 × 320</span></div>
+      <div class="game-machine" id="machine">
+        <div class="game-stage" id="stage">
+          <iframe id="game" title="Loạn 12 Sứ Quân — màn hình game" allow="autoplay; fullscreen" sandbox="allow-scripts allow-same-origin allow-downloads" hidden></iframe>
+          <div id="cover" class="cover">
+            <img src="assets/images/bksplashscreen.png" alt="Đồ họa bìa Loạn 12 Sứ Quân" width="240" height="320">
+            <button id="start" class="start-button">VÀO GAME <span aria-hidden="true">▶</span></button>
+            <p id="boot-status" role="status">Bấm để bắt đầu cuộc hành trình</p>
+          </div>
+          <div id="pause-screen" class="pause-screen" hidden><span aria-hidden="true">Ⅱ</span><p>Đã tạm dừng</p><button id="resume">Tiếp tục chơi</button></div>
+        </div>
+        <div class="softkeys" aria-label="Phím chức năng"><button data-key="-6"><span>CHỌN / MENU</span><kbd>Q</kbd></button><span class="machine-seal" aria-hidden="true">✥</span><button data-key="-7"><kbd>E</kbd><span>TRỞ VỀ</span></button></div>
+        <div class="touch-controls" aria-label="Bàn phím ảo">
+          <div class="dpad"><button class="up" data-key="-1" aria-label="Lên">▲</button><button class="left" data-key="-3" aria-label="Trái">◀</button><button class="ok" data-key="-5" aria-label="Chọn, OK">OK</button><button class="right" data-key="-4" aria-label="Phải">▶</button><button class="down" data-key="-2" aria-label="Xuống">▼</button></div>
+          <div class="quick-keys"><button data-key="42"><strong>✱</strong><small>PHÉP</small></button><button data-key="35"><strong>#</strong><small>VẬT PHẨM</small></button><button data-key="48"><strong>0</strong><small>PHÍM 0</small></button></div>
+        </div>
+      </div>
+      <div class="game-toolbar"><button id="pause" disabled><span aria-hidden="true">Ⅱ</span> Tạm dừng</button><button id="sound" aria-pressed="false" disabled><span aria-hidden="true">♪</span> Âm thanh</button><button id="fullscreen" aria-label="Mở màn hình lớn"><span aria-hidden="true">⛶</span> Phóng to</button></div>
+      <p class="save-note" id="status" role="status">Tiến trình được lưu trên trình duyệt này.</p><button id="migrate-v1" class="migration-button">Lấy bản lưu ver1</button>
+    </section>
+
+    <aside class="guide" aria-label="Điều khiển và dữ liệu">
+      <div class="keyboard-guide"><p>ĐIỀU KHIỂN</p><div><span>Di chuyển</span><span class="key-group"><kbd>↑</kbd><kbd>←</kbd><kbd>↓</kbd><kbd>→</kbd></span></div><div><span>Chọn / đổi ô</span><kbd>Enter</kbd></div><div><span>Phím trái / phải</span><span class="key-group"><kbd>Q</kbd><kbd>E</kbd></span></div><div><span>Phép / vật phẩm</span><span class="key-group"><kbd>✱</kbd><kbd>#</kbd></span></div></div>
+      <details><summary>Lưu và chuyển tiến trình</summary><p>Rời bản đồ qua menu hoặc chọn T.Dừng trong trận để ghi checkpoint. Khi ver2 chưa có bản lưu, VÀO GAME tự lấy checkpoint ver1 trên cùng trình duyệt và tên miền. Nếu đã có dữ liệu ver2, dùng Lấy bản lưu ver1 trước khi vào game để thay thế.</p><div class="backup-actions"><button id="export" disabled>Tải bản lưu ↓</button><button id="import" disabled>Nhập bản lưu ↑</button></div><input id="save-file" type="file" accept="application/json,.json" hidden></details>
+      <details><summary>Về phiên bản này</summary><p>Ver2: sáu nhóm trang bị, ba ô mang vào trận và chín chiêu thức tỉnh. Mua được khi thiếu vàng; phần thiếu được miễn. Giao dịch SMS được mô phỏng cục bộ.</p><div class="doc-links"><a href="README-VER2.md" target="_blank" rel="noopener">Hướng dẫn ver2 ↗</a><a href="analysis/LOGIC.md" target="_blank" rel="noopener">Bản phân tích ↗</a><a href="THIRD_PARTY.md" target="_blank" rel="noopener">Giấy phép ↗</a></div></details>
+    </aside>
+  </main>
+  <footer><span>LOẠN 12 SỨ QUÂN <b> / </b> LƯU GIỮ MỘT THỜI</span><span>Đồ họa, âm thanh & gameplay từ JAR gốc.</span></footer>
+</body>
+</html>

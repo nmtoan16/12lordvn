@@ -1,0 +1,128 @@
+[
+  {
+    "itemId": 3,
+    "price": 1000,
+    "balance": 0,
+    "charged": 0,
+    "inventory": [
+      0,
+      0,
+      0,
+      3,
+      0,
+      0
+    ]
+  },
+  {
+    "itemId": 3,
+    "price": 1000,
+    "balance": 500,
+    "charged": 500,
+    "inventory": [
+      0,
+      0,
+      0,
+      6,
+      0,
+      0
+    ]
+  },
+  {
+    "itemId": 3,
+    "price": 1000,
+    "balance": 1000,
+    "charged": 1000,
+    "inventory": [
+      0,
+      0,
+      0,
+      9,
+      0,
+      0
+    ]
+  },
+  {
+    "itemId": 4,
+    "price": 250,
+    "balance": 0,
+    "charged": 0,
+    "inventory": [
+      0,
+      0,
+      0,
+      9,
+      3,
+      0
+    ]
+  },
+  {
+    "itemId": 4,
+    "price": 250,
+    "balance": 125,
+    "charged": 125,
+    "inventory": [
+      0,
+      0,
+      0,
+      9,
+      6,
+      0
+    ]
+  },
+  {
+    "itemId": 4,
+    "price": 250,
+    "balance": 250,
+    "charged": 250,
+    "inventory": [
+      0,
+      0,
+      0,
+      9,
+      9,
+      0
+    ]
+  },
+  {
+    "itemId": 5,
+    "price": 500,
+    "balance": 0,
+    "charged": 0,
+    "inventory": [
+      0,
+      0,
+      0,
+      9,
+      9,
+      3
+    ]
+  },
+  {
+    "itemId": 5,
+    "price": 500,
+    "balance": 250,
+    "charged": 250,
+    "inventory": [
+      0,
+      0,
+      0,
+      9,
+      9,
+      6
+    ]
+  },
+  {
+    "itemId": 5,
+    "price": 500,
+    "balance": 500,
+    "charged": 500,
+    "inventory": [
+      0,
+      0,
+      0,
+      9,
+      9,
+      9
+    ]
+  }
+]

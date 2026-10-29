@@ -1,0 +1,443 @@
+[
+  {
+    "width": 375,
+    "errors": [],
+    "scrollWidth": 375,
+    "controls": [
+      {
+        "text": "LOẠN 12 SỨ QUÂNBẢN WEB",
+        "nowrap": "nowrap",
+        "overflow": false
+      },
+      {
+        "text": "Tài nguyên gốc ↗",
+        "nowrap": "nowrap",
+        "overflow": false
+      },
+      {
+        "text": "VÀO GAME ▶",
+        "nowrap": "nowrap",
+        "overflow": false
+      },
+      {
+        "text": "CHỌN / MENUQ",
+        "nowrap": "nowrap",
+        "overflow": false
+      },
+      {
+        "text": "ETRỞ VỀ",
+        "nowrap": "nowrap",
+        "overflow": false
+      },
+      {
+        "text": "▲",
+        "nowrap": "nowrap",
+        "overflow": false
+      },
+      {
+        "text": "◀",
+        "nowrap": "nowrap",
+        "overflow": false
+      },
+      {
+        "text": "OK",
+        "nowrap": "nowrap",
+        "overflow": false
+      },
+      {
+        "text": "▶",
+        "nowrap": "nowrap",
+        "overflow": false
+      },
+      {
+        "text": "▼",
+        "nowrap": "nowrap",
+        "overflow": false
+      },
+      {
+        "text": "✱PHÉP",
+        "nowrap": "nowrap",
+        "overflow": false
+      },
+      {
+        "text": "#VẬT PHẨM",
+        "nowrap": "nowrap",
+        "overflow": false
+      },
+      {
+        "text": "0PHÍM 0",
+        "nowrap": "nowrap",
+        "overflow": false
+      },
+      {
+        "text": "Ⅱ Tạm dừng",
+        "nowrap": "nowrap",
+        "overflow": false
+      },
+      {
+        "text": "♪ Âm thanh",
+        "nowrap": "nowrap",
+        "overflow": false
+      },
+      {
+        "text": "⛶ Phóng to",
+        "nowrap": "nowrap",
+        "overflow": false
+      },
+      {
+        "text": "Lưu và chuyển tiến trình",
+        "nowrap": "nowrap",
+        "overflow": false
+      },
+      {
+        "text": "Tải bản lưu ↓",
+        "nowrap": "nowrap",
+        "overflow": false
+      },
+      {
+        "text": "Nhập bản lưu ↑",
+        "nowrap": "nowrap",
+        "overflow": false
+      },
+      {
+        "text": "Về phiên bản này",
+        "nowrap": "nowrap",
+        "overflow": false
+      }
+    ]
+  },
+  {
+    "width": 768,
+    "errors": [],
+    "scrollWidth": 768,
+    "controls": [
+      {
+        "text": "LOẠN 12 SỨ QUÂNBẢN WEB",
+        "nowrap": "nowrap",
+        "overflow": false
+      },
+      {
+        "text": "Chơi game",
+        "nowrap": "nowrap",
+        "overflow": false
+      },
+      {
+        "text": "Tài nguyên gốc ↗",
+        "nowrap": "nowrap",
+        "overflow": false
+      },
+      {
+        "text": "VÀO GAME ▶",
+        "nowrap": "nowrap",
+        "overflow": false
+      },
+      {
+        "text": "CHỌN / MENUQ",
+        "nowrap": "nowrap",
+        "overflow": false
+      },
+      {
+        "text": "Q",
+        "nowrap": "nowrap",
+        "overflow": false
+      },
+      {
+        "text": "ETRỞ VỀ",
+        "nowrap": "nowrap",
+        "overflow": false
+      },
+      {
+        "text": "E",
+        "nowrap": "nowrap",
+        "overflow": false
+      },
+      {
+        "text": "▲",
+        "nowrap": "nowrap",
+        "overflow": false
+      },
+      {
+        "text": "◀",
+        "nowrap": "nowrap",
+        "overflow": false
+      },
+      {
+        "text": "OK",
+        "nowrap": "nowrap",
+        "overflow": false
+      },
+      {
+        "text": "▶",
+        "nowrap": "nowrap",
+        "overflow": false
+      },
+      {
+        "text": "▼",
+        "nowrap": "nowrap",
+        "overflow": false
+      },
+      {
+        "text": "✱PHÉP",
+        "nowrap": "nowrap",
+        "overflow": false
+      },
+      {
+        "text": "#VẬT PHẨM",
+        "nowrap": "nowrap",
+        "overflow": false
+      },
+      {
+        "text": "0PHÍM 0",
+        "nowrap": "nowrap",
+        "overflow": false
+      },
+      {
+        "text": "Ⅱ Tạm dừng",
+        "nowrap": "nowrap",
+        "overflow": false
+      },
+      {
+        "text": "♪ Âm thanh",
+        "nowrap": "nowrap",
+        "overflow": false
+      },
+      {
+        "text": "⛶ Phóng to",
+        "nowrap": "nowrap",
+        "overflow": false
+      },
+      {
+        "text": "↑",
+        "nowrap": "nowrap",
+        "overflow": false
+      },
+      {
+        "text": "←",
+        "nowrap": "nowrap",
+        "overflow": false
+      },
+      {
+        "text": "↓",
+        "nowrap": "nowrap",
+        "overflow": false
+      },
+      {
+        "text": "→",
+        "nowrap": "nowrap",
+        "overflow": false
+      },
+      {
+        "text": "Enter",
+        "nowrap": "nowrap",
+        "overflow": false
+      },
+      {
+        "text": "Q",
+        "nowrap": "nowrap",
+        "overflow": false
+      },
+      {
+        "text": "E",
+        "nowrap": "nowrap",
+        "overflow": false
+      },
+      {
+        "text": "✱",
+        "nowrap": "nowrap",
+        "overflow": false
+      },
+      {
+        "text": "#",
+        "nowrap": "nowrap",
+        "overflow": false
+      },
+      {
+        "text": "Lưu và chuyển tiến trình",
+        "nowrap": "nowrap",
+        "overflow": false
+      },
+      {
+        "text": "Tải bản lưu ↓",
+        "nowrap": "nowrap",
+        "overflow": false
+      },
+      {
+        "text": "Nhập bản lưu ↑",
+        "nowrap": "nowrap",
+        "overflow": false
+      },
+      {
+        "text": "Về phiên bản này",
+        "nowrap": "nowrap",
+        "overflow": false
+      }
+    ]
+  },
+  {
+    "width": 1440,
+    "errors": [],
+    "scrollWidth": 1440,
+    "controls": [
+      {
+        "text": "LOẠN 12 SỨ QUÂNBẢN WEB",
+        "nowrap": "nowrap",
+        "overflow": false
+      },
+      {
+        "text": "Chơi game",
+        "nowrap": "nowrap",
+        "overflow": false
+      },
+      {
+        "text": "Tài nguyên gốc ↗",
+        "nowrap": "nowrap",
+        "overflow": false
+      },
+      {
+        "text": "VÀO GAME ▶",
+        "nowrap": "nowrap",
+        "overflow": false
+      },
+      {
+        "text": "CHỌN / MENUQ",
+        "nowrap": "nowrap",
+        "overflow": false
+      },
+      {
+        "text": "Q",
+        "nowrap": "nowrap",
+        "overflow": false
+      },
+      {
+        "text": "ETRỞ VỀ",
+        "nowrap": "nowrap",
+        "overflow": false
+      },
+      {
+        "text": "E",
+        "nowrap": "nowrap",
+        "overflow": false
+      },
+      {
+        "text": "▲",
+        "nowrap": "nowrap",
+        "overflow": false
+      },
+      {
+        "text": "◀",
+        "nowrap": "nowrap",
+        "overflow": false
+      },
+      {
+        "text": "OK",
+        "nowrap": "nowrap",
+        "overflow": false
+      },
+      {
+        "text": "▶",
+        "nowrap": "nowrap",
+        "overflow": false
+      },
+      {
+        "text": "▼",
+        "nowrap": "nowrap",
+        "overflow": false
+      },
+      {
+        "text": "✱PHÉP",
+        "nowrap": "nowrap",
+        "overflow": false
+      },
+      {
+        "text": "#VẬT PHẨM",
+        "nowrap": "nowrap",
+        "overflow": false
+      },
+      {
+        "text": "0PHÍM 0",
+        "nowrap": "nowrap",
+        "overflow": false
+      },
+      {
+        "text": "Ⅱ Tạm dừng",
+        "nowrap": "nowrap",
+        "overflow": false
+      },
+      {
+        "text": "♪ Âm thanh",
+        "nowrap": "nowrap",
+        "overflow": false
+      },
+      {
+        "text": "⛶ Phóng to",
+        "nowrap": "nowrap",
+        "overflow": false
+      },
+      {
+        "text": "↑",
+        "nowrap": "nowrap",
+        "overflow": false
+      },
+      {
+        "text": "←",
+        "nowrap": "nowrap",
+        "overflow": false
+      },
+      {
+        "text": "↓",
+        "nowrap": "nowrap",
+        "overflow": false
+      },
+      {
+        "text": "→",
+        "nowrap": "nowrap",
+        "overflow": false
+      },
+      {
+        "text": "Enter",
+        "nowrap": "nowrap",
+        "overflow": false
+      },
+      {
+        "text": "Q",
+        "nowrap": "nowrap",
+        "overflow": false
+      },
+      {
+        "text": "E",
+        "nowrap": "nowrap",
+        "overflow": false
+      },
+      {
+        "text": "✱",
+        "nowrap": "nowrap",
+        "overflow": false
+      },
+      {
+        "text": "#",
+        "nowrap": "nowrap",
+        "overflow": false
+      },
+      {
+        "text": "Lưu và chuyển tiến trình",
+        "nowrap": "nowrap",
+        "overflow": false
+      },
+      {
+        "text": "Tải bản lưu ↓",
+        "nowrap": "nowrap",
+        "overflow": false
+      },
+      {
+        "text": "Nhập bản lưu ↑",
+        "nowrap": "nowrap",
+        "overflow": false
+      },
+      {
+        "text": "Về phiên bản này",
+        "nowrap": "nowrap",
+        "overflow": false
+      }
+    ]
+  }
+]

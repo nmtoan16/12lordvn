@@ -1,0 +1,121 @@
+{
+  "initial": {
+    "id": "0f826eb3-5288-4af9-9bb0-b84ec883e419",
+    "modelAddress": 1305776,
+    "activeTiers": [
+      0,
+      3,
+      3,
+      0,
+      0,
+      3
+    ],
+    "barrier": 52,
+    "maxHP": 105,
+    "fighters": [
+      {
+        "hp": 105,
+        "maxHp": 105,
+        "mana": 9,
+        "maxMana": 36,
+        "food": 9828,
+        "maxFood": 9828,
+        "immune": false,
+        "itemArmor": false,
+        "gold": 0,
+        "xp": 0
+      },
+      {
+        "hp": 105,
+        "maxHp": 105,
+        "mana": 0,
+        "maxMana": 36,
+        "food": 7560,
+        "maxFood": 7560,
+        "immune": false,
+        "itemArmor": false,
+        "gold": 0,
+        "xp": 0
+      }
+    ],
+    "skillIds": [
+      0,
+      1,
+      2
+    ],
+    "attack": 5,
+    "emergencyUsed": false,
+    "foodCarry": 0
+  },
+  "events": [
+    {
+      "type": "block",
+      "id": "sword:1",
+      "side": 0,
+      "amount": 14,
+      "source": "sword",
+      "barrier": 38
+    },
+    {
+      "type": "damage",
+      "id": "sword:1:reflect",
+      "side": 1,
+      "amount": 3,
+      "source": "reflect",
+      "attacker": 0,
+      "raw": 3,
+      "modified": 3,
+      "reduced": 3,
+      "hpBefore": 105,
+      "hpAfter": 102
+    },
+    {
+      "type": "block",
+      "id": "sword:2",
+      "side": 0,
+      "amount": 38,
+      "source": "sword",
+      "barrier": 0
+    },
+    {
+      "type": "damage",
+      "id": "sword:2",
+      "side": 0,
+      "amount": 18,
+      "source": "sword",
+      "attacker": 1,
+      "raw": 80,
+      "modified": 80,
+      "reduced": 56,
+      "hpBefore": 105,
+      "hpAfter": 87
+    },
+    {
+      "type": "damage",
+      "id": "sword:2:reflect",
+      "side": 1,
+      "amount": 14,
+      "source": "reflect",
+      "attacker": 0,
+      "raw": 14,
+      "modified": 14,
+      "reduced": 14,
+      "hpBefore": 102,
+      "hpAfter": 88
+    },
+    {
+      "type": "barrier-break",
+      "side": 0,
+      "amount": 38
+    },
+    {
+      "type": "heal",
+      "id": "potion:3",
+      "side": 0,
+      "amount": 18,
+      "source": "potion",
+      "hpBefore": 87,
+      "hpAfter": 105
+    }
+  ]
+}

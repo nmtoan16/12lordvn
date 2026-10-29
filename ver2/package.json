@@ -1,0 +1,19 @@
+{
+  "name": "12suquan",
+  "version": "1.0.0",
+  "description": "Loạn 12 Sứ Quân chạy cục bộ trên trình duyệt, giữ nguyên bytecode và tài nguyên Java ME",
+  "private": true,
+  "scripts": {
+    "start": "node scripts/serve.mjs",
+    "test": "node --test tests/*.test.cjs && playwright test",
+    "check": "node scripts/check.mjs",
+    "package:ver2": "node scripts/package-ver2.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "GPL-2.0-only",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.64.1"
+  }
+}
