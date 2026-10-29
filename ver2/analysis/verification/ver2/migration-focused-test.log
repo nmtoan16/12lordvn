@@ -1,0 +1,21 @@
+
+Running 13 tests using 1 worker
+
+(node:23500) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+
+  ok  1 tests\release.spec.cjs:12:1 › standalone release boots under ver2 and another folder name with private files absent (11.6s)
+  ok  2 tests\release.spec.cjs:24:1 › workspace server blocks development files and serves public ver2 files (87ms)
+  ok  3 tests\v1-migration.spec.cjs:22:1 › actual v1 Continue transfers to ver2, saves equipment and resumes after reload without changing v1 (27.5s)
+  ok  4 tests\v1-migration.spec.cjs:46:1 › existing ver2 is retained; explicit v1 button cancel keeps it and confirm replaces it (530ms)
+  ok  5 tests\v1-migration.spec.cjs:54:1 › two concurrent first opens commit exactly one migration (494ms)
+  ok  6 tests\v1-migration.spec.cjs:59:1 › no v1 checkpoint does not create a v1 database and game can still boot (5.8s)
+  ok  7 tests\v1-migration.spec.cjs:63:1 › corrupt v1 is rejected before mutating ver2 and the start UI allows retry (520ms)
+  ok  8 tests\v1-migration.spec.cjs:70:1 › aborted migration is atomic, retryable, and never mutates v1 (412ms)
+  ok  9 tests\v1-migration.spec.cjs:80:35 › migration control fits at 375px (317ms)
+  ok 10 tests\v1-migration.spec.cjs:80:35 › migration control fits at 768px (314ms)
+  ok 11 tests\v1-migration.spec.cjs:80:35 › migration control fits at 1440px (388ms)
+  ok 12 tests\version-isolation.spec.cjs:3:1 › ver2 boot uses its own databases and paths; v1 sentinel survives (5.8s)
+  ok 13 tests\version-isolation.spec.cjs:20:1 › two live v1/ver2 tabs keep RMS independent through purchase, reset and import (20.6s)
+
+  13 passed (1.3m)

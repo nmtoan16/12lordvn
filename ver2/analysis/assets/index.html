@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="vi">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kho tài nguyên gốc · Loạn 12 Sứ Quân</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#11191d;color:#e4e8e8;font:15px/1.5 system-ui,sans-serif}header{padding:28px max(20px,4vw);border-bottom:1px solid #334047}h1{font-size:25px;margin:0 0 8px}p{margin:5px 0;color:#adbac0}a{color:#b8deef}nav{display:flex;align-items:center;gap:16px;flex-wrap:wrap;padding-top:18px}input[type=search]{padding:10px;background:#253238;color:white;border:1px solid #596a73;border-radius:4px;min-width:230px}main{padding:24px max(20px,4vw)}#gallery{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:15px}article{border:1px solid #33434a;border-radius:4px;overflow:hidden}article h2{font:600 15px/1.3 system-ui;margin:12px 14px 4px;overflow-wrap:anywhere}article p{margin:4px 14px 12px;font-size:12px}.preview{min-height:160px;padding:15px;overflow:auto;display:grid;place-items:center;background:conic-gradient(#344047 25%,#253139 0 50%,#344047 0 75%,#253139 0) 0 0/20px 20px}.preview img{image-rendering:pixelated;max-width:none;object-fit:contain;display:block}.links{display:flex;gap:12px;margin:8px 14px 14px;font-size:13px}.preview audio{max-width:100%;width:100%}output{color:#c7d8e0}#error{color:#ffbdad}
+</style>
+<header>
+<h1>Kho tài nguyên gốc · Loạn 12 Sứ Quân</h1>
+<p>131 ảnh phục hồi đúng dữ liệu PNG; 20 âm thanh gốc. Tất cả ảnh giữ nguyên bảng màu, độ trong suốt và pixel.</p>
+<nav>
+<label><span hidden>Tìm tài nguyên</span><input id="query" type="search" placeholder="Tìm tên ảnh / âm thanh…"></label>
+<label>Thu phóng pixel <input id="zoom" type="range" min="1" max="4" step="1" value="1"> <output id="scale">1×</output></label>
+<label><input id="audio-only" type="checkbox"> Chỉ âm thanh</label>
+<a href="../../assets/manifest.json">Manifest + SHA-256</a>
+<a href="contact-sheet-major.png">Ảnh tổng quan</a>
+</nav>
+</header>
+<main><p id="status" role="status">Đang đọc manifest…</p><p id="error"></p><div id="gallery"></div></main>
+<script type="module">
+const query = document.querySelector('#query');
+const zoom = document.querySelector('#zoom');
+const audioOnly = document.querySelector('#audio-only');
+const gallery = document.querySelector('#gallery');
+let manifest;
+const fileLink = (file, text) => {
+  const link=document.createElement('a');link.href='../../'+file;link.textContent=text;return link;
+};
+function render(){
+  if(!manifest)return;
+  document.querySelector('#scale').textContent=zoom.value+'×';
+  gallery.replaceChildren();
+  const selected=manifest.assets.filter(a=>a.source.toLocaleLowerCase().includes(query.value.toLocaleLowerCase())&&(!audioOnly.checked||a.kind==='audio'));
+  document.querySelector('#status').textContent=`${selected.length} / ${manifest.assets.length} tài nguyên`;
+  for(const item of selected){
+    const article=document.createElement('article');
+    const title=document.createElement('h2');title.textContent=item.source;
+    const details=document.createElement('p');
+    const preview=document.createElement('div');preview.className='preview';
+    if(item.kind==='image'){
+      const img=new Image();img.loading='lazy';img.src='../../'+item.file;img.alt=item.source;
+      img.style.width=item.width*zoom.value+'px';img.style.height=item.height*zoom.value+'px';
+      preview.append(img);details.textContent=`${item.width} × ${item.height} px · ${item.bytes.toLocaleString()} byte · ${item.alpha?'trong suốt':'nền kín'}`;
+    }else{
+      details.textContent=`${item.format} · ${item.bytes.toLocaleString()} byte`;
+      if(item.browserAudio){
+        const audio=document.createElement('audio');audio.controls=true;audio.preload='none';audio.src='../../'+item.browserAudio.file;preview.append(audio);
+        details.textContent+=` · ${item.browserAudio.durationSeconds.toFixed(2)} giây`;
+      }else{
+        const message=document.createElement('p');message.textContent='MIDI gốc · '+(item.durationSeconds??'?')+' giây · '+item.tracks+' tracks';preview.append(message);
+      }
+    }
+    const links=document.createElement('div');links.className='links';links.append(fileLink(item.file,item.kind==='image'?'Mở PNG':'Tải âm thanh gốc'),fileLink(item.original,'Byte nguồn'));
+    if(item.browserAudio)links.append(fileLink(item.browserAudio.file,'Tải WAV'));
+    article.append(preview,title,details,links);gallery.append(article);
+  }
+}
+query.addEventListener('input',render);zoom.addEventListener('input',render);audioOnly.addEventListener('change',render);
+try{const response=await fetch('../../assets/manifest.json');if(!response.ok)throw new Error(response.status);manifest=await response.json();render();}catch(error){document.querySelector('#error').textContent='Không đọc được manifest: '+error.message;}
+</script>
+</html>

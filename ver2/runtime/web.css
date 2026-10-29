@@ -1,0 +1,15 @@
+html,body{margin:0;padding:0;width:240px;height:320px;overflow:hidden;background:#000}
+#display-container,#display{float:none;position:absolute;inset:0;width:240px!important;height:320px!important;border:0;background:#000}
+#drawer,#main{width:240px;height:320px}
+#canvas{image-rendering:pixelated;touch-action:none}
+#gamepad{display:none!important}
+.screen{background:#171510!important;color:#d4b36f!important}
+.screen h1{font:12px sans-serif;text-align:center}
+button{white-space:nowrap;flex:none}
+#web-name-dialog{position:absolute;inset:0;z-index:100;background:#211a12;display:flex;flex-direction:column;justify-content:center;gap:14px;padding:24px;box-sizing:border-box;color:#eddfba;font:14px/1.6 Georgia,serif}
+#web-name-dialog label{font-size:20px;color:#d4b36f;white-space:nowrap}
+#web-name-dialog p{font:11px/1.7 Arial,sans-serif;margin:0;color:#c5bca7}
+#web-name-dialog input{width:100%;min-width:0;box-sizing:border-box;background:#100e0b;color:#fff;border:1px solid #9e7c3e;padding:10px;font:14px Arial,sans-serif;outline-offset:2px}
+#web-name-dialog>div{display:flex;gap:10px;justify-content:space-between}
+#web-name-dialog button{display:inline-block;background:#b6924e;color:#17120b;border:1px solid #d9b86f;padding:8px 14px;font:12px Arial,sans-serif}
+#web-name-dialog button[type=button]{background:transparent;color:#d5bc87}

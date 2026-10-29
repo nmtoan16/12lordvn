@@ -1,0 +1,122 @@
+[
+  {
+    "boot": 0,
+    "cold": true,
+    "elapsed": 2600,
+    "state": {
+      "screen": "v",
+      "ready": true,
+      "error": null,
+      "transition": 1
+    },
+    "errors": []
+  },
+  {
+    "boot": 1,
+    "cold": false,
+    "elapsed": 1851,
+    "state": {
+      "screen": "v",
+      "ready": true,
+      "error": null,
+      "transition": 1
+    },
+    "errors": []
+  },
+  {
+    "boot": 2,
+    "cold": false,
+    "elapsed": 1701,
+    "state": {
+      "screen": "v",
+      "ready": true,
+      "error": null,
+      "transition": 1
+    },
+    "errors": []
+  },
+  {
+    "boot": 3,
+    "cold": false,
+    "elapsed": 1800,
+    "state": {
+      "screen": "v",
+      "ready": true,
+      "error": null,
+      "transition": 1
+    },
+    "errors": []
+  },
+  {
+    "boot": 4,
+    "cold": false,
+    "elapsed": 2324,
+    "state": {
+      "screen": "v",
+      "ready": true,
+      "error": null,
+      "transition": 1
+    },
+    "errors": []
+  },
+  {
+    "boot": 5,
+    "cold": false,
+    "elapsed": 5193,
+    "state": {
+      "screen": "v",
+      "ready": true,
+      "error": null,
+      "transition": 1
+    },
+    "errors": []
+  },
+  {
+    "boot": 6,
+    "cold": false,
+    "elapsed": 1888,
+    "state": {
+      "screen": "v",
+      "ready": true,
+      "error": null,
+      "transition": 1
+    },
+    "errors": []
+  },
+  {
+    "boot": 7,
+    "cold": false,
+    "elapsed": 1683,
+    "state": {
+      "screen": "v",
+      "ready": true,
+      "error": null,
+      "transition": 1
+    },
+    "errors": []
+  },
+  {
+    "boot": 8,
+    "cold": false,
+    "elapsed": 1680,
+    "state": {
+      "screen": "v",
+      "ready": true,
+      "error": null,
+      "transition": 1
+    },
+    "errors": []
+  },
+  {
+    "boot": 9,
+    "cold": false,
+    "elapsed": 1716,
+    "state": {
+      "screen": "v",
+      "ready": true,
+      "error": null,
+      "transition": 1
+    },
+    "errors": []
+  }
+]

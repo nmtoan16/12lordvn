@@ -1,0 +1,122 @@
+[
+  {
+    "boot": 0,
+    "elapsed": 5749,
+    "state": {
+      "ready": true,
+      "screen": "com/mic/smsgame/suquan/ac",
+      "startup": {
+        "neutralFrames": 2,
+        "transitions": 1
+      }
+    }
+  },
+  {
+    "boot": 1,
+    "elapsed": 6765,
+    "state": {
+      "ready": true,
+      "screen": "com/mic/smsgame/suquan/ac",
+      "startup": {
+        "neutralFrames": 2,
+        "transitions": 1
+      }
+    }
+  },
+  {
+    "boot": 2,
+    "elapsed": 6788,
+    "state": {
+      "ready": true,
+      "screen": "com/mic/smsgame/suquan/ac",
+      "startup": {
+        "neutralFrames": 2,
+        "transitions": 1
+      }
+    }
+  },
+  {
+    "boot": 3,
+    "elapsed": 5704,
+    "state": {
+      "ready": true,
+      "screen": "com/mic/smsgame/suquan/ac",
+      "startup": {
+        "neutralFrames": 2,
+        "transitions": 1
+      }
+    }
+  },
+  {
+    "boot": 4,
+    "elapsed": 6843,
+    "state": {
+      "ready": true,
+      "screen": "com/mic/smsgame/suquan/ac",
+      "startup": {
+        "neutralFrames": 2,
+        "transitions": 1
+      }
+    }
+  },
+  {
+    "boot": 5,
+    "elapsed": 6859,
+    "state": {
+      "ready": true,
+      "screen": "com/mic/smsgame/suquan/ac",
+      "startup": {
+        "neutralFrames": 2,
+        "transitions": 1
+      }
+    }
+  },
+  {
+    "boot": 6,
+    "elapsed": 5721,
+    "state": {
+      "ready": true,
+      "screen": "com/mic/smsgame/suquan/ac",
+      "startup": {
+        "neutralFrames": 2,
+        "transitions": 1
+      }
+    }
+  },
+  {
+    "boot": 7,
+    "elapsed": 5773,
+    "state": {
+      "ready": true,
+      "screen": "com/mic/smsgame/suquan/ac",
+      "startup": {
+        "neutralFrames": 2,
+        "transitions": 1
+      }
+    }
+  },
+  {
+    "boot": 8,
+    "elapsed": 7263,
+    "state": {
+      "ready": true,
+      "screen": "com/mic/smsgame/suquan/ac",
+      "startup": {
+        "neutralFrames": 2,
+        "transitions": 1
+      }
+    }
+  },
+  {
+    "boot": 9,
+    "elapsed": 7155,
+    "state": {
+      "ready": true,
+      "screen": "com/mic/smsgame/suquan/ac",
+      "startup": {
+        "neutralFrames": 2,
+        "transitions": 1
+      }
+    }
+  }
+]

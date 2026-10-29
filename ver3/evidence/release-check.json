@@ -1,0 +1,12 @@
+{
+  "manifestFiles": 34,
+  "checks": [
+    "SHA-256 of every release file",
+    "standalone HTTP host under /ver3/",
+    "local assets only",
+    "launch 64-cell board",
+    "reload and resume",
+    "375px no horizontal overflow"
+  ],
+  "errors": []
+}

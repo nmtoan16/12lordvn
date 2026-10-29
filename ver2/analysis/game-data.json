@@ -1,0 +1,4360 @@
+{
+  "source": {
+    "jar": "Loan-12-Su-Quan.jar",
+    "sha256": "90bf8dc99acba9f0a89da99c58b45c8fdb20240841e5a708e0ccfee58a650ff9",
+    "method": "Non-executing constant-array JVM bytecode interpreter"
+  },
+  "characters": [
+    {
+      "id": 0,
+      "name": "PLAYER",
+      "level": 1,
+      "baseHpBonus": 0,
+      "baseAttackBonus": 0,
+      "skills": [
+        0,
+        1,
+        2
+      ],
+      "maxHp": 105,
+      "attack": 5
+    },
+    {
+      "id": 1,
+      "name": "PLAYER",
+      "level": 1,
+      "baseHpBonus": 0,
+      "baseAttackBonus": 0,
+      "skills": [
+        3,
+        4,
+        5
+      ],
+      "maxHp": 105,
+      "attack": 5
+    },
+    {
+      "id": 2,
+      "name": "PLAYER",
+      "level": 1,
+      "baseHpBonus": 0,
+      "baseAttackBonus": 0,
+      "skills": [
+        6,
+        7,
+        8
+      ],
+      "maxHp": 105,
+      "attack": 5
+    },
+    {
+      "id": 3,
+      "name": "PLAYER",
+      "level": 1,
+      "baseHpBonus": 0,
+      "baseAttackBonus": 0,
+      "skills": [
+        0,
+        1,
+        2
+      ],
+      "maxHp": 105,
+      "attack": 5
+    },
+    {
+      "id": 4,
+      "name": "PLAYER",
+      "level": 1,
+      "baseHpBonus": 0,
+      "baseAttackBonus": 0,
+      "skills": [
+        3,
+        4,
+        5
+      ],
+      "maxHp": 105,
+      "attack": 5
+    },
+    {
+      "id": 5,
+      "name": "PLAYER",
+      "level": 1,
+      "baseHpBonus": 0,
+      "baseAttackBonus": 0,
+      "skills": [
+        6,
+        7,
+        8
+      ],
+      "maxHp": 105,
+      "attack": 5
+    },
+    {
+      "id": 6,
+      "name": "Đinh Bộ Lĩnh",
+      "level": 1,
+      "baseHpBonus": 60,
+      "baseAttackBonus": 5,
+      "skills": [
+        6,
+        7,
+        8
+      ],
+      "maxHp": 165,
+      "attack": 10
+    },
+    {
+      "id": 7,
+      "name": "Nguyễn Bặc",
+      "level": 1,
+      "baseHpBonus": 30,
+      "baseAttackBonus": 2,
+      "skills": [
+        0,
+        1,
+        2
+      ],
+      "maxHp": 135,
+      "attack": 7
+    },
+    {
+      "id": 8,
+      "name": "Lưu Cơ",
+      "level": 1,
+      "baseHpBonus": 0,
+      "baseAttackBonus": 0,
+      "skills": [
+        3,
+        4,
+        5
+      ],
+      "maxHp": 105,
+      "attack": 5
+    },
+    {
+      "id": 9,
+      "name": "Lê Hoàn",
+      "level": 20,
+      "baseHpBonus": 60,
+      "baseAttackBonus": 4,
+      "skills": [
+        3,
+        4,
+        5
+      ],
+      "maxHp": 260,
+      "attack": 19
+    },
+    {
+      "id": 10,
+      "name": "Trương Ma Ni",
+      "level": 1,
+      "baseHpBonus": 0,
+      "baseAttackBonus": 0,
+      "skills": [
+        0,
+        1,
+        2
+      ],
+      "maxHp": 105,
+      "attack": 5
+    },
+    {
+      "id": 11,
+      "name": "Ngô Chân Lưu",
+      "level": 1,
+      "baseHpBonus": 0,
+      "baseAttackBonus": 0,
+      "skills": [
+        0,
+        1,
+        2
+      ],
+      "maxHp": 105,
+      "attack": 5
+    },
+    {
+      "id": 12,
+      "name": "Nguyễn Minh Quang",
+      "level": 25,
+      "baseHpBonus": 75,
+      "baseAttackBonus": 5,
+      "skills": [
+        6,
+        7
+      ],
+      "maxHp": 300,
+      "attack": 22
+    },
+    {
+      "id": 13,
+      "name": "Bùi Quang Dũng",
+      "level": 15,
+      "baseHpBonus": 45,
+      "baseAttackBonus": 3,
+      "skills": [
+        0,
+        3
+      ],
+      "maxHp": 220,
+      "attack": 15
+    },
+    {
+      "id": 14,
+      "name": "Nguyễn Ninh",
+      "level": 30,
+      "baseHpBonus": 90,
+      "baseAttackBonus": 6,
+      "skills": [
+        3,
+        4
+      ],
+      "maxHp": 340,
+      "attack": 26
+    },
+    {
+      "id": 15,
+      "name": "Ngô Phó",
+      "level": 1,
+      "baseHpBonus": 0,
+      "baseAttackBonus": 0,
+      "skills": [
+        0,
+        1,
+        2
+      ],
+      "maxHp": 105,
+      "attack": 5
+    },
+    {
+      "id": 16,
+      "name": "Dương Vân Nga",
+      "level": 1,
+      "baseHpBonus": 0,
+      "baseAttackBonus": 0,
+      "skills": [
+        0,
+        1,
+        2
+      ],
+      "maxHp": 105,
+      "attack": 5
+    },
+    {
+      "id": 17,
+      "name": "Trần Lãm",
+      "level": 1,
+      "baseHpBonus": 0,
+      "baseAttackBonus": 0,
+      "skills": [
+        3,
+        4,
+        5
+      ],
+      "maxHp": 105,
+      "attack": 5
+    },
+    {
+      "id": 18,
+      "name": "Phạm Bạch Hổ",
+      "level": 1,
+      "baseHpBonus": 0,
+      "baseAttackBonus": 0,
+      "skills": [
+        0,
+        1,
+        2
+      ],
+      "maxHp": 105,
+      "attack": 5
+    },
+    {
+      "id": 19,
+      "name": "Phạm Cự Lạng",
+      "level": 1,
+      "baseHpBonus": 0,
+      "baseAttackBonus": 0,
+      "skills": [
+        0,
+        1,
+        2
+      ],
+      "maxHp": 105,
+      "attack": 5
+    },
+    {
+      "id": 20,
+      "name": "Lã Đường",
+      "level": 40,
+      "baseHpBonus": 40,
+      "baseAttackBonus": 4,
+      "skills": [
+        3,
+        4,
+        5
+      ],
+      "maxHp": 340,
+      "attack": 29
+    },
+    {
+      "id": 21,
+      "name": "Lính Tế Giang",
+      "level": 25,
+      "baseHpBonus": 0,
+      "baseAttackBonus": 0,
+      "skills": [
+        3,
+        4
+      ],
+      "maxHp": 225,
+      "attack": 17
+    },
+    {
+      "id": 22,
+      "name": "Ngô Xương Xí",
+      "level": 20,
+      "baseHpBonus": 20,
+      "baseAttackBonus": 2,
+      "skills": [
+        3,
+        4
+      ],
+      "maxHp": 220,
+      "attack": 17
+    },
+    {
+      "id": 23,
+      "name": "Lính Bình Kiều",
+      "level": 10,
+      "baseHpBonus": 0,
+      "baseAttackBonus": 0,
+      "skills": [
+        6,
+        7
+      ],
+      "maxHp": 150,
+      "attack": 10
+    },
+    {
+      "id": 24,
+      "name": "Đỗ Cảnh Thạc",
+      "level": 50,
+      "baseHpBonus": 50,
+      "baseAttackBonus": 5,
+      "skills": [
+        7,
+        7,
+        8
+      ],
+      "maxHp": 400,
+      "attack": 35
+    },
+    {
+      "id": 25,
+      "name": "Lính Đỗ Động",
+      "level": 30,
+      "baseHpBonus": 0,
+      "baseAttackBonus": 0,
+      "skills": [
+        6,
+        7
+      ],
+      "maxHp": 250,
+      "attack": 20
+    },
+    {
+      "id": 26,
+      "name": "Tàn Tướng Đỗ Động",
+      "level": 40,
+      "baseHpBonus": 40,
+      "baseAttackBonus": 4,
+      "skills": [
+        0,
+        1,
+        2
+      ],
+      "maxHp": 340,
+      "attack": 29
+    },
+    {
+      "id": 27,
+      "name": "Ngô Nhật Khánh",
+      "level": 30,
+      "baseHpBonus": 30,
+      "baseAttackBonus": 3,
+      "skills": [
+        0,
+        1
+      ],
+      "maxHp": 280,
+      "attack": 23
+    },
+    {
+      "id": 28,
+      "name": "Nguyễn Siêu",
+      "level": 60,
+      "baseHpBonus": 60,
+      "baseAttackBonus": 6,
+      "skills": [
+        1,
+        1,
+        2
+      ],
+      "maxHp": 460,
+      "attack": 41
+    },
+    {
+      "id": 29,
+      "name": "Nguyễn Trí Khả",
+      "level": 45,
+      "baseHpBonus": 50,
+      "baseAttackBonus": 5,
+      "skills": [
+        3,
+        4,
+        5
+      ],
+      "maxHp": 375,
+      "attack": 32
+    },
+    {
+      "id": 30,
+      "name": "Lý Khuê",
+      "level": 70,
+      "baseHpBonus": 70,
+      "baseAttackBonus": 7,
+      "skills": [
+        7,
+        7,
+        8
+      ],
+      "maxHp": 520,
+      "attack": 47
+    },
+    {
+      "id": 31,
+      "name": "Lính Siêu Loại",
+      "level": 45,
+      "baseHpBonus": 0,
+      "baseAttackBonus": 0,
+      "skills": [
+        3,
+        4,
+        5
+      ],
+      "maxHp": 325,
+      "attack": 27
+    },
+    {
+      "id": 32,
+      "name": "Nguyễn Thủ Tiệp",
+      "level": 80,
+      "baseHpBonus": 80,
+      "baseAttackBonus": 8,
+      "skills": [
+        4,
+        4,
+        5
+      ],
+      "maxHp": 580,
+      "attack": 53
+    },
+    {
+      "id": 33,
+      "name": "Phản Tướng",
+      "level": 60,
+      "baseHpBonus": 60,
+      "baseAttackBonus": 6,
+      "skills": [
+        4,
+        4,
+        5
+      ],
+      "maxHp": 460,
+      "attack": 41
+    },
+    {
+      "id": 34,
+      "name": "Lữ Xử Bình",
+      "level": 90,
+      "baseHpBonus": 90,
+      "baseAttackBonus": 9,
+      "skills": [
+        2,
+        2,
+        2
+      ],
+      "maxHp": 640,
+      "attack": 59
+    },
+    {
+      "id": 35,
+      "name": "Lính Cổ Loa",
+      "level": 55,
+      "baseHpBonus": 0,
+      "baseAttackBonus": 0,
+      "skills": [
+        6,
+        7,
+        8
+      ],
+      "maxHp": 375,
+      "attack": 32
+    },
+    {
+      "id": 36,
+      "name": "Nguyễn Khoan",
+      "level": 70,
+      "baseHpBonus": 70,
+      "baseAttackBonus": 7,
+      "skills": [
+        1,
+        1,
+        2
+      ],
+      "maxHp": 520,
+      "attack": 47
+    },
+    {
+      "id": 37,
+      "name": "Lính Tam Đái",
+      "level": 60,
+      "baseHpBonus": 60,
+      "baseAttackBonus": 6,
+      "skills": [
+        0,
+        1,
+        2
+      ],
+      "maxHp": 460,
+      "attack": 41
+    },
+    {
+      "id": 38,
+      "name": "Kiều Công Hãn",
+      "level": 95,
+      "baseHpBonus": 300,
+      "baseAttackBonus": 15,
+      "skills": [
+        5,
+        5,
+        5
+      ],
+      "maxHp": 875,
+      "attack": 67
+    },
+    {
+      "id": 39,
+      "name": "Lính Phong Châu",
+      "level": 65,
+      "baseHpBonus": 0,
+      "baseAttackBonus": 0,
+      "skills": [
+        7,
+        7,
+        8
+      ],
+      "maxHp": 425,
+      "attack": 37
+    },
+    {
+      "id": 40,
+      "name": "Kiều Thuận",
+      "level": 99,
+      "baseHpBonus": 500,
+      "baseAttackBonus": 20,
+      "skills": [
+        8,
+        8,
+        8
+      ],
+      "maxHp": 1095,
+      "attack": 74
+    },
+    {
+      "id": 41,
+      "name": "Lính Hồi Hồ",
+      "level": 75,
+      "baseHpBonus": 0,
+      "baseAttackBonus": 0,
+      "skills": [
+        7,
+        7,
+        8
+      ],
+      "maxHp": 475,
+      "attack": 42
+    },
+    {
+      "id": 42,
+      "name": "Sơn Tặc",
+      "level": 7,
+      "baseHpBonus": 0,
+      "baseAttackBonus": 0,
+      "skills": [
+        0
+      ],
+      "maxHp": 135,
+      "attack": 8
+    },
+    {
+      "id": 43,
+      "name": "Bọ Quái",
+      "level": 3,
+      "baseHpBonus": 0,
+      "baseAttackBonus": 0,
+      "skills": [
+        0
+      ],
+      "maxHp": 115,
+      "attack": 6
+    },
+    {
+      "id": 44,
+      "name": "Quỷ Ong",
+      "level": 6,
+      "baseHpBonus": 0,
+      "baseAttackBonus": 0,
+      "skills": [
+        3
+      ],
+      "maxHp": 130,
+      "attack": 8
+    },
+    {
+      "id": 45,
+      "name": "Thạch Sùng Tinh",
+      "level": 9,
+      "baseHpBonus": 0,
+      "baseAttackBonus": 0,
+      "skills": [
+        6
+      ],
+      "maxHp": 145,
+      "attack": 9
+    },
+    {
+      "id": 46,
+      "name": "Quỷ Lùn",
+      "level": 12,
+      "baseHpBonus": 0,
+      "baseAttackBonus": 0,
+      "skills": [
+        0,
+        1
+      ],
+      "maxHp": 160,
+      "attack": 11
+    },
+    {
+      "id": 47,
+      "name": "Ma Nhãn",
+      "level": 15,
+      "baseHpBonus": 0,
+      "baseAttackBonus": 0,
+      "skills": [
+        3,
+        4
+      ],
+      "maxHp": 175,
+      "attack": 12
+    },
+    {
+      "id": 48,
+      "name": "Ngọc Thố Tinh",
+      "level": 18,
+      "baseHpBonus": 0,
+      "baseAttackBonus": 0,
+      "skills": [
+        5,
+        6
+      ],
+      "maxHp": 190,
+      "attack": 14
+    },
+    {
+      "id": 49,
+      "name": "Ma Điểu",
+      "level": 21,
+      "baseHpBonus": 0,
+      "baseAttackBonus": 0,
+      "skills": [
+        0,
+        1
+      ],
+      "maxHp": 205,
+      "attack": 15
+    },
+    {
+      "id": 50,
+      "name": "Xà Tinh",
+      "level": 24,
+      "baseHpBonus": 0,
+      "baseAttackBonus": 0,
+      "skills": [
+        3,
+        4
+      ],
+      "maxHp": 220,
+      "attack": 17
+    },
+    {
+      "id": 51,
+      "name": "Hầu Tinh",
+      "level": 27,
+      "baseHpBonus": 0,
+      "baseAttackBonus": 0,
+      "skills": [
+        5,
+        6
+      ],
+      "maxHp": 235,
+      "attack": 18
+    },
+    {
+      "id": 52,
+      "name": "Ấu Quỷ",
+      "level": 30,
+      "baseHpBonus": 0,
+      "baseAttackBonus": 0,
+      "skills": [
+        0,
+        1,
+        2
+      ],
+      "maxHp": 250,
+      "attack": 20
+    },
+    {
+      "id": 53,
+      "name": "Thổ Tinh",
+      "level": 33,
+      "baseHpBonus": 0,
+      "baseAttackBonus": 0,
+      "skills": [
+        3,
+        4,
+        5
+      ],
+      "maxHp": 265,
+      "attack": 21
+    },
+    {
+      "id": 54,
+      "name": "Thạch Ma",
+      "level": 36,
+      "baseHpBonus": 0,
+      "baseAttackBonus": 0,
+      "skills": [
+        6,
+        7,
+        8
+      ],
+      "maxHp": 280,
+      "attack": 23
+    },
+    {
+      "id": 55,
+      "name": "Linh Miêu",
+      "level": 39,
+      "baseHpBonus": 0,
+      "baseAttackBonus": 0,
+      "skills": [
+        0,
+        1,
+        2
+      ],
+      "maxHp": 295,
+      "attack": 24
+    },
+    {
+      "id": 56,
+      "name": "Lão Hầu Tinh",
+      "level": 42,
+      "baseHpBonus": 0,
+      "baseAttackBonus": 0,
+      "skills": [
+        3,
+        4,
+        5
+      ],
+      "maxHp": 310,
+      "attack": 26
+    },
+    {
+      "id": 57,
+      "name": "Quái Sư",
+      "level": 45,
+      "baseHpBonus": 0,
+      "baseAttackBonus": 0,
+      "skills": [
+        6,
+        7,
+        8
+      ],
+      "maxHp": 325,
+      "attack": 27
+    },
+    {
+      "id": 58,
+      "name": "Mộc Ma",
+      "level": 48,
+      "baseHpBonus": 0,
+      "baseAttackBonus": 0,
+      "skills": [
+        1,
+        1,
+        2
+      ],
+      "maxHp": 340,
+      "attack": 29
+    },
+    {
+      "id": 59,
+      "name": "Đại Mộc Ma",
+      "level": 51,
+      "baseHpBonus": 0,
+      "baseAttackBonus": 0,
+      "skills": [
+        4,
+        4,
+        5
+      ],
+      "maxHp": 355,
+      "attack": 30
+    },
+    {
+      "id": 60,
+      "name": "Độc Nhãn Trư",
+      "level": 54,
+      "baseHpBonus": 0,
+      "baseAttackBonus": 0,
+      "skills": [
+        7,
+        7,
+        8
+      ],
+      "maxHp": 370,
+      "attack": 32
+    },
+    {
+      "id": 61,
+      "name": "Quái Cóc",
+      "level": 57,
+      "baseHpBonus": 0,
+      "baseAttackBonus": 0,
+      "skills": [
+        1,
+        1,
+        2
+      ],
+      "maxHp": 385,
+      "attack": 33
+    },
+    {
+      "id": 62,
+      "name": "Sâu Quỷ",
+      "level": 60,
+      "baseHpBonus": 0,
+      "baseAttackBonus": 0,
+      "skills": [
+        4,
+        4,
+        5
+      ],
+      "maxHp": 400,
+      "attack": 35
+    },
+    {
+      "id": 63,
+      "name": "Trùng Quỷ",
+      "level": 63,
+      "baseHpBonus": 0,
+      "baseAttackBonus": 0,
+      "skills": [
+        7,
+        7,
+        8
+      ],
+      "maxHp": 415,
+      "attack": 36
+    },
+    {
+      "id": 64,
+      "name": "Lão Trùng Quỷ",
+      "level": 66,
+      "baseHpBonus": 0,
+      "baseAttackBonus": 0,
+      "skills": [
+        6,
+        7
+      ],
+      "maxHp": 430,
+      "attack": 38
+    },
+    {
+      "id": 65,
+      "name": "Quái Ưng",
+      "level": 69,
+      "baseHpBonus": 0,
+      "baseAttackBonus": 0,
+      "skills": [
+        7,
+        8
+      ],
+      "maxHp": 445,
+      "attack": 39
+    },
+    {
+      "id": 66,
+      "name": "Thằn Lằn Quỷ",
+      "level": 72,
+      "baseHpBonus": 0,
+      "baseAttackBonus": 0,
+      "skills": [
+        8,
+        8
+      ],
+      "maxHp": 460,
+      "attack": 41
+    },
+    {
+      "id": 67,
+      "name": "Hạc Yêu",
+      "level": 75,
+      "baseHpBonus": 0,
+      "baseAttackBonus": 0,
+      "skills": [
+        1,
+        2
+      ],
+      "maxHp": 475,
+      "attack": 42
+    },
+    {
+      "id": 68,
+      "name": "Độc Ngư",
+      "level": 78,
+      "baseHpBonus": 0,
+      "baseAttackBonus": 0,
+      "skills": [
+        1,
+        2
+      ],
+      "maxHp": 490,
+      "attack": 44
+    },
+    {
+      "id": 69,
+      "name": "Quỷ Cóc",
+      "level": 81,
+      "baseHpBonus": 0,
+      "baseAttackBonus": 0,
+      "skills": [
+        1,
+        2
+      ],
+      "maxHp": 505,
+      "attack": 45
+    },
+    {
+      "id": 70,
+      "name": "Ma Cây",
+      "level": 84,
+      "baseHpBonus": 0,
+      "baseAttackBonus": 0,
+      "skills": [
+        4,
+        5
+      ],
+      "maxHp": 520,
+      "attack": 47
+    },
+    {
+      "id": 71,
+      "name": "Ma Trơi",
+      "level": 87,
+      "baseHpBonus": 0,
+      "baseAttackBonus": 0,
+      "skills": [
+        4,
+        5
+      ],
+      "maxHp": 535,
+      "attack": 48
+    },
+    {
+      "id": 72,
+      "name": "Chồn Tinh",
+      "level": 90,
+      "baseHpBonus": 0,
+      "baseAttackBonus": 0,
+      "skills": [
+        4,
+        5
+      ],
+      "maxHp": 550,
+      "attack": 50
+    },
+    {
+      "id": 73,
+      "name": "Nhện Tinh",
+      "level": 93,
+      "baseHpBonus": 0,
+      "baseAttackBonus": 0,
+      "skills": [
+        6,
+        7
+      ],
+      "maxHp": 565,
+      "attack": 51
+    },
+    {
+      "id": 74,
+      "name": "Ấu Rồng",
+      "level": 96,
+      "baseHpBonus": 1000,
+      "baseAttackBonus": 40,
+      "skills": [
+        6,
+        7,
+        8
+      ],
+      "maxHp": 1580,
+      "attack": 93
+    },
+    {
+      "id": 75,
+      "name": "Lính",
+      "level": 1,
+      "baseHpBonus": 0,
+      "baseAttackBonus": 0,
+      "skills": [],
+      "maxHp": 105,
+      "attack": 5
+    },
+    {
+      "id": 76,
+      "name": "Lính Tiên Du",
+      "level": 40,
+      "baseHpBonus": 0,
+      "baseAttackBonus": 0,
+      "skills": [
+        0,
+        1,
+        2
+      ],
+      "maxHp": 300,
+      "attack": 25
+    }
+  ],
+  "locations": [
+    {
+      "id": 0,
+      "name": "Hoa Lư",
+      "x": 170,
+      "y": 295,
+      "type": 0,
+      "adjacencyRoadIds": [
+        7,
+        4,
+        5,
+        6
+      ],
+      "encounterCharacterId": -1
+    },
+    {
+      "id": 1,
+      "name": "Kỳ Bố",
+      "x": 303,
+      "y": 287,
+      "type": 0,
+      "adjacencyRoadIds": [
+        10,
+        9,
+        9,
+        -1
+      ],
+      "encounterCharacterId": -1
+    },
+    {
+      "id": 2,
+      "name": "Bình Kiều",
+      "x": 60,
+      "y": 338,
+      "type": 0,
+      "adjacencyRoadIds": [
+        1,
+        -1,
+        -1,
+        1
+      ],
+      "encounterCharacterId": -1
+    },
+    {
+      "id": 3,
+      "name": "Đằng Châu",
+      "x": 313,
+      "y": 228,
+      "type": 0,
+      "adjacencyRoadIds": [
+        13,
+        11,
+        12,
+        -1
+      ],
+      "encounterCharacterId": -1
+    },
+    {
+      "id": 4,
+      "name": "Đỗ Động",
+      "x": 186,
+      "y": 229,
+      "type": 0,
+      "adjacencyRoadIds": [
+        22,
+        21,
+        -1,
+        -1
+      ],
+      "encounterCharacterId": -1
+    },
+    {
+      "id": 5,
+      "name": "Tế Giang",
+      "x": 243,
+      "y": 205,
+      "type": 0,
+      "adjacencyRoadIds": [
+        -1,
+        14,
+        -1,
+        14
+      ],
+      "encounterCharacterId": -1
+    },
+    {
+      "id": 6,
+      "name": "Siêu Loại",
+      "x": 265,
+      "y": 160,
+      "type": 0,
+      "adjacencyRoadIds": [
+        28,
+        26,
+        -1,
+        27
+      ],
+      "encounterCharacterId": -1
+    },
+    {
+      "id": 7,
+      "name": "Tây Phù Liệt",
+      "x": 178,
+      "y": 170,
+      "type": 0,
+      "adjacencyRoadIds": [
+        40,
+        23,
+        38,
+        24
+      ],
+      "encounterCharacterId": -1
+    },
+    {
+      "id": 8,
+      "name": "Đường Lâm",
+      "x": 108,
+      "y": 183,
+      "type": 0,
+      "adjacencyRoadIds": [
+        -1,
+        20,
+        -1,
+        20
+      ],
+      "encounterCharacterId": -1
+    },
+    {
+      "id": 9,
+      "name": "Cổ Loa",
+      "x": 207,
+      "y": 144,
+      "type": 0,
+      "adjacencyRoadIds": [
+        33,
+        40,
+        34,
+        33
+      ],
+      "encounterCharacterId": -1
+    },
+    {
+      "id": 10,
+      "name": "Tiên Du",
+      "x": 318,
+      "y": 107,
+      "type": 0,
+      "adjacencyRoadIds": [
+        -1,
+        29,
+        29,
+        -1
+      ],
+      "encounterCharacterId": -1
+    },
+    {
+      "id": 11,
+      "name": "Tam Đái",
+      "x": 148,
+      "y": 116,
+      "type": 0,
+      "adjacencyRoadIds": [
+        36,
+        39,
+        36,
+        35
+      ],
+      "encounterCharacterId": -1
+    },
+    {
+      "id": 12,
+      "name": "Phong Châu",
+      "x": 103,
+      "y": 76,
+      "type": 0,
+      "adjacencyRoadIds": [
+        37,
+        36,
+        37,
+        36
+      ],
+      "encounterCharacterId": -1
+    },
+    {
+      "id": 13,
+      "name": "Hồi Hồ",
+      "x": 29,
+      "y": 88,
+      "type": 0,
+      "adjacencyRoadIds": [
+        -1,
+        -1,
+        -1,
+        0
+      ],
+      "encounterCharacterId": -1
+    },
+    {
+      "id": 14,
+      "name": "Bình Lục",
+      "x": 215,
+      "y": 250,
+      "type": 0,
+      "adjacencyRoadIds": [
+        -1,
+        -1,
+        15,
+        -1
+      ],
+      "encounterCharacterId": -1
+    },
+    {
+      "id": 15,
+      "name": "Chùa Bảo Thái",
+      "x": 56,
+      "y": 227,
+      "type": 0,
+      "adjacencyRoadIds": [
+        -1,
+        -1,
+        -1,
+        18
+      ],
+      "encounterCharacterId": -1
+    },
+    {
+      "id": 16,
+      "name": "Bảo Thái",
+      "x": 97,
+      "y": 233,
+      "type": 0,
+      "adjacencyRoadIds": [
+        19,
+        41,
+        18,
+        17
+      ],
+      "encounterCharacterId": -1
+    },
+    {
+      "id": 17,
+      "name": "Trà Hương",
+      "x": 352,
+      "y": 177,
+      "type": 0,
+      "adjacencyRoadIds": [
+        -1,
+        -1,
+        25,
+        -1
+      ],
+      "encounterCharacterId": -1
+    },
+    {
+      "id": 18,
+      "name": "Ô Man",
+      "x": 149,
+      "y": 237,
+      "type": 0,
+      "adjacencyRoadIds": [
+        -1,
+        7,
+        17,
+        16
+      ],
+      "encounterCharacterId": -1
+    },
+    {
+      "id": 19,
+      "name": "Dương Xá",
+      "x": 304,
+      "y": 147,
+      "type": 0,
+      "adjacencyRoadIds": [
+        -1,
+        -1,
+        27,
+        -1
+      ],
+      "encounterCharacterId": -1
+    },
+    {
+      "id": 20,
+      "name": "Chùa Non nước",
+      "x": 236,
+      "y": 87,
+      "type": 0,
+      "adjacencyRoadIds": [
+        32,
+        31,
+        -1,
+        -1
+      ],
+      "encounterCharacterId": -1
+    },
+    {
+      "id": 21,
+      "name": "Tam Đảo",
+      "x": 225,
+      "y": 55,
+      "type": 0,
+      "adjacencyRoadIds": [
+        -1,
+        32,
+        -1,
+        -1
+      ],
+      "encounterCharacterId": -1
+    },
+    {
+      "id": 22,
+      "name": "Ái Châu",
+      "x": 153,
+      "y": 347,
+      "type": 0,
+      "adjacencyRoadIds": [
+        -1,
+        -1,
+        3,
+        -1
+      ],
+      "encounterCharacterId": -1
+    },
+    {
+      "id": 23,
+      "name": "Đông Lỗ",
+      "x": 86,
+      "y": 307,
+      "type": 0,
+      "adjacencyRoadIds": [
+        -1,
+        -1,
+        -1,
+        2
+      ],
+      "encounterCharacterId": -1
+    },
+    {
+      "id": 24,
+      "name": "Tam Điệp",
+      "x": 119,
+      "y": 274,
+      "type": 0,
+      "adjacencyRoadIds": [
+        42,
+        -1,
+        -1,
+        5
+      ],
+      "encounterCharacterId": -1
+    },
+    {
+      "id": 25,
+      "name": "Bảo Đà",
+      "x": 179,
+      "y": 250,
+      "type": 1,
+      "adjacencyRoadIds": [
+        21,
+        -1,
+        16,
+        15
+      ],
+      "encounterCharacterId": 25
+    },
+    {
+      "id": 26,
+      "name": "Đông Phù Liệt",
+      "x": 206,
+      "y": 177,
+      "type": 1,
+      "adjacencyRoadIds": [
+        -1,
+        -1,
+        24,
+        -1
+      ],
+      "encounterCharacterId": 75
+    },
+    {
+      "id": 27,
+      "name": null,
+      "x": 273,
+      "y": 216,
+      "type": 1,
+      "adjacencyRoadIds": [
+        -1,
+        -1,
+        14,
+        12
+      ],
+      "encounterCharacterId": 21
+    },
+    {
+      "id": 28,
+      "name": null,
+      "x": 231,
+      "y": 118,
+      "type": 1,
+      "adjacencyRoadIds": [
+        31,
+        33,
+        33,
+        30
+      ],
+      "encounterCharacterId": 35
+    },
+    {
+      "id": 29,
+      "name": null,
+      "x": 168,
+      "y": 128,
+      "type": 1,
+      "adjacencyRoadIds": [
+        -1,
+        -1,
+        35,
+        34
+      ],
+      "encounterCharacterId": -1
+    },
+    {
+      "id": 30,
+      "name": null,
+      "x": 64,
+      "y": 88,
+      "type": 1,
+      "adjacencyRoadIds": [
+        -1,
+        -1,
+        0,
+        37
+      ],
+      "encounterCharacterId": 41
+    },
+    {
+      "id": 31,
+      "name": null,
+      "x": 107,
+      "y": 324,
+      "type": 1,
+      "adjacencyRoadIds": [
+        4,
+        1,
+        2,
+        3
+      ],
+      "encounterCharacterId": 23
+    },
+    {
+      "id": 32,
+      "name": null,
+      "x": 223,
+      "y": 310,
+      "type": 1,
+      "adjacencyRoadIds": [
+        -1,
+        -1,
+        6,
+        8
+      ],
+      "encounterCharacterId": 75
+    },
+    {
+      "id": 33,
+      "name": null,
+      "x": 271,
+      "y": 308,
+      "type": 1,
+      "adjacencyRoadIds": [
+        -1,
+        -1,
+        8,
+        9
+      ],
+      "encounterCharacterId": 75
+    },
+    {
+      "id": 34,
+      "name": null,
+      "x": 296,
+      "y": 252,
+      "type": 1,
+      "adjacencyRoadIds": [
+        11,
+        10,
+        -1,
+        -1
+      ],
+      "encounterCharacterId": 75
+    },
+    {
+      "id": 35,
+      "name": null,
+      "x": 183,
+      "y": 188,
+      "type": 1,
+      "adjacencyRoadIds": [
+        23,
+        22,
+        -1,
+        -1
+      ],
+      "encounterCharacterId": 39
+    },
+    {
+      "id": 36,
+      "name": null,
+      "x": 125,
+      "y": 206,
+      "type": 1,
+      "adjacencyRoadIds": [
+        20,
+        19,
+        20,
+        19
+      ],
+      "encounterCharacterId": 75
+    },
+    {
+      "id": 37,
+      "name": null,
+      "x": 297,
+      "y": 189,
+      "type": 1,
+      "adjacencyRoadIds": [
+        26,
+        13,
+        26,
+        25
+      ],
+      "encounterCharacterId": 31
+    },
+    {
+      "id": 38,
+      "name": null,
+      "x": 263,
+      "y": 119,
+      "type": 1,
+      "adjacencyRoadIds": [
+        -1,
+        28,
+        30,
+        29
+      ],
+      "encounterCharacterId": 76
+    },
+    {
+      "id": 39,
+      "name": null,
+      "x": 131,
+      "y": 152,
+      "type": 1,
+      "adjacencyRoadIds": [
+        39,
+        -1,
+        -1,
+        38
+      ],
+      "encounterCharacterId": 37
+    },
+    {
+      "id": 40,
+      "name": null,
+      "x": 122,
+      "y": 251,
+      "type": 1,
+      "adjacencyRoadIds": [
+        41,
+        42,
+        -1,
+        -1
+      ],
+      "encounterCharacterId": -1
+    }
+  ],
+  "roads": [
+    {
+      "id": 0,
+      "from": 30,
+      "to": 13,
+      "minLevel": 80,
+      "maxLevel": 85
+    },
+    {
+      "id": 1,
+      "from": 2,
+      "to": 31,
+      "minLevel": 5,
+      "maxLevel": 10
+    },
+    {
+      "id": 2,
+      "from": 31,
+      "to": 23,
+      "minLevel": 4,
+      "maxLevel": 9
+    },
+    {
+      "id": 3,
+      "from": 31,
+      "to": 22,
+      "minLevel": 4,
+      "maxLevel": 9
+    },
+    {
+      "id": 4,
+      "from": 0,
+      "to": 31,
+      "minLevel": 3,
+      "maxLevel": 8
+    },
+    {
+      "id": 5,
+      "from": 0,
+      "to": 24,
+      "minLevel": 1,
+      "maxLevel": 6
+    },
+    {
+      "id": 6,
+      "from": 0,
+      "to": 32,
+      "minLevel": 1,
+      "maxLevel": 6
+    },
+    {
+      "id": 7,
+      "from": 0,
+      "to": 18,
+      "minLevel": 7,
+      "maxLevel": 12
+    },
+    {
+      "id": 8,
+      "from": 32,
+      "to": 33,
+      "minLevel": 3,
+      "maxLevel": 8
+    },
+    {
+      "id": 9,
+      "from": 33,
+      "to": 1,
+      "minLevel": 4,
+      "maxLevel": 9
+    },
+    {
+      "id": 10,
+      "from": 1,
+      "to": 34,
+      "minLevel": 5,
+      "maxLevel": 10
+    },
+    {
+      "id": 11,
+      "from": 34,
+      "to": 3,
+      "minLevel": 5,
+      "maxLevel": 10
+    },
+    {
+      "id": 12,
+      "from": 3,
+      "to": 27,
+      "minLevel": 15,
+      "maxLevel": 20
+    },
+    {
+      "id": 13,
+      "from": 3,
+      "to": 37,
+      "minLevel": 30,
+      "maxLevel": 35
+    },
+    {
+      "id": 14,
+      "from": 27,
+      "to": 5,
+      "minLevel": 17,
+      "maxLevel": 22
+    },
+    {
+      "id": 15,
+      "from": 14,
+      "to": 25,
+      "minLevel": 22,
+      "maxLevel": 27
+    },
+    {
+      "id": 16,
+      "from": 25,
+      "to": 18,
+      "minLevel": 20,
+      "maxLevel": 25
+    },
+    {
+      "id": 17,
+      "from": 18,
+      "to": 16,
+      "minLevel": 8,
+      "maxLevel": 14
+    },
+    {
+      "id": 18,
+      "from": 16,
+      "to": 15,
+      "minLevel": 10,
+      "maxLevel": 15
+    },
+    {
+      "id": 19,
+      "from": 16,
+      "to": 36,
+      "minLevel": 17,
+      "maxLevel": 22
+    },
+    {
+      "id": 20,
+      "from": 36,
+      "to": 8,
+      "minLevel": 18,
+      "maxLevel": 23
+    },
+    {
+      "id": 21,
+      "from": 25,
+      "to": 4,
+      "minLevel": 20,
+      "maxLevel": 25
+    },
+    {
+      "id": 22,
+      "from": 4,
+      "to": 35,
+      "minLevel": 25,
+      "maxLevel": 30
+    },
+    {
+      "id": 23,
+      "from": 35,
+      "to": 7,
+      "minLevel": 27,
+      "maxLevel": 32
+    },
+    {
+      "id": 24,
+      "from": 7,
+      "to": 26,
+      "minLevel": 29,
+      "maxLevel": 34
+    },
+    {
+      "id": 25,
+      "from": 37,
+      "to": 17,
+      "minLevel": 32,
+      "maxLevel": 37
+    },
+    {
+      "id": 26,
+      "from": 37,
+      "to": 6,
+      "minLevel": 35,
+      "maxLevel": 40
+    },
+    {
+      "id": 27,
+      "from": 6,
+      "to": 19,
+      "minLevel": 40,
+      "maxLevel": 45
+    },
+    {
+      "id": 28,
+      "from": 6,
+      "to": 38,
+      "minLevel": 45,
+      "maxLevel": 50
+    },
+    {
+      "id": 29,
+      "from": 38,
+      "to": 10,
+      "minLevel": 50,
+      "maxLevel": 55
+    },
+    {
+      "id": 30,
+      "from": 38,
+      "to": 28,
+      "minLevel": 50,
+      "maxLevel": 55
+    },
+    {
+      "id": 31,
+      "from": 28,
+      "to": 20,
+      "minLevel": 55,
+      "maxLevel": 60
+    },
+    {
+      "id": 32,
+      "from": 20,
+      "to": 21,
+      "minLevel": 60,
+      "maxLevel": 65
+    },
+    {
+      "id": 33,
+      "from": 28,
+      "to": 9,
+      "minLevel": 60,
+      "maxLevel": 65
+    },
+    {
+      "id": 34,
+      "from": 9,
+      "to": 29,
+      "minLevel": 65,
+      "maxLevel": 70
+    },
+    {
+      "id": 35,
+      "from": 29,
+      "to": 11,
+      "minLevel": 65,
+      "maxLevel": 70
+    },
+    {
+      "id": 36,
+      "from": 11,
+      "to": 12,
+      "minLevel": 70,
+      "maxLevel": 75
+    },
+    {
+      "id": 37,
+      "from": 12,
+      "to": 30,
+      "minLevel": 75,
+      "maxLevel": 80
+    },
+    {
+      "id": 38,
+      "from": 7,
+      "to": 39,
+      "minLevel": 55,
+      "maxLevel": 65
+    },
+    {
+      "id": 39,
+      "from": 39,
+      "to": 11,
+      "minLevel": 55,
+      "maxLevel": 65
+    },
+    {
+      "id": 40,
+      "from": 9,
+      "to": 7,
+      "minLevel": 55,
+      "maxLevel": 65
+    },
+    {
+      "id": 41,
+      "from": 16,
+      "to": 40,
+      "minLevel": 4,
+      "maxLevel": 9
+    },
+    {
+      "id": 42,
+      "from": 40,
+      "to": 24,
+      "minLevel": 4,
+      "maxLevel": 9
+    }
+  ],
+  "campaign": [
+    {
+      "id": 0,
+      "mode": 1,
+      "locationId": 0,
+      "enemyId": 8,
+      "xpReward": 30,
+      "goldReward": 10,
+      "collectibleFlag": 0,
+      "unlockLocationIds": [],
+      "before": [
+        [
+          "08",
+          "{p} tướng quân! Lưu Cơ được giao nhiệm vụ hướng dẫn tướng quân tất cả những quy tắc của chiến trường. Ngài đã sẵn sàng chưa?"
+        ],
+        [
+          "00",
+          "Lưu quân sư, xin chỉ bảo!"
+        ]
+      ],
+      "win": [
+        [
+          "08",
+          "Tướng quân rất thông minh, những gì tôi truyền đạt ngài tiếp nhận khá nhanh."
+        ],
+        [
+          "00",
+          "Chỉ là chút tài mọn, quân sư đã quá khen!"
+        ]
+      ],
+      "lose": null
+    },
+    {
+      "id": 1,
+      "mode": 0,
+      "locationId": 0,
+      "enemyId": -1,
+      "xpReward": 0,
+      "goldReward": 0,
+      "collectibleFlag": 0,
+      "unlockLocationIds": [
+        1,
+        32,
+        33
+      ],
+      "before": [
+        [
+          "08",
+          "Trần Lãm-Trần Minh Công lâm bệnh. Sớm mai Đinh chủ tướng sẽ về Kỳ Bố, sự an toàn của chủ tướng trông cậy vào tướng quân"
+        ],
+        [
+          "00",
+          "Quân sư yên tâm, mạt tướng sẽ hộ tống Chủ tướng đến Kỳ Bố an toàn."
+        ]
+      ],
+      "win": null,
+      "lose": null
+    },
+    {
+      "id": 2,
+      "mode": 0,
+      "locationId": 1,
+      "enemyId": -1,
+      "xpReward": 40,
+      "goldReward": 20,
+      "collectibleFlag": 1,
+      "unlockLocationIds": [],
+      "before": [
+        [
+          "06",
+          "Thưa Nhạc phụ, con đã về!"
+        ],
+        [
+          "17",
+          "Con về thật đúng lúc, ta có chuyện cần bàn với con đây."
+        ],
+        [
+          "06",
+          "Nhưng sức khỏe của Nhạc phụ..."
+        ],
+        [
+          "17",
+          "Không sao, con yên tâm!"
+        ],
+        [
+          "17",
+          "Đất nước loạn lạc! Ta già rồi, những Sứ quân khác đã đều xưng hùng xưng bá một phương. Con cũng cần lộ diện để thiên hạ biết."
+        ],
+        [
+          "06",
+          "Thưa Cha! Bộ Lĩnh nguyện suốt đời phò cha, con nào dám mang tội bất trung bất hiếu."
+        ],
+        [
+          "17",
+          "Nhưng đây là nguyện vọng của ta."
+        ],
+        [
+          "06",
+          "Thưa Cha...!"
+        ],
+        [
+          "17",
+          "Hãy nghe lời ta, định ngày lành mà xưng hiệu. "
+        ],
+        [
+          "06",
+          "Con trẻ xin nghe lời! Giờ con về Hoa Lư lo mọi việc. Cha hãy giữ sức khỏe!"
+        ]
+      ],
+      "win": null,
+      "lose": null
+    },
+    {
+      "id": 3,
+      "mode": 0,
+      "locationId": 0,
+      "enemyId": -1,
+      "xpReward": 0,
+      "goldReward": 0,
+      "collectibleFlag": 0,
+      "unlockLocationIds": [
+        24
+      ],
+      "before": [
+        [
+          "07",
+          "Chủ tướng, các sứ quân khác đều chỉ xưng Công, tức khiêm nhường chỉ nhận là bá chủ 1 phương. Không lẽ chủ tướng cũng xưng hiệu là Đinh Công?"
+        ],
+        [
+          "06",
+          "Không! Ta không muốn làm Sứ, ta có một ước mơ là giang sơn này được quy về một mối, chấm dứt nạn binh đao liên miên cho muôn dân được an lành "
+        ],
+        [
+          "08",
+          "Nếu vậy, chủ tướng nên xưng hiệu Vạn Thắng Vương, đó là tước hiệu của vị Phật có công đức đánh đuổi yêu tà đem an bình cho chúng dân, được Phật Tổ tuyên phong."
+        ],
+        [
+          "06",
+          "Hay lắm! Rất hợp với tâm nguyện của ta. Nhờ Lưu quân sư chuẩn bị tiến hành đại lễ."
+        ],
+        [
+          "08",
+          "Thưa chủ tướng! Lúc này làm lễ xưng Vương e không được nhân hòa."
+        ],
+        [
+          "06",
+          "Tại sao? Quân sư, xin hãy nói."
+        ],
+        [
+          "08",
+          "Loạn sơn tặc Tam Điệp khiến người dân quanh vùng khiếp sợ, sống không yên."
+        ],
+        [
+          "08",
+          "Chủ tướng nên cho người đến bình loạn trước, sau xưng Vương thì được lòng dân trong vùng hơn."
+        ],
+        [
+          "06",
+          "Quân sư nói phải lắm!"
+        ],
+        [
+          "07",
+          "Chủ tướng! Hãy để tôi dẹp loạn sơn tặc."
+        ],
+        [
+          "08",
+          "Tướng quân, ngài phải giúp tôi chuẩn bị cho đại lễ. Việc dẹp sơn tặc xin nhờ {p} tướng quân."
+        ],
+        [
+          "06",
+          "Nếu quân sư đã có sắp xếp rồi thì ta cũng nên theo. {p} tướng quân hãy thận trọng!"
+        ],
+        [
+          "00",
+          "Mạt tướng tuân lệnh!"
+        ]
+      ],
+      "win": null,
+      "lose": null
+    },
+    {
+      "id": 4,
+      "mode": 2,
+      "locationId": 24,
+      "enemyId": 42,
+      "xpReward": 50,
+      "goldReward": 30,
+      "collectibleFlag": 1,
+      "unlockLocationIds": [],
+      "before": [
+        [
+          "42",
+          "Quân Hoa Lư chỉ có bấy nhiêu thôi ư? Chúng xem thường ta quá đấy!."
+        ],
+        [
+          "42",
+          "Tấn công! Giết hết bọn rác rưởi cho ta."
+        ],
+        [
+          "00",
+          "Tiến lên, tiêu diệt bọn đạo tặc! "
+        ]
+      ],
+      "win": [
+        [
+          "00",
+          "Sơn tặc đã diệt xong. Doanh trại rất thích hợp làm Đấu Trường luyện tập cho quân ta. Các ngươi hãy ở lại canh giữ, còn lại mau theo ta trở về Hoa Lư."
+        ]
+      ],
+      "lose": [
+        [
+          "42",
+          "Không cho chúng chạy! Đuổi theo giết sạch, không chừa một mống."
+        ]
+      ]
+    },
+    {
+      "id": 5,
+      "mode": 0,
+      "locationId": 0,
+      "enemyId": -1,
+      "xpReward": 0,
+      "goldReward": 0,
+      "collectibleFlag": 0,
+      "unlockLocationIds": [
+        3,
+        34
+      ],
+      "before": [
+        [
+          "08",
+          "Chủ tướng, giờ lành đã đến. Chúng ta mau tiến hành đại lễ cho kịp."
+        ],
+        [
+          "06",
+          "Thiên hạ đại nghĩa, Ngô vương chẳng may mất sớm, loạn thần mải tranh giành vương bá, không lo thiên hạ, để đất nước loạn lạc, chiến tranh liên miên, dân chúng lầm than. Nay thuận thiên ý, Bộ Lĩnh họp quân dẹp loạn, quyết thu giang sơn về một mối. Kẻ nào không phục, thì Vạn Thắng Vương này tiêu diệt không tha!"
+        ],
+        [
+          null,
+          "Vạn Thắng Vương vạn tuế! Vạn tuế!"
+        ],
+        [
+          "06",
+          "Chư tướng, hãy đứng lên!"
+        ],
+        [
+          "06",
+          "Trận đầu, ta muốn đánh một trận thật lừng lẫy để các nơi phải khiếp sợ. Lưu Cơ, ta nên đánh ai trước? "
+        ],
+        [
+          "08",
+          "Thưa đại vương, 12 sứ quân đáng gờm nhất là Phạm Bạch Hổ. Ông ta vốn làm tướng dưới thời Ngô Vương lại là người có uy đức. Quân sĩ được huấn luyện rất bài bản, quân thủy bộ uy dũng. Đánh Phạm Bạch Hổ nếu thắng thì uy phong rất lớn, nếu thua quân ta sẽ mất nhuệ khí mà các sứ quân khác cũng xem thường."
+        ],
+        [
+          "07",
+          "Tập trung toàn quân, đánh một trận quyết tử. Thắng được Phạm Bạch Hổ xem như ta có nửa giang sơn. Sợ gì !"
+        ],
+        [
+          "08",
+          "Không được! Kế đó là “Được ăn cả ngã về không”. Tốt nhất là ta cứ theo binh pháp cơ bản, đánh kẻ yếu hòa kẻ mạnh, xưa nay vẫn thế. Ta nên hòa với Phạm Bạch Hổ."
+        ],
+        [
+          "06",
+          "Vậy ai sẽ là người đi sang thuyết khách đây?"
+        ],
+        [
+          "08",
+          "Nhiệm vụ thuyết khách, xin để Lưu Cơ!"
+        ],
+        [
+          "06",
+          "Chuyến đi lành ít dữ nhiều, tướng quân {p} hãy đi cùng quân sư. Hai vị hãy cẩn trọng."
+        ],
+        [
+          "00",
+          "Mạt tướng tuân lệnh!"
+        ]
+      ],
+      "win": null,
+      "lose": null
+    },
+    {
+      "id": 6,
+      "mode": 0,
+      "locationId": 3,
+      "enemyId": 18,
+      "xpReward": 70,
+      "goldReward": 50,
+      "collectibleFlag": 1,
+      "unlockLocationIds": [],
+      "before": [
+        [
+          "08",
+          "Lưu Cơ ở Hoa Lư, xin bái kiến Phạm sứ quân!!"
+        ],
+        [
+          "18",
+          "Lưu tiên sinh, mời an tọa! "
+        ],
+        [
+          "18",
+          "Chẳng hay Lưu quân sư đến xứ Đằng Châu có việc gì?"
+        ],
+        [
+          "08",
+          "Chủ tướng tôi có thư này gửi Phạm sứ quân, xin sứ quân xem qua."
+        ],
+        [
+          "18",
+          "Hãy đưa thư cho ta..........."
+        ],
+        [
+          "18",
+          "Thư ta đã đọc, chuyện an hòa nghe cũng thuận lòng. Nhưng còn phải xem ý trời ra sao?"
+        ],
+        [
+          "18",
+          "Nghe nói tiên sinh tinh thông Kỳ môn độn giáp. Ông hãy xem ý trời giúp tôi."
+        ],
+        [
+          "08",
+          "Mời sứ quân gieo quẻ!"
+        ],
+        [
+          "08",
+          "Quẻ của tướng quân là quẻ Thủy Địa Tỷ. Lời quẻ nói rằng “Lục nhị: tỷ chi tử nội, trinh cát”. Xin dịch nghĩa như sau: “ Hai bên thân nhau vì đạo đồng chí hợp, chứ không phải vì kết thân với bề trên để cầu phú quí, như vậy là chính đáng, không thất thân, nên tốt. ”"
+        ],
+        [
+          "18",
+          "Ý trời đã vậy, Bạch Hổ không dám trái thiên ý. "
+        ],
+        [
+          "18",
+          "Quân sư hãy mang hòa ước này về Hoa Lư. Từ nay, chúng ta hiếu hòa, không xâm lấn, không gây phiền hà cho nhau, ai giàu nấy hưởng, ai mạnh tự cường, tình hữu hảo láng giềng, trước sau như một. Nếu có kẻ đánh Hoa Lư, Phạm Bạch Hổ sẵn lòng giúp đỡ."
+        ],
+        [
+          "08",
+          "Lưu Cơ thay mặt Vạn Thắng Vương vô cùng cảm kích Phạm sứ quân!"
+        ]
+      ],
+      "win": null,
+      "lose": null
+    },
+    {
+      "id": 7,
+      "mode": 0,
+      "locationId": 0,
+      "enemyId": -1,
+      "xpReward": 0,
+      "goldReward": 0,
+      "collectibleFlag": 0,
+      "unlockLocationIds": [
+        22,
+        23,
+        31,
+        2
+      ],
+      "before": [
+        [
+          "06",
+          "Ta đã hòa với Phạm Bạch Hổ, vậy gần Hoa Lư nhất chỉ còn Ngô Xương Xí ở Bình Kiều."
+        ],
+        [
+          "07",
+          "Con thỏ non trốn chạy về miền rừng núi âm u ấy, đáng kể gì!  "
+        ],
+        [
+          "08",
+          "Nhưng cũng không thể chủ quan, nếu lấy được Bình Kiều thì sẽ an tâm hơn khi tiến quân lên phía bắc."
+        ],
+        [
+          "06",
+          "Xương Xí thân là cháu Ngô Vương, diệt hắn thì thiên hạ sẽ có nhiều lời không hay. Ta nên chiêu hàng hắn, Nguyễn Bặc ở Hoa Lư phòng thủ. Những người còn lại theo ta."
+        ],
+        [
+          "00",
+          "Tuân lệnh Đại Vương."
+        ]
+      ],
+      "win": null,
+      "lose": null
+    },
+    {
+      "id": 8,
+      "mode": 2,
+      "locationId": 2,
+      "enemyId": 22,
+      "xpReward": 100,
+      "goldReward": 80,
+      "collectibleFlag": 1,
+      "unlockLocationIds": [],
+      "before": [
+        [
+          "00",
+          "Ngô Xương Xí! Bình Kiều đã bị bao vây, khôn ngoan hãy mau ra hàng."
+        ],
+        [
+          "22",
+          "Có thực lực thì đến đây, đừng nhiều lời."
+        ]
+      ],
+      "win": [
+        [
+          "22",
+          "Giặc quá mạnh, ta thua rồi. Mau mở cửa thành...đầu hàng"
+        ]
+      ],
+      "lose": [
+        [
+          "22",
+          "Thực lực quá kém, đúng là không biết trời cao."
+        ]
+      ]
+    },
+    {
+      "id": 9,
+      "mode": 0,
+      "locationId": 0,
+      "enemyId": -1,
+      "xpReward": 0,
+      "goldReward": 0,
+      "collectibleFlag": 0,
+      "unlockLocationIds": [
+        8,
+        18,
+        36,
+        8,
+        16,
+        15
+      ],
+      "before": [
+        [
+          "06",
+          "Trước mặt ta có Đỗ Cảnh Thạc và Ngô Nhật Khánh. Quân sư, chúng ta nên đánh ai trước."
+        ],
+        [
+          "08",
+          "Đỗ Cảnh Thạc là lão tướng dày dặn kinh nghiệm, có thành trì chắc chắn và hào sâu bao quanh, nếu đánh trước chắn chắn lực lượng sẽ hao tổn rất nhiều. Ngô Nhật Khánh thì ở rất xa, chỉ có một đường duy nhất đến đó lại gập ghềnh nguy hiểm. Quân ta đến nơi thì cũng rất mệt mỏi, sức đâu mà đánh trận."
+        ],
+        [
+          "07",
+          "Gần không đánh được, Xa cũng không được đánh. Vậy ta ở đây làm gì ?!"
+        ],
+        [
+          "06",
+          "Haha, tướng quân! Hãy để quân sư nói tiếp xem sao."
+        ],
+        [
+          "08",
+          "Tướng quân, hãy bình tĩnh. Đánh ai trước, ta cũng phải bàn tính kỹ càng."
+        ],
+        [
+          "08",
+          "Thưa Đại Vương, trong 2 sứ quân thì Ngô Nhật Khánh là yếu nhất, tuy thông minh nhưng còn rất trẻ, ít trải nghiệm và rất bốc đồng. Đánh Khánh trước là thích hợp nhất mà khả năng hao tổn lực lượng ít hơn so với những người khác. Nhưng ta cũng phải đề phòng Đỗ Cảnh Thạc đánh từ phía sau lại. "
+        ],
+        [
+          "08",
+          "Tôi có ý này. Đem quân giả đánh Cảnh Thạc, đến Ô Man chia quân làm 3 đạo. Đạo thứ nhất do tướng Nguyễn Bặc chỉ huy đóng ở Ô Man, đạo thứ 2 do Đại vương chỉ huy đóng trực diện với đồn Bảo Đà. Đạo thứ 3 sẽ do tướng {p} dẫn đầu, bí mật đi đến Đường Lâm bất ngờ đến đánh Ngô Nhật Khánh chắc chắn hắn sẽ trơ tay không kịp."
+        ],
+        [
+          "06",
+          "Tốt! Mọi người hãy y theo mà hành động."
+        ],
+        [
+          "00",
+          "Tuân lệnh Đại Vương"
+        ]
+      ],
+      "win": null,
+      "lose": null
+    },
+    {
+      "id": 10,
+      "mode": 2,
+      "locationId": 8,
+      "enemyId": 27,
+      "xpReward": 150,
+      "goldReward": 120,
+      "collectibleFlag": 1,
+      "unlockLocationIds": [],
+      "before": [
+        [
+          "27",
+          "Bọn ngươi là quân của ai, muốn chết hay sao mà đám đến đây làm loạn?"
+        ],
+        [
+          "00",
+          "Ta là {p}, tướng tiên phong của Vạn Thắng Vương, hôm nay ta đến lấy đầu ngươi!"
+        ],
+        [
+          "27",
+          "Láo xược! Ta sẽ phân thây ngươi để làm gương cho kẻ khác."
+        ]
+      ],
+      "win": [
+        [
+          "00",
+          "Nhật Khánh, bây giờ ngươi muốn sống hay muốn chết?"
+        ],
+        [
+          "27",
+          "Họ Ngô ta đã dựng nên đất nước, chẳng may gặp kẻ gian thần hãm hại mà mất nước. Ta nuôi chí khôi phục cơ nghiệp tiên chúa, nghiệp lớn không thành, muốn chém thì chém, chớ nhiều lời !!!"
+        ],
+        [
+          "00",
+          "Được, ta sẽ cho ngươi toại nguyện."
+        ],
+        [
+          "08",
+          "Tướng quân dừng tay!!!"
+        ],
+        [
+          "08",
+          "Lưu Cơ đến muộn, mong Ngô công tử bỏ qua. Tiên phụ công tử với Vạn Thắng Vương là bạn từ thời tóc còn để chỏm, chiến tranh loạn lạc 2 người đi 2 hướng khác nhau. Hay biết công tử là con cố nhân, nay người muốn gặp công tử ở Hoa Lư. Xin mời công tử lên xe ngựa."
+        ],
+        [
+          "27",
+          "Hmm ... ... ..."
+        ]
+      ],
+      "lose": [
+        [
+          "27",
+          "Chết nè !!!"
+        ],
+        [
+          "00",
+          "A....a....a......"
+        ]
+      ]
+    },
+    {
+      "id": 11,
+      "mode": 0,
+      "locationId": 8,
+      "enemyId": -1,
+      "xpReward": 0,
+      "goldReward": 0,
+      "collectibleFlag": 0,
+      "unlockLocationIds": [
+        5,
+        27
+      ],
+      "before": [
+        [
+          "08",
+          "Lã Đường ở Tế Giang đã cất binh đánh Phạm Bạch Hổ. Ta đã có hòa ước với Bạch Hổ, nên không thể không giúp, hơn nữa nếu Đằng Châu mất thì Kỳ Bố cũng sẽ khó mà yên. Đại Vương và tướng Nguyễn Bặc đang giữ chân Cảnh Thạc không thể đem quân tiếp ứng. Thời gian cấp bách, tướng quân hãy đem quân ứng cứu trước, tôi sẽ theo sau. Trong 5 ngày chúng ta phải đến đó, nếu không thì Đằng Châu khó mà giữ được."
+        ],
+        [
+          "00",
+          "Lưu quân sư yên tâm, mạt tướng sẽ đi ngay!"
+        ]
+      ],
+      "win": null,
+      "lose": null
+    },
+    {
+      "id": 12,
+      "mode": 2,
+      "locationId": 3,
+      "enemyId": 20,
+      "xpReward": 150,
+      "goldReward": 120,
+      "collectibleFlag": 1,
+      "unlockLocationIds": [],
+      "before": [
+        [
+          "00",
+          "Phạm sứ quân! Có tôi đến trợ giúp đây."
+        ],
+        [
+          "20",
+          "Hừ, quân giặc có viện binh, không xong rồi!"
+        ],
+        [
+          "00",
+          "Lão ác tặc, hãy xem đây!"
+        ]
+      ],
+      "win": [
+        [
+          "20",
+          "Rút quân !!!!"
+        ],
+        [
+          "00",
+          "Đừng đuổi theo! Hãy lui vào thành."
+        ]
+      ],
+      "lose": [
+        [
+          "20",
+          "Chống đối ta chỉ có chết, hãy nhìn đó mà làm gương."
+        ]
+      ]
+    },
+    {
+      "id": 13,
+      "mode": 0,
+      "locationId": 3,
+      "enemyId": -1,
+      "xpReward": 0,
+      "goldReward": 0,
+      "collectibleFlag": 0,
+      "unlockLocationIds": [
+        17
+      ],
+      "before": [
+        [
+          "18",
+          "Đa tạ tướng quân giúp đỡ."
+        ],
+        [
+          "00",
+          "Chúng ta là người một nhà, Phạm sứ quân xin đừng khách sáo."
+        ],
+        [
+          "08",
+          "Sau trận vừa rồi binh lực của Lã Đường đã suy yếu, nhuệ khí không còn. Hơn nữa quân ta lại đông hơn, hào khí ngất trời. Nhân cơ hội này, tiến quân đánh vào Tế Giang chắc chắn sẽ hạ được."
+        ],
+        [
+          "18",
+          "Lưu quân sư nói phải lắm. Mọi người nghỉ ngơi lấy sức, sớm mai xuất quân."
+        ],
+        [
+          "08",
+          "Lưu Cơ xin cáo lui."
+        ],
+        [
+          "00",
+          "{p} xin cáo lui."
+        ]
+      ],
+      "win": null,
+      "lose": null
+    },
+    {
+      "id": 14,
+      "mode": 2,
+      "locationId": 27,
+      "enemyId": 21,
+      "xpReward": 50,
+      "goldReward": 50,
+      "collectibleFlag": 0,
+      "unlockLocationIds": [],
+      "before": null,
+      "win": null,
+      "lose": null
+    },
+    {
+      "id": 15,
+      "mode": 2,
+      "locationId": 5,
+      "enemyId": 20,
+      "xpReward": 200,
+      "goldReward": 150,
+      "collectibleFlag": 1,
+      "unlockLocationIds": [],
+      "before": [
+        [
+          "00",
+          "Lã Đường, ta đến lấy đầu ngươi đây!"
+        ],
+        [
+          "20",
+          "Với sức ngươi ư? Ảo tưởng ! Sáttttt"
+        ]
+      ],
+      "win": [
+        [
+          "00",
+          "Lã Đường đã chết!! Kẻ nào đầu hàng sẽ được tha."
+        ]
+      ],
+      "lose": [
+        [
+          "08",
+          "Áaaaaa ... a.......a......."
+        ],
+        [
+          "08",
+          "{p} tướng quân đã bại trận. Rút quân!!!"
+        ]
+      ]
+    },
+    {
+      "id": 16,
+      "mode": 0,
+      "locationId": 3,
+      "enemyId": -1,
+      "xpReward": 0,
+      "goldReward": 0,
+      "collectibleFlag": 0,
+      "unlockLocationIds": [
+        25,
+        4,
+        14
+      ],
+      "before": [
+        [
+          "08",
+          "Phạm sứ quân, Tế Giang đã diệt xong. Chúng tôi phải trở về, Lưu Cơ xin bái biệt!"
+        ],
+        [
+          "18",
+          "Lưu quân sư, Vạn Thắng Vương là người nhân nghĩa lại có chí lớn bình định thiên hạ, đúng là phước của muôn dân. Nếu Bạch Hổ được giúp một tay thì thật là vinh hạnh lắm lắm!"
+        ],
+        [
+          "08",
+          "Lưu Cơ sẽ chuyển tâm ý của Phạm sứ quân đến Vạn Thắng Vương. "
+        ],
+        [
+          "18",
+          "Đa tạ quân sư!"
+        ],
+        [
+          "08",
+          "Nhất định sẽ có ngày chúng ta gặp lại. Phạm sứ quân, hẹn ngày tái ngộ!"
+        ],
+        [
+          "18",
+          "Lưu quân sư, hãy bảo trọng!"
+        ]
+      ],
+      "win": null,
+      "lose": null
+    },
+    {
+      "id": 17,
+      "mode": 2,
+      "locationId": 25,
+      "enemyId": 25,
+      "xpReward": 50,
+      "goldReward": 50,
+      "collectibleFlag": 0,
+      "unlockLocationIds": [],
+      "before": [
+        [
+          "06",
+          "Quân sư, ông đến thật đúng lúc, quân địch phòng thủ rất chặt, ta khó mà đánh vào được."
+        ],
+        [
+          "08",
+          "Đại vương yên tâm, cơ hội của chúng ta đã đến. Đỗ Cảnh Thạc đang ở đồn Bảo Đà, thành Quèn ở Đỗ Động không người chỉ huy chắc chắn sẽ có sở hở. Đêm mai chủ công, cùng tướng {p} dẫn quân quân vây thành, sau đó đốt lửa thật lớn. Thấy lửa chắc chắn Cảnh Thạc sẽ rút quân từ Bảo Đà về ứng cứu, tình hình ở Bảo Đà lẫn thành Quèn sẽ xảy ra hỗn loạn. Khi đó Đại vương quay đầu tấn công Cảnh Thạc, cùng lúc tướng Nguyễn Bặc và Lê Hoàn tấn công thẳng vào Bảo Đà, ép Cảnh Thạc vào giữa. Bị tấn công bất ngờ địch sẽ hoảng loạn, quân ta ắt sẽ thành công."
+        ],
+        [
+          "06",
+          "Được! Ta sẽ làm theo cách này. Đêm mai sẽ hành động, mọi người hãy chuẩn bị."
+        ]
+      ],
+      "win": null,
+      "lose": null
+    },
+    {
+      "id": 18,
+      "mode": 2,
+      "locationId": 4,
+      "enemyId": 24,
+      "xpReward": 300,
+      "goldReward": 170,
+      "collectibleFlag": 1,
+      "unlockLocationIds": [],
+      "before": [
+        [
+          "24",
+          "Thành Quèn bị tấn công, ta phải về cứu ngay, các người hãy ở lại cố thủ."
+        ],
+        [
+          "00",
+          "Cảnh Thạc!! Ngươi đã hết đường chạy, muốn sống hãy mau chịu trói."
+        ],
+        [
+          "24",
+          "Hahaha, thật nực cười ! Chỉ một đám trẻ con mà dám cản đường ta ư? Có bản lĩnh thì hãy đến đây."
+        ]
+      ],
+      "win": [
+        [
+          "00",
+          "Thắng thua đã rõ. Trói hắn lại."
+        ],
+        [
+          "24",
+          "Muốn bắt ta ư? Còn lâu.....Yaaaa........hự....hự... !!"
+        ],
+        [
+          "00",
+          "Hắn đã tự sát, hãy mau lấy thành."
+        ]
+      ],
+      "lose": [
+        [
+          "24",
+          "Tiến lên!! Ai bắt được Đinh Bộ Lĩnh dù sống hay đã chết sẽ được phong quan."
+        ]
+      ]
+    },
+    {
+      "id": 19,
+      "mode": 0,
+      "locationId": 4,
+      "enemyId": -1,
+      "xpReward": 0,
+      "goldReward": 0,
+      "collectibleFlag": 0,
+      "unlockLocationIds": [
+        7,
+        35
+      ],
+      "before": [
+        [
+          "08",
+          "Đại vương! Đỗ Động Giang đã lấy được, nhưng quân lực ta hao tổn khá nặng. Nếu đánh luôn Tây Phù Liệt thì rất khó, tốt nhất nên án binh bất động để cũng cố lực lượng. Mặt khác Đại vương nên đích thân đến Đằng Châu tiếp nhận binh lực của Phạm Bạch Hổ."
+        ],
+        [
+          "06",
+          "Ừm, Bạch Hổ đã có ý về đầu quân, ta cũng nên đến gặp trực tiếp ông ta. Có thêm binh lực của Đằng Châu thì việc diệt Nguyễn Siêu cũng không quá khó khăn. "
+        ],
+        [
+          "08",
+          "Đường xa nguy hiểm, người nên để Lê Hoàn tướng quân đi cùng."
+        ],
+        [
+          "06",
+          "Việc ở đây quân sư hãy cố sắp xếp."
+        ],
+        [
+          "08",
+          "Đại vương hãy yên tâm!"
+        ]
+      ],
+      "win": null,
+      "lose": null
+    },
+    {
+      "id": 20,
+      "mode": 2,
+      "locationId": 4,
+      "enemyId": 29,
+      "xpReward": 400,
+      "goldReward": 200,
+      "collectibleFlag": 1,
+      "unlockLocationIds": [],
+      "before": [
+        [
+          "07",
+          "Không xong! Quân sư! Quân sư!! Nguyễn Siêu đã vây thành!"
+        ],
+        [
+          "08",
+          "Nguyễn Siêu đã đánh Đỗ Động sớm hơn ta dự tính. Binh lực và lương thảo hiện tại chỉ có thể cố thủ chờ viện binh từ Đằng Châu đến. Nguyễn Bặc hãy trấn thủ ở cửa Tây, cửa bắc mọi sự trông cậy vào {p} tướng quân. Năm ngày nữa quân viện binh sẽ đến, mọi người hãy cố gắng thủ thành."
+        ],
+        [
+          "29",
+          "Hôm nay bổn tướng đến đây, ngỡ có thể so kiếm với anh hùng, nào ngờ chỉ thấy lũ chuột chạy nháo nhào trong thành tìm chỗ trốn!"
+        ],
+        [
+          "00",
+          "Quân sư có biết người dưới kia là ai không?"
+        ],
+        [
+          "08",
+          "Nguyễn Trí Khả, tướng tiên phong của Nguyễn Siêu, dũng mãnh nhưng vô mưu. Tướng quân, hãy ráng nhẫn nhịn."
+        ],
+        [
+          "29",
+          "Lũ chuột nghe đây! Thời gian của bổn tướng quân có hạn, trong hôm nay nếu không ra khỏi hang, ta sẽ san bằng nơi này."
+        ],
+        [
+          "00",
+          "... ... ..."
+        ],
+        [
+          "29",
+          "Thật ngoan cố! Để xem lũ chuột các ngươi trốn được bao lâu?"
+        ],
+        [
+          "00",
+          "Địch tấn công, mọi người vào vị trí!"
+        ]
+      ],
+      "win": [
+        [
+          "00",
+          "Viện binh đã đến, mọi người phản công !!!"
+        ],
+        [
+          "29",
+          "Không xong rồi! Hãy mau rút về tiền đồn chờ lệnh Hữu công Nguyễn Siêu."
+        ]
+      ],
+      "lose": [
+        [
+          "00",
+          "Thành đã thất thủ, mọi người mau rút về Hoa Lư, ta sẽ ở lại cản đường. Mau!! Không được chần chừ. Vạn Thắng Vương, xin thứ lỗi cho thuộc hạ."
+        ]
+      ]
+    },
+    {
+      "id": 21,
+      "mode": 0,
+      "locationId": 4,
+      "enemyId": -1,
+      "xpReward": 0,
+      "goldReward": 0,
+      "collectibleFlag": 0,
+      "unlockLocationIds": [],
+      "before": [
+        [
+          "07",
+          "Âm mưu phá thành Đỗ Động thất bại, Nguyễn Siêu đã đắp thành cao hơn để phòng bị. Muốn tiến quân vào Tây Phù Liệt e rất khó, quân sư có cao kiến gì không?"
+        ],
+        [
+          "08",
+          "Tướng quân chớ lo! Nguyễn Siêu thận trọng phòng bị, như vậy trận chiến vừa rồi binh lực của hắn hao tổn khá nặng, hắn sẽ phải đích thân đi cầu cứu viện binh của 2 người anh Nguyễn Thủ Tiệp hoặc Nguyễn Khoan."
+        ],
+        [
+          "09",
+          "Vậy có nghĩa là Tây Phù Liệt như rắn mất đầu ?!"
+        ],
+        [
+          "08",
+          "Tướng quân nói rất phải! Đó chính là yếu điểm của Tây Phù Liệt, đêm mai quân ta nổi lửa đồng loạt đốt cửa Đông, cửa Tây, cửa Nam thì chắc binh lính sẽ hoảng loạn."
+        ],
+        [
+          "07",
+          "Được lắm! Ta sẽ hỏi tội chúng những ngày qua."
+        ],
+        [
+          "08",
+          "Trận này, nhất định phải lấy được thành. Mọi người tranh thủ nghỉ ngơi, đêm mai xuất binh."
+        ]
+      ],
+      "win": null,
+      "lose": null
+    },
+    {
+      "id": 22,
+      "mode": 2,
+      "locationId": 7,
+      "enemyId": 29,
+      "xpReward": 500,
+      "goldReward": 250,
+      "collectibleFlag": 0,
+      "unlockLocationIds": [
+        26
+      ],
+      "before": [
+        [
+          "00",
+          "Trí Khả! Ta đến hỏi tội ngươi đây!"
+        ],
+        [
+          "29",
+          "Chỉ là con chuột nhắt, bổn tướng sẽ hóa kiếp cho ngươi!"
+        ],
+        [
+          "00",
+          "Tự tin thì cứ đến đây!!!"
+        ]
+      ],
+      "win": [
+        [
+          "00",
+          "Trí Khả đã bị diệt, hãy mau tìm Nguyễn Siêu!"
+        ],
+        [
+          "08",
+          "Nguyễn Siêu đã chạy hướng Đông Phù Liệt sang Tiên Du, tướng quân hãy mau đuổi theo, đừng để hắn qua sông!"
+        ]
+      ],
+      "lose": [
+        [
+          "29",
+          "Còn tên nào muốn được hóa kiếp thì bước lên !"
+        ]
+      ]
+    },
+    {
+      "id": 23,
+      "mode": 2,
+      "locationId": 26,
+      "enemyId": 28,
+      "xpReward": 700,
+      "goldReward": 300,
+      "collectibleFlag": 1,
+      "unlockLocationIds": [],
+      "before": [
+        [
+          "00",
+          "Nguyễn Siêu, chạy đâu cho thoát. Nạp mạng !!"
+        ],
+        [
+          "28",
+          "Muốn cản ta ư !? Mộng tưởng quá đấy !"
+        ]
+      ],
+      "win": [
+        [
+          "00",
+          "Thủ cấp của Nguyễn Siêu trong tay ta, muốn sống thì mau buông vũ khí đầu hàng! "
+        ]
+      ],
+      "lose": [
+        [
+          "28",
+          "Hừm, làm mất thời gian!"
+        ]
+      ]
+    },
+    {
+      "id": 24,
+      "mode": 0,
+      "locationId": 7,
+      "enemyId": -1,
+      "xpReward": 0,
+      "goldReward": 0,
+      "collectibleFlag": 0,
+      "unlockLocationIds": [],
+      "before": [
+        [
+          "09",
+          "Hay tin Nguyễn Siêu bị diệt. Nguyễn Khoan và Kiều Công Hãn đẵ liên kết, cùng trấn thủ ở vùng Tam Đái. Lý Khuê và Nguyễn Thủ Tiệp thì dựng tuyến phòng thủ ở Siêu Loại, xem ra ta gặp khó khăn lớn rồi."
+        ],
+        [
+          "08",
+          "Tướng quân đừng quá lo! Mối liên kết giữa Lý Khuê và Nguyễn Thủ Tiệp ngoài mặt nhìn rất chắc chắn, nhưng thực chất lại rất yếu. Hai người này từ lâu đã có mối hiềm khích với nhau, nên cắt đứt mối liên kết này không phải là khó."
+        ],
+        [
+          "07",
+          "Quân sư đã có cao kiến gì không?"
+        ],
+        [
+          "08",
+          "Cao kiến thì không, nhưng tôi có mẹo này. Năm ngày nữa 49 ngày mất của Nguyễn Siêu, chắc chắn Nguyễn Thủ Tiệp sẽ trở về Tiên Du. Cho một nhóm người trà trộn vào thành Siêu Loại, nửa đêm đốt cổng bắc. Bên ngoài ta giả làm quân của Thủ Tiệp tung cờ xí, nổi trống trận, đi từ hướng Tiên Du vào phá thành. Với tính đa nghi, Lý Khuê sẽ tưởng Thủ Tiệp còn nuôi thù cũ, lợi dụng đâm lén sau lưng. Nội chiến xảy ra, việc lấy thành Siêu Loại dễ như trở bàn tay."
+        ],
+        [
+          "07",
+          "Lưu quân sư, việc trà trộn hãy để tôi cùng các anh em trong doanh trại."
+        ],
+        [
+          "08",
+          "Việc này rất nguy hiểm..."
+        ],
+        [
+          "07",
+          "Quân sư hãy yên tâm, tôi có thể lo liệu được."
+        ],
+        [
+          "08",
+          "Tướng quân hãy cầm theo bí kíp này, nếu gặp nguy hãy mở ra."
+        ],
+        [
+          "08",
+          "Giờ mọi người về nghỉ. Sáng mai, chúng ta sẽ về Tế Giang hội ngộ với Vạn Thắng Vương. Lưu cơ có việc phải làm ở Đỗ Động, tôi sẽ đến sau. "
+        ],
+        [
+          null,
+          "Quân sư, xin cáo lui."
+        ],
+        [
+          "08",
+          "{p} tướng quân xin dừng bước, tôi có chuyện cần bàn với tướng quân!"
+        ],
+        [
+          "00",
+          "Xin quân sư cứ nói!"
+        ],
+        [
+          "08",
+          "Tôi nghe nói, ở vùng Đỗ Động có đám người tự xưng là con cháu Ngô tiên chúa đã khởi binh tiến đánh Hoa Lư, nhưng khi đến Ô Man thì đụng độ với hào trưởng làng ấy là Ngô Phó. Đám người này không diệt sau này sẽ rắc rối, tướng quân hãy cùng tôi đến giúp Ngô Phó một tay. Ngài hãy về chuẩn bị, sớm mai ta sẽ lên đường. "
+        ],
+        [
+          "00",
+          "Mạt tướng xin cáo lui!"
+        ]
+      ],
+      "win": null,
+      "lose": null
+    },
+    {
+      "id": 25,
+      "mode": 2,
+      "locationId": 18,
+      "enemyId": 26,
+      "xpReward": 900,
+      "goldReward": 350,
+      "collectibleFlag": 1,
+      "unlockLocationIds": [],
+      "before": [
+        [
+          "00",
+          "Ngô hào trưởng, quân của Vạn Thắng Vương xin đến giúp một tay!"
+        ],
+        [
+          "15",
+          "Thật tốt quá! Quân địch rất hung hãn, tướng quân hãy cẩn trọng!"
+        ]
+      ],
+      "win": [
+        [
+          "15",
+          "Đa tạ tướng quân đã trợ giúp!"
+        ],
+        [
+          "00",
+          "Ngô hào trưởng, đừng khách sáo. Đây là nhiệm vụ của tôi. Phản loạn đã diệt xong, nay tôi phải về Tế Giang để giúp Vạn Thắng Vương. Ngô hào trưởng, hẹn ngày tái ngộ!"
+        ],
+        [
+          "15",
+          "Tướng quân, bảo trọng!"
+        ]
+      ],
+      "lose": [
+        [
+          "15",
+          "{p} tướng quân đã bại trận!! Rút quân."
+        ]
+      ]
+    },
+    {
+      "id": 26,
+      "mode": 0,
+      "locationId": 5,
+      "enemyId": -1,
+      "xpReward": 0,
+      "goldReward": 0,
+      "collectibleFlag": 0,
+      "unlockLocationIds": [
+        37,
+        6,
+        17
+      ],
+      "before": [
+        [
+          "08",
+          "Thưa Đại vương, việc ở Tây Phù Liệt tôi đã sắp xếp xong."
+        ],
+        [
+          "06",
+          "Quân sư, Nguyễn Thủ Tiệp đã về Tiên Du. Khi nào ta sẽ đánh vào Siêu Loại?"
+        ],
+        [
+          "08",
+          "Theo thuộc hạ tính thì đêm mai có gió lớn, nội gián của ta sẽ đốt doanh trại địch, khi đó lửa lan rất nhanh. Thấy lửa, địch sẽ náo loạn, lúc đó ta xuất binh đánh vào Siêu Loại"
+        ],
+        [
+          "06",
+          "Được, đêm mai ta sẽ lấy Siêu Loại. Mọi người hãy về chuẩn bị."
+        ],
+        [
+          null,
+          "Tuân lệnh Đại vương!"
+        ]
+      ],
+      "win": null,
+      "lose": null
+    },
+    {
+      "id": 27,
+      "mode": 2,
+      "locationId": 6,
+      "enemyId": 31,
+      "xpReward": 1200,
+      "goldReward": 450,
+      "collectibleFlag": 0,
+      "unlockLocationIds": [
+        19
+      ],
+      "before": [
+        [
+          "31",
+          "Báo! Báo! Nguyễn Thủ Tiệp đã trở mặt, hắn đang phá cổng bắc."
+        ],
+        [
+          "30",
+          "Grr...grr...Con cáo già! Giết, giết hết bọn chúng cho ta!!"
+        ],
+        [
+          "31",
+          "Báoooo!!! Cổng nam, quân của Đinh Bộ Lĩnh đã đánh vào!"
+        ],
+        [
+          "30",
+          "Nguy rồi !! Mau mau...."
+        ]
+      ],
+      "win": [
+        [
+          "00",
+          "Nói !! Muốn sống thì cho ta biết Lý Khuê đang ở đâu !?"
+        ],
+        [
+          "31",
+          "Lý sứ quân đã chạy về hướng Dương Xá, xin tướng quân tha mạng."
+        ],
+        [
+          "00",
+          "Nhốt tên này lại, chờ ta về xử lý. Những người còn lại mau đuổi theo Lý Khuê!"
+        ]
+      ],
+      "lose": [
+        [
+          "30",
+          "Tướng giặc đã chết! Đuổi theo giết sạch bọn chúng."
+        ]
+      ]
+    },
+    {
+      "id": 28,
+      "mode": 2,
+      "locationId": 19,
+      "enemyId": 30,
+      "xpReward": 1500,
+      "goldReward": 500,
+      "collectibleFlag": 1,
+      "unlockLocationIds": [],
+      "before": [
+        [
+          "00",
+          "Lý Khuê ở đằng kia! Mau đuổi theo."
+        ],
+        [
+          "30",
+          "Mau! Mau chạy vào làng."
+        ],
+        [
+          "00",
+          "Chạy đâu cho thoát!"
+        ]
+      ],
+      "win": [
+        [
+          "00",
+          "Chém! Đem đầu Lý Khuê về."
+        ]
+      ],
+      "lose": [
+        [
+          "30",
+          "Chỉ có bấy nhiêu mà cũng dám cản đường ta sao !?"
+        ]
+      ]
+    },
+    {
+      "id": 29,
+      "mode": 0,
+      "locationId": 6,
+      "enemyId": -1,
+      "xpReward": 0,
+      "goldReward": 0,
+      "collectibleFlag": 0,
+      "unlockLocationIds": [
+        38,
+        10
+      ],
+      "before": [
+        [
+          "08",
+          "Thất bại ở Siêu Loại, binh lực của Nguyễn Thủ Tiệp đã mất hơn nữa, quân lính gần như mất hết nhuệ khí. Đây là thời cơ thuận lợi cho ta đánh Tiên Du. Đại vương, hãy cho xuất binh."
+        ],
+        [
+          "06",
+          "Nguyễn Bặc, ông dẫn quân đánh vào cánh trái Tiên Du. Lê Hoàn thì đánh vào cánh phải. Ta cùng các tướng khác tấn công trực diện. Mọi người, tiến thẳng Tiên Du!"
+        ],
+        [
+          null,
+          "Thuộc hạ tuân lệnh!"
+        ]
+      ],
+      "win": null,
+      "lose": [
+        [
+          "32",
+          "Sức chỉ thế mà đòi lấy đầu ta ư !?"
+        ]
+      ]
+    },
+    {
+      "id": 30,
+      "mode": 2,
+      "locationId": 10,
+      "enemyId": 32,
+      "xpReward": 1800,
+      "goldReward": 550,
+      "collectibleFlag": 1,
+      "unlockLocationIds": [],
+      "before": [
+        [
+          "31",
+          "Báoooo! quân ta đã thất thủ."
+        ],
+        [
+          "32",
+          "Mau, mau theo ta chạy vào núi."
+        ],
+        [
+          "00",
+          "Ác tặc, chạy đâu cho thoát!!"
+        ]
+      ],
+      "win": [
+        [
+          "00",
+          "Còn kẻ nào chán sống thì hãy bước lên !"
+        ]
+      ],
+      "lose": null
+    },
+    {
+      "id": 31,
+      "mode": 0,
+      "locationId": 10,
+      "enemyId": -1,
+      "xpReward": 0,
+      "goldReward": 0,
+      "collectibleFlag": 0,
+      "unlockLocationIds": [
+        9,
+        28,
+        20,
+        21
+      ],
+      "before": [
+        [
+          "07",
+          "Hừ, không ngờ tên phản tặc Lã Xử Bình gửi thư cầu cứu liên quân Nguyễn Khoan và Kiều Công Hãn, 7 ngày nữa liên quân sẽ đến Cổ Loa."
+        ],
+        [
+          "06",
+          "Nếu liên quân hợp sức với Lữ Xử Bình, ta sẽ khó tiến vào Cổ Loa. Quân sư, ông có kế sách gì không?"
+        ],
+        [
+          "08",
+          "Hiện tại quân lực ở Cổ Loa còn yếu. Trong 5 ngày, phải đánh vào Cổ Loa trước khi liên quân đến. Nếu không quân ta không còn cơ hội nào khác."
+        ],
+        [
+          "06",
+          "{p}, Nguyễn Bặc, Lê Hoàn đi tiên phong, cấp tốc đến Cổ Loa. Mọi người hãy cố gắng!"
+        ],
+        [
+          null,
+          "Tuân lệnh Đại vương!"
+        ]
+      ],
+      "win": null,
+      "lose": null
+    },
+    {
+      "id": 32,
+      "mode": 2,
+      "locationId": 28,
+      "enemyId": 35,
+      "xpReward": 1600,
+      "goldReward": 500,
+      "collectibleFlag": 1,
+      "unlockLocationIds": [],
+      "before": [
+        [
+          "35",
+          "Địch đã tấn công. Chủ công, hãy ra lệnh!"
+        ],
+        [
+          "34",
+          "Hãy ráng cầm cự chờ liên quân đến. Cung thủ, bắn tên!"
+        ]
+      ],
+      "win": null,
+      "lose": [
+        [
+          "34",
+          "Mau ra khỏi thành!"
+        ]
+      ]
+    },
+    {
+      "id": 33,
+      "mode": 2,
+      "locationId": 9,
+      "enemyId": 34,
+      "xpReward": 2100,
+      "goldReward": 600,
+      "collectibleFlag": 1,
+      "unlockLocationIds": [],
+      "before": [
+        [
+          "35",
+          "Chủ công, quân ta đã thất thủ..."
+        ],
+        [
+          "34",
+          "Grrr....Mau, rút về Tam Đái."
+        ],
+        [
+          "00",
+          "Lữ Xử Bình, ngươi hết đường rồi! Sáaatttt"
+        ]
+      ],
+      "win": [
+        [
+          "34",
+          "Á.....! Chết ta......"
+        ]
+      ],
+      "lose": null
+    },
+    {
+      "id": 34,
+      "mode": 0,
+      "locationId": 9,
+      "enemyId": -1,
+      "xpReward": 0,
+      "goldReward": 0,
+      "collectibleFlag": 0,
+      "unlockLocationIds": [
+        11,
+        39
+      ],
+      "before": [
+        [
+          "06",
+          "Biết quân ta đã chiếm Cổ Loa, liên quân rút về cố thủ ở Tam Đái. Bây giờ đánh từ Cổ Loa vào Tam Đái rất khó, mọi người có kế sách gì không? "
+        ],
+        [
+          "08",
+          "Nếu Tam Đái đánh khó thì ta sẽ đánh Phong Châu trước."
+        ],
+        [
+          "06",
+          "Phong Châu?"
+        ],
+        [
+          "08",
+          "Kiều Công Hãn đem quân xuống Tam Đái, chắc chắn Phong Châu sẽ sơ hở. Ta cho 2 đạo quân tiến từ 2 hướng Đường Lâm và Cổ Loa đánh vào Tam Đái. Mặt khác cho đạo quân khác đi vòng đường núi đánh Phong Châu, Kiều Công Hãn chắc chắn rút quân về. Lúc đó chỉ còn mình Nguyễn Khoan ở Tam Đái, ta sẽ đánh vào được."
+        ],
+        [
+          "06",
+          "Nguyễn Bặc, {p} tướng quân hãy đem quân đến Đường Lâm, Lê Hoàn dẫn quân đến Phong Châu, các tướng còn lại hãy theo ta đánh thẳng từ Cổ Loa đến. Mọi người về nghỉ ngơi, sớm mai ta sẽ xuất quân!"
+        ],
+        [
+          null,
+          "Tuân lệnh Đại vương!"
+        ]
+      ],
+      "win": null,
+      "lose": null
+    },
+    {
+      "id": 35,
+      "mode": 2,
+      "locationId": 39,
+      "enemyId": 37,
+      "xpReward": 1800,
+      "goldReward": 500,
+      "collectibleFlag": 0,
+      "unlockLocationIds": [],
+      "before": null,
+      "win": null,
+      "lose": [
+        [
+          "36",
+          "Siêu, Tiệp! Ta đã báo thù cho hai đệ."
+        ]
+      ]
+    },
+    {
+      "id": 36,
+      "mode": 2,
+      "locationId": 11,
+      "enemyId": 36,
+      "xpReward": 2500,
+      "goldReward": 650,
+      "collectibleFlag": 1,
+      "unlockLocationIds": [],
+      "before": [
+        [
+          "39",
+          "Báoooo!! Thưa chủ công, Phong Châu bị tấn công!"
+        ],
+        [
+          "38",
+          "Mau! Về hỗ trợ Phong Châu."
+        ],
+        [
+          "39",
+          "Báoooo!! Tướng giặc Lê Hoàn đã chiếm Phong Châu!"
+        ],
+        [
+          "38",
+          "Grr..grr...Ta đã quá sơ ý! Lui về Hồi Hồ tạm lánh một thời gian."
+        ],
+        [
+          "38",
+          "Đinh Bộ Lĩnh! Ta thề sẽ lấy lại Phong Châu."
+        ],
+        [
+          "00",
+          "Nguyễn Khoan, có gan ra đây so cao thấp với ta!"
+        ],
+        [
+          "36",
+          "Ngông cuồng! Hôm nay ta sẽ lấy đầu bọn bay để trả thù của Nguyễn Siêu và Thủ Tiệp."
+        ]
+      ],
+      "win": [
+        [
+          "00",
+          "Nguyễn Khoan đã bỏ mạng. Kẻ nào đầu hàng sẽ được tha chết!"
+        ]
+      ],
+      "lose": null
+    },
+    {
+      "id": 37,
+      "mode": 0,
+      "locationId": 11,
+      "enemyId": -1,
+      "xpReward": 0,
+      "goldReward": 0,
+      "collectibleFlag": 0,
+      "unlockLocationIds": [
+        12,
+        29
+      ],
+      "before": [
+        [
+          "08",
+          "Đại vương, hạ tướng cũ của Trần lão công đã làm phản, hắn đem quân đánh vào Kỳ Bố. Mọi người trong thành đang cố thủ, lương thực chỉ đủ dùng trong vài ngày, ta phải đem quân đến giải vây ngay!"
+        ],
+        [
+          "06",
+          "{p} tướng quân, khanh hãy đem quân trở về ứng cứu Kỳ Bố. Nhưng người còn lại theo ta đánh vào Phong Châu."
+        ],
+        [
+          "00",
+          "Tuân lệnh Đại vương!"
+        ]
+      ],
+      "win": null,
+      "lose": [
+        [
+          "33",
+          "Muốn cản ta ư? Chưa đủ sức!"
+        ]
+      ]
+    },
+    {
+      "id": 38,
+      "mode": 2,
+      "locationId": 1,
+      "enemyId": 33,
+      "xpReward": 3000,
+      "goldReward": 750,
+      "collectibleFlag": 1,
+      "unlockLocationIds": [],
+      "before": [
+        [
+          "00",
+          "Phản tặc, có ta đến đây, hãy mau chịu tội!"
+        ],
+        [
+          "33",
+          "Sức ngươi còn kém lắm, chưa đủ đâu!"
+        ],
+        [
+          "00",
+          "Chớ ngông cuồng! Hãy xem đây !!!"
+        ]
+      ],
+      "win": [
+        [
+          "00",
+          "Phản tặc đã diệt, hãy mau đến Phong Châu."
+        ]
+      ],
+      "lose": null
+    },
+    {
+      "id": 39,
+      "mode": 0,
+      "locationId": 12,
+      "enemyId": -1,
+      "xpReward": 0,
+      "goldReward": 0,
+      "collectibleFlag": 0,
+      "unlockLocationIds": [
+        30,
+        13
+      ],
+      "before": [
+        [
+          "06",
+          "Thất bại ở Phong Châu và Tam Đái, Kiều Công Hãn đã rút quân thẳng về Hồi Hồ nương nhờ em hắn là Kiều Thuận. Địa hình ở đó hiểm trở, rất khó tấn công, quân sư có kế sách gì không?"
+        ],
+        [
+          "08",
+          "Thưa Đại Vương, thực ra địa hình hiểm trở chính là yếu điểm của Hồi Hồ!"
+        ],
+        [
+          "06",
+          "Yếu điểm!? Ta chưa hiểu, quân sư hãy nói rõ."
+        ],
+        [
+          "08",
+          "Thành Hồi Hồ xung quanh là vùng đồi núi hiểm trở, ta không nên tấn công, chia quân ra đóng ở  nơi hiểm yếu ngăn chặn nguồn nước. Vây phục ba ngày, tự chúng sẽ mò ra, lúc ấy ta sẽ diệt được."
+        ],
+        [
+          "06",
+          "Quân sư nói phải lắm, 12 sứ quân nay chỉ còn anh em họ Kiều, ta cũng không cần phải vội. Chúng ta hãy theo kế của quân sư."
+        ],
+        [
+          "00",
+          "Tuân lệnh đại vương!"
+        ]
+      ],
+      "win": null,
+      "lose": null
+    },
+    {
+      "id": 40,
+      "mode": 2,
+      "locationId": 30,
+      "enemyId": 41,
+      "xpReward": 2500,
+      "goldReward": 500,
+      "collectibleFlag": 0,
+      "unlockLocationIds": [],
+      "before": null,
+      "win": null,
+      "lose": null
+    },
+    {
+      "id": 41,
+      "mode": 2,
+      "locationId": 13,
+      "enemyId": 38,
+      "xpReward": 4000,
+      "goldReward": 850,
+      "collectibleFlag": 1,
+      "unlockLocationIds": [],
+      "before": [
+        [
+          "40",
+          "Huynh trưởng, lương thực trong thành chẳng còn bao nhiêu. Nếu tiếp tục ở trong thành e rằng sẽ không qua khỏi."
+        ],
+        [
+          "38",
+          "Với tình thế này, nên tìm cách thoát thân trước."
+        ],
+        [
+          "40",
+          "Địch đã bao vây 4 hướng, ta chạy đi đâu bây giờ."
+        ],
+        [
+          "38",
+          "Ở cửa Bắc, lực lượng của địch yếu nhất. Nếu phá được vòng vây, thì chạy lên phương Bắc xin nhà Tống cứu viện."
+        ],
+        [
+          "40",
+          "Đệ sẽ chọn ra 1 đám quân tinh nhuệ, đêm nay chúng ta phá vòng vây."
+        ],
+        [
+          "00",
+          "Kiều tặc, chạy đâu cho thoát!"
+        ]
+      ],
+      "win": null,
+      "lose": [
+        [
+          "40",
+          "Qua ngọn núi phía trước ta sẽ an toàn. Đinh Bộ Lĩnh hãy chờ đó, nhất định ta sẽ quay về lấy lại tất cả."
+        ]
+      ]
+    },
+    {
+      "id": 42,
+      "mode": 2,
+      "locationId": 13,
+      "enemyId": 40,
+      "xpReward": 5000,
+      "goldReward": 950,
+      "collectibleFlag": 1,
+      "unlockLocationIds": [],
+      "before": null,
+      "win": [
+        [
+          "00",
+          "Anh em họ Kiều đã diệt xong, mau báo cho Vạn Thắng Vương."
+        ]
+      ],
+      "lose": null
+    },
+    {
+      "id": 43,
+      "mode": 0,
+      "locationId": 13,
+      "enemyId": -1,
+      "xpReward": 0,
+      "goldReward": 0,
+      "collectibleFlag": 0,
+      "unlockLocationIds": [
+        40
+      ],
+      "before": [
+        [
+          "08",
+          "Thưa đại vương, loạn 12 sứ quân đã dẹp xong, bây giờ đã đến lúc xưng đế."
+        ],
+        [
+          "06",
+          "Ta đang suy nghĩ, không biết chọn nơi nào làm kinh đô. Quân sư có cao kiến gì không?"
+        ],
+        [
+          "08",
+          "Người Hoa Lư nên chọn Hoa Lư làm gốc, hơn nữa Hoa Lư là nơi núi non trùng điệp. Núi trong sông, sông trong núi. Căn cứ thủy bộ thuận tiện, sau lưng là rừng, trước mặt là đồng bằng, xa nữa là biển cả. Nơi đây non sông thì tráng lệ, phong thủy hài hòa nên Ấu Rồng thường xuất hiện gây nhiều khó khăn cho bá tánh."
+        ],
+        [
+          "06",
+          "Vậy ta diệt Ấu Rồng trước, sau dựng kinh đô. Mọi người về nghỉ ngơi, sớm mai trở về Hoa Lư."
+        ],
+        [
+          null,
+          "Tuân lệnh đại vương."
+        ]
+      ],
+      "win": null,
+      "lose": null
+    },
+    {
+      "id": 44,
+      "mode": 2,
+      "locationId": 0,
+      "enemyId": 74,
+      "xpReward": 0,
+      "goldReward": 0,
+      "collectibleFlag": 2,
+      "unlockLocationIds": [],
+      "before": null,
+      "win": null,
+      "lose": null
+    },
+    {
+      "id": 45,
+      "mode": 0,
+      "locationId": 0,
+      "enemyId": -1,
+      "xpReward": 0,
+      "goldReward": 0,
+      "collectibleFlag": 0,
+      "unlockLocationIds": [],
+      "before": [
+        [
+          "06",
+          "Ta, một người nhỏ bé, nhờ hưng binh mà dẹp loạn, thống nhất đất nước. Nay thuận ý muôn dân, ta xưng hiệu Đinh Tiên Hoàng đế, đặt quốc hiệu là Đại Cồ Việt."
+        ],
+        [
+          null,
+          "Đinh Tiên Hoàng vạn tuế vạn tuế!"
+        ]
+      ],
+      "win": null,
+      "lose": null
+    }
+  ],
+  "sideQuests": [
+    {
+      "id": 0,
+      "mode": 2,
+      "locationId": 23,
+      "enemyId": 47,
+      "permanentAttackBonus": 0,
+      "permanentHpBonus": 10,
+      "before": [
+        [
+          null,
+          "Giúp chúng tôi với !!!"
+        ],
+        [
+          "06",
+          "Sơn trang phía trước bị yêu quái tấn công, tướng quân hãy mau đến giúp!"
+        ],
+        [
+          "00",
+          "Tuân lệnh đại vương!"
+        ]
+      ],
+      "win": [
+        [
+          "06",
+          "Yêu quái đã bị diệt, mọi người an toàn rồi!"
+        ],
+        [
+          "16",
+          "Đa tạ đại vương cứu giúp!"
+        ],
+        [
+          "06",
+          "Tiểu thư, hãy đứng lên. Mọi người trong sơn trang đâu cả, sao chỉ còn lại mình nàng?"
+        ],
+        [
+          "16",
+          "Mọi người đã bị yêu quái sát hại, Vân Nga may mắn được đại vương kịp thời cứu giúp. Nếu không chê, xin đại vương hãy cho tiểu nữ theo hầu để báo đáp ân tình."
+        ],
+        [
+          "06",
+          "Ở đây hoang vắng nguy hiểm, một mình nàng ở lại cũng không tốt. Hãy theo cận vệ của ta về Hoa Lư trước, ta về gặp nàng sau."
+        ],
+        [
+          "16",
+          "Tạ ơn đại vương"
+        ]
+      ],
+      "lose": null
+    },
+    {
+      "id": 1,
+      "mode": 2,
+      "locationId": 16,
+      "enemyId": 9,
+      "permanentAttackBonus": 3,
+      "permanentHpBonus": 0,
+      "before": [
+        [
+          "07",
+          "Các ngươi là ai? Sao dám cản đường !"
+        ],
+        [
+          "09",
+          "Thưa tướng quân! Tiểu dân xin gặp Vạn Thắng Vương."
+        ],
+        [
+          "06",
+          "Ngươi là ai?  Gặp ta có việc gì ?"
+        ],
+        [
+          "09",
+          "Thưa đại vương, tiểu dân họ Lê tên Hoàn, người ở Bảo Thái, từ lâu đã nghe danh đức của đại vương, nên muốn phò giúp."
+        ],
+        [
+          "06",
+          "Hãy đến Hoa Lư, chờ ta đánh trận về rồi tính."
+        ],
+        [
+          "09",
+          "Tiểu dân chờ người rất lâu rồi, hãy cho tôi một cơ hội."
+        ],
+        [
+          "06",
+          "Vậy ngươi hãy thử đấu với {p} xem sao."
+        ]
+      ],
+      "win": [
+        [
+          "06",
+          "Khá lắm!"
+        ],
+        [
+          "08",
+          "Đại vương! quân ta rất cần một tiên phong dũng mãnh như vị tráng sĩ này."
+        ],
+        [
+          "06",
+          "Lê Hoàn! ta giao ngươi trọng trách tiên phong tướng quân."
+        ],
+        [
+          "09",
+          "Đa tạ đại vương. Dù có thịt nát xương tan, tiểu tướng cũng sẽ hoàn thành nhiệm vụ đại vương đã giao."
+        ]
+      ],
+      "lose": null
+    },
+    {
+      "id": 2,
+      "mode": 2,
+      "locationId": 15,
+      "enemyId": 12,
+      "permanentAttackBonus": 0,
+      "permanentHpBonus": 20,
+      "before": [
+        [
+          "12",
+          "Mô phật! Bần tăng tiếp đón chậm trễ, Lưu tiên sinh hãy lượng thứ."
+        ],
+        [
+          "08",
+          "Đại sư đừng khách sáo! Hôm nay tôi đến đây có việc cần ngài giúp đỡ. "
+        ],
+        [
+          "12",
+          "Lưu quân sư, nếu giúp được bần tăng sẽ cố hết sức."
+        ],
+        [
+          "08",
+          "Không dấu gì đại sư, binh lực của Vạn Thắng Vương tuy uy dũng nhưng vẫn còn thiếu người chỉ dẫn. Đại sư, xin hãy giúp một tay."
+        ],
+        [
+          "12",
+          "Việc này hơi khó cho bần tăng vì chùa có quy định nếu thỉnh sư xuống núi phải phá được La Hán Trận. Trước nay chưa có ai phá được trận này, Lưu tiên sinh e rằng tôi khó mà giúp ông."
+        ],
+        [
+          "08",
+          "........"
+        ],
+        [
+          "00",
+          "Lưu tiên sinh, hãy để tiểu tướng thử phá La Hán Trận"
+        ],
+        [
+          "08",
+          "Tướng quân, hãy trận trọng."
+        ]
+      ],
+      "win": [
+        [
+          "12",
+          "Võ công của tướng quân thật cao thâm! Bần tăng được mở rộng tầm mắt."
+        ],
+        [
+          "00",
+          "Đại sư đã quá khen, tôi chỉ may mắn phá được trận."
+        ],
+        [
+          "12",
+          "Lưu tiên sinh, hãy đợi tôi thu xếp rồi cùng đến Hoa Lư."
+        ],
+        [
+          "08",
+          "Đại sư cứ từ từ thu xếp, tôi sẽ chờ."
+        ]
+      ],
+      "lose": null
+    },
+    {
+      "id": 3,
+      "mode": 2,
+      "locationId": 14,
+      "enemyId": 14,
+      "permanentAttackBonus": 2,
+      "permanentHpBonus": 20,
+      "before": [
+        [
+          "14",
+          "Các ngươi là ai, hãy mau tránh đường cho ta."
+        ],
+        [
+          "00",
+          "Láo xược, tiếp chiêu!"
+        ]
+      ],
+      "win": [
+        [
+          "08",
+          "Tướng quân, hãy dừng tay!"
+        ],
+        [
+          "08",
+          "Xin hỏi tráng sĩ có phải là hào trưởng Nguyễn Ninh?"
+        ],
+        [
+          "14",
+          "Các hạ là ai sao lại biết tên ta?"
+        ],
+        [
+          "08",
+          "Chúng tôi là người của Vạn Thắng Vương, bấy lâu nghe danh hào trưởng anh dũng hơn người, nay chúng tôi đi ngang qua đây, nếu có mạo phạm xin thứ lỗi."
+        ],
+        [
+          "14",
+          "Vạn Thắng Vương !!! Thật may quá, tôi cũng đang đến Hoa Lư để đầu quân."
+        ],
+        [
+          "08",
+          "Nếu Hoa Lư có thêm vị tướng anh dũng như hào trưởng thật là phước của muôn dân."
+        ],
+        [
+          "14",
+          "Một chút tài mọn, tiên sinh đã quá lời. Xin tiên sinh hãy đưa tôi đi gặp Vạn Thắng Vương."
+        ],
+        [
+          "08",
+          "Hào trưởng, xin mời."
+        ]
+      ],
+      "lose": null
+    },
+    {
+      "id": 4,
+      "mode": 2,
+      "locationId": 22,
+      "enemyId": 13,
+      "permanentAttackBonus": 1,
+      "permanentHpBonus": 10,
+      "before": [
+        [
+          "13",
+          "Chẳng hay tướng quân ghé đến tệ xá có việc cần gì chỉ bảo?"
+        ],
+        [
+          "00",
+          "Ta đi lạc đến đây, xin hỏi cao danh quý tánh của tiên sinh."
+        ],
+        [
+          "13",
+          "Tại hạ họ Bùi tên Quang Dũng..."
+        ],
+        [
+          "00",
+          "Người là Bùi Quang Dũng !? Nghe danh đã lâu, hôm nay có cơ hội gặp gỡ, xin tiên sinh chỉ giáo."
+        ],
+        [
+          "13",
+          "Thật không dám. Tướng quân! xin mời."
+        ]
+      ],
+      "win": [
+        [
+          "00",
+          "Kiếm pháp của tiên sinh rất cao thâm, nếu ở lại nơi này thật uổng phí. Nếu không chê, tôi sẽ tiến cử tiên sinh với Vạn Thắng Vương."
+        ],
+        [
+          "13",
+          "Đa tạ tướng quân! Được góp chút tài mọn cho Vạn Thắng Vương thật là vinh hạnh cho tôi."
+        ],
+        [
+          "00",
+          "Tiên sinh, làm sao chúng ta ra khỏi vùng này?"
+        ],
+        [
+          "13",
+          "Tướng quân! hãy theo tôi."
+        ]
+      ],
+      "lose": null
+    },
+    {
+      "id": 5,
+      "mode": 0,
+      "locationId": 17,
+      "enemyId": -1,
+      "permanentAttackBonus": 3,
+      "permanentHpBonus": 0,
+      "before": [
+        [
+          "19",
+          "Tướng quân, xin hãy dừng bước."
+        ],
+        [
+          "00",
+          "Công tử là...."
+        ],
+        [
+          "19",
+          "Cự Lạng là cháu nội của Phạm Lệnh Công – Đông giáp tướng quân dưới thời Ngô tiên chúa, chẳng may chiến tranh loạn lạc nên lui về đây chờ minh chủ. Hay tin quân của Vạn Thắng Vương đi qua, chúng tôi dẫn mọi người đến giúp một tay."
+        ],
+        [
+          "00",
+          "Vạn Thắng Vương đang ở ngoài chiến trường, công tử hãy theo tôi."
+        ]
+      ],
+      "win": null,
+      "lose": null
+    },
+    {
+      "id": 6,
+      "mode": 0,
+      "locationId": 20,
+      "enemyId": -1,
+      "permanentAttackBonus": 0,
+      "permanentHpBonus": 0,
+      "before": [
+        [
+          "06",
+          "Chân Lưu đệ! Giang sơn đại loạn rất cần người tài, đệ hãy xuống núi giúp ta một phen."
+        ],
+        [
+          "11",
+          "Bộ Lĩnh huynh, đám yêu quái ở Tam Đảo đang lộng hành. Nếu đệ theo huynh xuống núi e chùa sẽ khó mà giữ được."
+        ],
+        [
+          "06",
+          "Đệ yên tâm, ta sẽ giúp đệ diệt đám yêu đó."
+        ]
+      ],
+      "win": null,
+      "lose": null
+    },
+    {
+      "id": 7,
+      "mode": 2,
+      "locationId": 21,
+      "enemyId": 73,
+      "permanentAttackBonus": 3,
+      "permanentHpBonus": 50,
+      "before": null,
+      "win": [
+        [
+          "06",
+          "Yêu quái đã diệt xong, mọi người hãy mau trở về chùa."
+        ],
+        [
+          "11",
+          "Đa tạ Bộ Lĩnh huynh đã giúp đỡ. Hãy đợi tôi thu xếp hành lý xuống núi."
+        ]
+      ],
+      "lose": [
+        [
+          "06",
+          "Á......á.....yêu...quái.......mạnh...quá....hự......hự!"
+        ]
+      ]
+    }
+  ],
+  "training": [
+    {
+      "id": 0,
+      "characterId": 8,
+      "levelOffset": -5,
+      "xpThresholdDifferencePercent": 5,
+      "goldCost": 50
+    },
+    {
+      "id": 1,
+      "characterId": 7,
+      "levelOffset": 0,
+      "xpThresholdDifferencePercent": 10,
+      "goldCost": 80
+    },
+    {
+      "id": 2,
+      "characterId": 9,
+      "levelOffset": 5,
+      "xpThresholdDifferencePercent": 20,
+      "goldCost": 140
+    },
+    {
+      "id": 3,
+      "characterId": 14,
+      "levelOffset": 10,
+      "xpThresholdDifferencePercent": 40,
+      "goldCost": 230
+    },
+    {
+      "id": 4,
+      "characterId": 6,
+      "levelOffset": 20,
+      "xpThresholdDifferencePercent": 100,
+      "goldCost": 500
+    }
+  ],
+  "spells": [
+    {
+      "id": 0,
+      "name": "Quả Cầu Lửa",
+      "description": "Gây sát thương kẻ thù, lực sát thương bằng =, phá hủy tức thì 1 vùng diện tích 3x3ô trên bàn cờ."
+    },
+    {
+      "id": 1,
+      "name": "Mưa Thiên Thạch",
+      "description": "Gây sát thương kẻ thù, lực sát thương bằng =, phá hủy tức thì từ 3 đến 5 vùng diện tích 2x2ô trên bàn cờ."
+    },
+    {
+      "id": 2,
+      "name": "Lửa Địa Ngục",
+      "description": "Gây sát thương kẻ thù, lực sát thương bằng =, phá hủy tức thì 2 vùng diện tích 4x4ô trên bàn cờ."
+    },
+    {
+      "id": 3,
+      "name": "Chuỗi Sét",
+      "description": "Gây sát thương kẻ thù, lực sát thương bằng =, phá hủy tức thì từ 4 đến 8 ô trên bàn cờ."
+    },
+    {
+      "id": 4,
+      "name": "Khiên Sét",
+      "description": "Hóa giải tất cả các đòn tấn công của kẻ thù. Tác dụng trong 6 lượt."
+    },
+    {
+      "id": 5,
+      "name": "Sấm Sét",
+      "description": "Gây sát thương kẻ thù, lực sát thương bằng =, phá hủy tức thì từ 3 đến 6 vùng diện tích 3x3ô trên bàn cờ."
+    },
+    {
+      "id": 6,
+      "name": "Mũi Tên Băng",
+      "description": "Gây sát thương kẻ thù, lực sát thương bằng =, triệt tiêu một lượng nhỏ năng lượng của kẻ thù."
+    },
+    {
+      "id": 7,
+      "name": "Cam Lộ Thủy",
+      "description": "Phục hồi 20% sinh lực cho bản thân. Phá hủy tất cả trái tim trên bàn cờ và hấp thụ sinh lực của trái tim bị hủy."
+    },
+    {
+      "id": 8,
+      "name": "Băng Phong",
+      "description": "Đóng băng kẻ thù trong 2 lượt, gây sát thương kẻ thù, lực sát thương bằng =, triệt tiêu một lượng lớn năng lượng của kẻ thù."
+    }
+  ],
+  "items": [
+    {
+      "id": 0,
+      "name": "Long Thần Kiếm.",
+      "description": "Nhân đôi sức mạnh tấn công trong một lượt."
+    },
+    {
+      "id": 1,
+      "name": "Nhân Sâm.",
+      "description": "Nhân đôi lượng máu cơ bản của võ tướng. Chỉ sử dụng một lần trong một trận đánh."
+    },
+    {
+      "id": 2,
+      "name": "Ngân Lượng.",
+      "description": "Nhận thêm được 1000 vàng."
+    },
+    {
+      "id": 3,
+      "name": "Quỷ Diện Giáp.",
+      "description": "Ngăn cản 3/4 lực tấn công của kẻ thù trong một lượt"
+    },
+    {
+      "id": 4,
+      "name": "Bình Thuốc.",
+      "description": "Hồi phục ngay lập tức 10% sinh lực. Chỉ sử dụng một lần trong một lượt."
+    },
+    {
+      "id": 5,
+      "name": "Ngọc Ấn",
+      "description": "Được ưu tiên đi trước nếu sở hữu ngọc ấn. Tự động kích hoạt khi bắt đầu trận đánh."
+    }
+  ],
+  "heroDescriptions": [
+    "Một hào kiệt mang trong người sức mạnh hủy diệt của Lửa.",
+    "Đại đệ tử của Lôi Thần, có khả năng điều khiển sấm sét để tấn công kẻ thù hoặc bảo vệ bản thân.",
+    "Mang trong người dòng máu của Thủy Thần, có thể tự hồi phục tổn thương và đóng băng kẻ thù.",
+    "Đệ tử của Hỏa Phụng Tiên, sở hữu sức mạnh hủy diệt của Lửa.",
+    "Nữ hào kiệt xuất chúng, có quyền năng gọi sấm sét để tấn công kẻ thù hoặc tự bảo vệ bản thân.",
+    "Hậu duệ của Bắc Hải Long Vương, có thể tự trị thương hoặc làm ngưng tụ hơi nước để đóng băng kẻ thù."
+  ],
+  "credits": [
+    [
+      "Loạn 12 sứ quân v1.0",
+      "2010 MicroGame Corp."
+    ],
+    [
+      "Thông tin và hỗ trợ",
+      "http://free.ola.vn"
+    ],
+    [
+      "Kịch Bản Và Âm Thanh",
+      "Nguyễn Tuấn Dũng"
+    ],
+    [
+      "Lập Trình",
+      "Lê Trung Trung",
+      "Hồng Xuân Viên"
+    ],
+    [
+      "Đồ Họa",
+      "Nguyễn Duy Biểu",
+      "Vũ Hà Thanh"
+    ],
+    [
+      "Kiểm Định",
+      "Nguyễn Văn Quang"
+    ]
+  ],
+  "collectibleNames": [
+    "Kính Bát Quái",
+    "Khánh Kim Long",
+    "Ngọc Bội",
+    "Tượng Phật"
+  ],
+  "intro": [
+    "Năm 944,",
+    "Ngô Quyền mất",
+    "Em vợ là",
+    "Dương Tam Kha",
+    "cướp ngôi",
+    "tự lập mình làm vua,",
+    "xưng Dương Bình Vương.",
+    " ",
+    "Từ khi Dương Tam Kha",
+    "lấy ngôi nhà Ngô",
+    "thủ lĩnh các nơi",
+    "không chịu thuần phục,",
+    "đua nhau nổi dậy",
+    "chiếm cứ quận ấp.",
+    "Đất nước loạn lạc...",
+    " ",
+    "Năm 950,",
+    "Dương Bình Vương sai",
+    "con thứ của Ngô Quyền",
+    "là Ngô Xương Văn",
+    "đi đánh Thái Bình.",
+    "Ngô Xương Văn",
+    "dẫn quân quay lại",
+    "lật đổ Dương Tam Kha",
+    "và lên ngôi vua,",
+    "xưng là Nam Tấn Vương.",
+    " ",
+    "Năm 954,",
+    "Ngô Xương Văn",
+    "đi thảo phạt chư thần",
+    "bị phục binh bắn chết.",
+    " ",
+    "Cháu của Xương Văn",
+    "là Ngô Xương Xí",
+    "nối nghiệp, nhưng",
+    "thế lực ngày càng yếu ",
+    "phải rút quân về giữ ",
+    "đất Bình Kiều.",
+    " ",
+    "Năm 966,",
+    "hình thành đầy đủ",
+    "12 sứ quân",
+    "chiếm giữ các",
+    "địa phương:",
+    " ",
+    "1.Ngô Xương Xí",
+    "chiếm Bình Kiều",
+    " ",
+    "2.Đỗ Cảnh Thạc",
+    "chiếm Đỗ Động Giang",
+    " ",
+    "3.Trần Lãm",
+    "giữ Bố Hải Khẩu",
+    " ",
+    "4.Kiều Công Hãn ",
+    "giữ Phong Châu",
+    " ",
+    "5.Nguyễn Khoan",
+    "chiếm Tam Đái",
+    " ",
+    "6.Ngô Nhật Khánh",
+    "giữ Đường Lâm",
+    " ",
+    "7.Lý Khuê",
+    "chiếm Siêu Loại",
+    " ",
+    "8.Nguyễn Thủ Tiệp",
+    "giữ Tiên Du",
+    " ",
+    "9.Lã Đường",
+    "chiếm Tế Giang",
+    " ",
+    "10.Nguyễn Siêu",
+    "giữ Tây Phù Liệt",
+    " ",
+    "11.Kiều Thuận",
+    "chiếm Hồi Hồ",
+    " ",
+    "12.Phạm Bạch Hổ",
+    "giữ Đằng Châu",
+    " ",
+    "Cùng thời gian này,",
+    "Đinh Bộ Lĩnh",
+    "nổi dậy",
+    "tập hợp dân chúng",
+    "ở vùng Hoa Lư",
+    "chờ thời cơ.",
+    " ",
+    "Để mở rộng căn cứ",
+    "Đinh Bộ Lĩnh",
+    "sang đầu quân",
+    "cho Trần Lãm",
+    "và được Trần Lãm",
+    "gả con gái cho.",
+    " ",
+    "Sau đó,",
+    "ông được Trần Lãm",
+    "trao binh quyền và",
+    "đưa quân về Hoa Lư,",
+    "chiêu mộ tướng tài",
+    "chống nhà Ngô",
+    "và các sứ quân khác.",
+    " ",
+    "Hào Kiệt khắp nơi",
+    "tụ về phò giúp,",
+    "ngày ngày tập trận",
+    "chờ cơ hội xuất quân",
+    "......."
+  ],
+  "ending": [
+    "Năm 968,",
+    "sau khi",
+    "dẹp loạn 12 sứ quân.",
+    " ",
+    "Đinh Bộ Lĩnh",
+    "lên ngôi Hoàng Đế,",
+    "xưng là",
+    "Đại Thắng Minh",
+    "Hoàng Đế,",
+    "tức Đinh Tiên Hoàng,",
+    "đóng đô ở Hoa Lư.",
+    " ",
+    "Năm 971,",
+    "Đinh Tiên Hoàng",
+    "bắt đầu quy định",
+    "cấp bậc văn võ",
+    "trong triều đình.",
+    " ",
+    "Trong triều",
+    "có sự tham gia",
+    "của các nhà sư",
+    "vì những đóng góp",
+    "trong quá trình",
+    "dẹp loạn 12 sứ quân.",
+    " ",
+    "Đinh Tiên Hoàng",
+    "phong cho",
+    "các quan văn võ:",
+    " ",
+    "- Nguyễn Bặc làm",
+    " Định quốc công",
+    " ",
+    "- Lưu Cơ làm",
+    "Đô hộ phủ sĩ sư",
+    " ",
+    "- Lê Hoàn làm",
+    "Thập đạo tướng quân",
+    " ",
+    "- Ngô Chân Lưu làm",
+    "Khuông việt đại sư",
+    " ",
+    "- Phạm Bạch Hổ làm",
+    "Thân vệ đại tướng quân ",
+    "- Phạm Cự Lạng làm",
+    "Phòng ngự sứ tướng quân ",
+    "- Bùi Quang Dũng làm",
+    "Trấn đông tiết độ sứ- {s} làm ",
+    "......"
+  ]
+}

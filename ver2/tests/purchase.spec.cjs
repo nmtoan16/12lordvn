@@ -1,0 +1,20 @@
+const {test,expect}=require('@playwright/test');
+const {start,press,waitScreen}=require('./helpers/vm.cjs');
+test('real shop upgrades at zero gold, persists RMS and requires explicit equip',async({page})=>{
+ const errors=[];page.on('pageerror',e=>errors.push(e.message));
+ const frame=await start(page);
+ await expect.poll(()=>frame.evaluate(()=>LoanV2.state().ready)).toBe(true);
+ await press(page,'ArrowDown');await press(page,'ArrowDown');await press(page,'Enter');await waitScreen(frame,'com/mic/smsgame/suquan/q');
+ await frame.getByRole('tab',{name:'[3] Trang Bị',exact:true}).click();
+ await frame.getByRole('button',{name:'Mua',exact:true}).click();
+ await frame.getByRole('alertdialog').getByRole('button',{name:'Mua',exact:true}).click();
+ await expect.poll(()=>frame.evaluate(()=>LoanV2.state().profile.ownedTiers[0])).toBe(1);
+ expect(await frame.evaluate(()=>LoanV2.state().gold)).toBe(0);
+ expect(await frame.evaluate(()=>LoanV2.state().profile.equippedIds)).toEqual([]);
+ await frame.getByRole('button',{name:'Lắp',exact:true}).click();
+ await expect.poll(()=>frame.evaluate(()=>LoanV2.state().profile.equippedIds)).toEqual([0]);
+ await frame.locator('#canvas').screenshot({path:'analysis/verification/ver2-shop-canvas.png'});
+ await frame.locator('body').screenshot({path:'analysis/verification/ver2-shop.png'});
+ await page.reload();const next=await start(page);await expect.poll(()=>next.evaluate(()=>LoanV2.state().ready)).toBe(true);
+ const state=await next.evaluate(()=>LoanV2.state());expect(state.profile.ownedTiers[0]).toBe(1);expect(state.profile.equippedIds).toEqual([0]);expect(state.gold).toBe(0);expect(errors).toEqual([]);
+});
