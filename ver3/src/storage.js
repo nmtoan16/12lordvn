@@ -13,6 +13,10 @@ export function validate(p){
  check(p.settings&&typeof p.settings.sound==='boolean'&&typeof p.settings.reduced==='boolean'&&typeof p.endingSeen==='boolean');
  if(p.battle!==null){const s=p.battle;
   check(s&&s.version===3&&int(s.mission,0,p.unlocked)&&int(s.seed,1,4294967295)&&list(s.board,64,64,x=>int(x,0,6)));
+  if(s.specials===undefined)s.specials=Array(64).fill(0);
+  check(list(s.specials,64,64,x=>int(x,0,3)));
+  if(s.seedSaved===undefined)s.seedSaved=false;
+  check(typeof s.seedSaved==='boolean');
   check(list(s.team,1,3,hero)&&unique(s.team)&&int(s.active,0,s.team.length-1)&&[0,1].includes(s.turn)&&int(s.phase,1,3)&&int(s.round,1,1000000));
   check(['playing','won','lost'].includes(s.status)&&typeof s.switched==='boolean'&&int(s.chain,0,24)&&list(s.cooldowns,6,6,x=>int(x,0,4)));
   check(list(s.tiers,6,6,x=>int(x,0,3))&&list(s.loadout,0,3,x=>int(x,0,5)&&s.tiers[x]>0)&&unique(s.loadout));

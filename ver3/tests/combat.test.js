@@ -4,3 +4,30 @@ test('stun skips enemy action, ultimate cooldown blocks repeated use',()=>{const
 test('4-tile match grants extra turn and counts crossing tiles only once',()=>{const p=E.newProfile();p.team=['da'];const s=E.newBattle(p,0,7);s.board=[...Array(64)].map((_,i)=>(i+Math.floor(i/8))%7);s.board[0]=0;s.board[1]=0;s.board[2]=1;s.board[3]=0;s.board[10]=0;s.enemy.hp=160;assert.equal(E.swap(s,2,10),true);assert.equal(s.turn,0);assert.ok(s.enemy.hp<=96);assert.equal(E.matches(s.board).length,0);});
 test('winning strike ends combat before end-turn battery damage',()=>{const s=E.newBattle(E.newProfile(),0,1);s.player.hp=1;s.player.battery=0;s.player.mana=40;s.enemy.hp=1;assert.equal(E.cast(s,0),true);assert.equal(s.status,'won');assert.equal(s.player.hp,1);});
 test('switching hero limited to one per turn; shield, reflection and healing caps',()=>{const p=E.newProfile();p.team=['nham','yen','da'];const s=E.newBattle(p,0,11);s.player.mana=40;E.cast(s,2);assert.equal(s.player.shield,75);s.turn=0;assert.equal(E.switchHero(s,1),true);assert.equal(E.switchHero(s,2),false);s.player.mana=40;s.player.hp=s.player.maxHp-1;E.cast(s,0);assert.equal(s.player.hp,s.player.maxHp);assert.ok(s.player.shield<=100);});
+test('overcharged tiles spawn on 4+ match and detonate their line when collected',()=>{
+ const p=E.newProfile();const s=E.newBattle(p,0,7);
+ s.board=[...Array(64)].map((_,i)=>(i+Math.floor(i/8))%7);
+ s.board[0]=0;s.board[1]=0;s.board[2]=1;s.board[3]=0;s.board[10]=0;
+ assert.equal(E.swap(s,2,10),true);
+ assert.ok(Array.isArray(s.specials)&&s.specials.length===64);
+ assert.equal(s.specials[0],1,'4-match horizontal crystallizes a row Line Pulse at cell 0');
+ s.board=[...Array(64)].map((_,i)=>(i+Math.floor(i/8))%7);
+ s.specials=Array(64).fill(0);s.specials[0]=1;
+ s.board[0]=2;s.board[1]=2;s.board[2]=3;s.board[10]=2;
+ assert.equal(E.swap(s,2,10),true);
+ assert.ok(s.events.some(e=>e.type==='special'&&e.kind===1),'matching a Line Pulse tile detonates the row');
+});
+test('squad sub-passives, tag-in assist, skill scaling and awakened tier III modules',()=>{
+ const p=E.newProfile();p.unlocked=3;p.xp=900;p.modules=[3,3,3,3,3,3];p.equipped=[0,2,3];p.team=['lyra','sora','yen'];
+ const s=E.newBattle(p,3,15);
+ assert.ok(s.player.shield>=6,'bench Sora grants sub-passive starting shield');
+ s.player.mana=40;s.player.hp=180;const enemyBefore=s.enemy.hp;
+ assert.equal(E.cast(s,1),true);
+ assert.ok(s.enemy.hp<enemyBefore-75,'scaled skill + edge III deals more than base 62 damage');
+ assert.ok(s.player.hp>180,'edge III lifesteal restores HP on offensive skill');
+ assert.equal(s.player.mana,26,'well III refunds 4 mana after 18-mana skill (40 - 18 + 4 = 26)');
+ s.turn=0;
+ assert.equal(E.switchHero(s,1),true);
+ assert.ok(s.events.some(e=>e.type==='assist'),'switching hero triggers Tag-In Assist event');
+ assert.ok(E.enemyIntent(s).title.length>0,'enemyIntent reports upcoming enemy protocol');
+});
